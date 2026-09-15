@@ -1,0 +1,10 @@
+:root { color-scheme: dark; background: #101b30; color: #f6f8fc; font-family: Arial, Helvetica, sans-serif; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1080px; min-height: 100svh; margin: auto; padding: clamp(28px, 7vw, 88px); display: flex; flex-direction: column; justify-content: center; }
+.eyebrow { font-size: 14px; font-weight: 700; letter-spacing: .12em; color: #b6c8e6; margin: 0 0 48px; }
+h1 { font-size: clamp(76px, 15vw, 168px); line-height: .98; letter-spacing: -.065em; margin: 0; }
+h1 span { color: #8acbff; }
+.intro { font-size: clamp(18px, 3vw, 24px); line-height: 1.6; margin: 36px 0 64px; color: #d1dcec; }
+footer { border-top: 1px solid #3a4860; padding-top: 24px; display: flex; flex-wrap: wrap; gap: 12px 32px; justify-content: space-between; font-size: 14px; line-height: 1.5; }
+footer span { color: #b6c8e6; }
