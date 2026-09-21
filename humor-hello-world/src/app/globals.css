@@ -8,3 +8,25 @@ h1 span { color: #8acbff; }
 .intro { font-size: clamp(18px, 3vw, 24px); line-height: 1.6; margin: 36px 0 64px; color: #d1dcec; }
 footer { border-top: 1px solid #3a4860; padding-top: 24px; display: flex; flex-wrap: wrap; gap: 12px 32px; justify-content: space-between; font-size: 14px; line-height: 1.5; }
 footer span { color: #b6c8e6; }
+.browse-link { display: inline-block; align-self: flex-start; background: #8acbff; color: #101b30; border: 0; border-radius: 8px; padding: 14px 22px; font: inherit; font-weight: 700; text-decoration: none; cursor: pointer; margin-bottom: 48px; }
+a:focus-visible, button:focus-visible { outline: 3px solid #f6f8fc; outline-offset: 5px; }
+.collection { max-width: 1200px; justify-content: flex-start; padding-top: 32px; }
+.collection nav { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 72px; }
+.collection nav a { color: #b6c8e6; font-size: 14px; text-decoration: none; }
+.collection nav .brand { color: #f6f8fc; font-weight: 800; letter-spacing: .06em; }
+.collection-heading .eyebrow { margin-bottom: 20px; }
+.collection h1 { font-size: clamp(38px, 7vw, 76px); line-height: 1.08; letter-spacing: -.045em; }
+.collection-intro { color: #b6c8e6; font-size: 20px; line-height: 1.6; margin: 22px 0 48px; }
+.collection-meta { display: flex; align-items: center; justify-content: space-between; gap: 16px; border-top: 1px solid #3a4860; padding-top: 24px; margin-bottom: 24px; }
+.collection-meta h2 { font-size: 18px; margin: 0; }
+.collection-meta span { font-size: 14px; color: #b6c8e6; }
+.joke-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; padding: 0; margin: 0 0 64px; list-style: none; }
+.joke-card { overflow: hidden; border: 1px solid #3a4860; border-radius: 14px; background: #18263f; }
+.joke-card img, .picture-fallback { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: #0c1424; }
+.picture-fallback { display: grid; place-items: center; color: #b6c8e6; }
+.joke-card p { padding: 24px; margin: 0; font-size: 18px; line-height: 1.6; overflow-wrap: anywhere; white-space: pre-wrap; }
+.collection-message { padding: 64px 0; min-height: 300px; }
+.collection-message h1, .collection-message h2 { font-size: 30px; line-height: 1.25; }
+.collection-message p { color: #b6c8e6; line-height: 1.6; }
+.collection footer { margin-top: auto; }
+@media (max-width: 640px) { .joke-grid { grid-template-columns: 1fr; } .collection nav { margin-bottom: 48px; } }
