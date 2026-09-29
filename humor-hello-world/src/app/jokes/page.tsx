@@ -2,14 +2,18 @@ import type { Metadata } from "next";
 import { connection } from "next/server";
 import { getJokes } from "@/lib/supabase/jokes";
 import { JokePicture } from "./joke-picture";
+import { requireUser } from "@/lib/supabase/auth";
+import { signOut } from "@/app/auth/actions";
 
 export const metadata: Metadata = { title: "Jokes | The Humor Project" };
 
 export default async function JokesPage() {
   await connection();
+  const user = await requireUser();
   const jokes = await getJokes();
   return (
     <>
+      <div className="account-bar"><p>Signed in as <strong>{user.email ?? "a humor fan"}</strong></p><form action={signOut}><button className="sign-out" type="submit">Sign out</button></form></div>
       <header className="collection-heading">
         <p className="eyebrow">A PICTURE. A PUNCHLINE.</p>
         <h1>The joke collection<span>.</span></h1>

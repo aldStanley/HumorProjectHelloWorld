@@ -29,4 +29,14 @@ a:focus-visible, button:focus-visible { outline: 3px solid #f6f8fc; outline-offs
 .collection-message h1, .collection-message h2 { font-size: 30px; line-height: 1.25; }
 .collection-message p { color: #b6c8e6; line-height: 1.6; }
 .collection footer { margin-top: auto; }
+.auth-card { max-width: 760px; padding: 24px 0 80px; }
+.auth-card .eyebrow { margin-bottom: 24px; }
+.auth-note { color: #b6c8e6; font-size: 14px; margin-top: 24px; }
+.auth-error { background: #482332; border: 1px solid #cc8094; color: #ffe0e7; padding: 16px; border-radius: 8px; }
+.google-sign-in { min-height: 44px; }
+.account-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; border: 1px solid #3a4860; border-radius: 10px; padding: 16px 20px; margin-bottom: 36px; }
+.account-bar p { color: #b6c8e6; margin: 0; font-size: 14px; overflow-wrap: anywhere; }
+.account-bar strong { color: #f6f8fc; }
+.sign-out { color: #f6f8fc; background: transparent; border: 1px solid #6a7f9c; border-radius: 6px; font: inherit; font-size: 14px; padding: 8px 14px; cursor: pointer; }
+.sign-out:hover { background: #233550; }
 @media (max-width: 640px) { .joke-grid { grid-template-columns: 1fr; } .collection nav { margin-bottom: 48px; } }
