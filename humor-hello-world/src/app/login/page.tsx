@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { redirect } from "next/navigation";
-import { getUser, hasCompletedProfile } from "@/lib/supabase/auth";
+import { getUser } from "@/lib/supabase/auth";
+import { getProfile, isProfileComplete } from "@/lib/supabase/profiles";
 import { GoogleSignIn } from "./google-sign-in";
+import { SiteNav } from "@/app/site-nav";
 
 export const metadata: Metadata = { title: "Sign in | The Humor Project" };
 
@@ -10,11 +11,11 @@ export default async function LoginPage({ searchParams }: {
   searchParams: Promise<{ error?: string }>;
 }) {
   const user = await getUser();
-  if (user) redirect(hasCompletedProfile(user) ? "/jokes" : "/onboarding");
+  if (user) redirect(isProfileComplete(await getProfile(user.id)) ? "/jokes" : "/onboarding");
   const { error } = await searchParams;
   return (
     <main className="collection auth-page">
-      <nav aria-label="Main navigation"><Link href="/" className="brand">THE HUMOR PROJECT</Link><Link href="/">← Back home</Link></nav>
+      <SiteNav />
       <section className="auth-card">
         <p className="eyebrow">A LITTLE LAUGHTER, JUST FOR YOU</p>
         <h1>Good jokes.<br />Great company<span>.</span></h1>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { connection } from "next/server";
 import { getJokes } from "@/lib/supabase/jokes";
 import { JokePicture } from "./joke-picture";
-import { requireCompletedProfile } from "@/lib/supabase/auth";
+import { getAvatarUrl, requireCompletedProfile } from "@/lib/supabase/profiles";
 import { signOut } from "@/app/auth/actions";
 import { SignOutButton } from "./sign-out-button";
 
@@ -10,14 +10,15 @@ export const metadata: Metadata = { title: "Jokes | The Humor Project" };
 
 export default async function JokesPage() {
   await connection();
-  const user = await requireCompletedProfile();
+  const { user, profile } = await requireCompletedProfile();
   const jokes = await getJokes();
-  const identity = user.email ?? "a humor fan";
-  const initial = identity.charAt(0).toUpperCase();
+  const identity = `${profile.first_name} ${profile.last_name}`;
+  const initial = profile.first_name?.charAt(0).toUpperCase();
+  const avatarUrl = await getAvatarUrl(profile.avatar_path);
   return (
     <>
       <div className="account-bar">
-        <div className="account-identity"><span className="account-avatar" aria-hidden="true">{initial}</span><p>You’re signed in<strong>{identity}</strong></p></div>
+        <div className="account-identity"><span className={`account-avatar${avatarUrl ? " has-photo" : ""}`} style={avatarUrl ? { backgroundImage: `url(${avatarUrl})` } : undefined} role={avatarUrl ? "img" : undefined} aria-label={avatarUrl ? `${identity}’s profile photo` : undefined} aria-hidden={avatarUrl ? undefined : "true"}>{avatarUrl ? null : initial}</span><p>You’re signed in<strong>{identity}</strong><span>{user.email}</span></p></div>
         <form action={signOut}><SignOutButton /></form>
       </div>
       <header className="collection-heading">

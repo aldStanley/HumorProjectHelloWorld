@@ -1,7 +1,7 @@
 import { timingSafeEqual } from "node:crypto";
 import { NextResponse, type NextRequest } from "next/server";
 import { createClient } from "@/lib/supabase/server";
-import { hasCompletedProfile } from "@/lib/supabase/auth";
+import { isProfileComplete } from "@/lib/supabase/profiles";
 
 function failed(request: NextRequest) {
   const response = NextResponse.redirect(new URL("/login?error=signin", request.url), 303);
@@ -36,7 +36,10 @@ export async function POST(request: NextRequest) {
   const { data, error } = await client.auth.signInWithIdToken({ provider: "google", token: credential });
   if (error) return failed(request);
 
-  const destination = data.user && hasCompletedProfile(data.user) ? "/jokes" : "/onboarding";
+  const { data: profile } = data.user
+    ? await client.from("profiles").select("id,first_name,last_name,avatar_path").eq("id", data.user.id).maybeSingle()
+    : { data: null };
+  const destination = isProfileComplete(profile) ? "/jokes" : "/onboarding";
   const response = NextResponse.redirect(new URL(destination, request.url), 303);
   response.headers.set("Cache-Control", "no-store");
   response.cookies.delete("g_csrf_token");
