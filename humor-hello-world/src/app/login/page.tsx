@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { getUser } from "@/lib/supabase/auth";
+import { getUser, hasCompletedProfile } from "@/lib/supabase/auth";
 import { GoogleSignIn } from "./google-sign-in";
 
 export const metadata: Metadata = { title: "Sign in | The Humor Project" };
@@ -9,7 +9,8 @@ export const metadata: Metadata = { title: "Sign in | The Humor Project" };
 export default async function LoginPage({ searchParams }: {
   searchParams: Promise<{ error?: string }>;
 }) {
-  if (await getUser()) redirect("/jokes");
+  const user = await getUser();
+  if (user) redirect(hasCompletedProfile(user) ? "/jokes" : "/onboarding");
   const { error } = await searchParams;
   return (
     <main className="collection auth-page">

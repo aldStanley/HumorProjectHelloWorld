@@ -17,7 +17,7 @@ export async function proxy(request: NextRequest) {
     },
   });
   const { data: { user } } = await client.auth.getUser();
-  if (!user && request.nextUrl.pathname.startsWith("/jokes")) {
+  if (!user && (request.nextUrl.pathname.startsWith("/jokes") || request.nextUrl.pathname.startsWith("/onboarding"))) {
     const redirect = NextResponse.redirect(new URL("/login", request.url));
     response.cookies.getAll().forEach((cookie) => redirect.cookies.set(cookie));
     response = redirect;
@@ -26,4 +26,4 @@ export async function proxy(request: NextRequest) {
   return response;
 }
 
-export const config = { matcher: ["/jokes/:path*", "/login"] };
+export const config = { matcher: ["/jokes/:path*", "/onboarding", "/login"] };

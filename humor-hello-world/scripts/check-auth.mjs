@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 
 // Run against a local production build: npm run start, then npm run test:auth.
 const base = process.env.TEST_BASE_URL || 'http://127.0.0.1:3000';
-for (const path of ['/jokes', '/jokes?next=https://example.com']) {
+for (const path of ['/jokes', '/jokes?next=https://example.com', '/onboarding']) {
   const response = await fetch(base + path, { redirect: 'manual' });
   const body = await response.text();
   assert.equal(response.status, 307);
@@ -12,7 +12,7 @@ for (const path of ['/jokes', '/jokes?next=https://example.com']) {
 }
 const login = await fetch(base + '/login');
 assert.equal(login.status, 200);
-assert((await login.text()).includes('Sign in with Google to unlock'));
+assert((await login.text()).includes('Sign in with Google to open'));
 console.log('PASS login page');
 
 const cases = [

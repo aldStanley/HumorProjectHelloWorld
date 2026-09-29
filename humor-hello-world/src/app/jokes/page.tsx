@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { connection } from "next/server";
 import { getJokes } from "@/lib/supabase/jokes";
 import { JokePicture } from "./joke-picture";
-import { requireUser } from "@/lib/supabase/auth";
+import { requireCompletedProfile } from "@/lib/supabase/auth";
 import { signOut } from "@/app/auth/actions";
 import { SignOutButton } from "./sign-out-button";
 
@@ -10,7 +10,7 @@ export const metadata: Metadata = { title: "Jokes | The Humor Project" };
 
 export default async function JokesPage() {
   await connection();
-  const user = await requireUser();
+  const user = await requireCompletedProfile();
   const jokes = await getJokes();
   const identity = user.email ?? "a humor fan";
   const initial = identity.charAt(0).toUpperCase();
