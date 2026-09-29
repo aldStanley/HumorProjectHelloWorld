@@ -56,8 +56,8 @@ export function GoogleSignIn() {
         onError={() => setFailed(true)}
       />
       <div ref={button} />
-      {!ready && !failed && <p role="status">Loading Google sign-in…</p>}
-      {failed && <p role="alert">Google sign-in couldn’t load. Please refresh to try again.</p>}
+      {!ready && !failed && <div className="sign-in-placeholder" role="status" aria-label="Loading Google sign-in" />}
+      {failed && <div role="alert"><p>Google sign-in couldn’t load.</p><button className="secondary-action" type="button" onClick={() => window.location.reload()}>Reload and try again</button></div>}
     </div>
   );
 }

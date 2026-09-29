@@ -13,14 +13,18 @@ export default async function LoginPage({ searchParams }: {
   const { error } = await searchParams;
   return (
     <main className="collection auth-page">
-      <nav aria-label="Main navigation"><Link href="/" className="brand">THE HUMOR PROJECT</Link></nav>
+      <nav aria-label="Main navigation"><Link href="/" className="brand">THE HUMOR PROJECT</Link><Link href="/">← Back home</Link></nav>
       <section className="auth-card">
         <p className="eyebrow">A LITTLE LAUGHTER, JUST FOR YOU</p>
         <h1>Good jokes.<br />Great company<span>.</span></h1>
-        <p className="collection-intro">Sign in with Google to unlock the joke collection.</p>
+        <p className="collection-intro">Sign in with Google to open your private joke collection.</p>
+        <ul className="auth-benefits" aria-label="What to expect">
+          <li>One quick step</li>
+          <li>Come back anytime</li>
+        </ul>
         {error && <p className="auth-error" role="alert">We couldn’t complete your sign-in. Please try again.</p>}
         <GoogleSignIn />
-        <p className="auth-note">Your next laugh is one sign-in away.</p>
+        <p className="auth-note">Google handles your sign-in securely. This app never sees your Google password.</p>
       </section>
       <footer>Stanley Chung <span>Columbia · Fall 2026</span></footer>
     </main>
