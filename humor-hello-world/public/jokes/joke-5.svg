@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title description">
+  <title id="title">SQL joke illustration</title>
+  <desc id="description">Two friendly database tables meeting on a mint background.</desc>
+  <rect width="800" height="600" fill="#72d7b3"/>
+  <g stroke="#101b30" stroke-width="18">
+    <rect x="120" y="155" width="235" height="290" rx="18" fill="#f7f3e8"/>
+    <path d="M120 245h235M120 340h235M235 155v290"/>
+    <rect x="445" y="155" width="235" height="290" rx="18" fill="#f7f3e8"/>
+    <path d="M445 245h235M445 340h235M562 155v290"/>
+    <path d="M365 300h70" stroke-linecap="round"/>
+  </g>
+  <circle cx="205" cy="205" r="9" fill="#101b30"/><circle cx="270" cy="205" r="9" fill="#101b30"/>
+  <circle cx="530" cy="205" r="9" fill="#101b30"/><circle cx="595" cy="205" r="9" fill="#101b30"/>
+</svg>
