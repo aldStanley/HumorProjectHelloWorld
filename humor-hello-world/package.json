@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test:auth": "node scripts/check-auth.mjs"
+    "test:auth": "node scripts/check-auth.mjs",
+    "test:captions": "node --experimental-strip-types scripts/check-captions.mjs",
+    "test:chain": "node --experimental-strip-types scripts/check-caption-chain.mjs",
+    "test:jury": "node --experimental-strip-types scripts/check-jury.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

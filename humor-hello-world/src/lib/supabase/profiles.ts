@@ -30,5 +30,7 @@ export async function requireCompletedProfile() {
 export async function getAvatarUrl(path: string | null) {
   if (!path) return null;
   const client = await createClient();
-  return client.storage.from("avatars").getPublicUrl(path).data.publicUrl;
+  const { data, error } = await client.storage.from("avatars").createSignedUrl(path, 3600);
+  if (error) return null;
+  return data.signedUrl;
 }

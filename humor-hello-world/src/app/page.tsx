@@ -7,10 +7,10 @@ export default function Home() {
       <SiteNav active="home" />
       <section className="hero-content">
         <p className="eyebrow">A LITTLE LAUGHTER, ON DEMAND</p>
-        <h1>Hello,<br /><span>World.</span></h1>
-        <p className="intro">Every great project starts with a hello.<br />Discover a collection of visual jokes made for a quick laugh.</p>
+        <h1>Picture<br /><span>this.</span></h1>
+        <p className="intro">Your camera roll has comedy potential.<br />Turn photos into AI captions, then vote on what makes you laugh.</p>
         <div className="action-row">
-          <Link href="/jokes" className="primary-action">View the joke collection <span aria-hidden="true">→</span></Link>
+          <Link href="/jokes" className="primary-action">Enter the caption lab <span aria-hidden="true">→</span></Link>
           <span className="action-hint">Google sign-in required</span>
         </div>
       </section>

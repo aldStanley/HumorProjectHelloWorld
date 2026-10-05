@@ -136,3 +136,228 @@ a:focus-visible, button:focus-visible { outline: 3px solid #f6f8fc; outline-offs
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* Caption Lab: an editorial comedy club, with acid-yellow ink and photo contact sheets. */
+:root { --acid: #e5ff54; --ink: #151713; --paper: #f3f2e9; }
+body { background: #141612; }
+.collection { width: min(100%, 1440px); padding: 26px clamp(20px, 5vw, 76px) 32px; }
+.collection .site-nav { margin-bottom: 50px; padding-bottom: 20px; border-bottom: 1px solid #41443a; }
+.collection .brand { letter-spacing: -.025em; font-size: 17px; }
+.collection .nav-current::after { background: var(--acid); }
+.collection .nav-links a { color: #d4d5c8; }
+.lab-heading { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.lab-heading .eyebrow { color: #bbbfb0; font-size: 10px; letter-spacing: .17em; margin-bottom: 25px; }
+.live-dot { display: inline-block; width: 7px; height: 7px; margin-right: 7px; background: var(--acid); border-radius: 50%; box-shadow: 0 0 15px #e5ff5440; }
+.collection .lab-heading h1 { color: var(--paper); font-size: clamp(44px, 6.1vw, 88px); font-weight: 800; line-height: 1.03; letter-spacing: -.065em; }
+.lab-heading h1 em { font-family: Georgia, serif; font-weight: 400; color: var(--acid); }
+.lab-heading h1 > span { display: inline-block; color: var(--acid); font-size: .7em; margin-left: 14px; vertical-align: top; }
+.lab-intro { color: #b6b9ab; font-size: 16px; line-height: 1.75; margin: 24px 0 40px; }
+.lab-stamp { transform: rotate(11deg); flex-shrink: 0; width: 142px; height: 142px; border: 1px solid #9da47f; border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--acid); font-size: 28px; line-height: 1.1; }
+.lab-stamp span { text-align: center; margin: 7px 0; font-family: monospace; font-size: 10px; letter-spacing: .13em; }
+.lab-welcome { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; padding: 15px 0; border-top: 1px solid #41443a; color: #9ca18e; font-size: 12px; }
+.lab-welcome > span { color: var(--acid); font-family: monospace; font-size: 10px; letter-spacing: .08em; }
+.lab-welcome p { margin: 0; }
+.upload-studio { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; padding: clamp(24px, 4vw, 48px); background: var(--acid); color: var(--ink); border-radius: 4px; position: relative; }
+.lab-tag { font: 10px monospace; letter-spacing: .15em; border: 1px solid #717d2a; padding: 7px 10px; display: inline-block; }
+.studio-copy h2 { margin: 30px 0 18px; font-size: clamp(30px, 3.3vw, 46px); line-height: 1.08; letter-spacing: -.055em; }
+.studio-copy p { font-size: 14px; line-height: 1.75; color: #485020; }
+.recipe { display: flex; align-items: center; gap: 12px; font: 10px monospace; margin-top: 45px; }
+.recipe i { font-size: 18px; font-style: normal; }
+.studio-controls { min-width: 0; }
+.drop-zone { width: 100%; min-height: 192px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 7px; border: 1px dashed #798830; background: #efffa24f; color: #252b0d; cursor: pointer; font: inherit; border-radius: 3px; position: relative; overflow: hidden; }
+.drop-zone:hover, .drop-zone.dragging { background: #f5ffbd; border-color: #202609; }
+.drop-zone:focus-visible, .generate-button:focus-visible { outline-color: #171a0c; }
+.drop-zone:disabled { cursor: wait; }
+.upload-symbol { font-size: 34px; line-height: 1; margin-bottom: 4px; }
+.drop-zone strong { font-size: 14px; }
+.drop-zone > span:not(.upload-symbol):not(.preview-label) { font-size: 12px; }
+.drop-zone small { font: 9px monospace; margin-top: 14px; letter-spacing: .05em; }
+.drop-zone.with-preview { height: 220px; padding: 0; background: #272d13; }
+.drop-zone img { width: 100%; height: 220px; object-fit: contain; }
+.preview-label { position: absolute; bottom: 0; left: 0; right: 0; padding: 10px; background: #151713dd; color: white; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 11px; }
+.generate-button { width: 100%; border: none; border-radius: 3px; margin-top: 12px; background: #181c0d; color: var(--acid); min-height: 48px; font: inherit; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center; gap: 16px; cursor: pointer; }
+.generate-button > span:not(.little-spinner) { font-size: 20px; }
+.generate-button:disabled { opacity: .55; cursor: not-allowed; }
+.upload-consent { color: #4c5427; font-size: 10px; line-height: 1.55; margin: 12px 0 0; }
+.studio-status { font-size: 12px; line-height: 1.6; margin: 10px 0 0; }
+.studio-status:empty { display: none; }
+.studio-error { font-size: 12px; line-height: 1.55; background: #ffe1dd; border: 1px solid #e98c7e; border-radius: 3px; padding: 10px; color: #8a2416; margin: 10px 0 0; }
+.little-spinner { width: 15px; height: 15px; border: 2px solid #e5ff5440; border-top-color: var(--acid); border-radius: 50%; animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.caption-collection { margin-top: 64px; }
+.caption-collection-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 18px; margin-bottom: 26px; }
+.caption-collection-heading .eyebrow { font-size: 9px; letter-spacing: .14em; color: #969d83; margin-bottom: 12px; }
+.caption-collection-heading h2 { font-size: clamp(28px, 3vw, 38px); letter-spacing: -.055em; margin: 0; color: var(--paper); }
+.caption-collection-heading h2 span { color: var(--acid); margin-left: 16px; }
+.board-filter { font: 9px monospace; color: var(--acid); white-space: nowrap; padding: 9px 11px; border: 1px solid #454d2c; border-radius: 3px; }
+.caption-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.caption-card { min-width: 0; background: var(--paper); color: var(--ink); border-radius: 4px; overflow: hidden; display: flex; flex-direction: column; transition: transform .2s; }
+.caption-card:hover { transform: translateY(-4px); }
+.caption-photo { position: relative; aspect-ratio: 1.15; background: #262b22; overflow: hidden; }
+.caption-photo img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.photo-label { position: absolute; top: 12px; left: 12px; z-index: 1; padding: 6px 8px; background: #f3f2e9ed; color: #292c21; font: 8px monospace; letter-spacing: .06em; }
+.photo-index { position: absolute; bottom: 10px; right: 12px; color: white; font: 12px monospace; background: #151713bf; padding: 5px; }
+.photo-missing { display: grid; place-items: center; height: 100%; color: #c0c4b6; font-size: 13px; }
+.caption-body { padding: 22px 20px 16px; display: flex; flex-direction: column; flex: 1; }
+.caption-text { font-size: 18px; font-weight: 700; line-height: 1.5; letter-spacing: -.035em; margin: 0 0 28px; overflow-wrap: anywhere; white-space: pre-wrap; }
+.vote-bar { margin-top: auto; display: flex; align-items: center; justify-content: space-between; gap: 10px; padding-top: 16px; border-top: 1px solid #d2d4c6; }
+.vote-buttons { display: flex; gap: 7px; }
+.vote-buttons button { min-height: 40px; padding: 8px 12px; border: 1px solid #c2c7b3; background: transparent; color: #3b4230; border-radius: 3px; font: inherit; font-size: 20px; cursor: pointer; }
+.vote-buttons button span { font-size: 11px; font-weight: 700; margin-left: 3px; }
+.vote-buttons .vote-up:hover, .vote-buttons .vote-up.selected { background: var(--acid); border-color: #7e8e2f; }
+.vote-buttons .vote-down:hover, .vote-buttons .vote-down.selected { background: #e8d4c9; border-color: #a88a79; }
+.vote-buttons button:disabled { opacity: .6; cursor: wait; }
+.vote-buttons button:focus-visible { outline-color: #454f2e; }
+.caption-score { text-align: right; font: bold 21px monospace; color: #29321c; }
+.caption-score small { display: block; font-size: 7px; font-weight: 400; letter-spacing: .1em; margin-top: 3px; }
+.vote-status { font-size: 9px; color: #677052; min-height: 14px; margin: 12px 0 0; }
+.caption-pagination { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 26px; margin: 38px 0 56px; }
+.caption-pagination a { color: var(--acid); font-size: 13px; padding: 12px 0; }
+.caption-pagination span { font: 10px monospace; color: #969d83; }
+.empty-lab { text-align: center; padding: 60px 20px; border: 1px dashed #596244; color: #b7bea7; }
+.empty-lab > span { font-size: 50px; color: var(--acid); }
+.empty-lab h3 { font-size: 28px; color: var(--paper); }
+.collection footer { border-color: #41443a; font-size: 11px; color: #d4d7c7; }
+.collection footer span { color: #8e967b; }
+@media (max-width: 980px) { .caption-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } .lab-stamp { width: 112px; height: 112px; font-size: 23px; } .recipe { gap: 8px; font-size: 8px; } }
+@media (max-width: 640px) {
+ .collection .site-nav { margin-bottom: 34px; gap: 10px; }
+ .collection .brand { font-size: 12px; }
+ .lab-stamp { display: none; }
+ .lab-intro { font-size: 14px; }
+ .lab-intro br { display: none; }
+ .lab-heading .eyebrow { font-size: 8px; line-height: 1.7; }
+ .upload-studio { grid-template-columns: 1fr; gap: 24px; }
+ .studio-copy h2 { margin-top: 22px; }
+ .recipe { margin-top: 22px; font-size: 9px; }
+ .caption-collection { margin-top: 42px; }
+ .caption-collection-heading { align-items: flex-start; flex-direction: column; }
+ .caption-grid { grid-template-columns: 1fr; }
+ .caption-photo { aspect-ratio: 1.25; }
+ .caption-text { font-size: 20px; }
+}
+
+@media (max-width: 640px) { .lab-heading h1 > span { display: none; } }
+
+/* Daily Comedy Jury */
+.daily-jury { margin: 6px 0 48px; }
+.jury-member-bar { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px; padding: 15px 0 24px; }
+.jury-member-bar > span, .jury-kicker { font: 10px monospace; letter-spacing: .13em; }
+.jury-member-bar > span { color: #a7ae99; }
+.jury-member-bar a { display: inline-flex; align-items: center; gap: 9px; color: #f1cd72; text-decoration: none; font-size: 13px; border: 1px solid #6e6037; border-radius: 99px; padding: 10px 16px; }
+.jury-member-bar a:hover { background: #3b3421; }
+.jury-member-bar a > span:first-child { font-size: 22px; }
+.jury-court { background: #efeee3; color: #20261b; border-radius: 6px; padding: clamp(22px, 4vw, 46px); position: relative; }
+.jury-heading { display: flex; justify-content: space-between; gap: 24px; align-items: center; }
+.jury-court .jury-kicker { color: #64704f; }
+.jury-heading h2 { font-size: clamp(38px, 5vw, 66px); line-height: 1.02; letter-spacing: -.055em; margin: 22px 0 18px; }
+.jury-heading h2 em { font-family: Georgia, serif; color: #657b25; font-weight: 400; }
+.jury-heading p { color: #69705e; font-size: 13px; line-height: 1.8; }
+.jury-seal { width: 136px; height: 136px; border: 2px solid #6f7e50; outline: 1px solid #a4ae8b; outline-offset: -8px; border-radius: 50%; color: #536335; text-align: center; padding-top: 23px; font: 9px monospace; transform: rotate(10deg); flex-shrink: 0; }
+.jury-seal strong { display: block; font-family: Arial, sans-serif; font-size: 21px; letter-spacing: -.04em; line-height: 1.1; margin: 5px 0 7px; }
+.jury-seal > span { font-size: 8px; letter-spacing: .09em; }
+.jury-round-meta { display: flex; justify-content: space-between; align-items: center; gap: 12px; font: 10px monospace; color: #52603e; padding: 18px 0; margin-top: 24px; border-top: 1px solid #bdc2ad; border-bottom: 1px solid #bdc2ad; }
+.jury-instructions { font-size: 12px; color: #71765e; margin: 24px 0 18px; line-height: 1.7; }
+.jury-instructions strong { display: block; color: #344025; font-size: 13px; }
+.jury-exhibits { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.jury-exhibit { display: flex; flex-direction: column; border: 1px solid #c6cab8; border-radius: 4px; overflow: hidden; background: #faf9f2; transition: border-color .15s, box-shadow .15s; }
+.jury-exhibit.picked-exhibit { border-color: #657b25; box-shadow: 0 0 0 2px #657b25; }
+.jury-exhibit-photo { aspect-ratio: 1; position: relative; background: #dcded0; }
+.jury-exhibit-photo img, .verdict-art img, .trophy-photo img { width: 100%; height: 100%; display: block; object-fit: contain; }
+.jury-exhibit-photo > span { position: absolute; left: 7px; top: 7px; padding: 5px 6px; background: #faf9f2ee; color: #475037; font: 8px monospace; }
+.jury-exhibit-copy { display: flex; flex: 1; flex-direction: column; padding: 13px 11px 0; }
+.jury-exhibit-copy > p { font-size: 14px; line-height: 1.55; font-weight: 700; letter-spacing: -.025em; margin: 0 0 22px; overflow-wrap: anywhere; }
+.jury-rating { display: flex; gap: 5px; margin-top: auto; }
+.jury-rating button { min-height: 42px; flex: 1; padding: 8px 3px; font: bold 11px Arial, sans-serif; color: #475037; border: 1px solid #c4c8b7; border-radius: 3px; background: transparent; cursor: pointer; }
+.jury-rating button[aria-pressed="true"] { background: #e5ff54; color: #25320b; border-color: #6a7f28; }
+.jury-rating button:nth-child(2)[aria-pressed="true"] { background: #edd9c9; color: #533624; border-color: #bb9475; }
+.jury-rating button:hover:enabled { border-color: #536635; }
+.jury-rating button:disabled, .jury-pick input:disabled { cursor: default; }
+.jury-rating button:disabled:not([aria-pressed="true"]) { opacity: .5; }
+.jury-rating button:focus-visible, .jury-court button:focus-visible, .jury-pick input:focus-visible { outline-color: #506022; }
+.jury-pick { display: flex; align-items: center; gap: 6px; padding: 15px 0; cursor: pointer; font-size: 10px; font-weight: 700; }
+.jury-pick input { accent-color: #536926; width: 16px; height: 16px; margin: 0; flex-shrink: 0; }
+.jury-submit { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 28px 0 24px; margin-top: 6px; }
+.jury-submit h3 { font-size: 23px; letter-spacing: -.045em; margin: 10px 0; }
+.jury-submit p { font-size: 12px; line-height: 1.7; margin: 6px 0; color: #69705e; max-width: 620px; }
+.seal-verdict-button { min-height: 48px; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; padding: 14px 22px; background: #263019; color: #e5ff54; border: 1px solid #263019; border-radius: 4px; font: bold 13px Arial, sans-serif; cursor: pointer; white-space: nowrap; }
+.seal-verdict-button:hover:enabled { background: #44532c; }
+.seal-verdict-button:disabled { opacity: .45; cursor: not-allowed; }
+.jury-submit.is-sealed { justify-content: flex-start; background: #dfe5c9; padding: 22px; border-radius: 4px; margin: 24px 0; border: 1px solid #b5c28d; }
+.sealed-mark { display: grid; place-items: center; flex-shrink: 0; width: 48px; height: 48px; border-radius: 50%; background: #54692e; color: #f0f7de; font-size: 24px; }
+.jury-submit.is-sealed h3 { margin-top: 0; }
+.jury-rules { font-size: 11px; line-height: 1.75; border-top: 1px solid #c6cab8; padding-top: 15px; color: #687258; }
+.jury-rules summary { cursor: pointer; font-weight: 700; color: #425330; min-height: 30px; }
+.jury-rules p { max-width: 820px; }
+.jury-error { background: #ffe1dd; border: 1px solid #d0917f; color: #782e1d; padding: 14px 18px; border-radius: 3px; margin-bottom: 18px; font-size: 13px; }
+.jury-error button { background: transparent; border: 0; text-decoration: underline; color: inherit; font: inherit; cursor: pointer; padding: 4px 0; }
+.jury-reveal { display: grid; grid-template-columns: minmax(180px, .65fr) 1.35fr; background: #252b20; border: 1px solid #4c5740; border-radius: 6px; margin-bottom: 26px; overflow: hidden; }
+.verdict-art { min-height: 260px; position: relative; background: #171d13; }
+.verdict-art img { position: absolute; }
+.verdict-ribbon { position: absolute; bottom: 16px; left: 16px; padding: 8px 10px; background: #e9e8dd; color: #454a36; font: 9px monospace; }
+.verdict-copy { padding: 30px; }
+.verdict-copy .jury-kicker { color: #b2ba9d; }
+.verdict-copy h2 { font-size: clamp(26px, 3vw, 38px); letter-spacing: -.045em; margin: 17px 0; }
+.verdict-copy blockquote { padding: 0; margin: 0 0 18px; font-family: Georgia, serif; font-size: 22px; line-height: 1.5; }
+.verdict-copy p { font-size: 13px; color: #bdc5ad; line-height: 1.7; }
+.verdict-copy small { color: #a8b194; display: block; margin-top: 18px; font-size: 10px; }
+.winning-verdict { background: #342e1e; border-color: #9a7d34; }
+.winning-verdict .verdict-copy h2, .winning-verdict .jury-kicker { color: #f6d376; }
+.winning-verdict .golden-award { font-size: 16px; font-weight: 700; color: #f6d376; display: flex; gap: 10px; align-items: center; }
+.golden-award > span { font-size: 32px; animation: gold-pop .5s ease-out; }
+@keyframes gold-pop { from { transform: scale(.5) rotate(-25deg); } to { transform: scale(1) rotate(0); } }
+.jury-text-link { display: inline-flex; align-items: center; min-height: 40px; color: #e8ce85; font-size: 13px; text-underline-offset: 4px; }
+.quiet-verdict { display: block; padding: 28px; color: #c5ccb9; }
+.quiet-verdict h2 { color: #f3f2e9; font-size: 24px; }
+.quiet-verdict p, .jury-waiting p, .jury-unavailable p { font-size: 13px; line-height: 1.7; }
+.jury-waiting { padding: 24px 0; }
+.jury-unavailable { border: 1px solid #626c4d; padding: 24px; margin-bottom: 30px; }
+.jury-unavailable h2 { margin-top: 0; font-size: 24px; }
+.after-hours { margin-bottom: 48px; }
+.after-hours > summary { cursor: pointer; font-size: 20px; font-weight: 700; color: #e0e4d2; padding: 20px 0; border-top: 1px solid #434c35; }
+.after-hours > summary span { font-size: 12px; font-weight: 400; color: #a6b090; margin-left: 15px; }
+.after-hours[open] > summary { margin-bottom: 20px; }
+.trophy-cabinet header { text-align: center; margin: 28px 0 48px; }
+.trophy-emblem { display: block; font-size: 80px; color: #e8c571; line-height: 1; margin-bottom: 24px; }
+.trophy-cabinet .jury-kicker { color: #c6b681; }
+.collection .trophy-cabinet h1 { font-size: clamp(38px, 5vw, 64px); color: #f3f2e9; margin: 20px 0; }
+.trophy-cabinet h1 > span { color: #e8c571; }
+.trophy-cabinet header > p:last-child { color: #a8b294; font-size: 14px; line-height: 1.7; }
+.trophy-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.trophy-card { background: #2c291d; border: 1px solid #8b7741; border-radius: 5px; overflow: hidden; }
+.trophy-photo { aspect-ratio: 1.3; position: relative; background: #1d2118; }
+.trophy-photo > span { position: absolute; right: 15px; bottom: -20px; width: 48px; height: 48px; border-radius: 50%; background: #e8c571; color: #6e4d17; display: grid; place-items: center; font-size: 36px; border: 3px solid #2c291d; }
+.trophy-card > div:last-child { padding: 28px 22px; }
+.trophy-card p { font-size: 18px; line-height: 1.6; color: #f0e8d4; }
+.trophy-card strong { color: #e8c571; font-size: 12px; }
+.trophy-empty { padding: 40px 22px; text-align: center; border: 1px dashed #7b7048; border-radius: 4px; }
+.trophy-empty h2 { font-size: 28px; letter-spacing: -.04em; }
+.trophy-empty p { color: #bbc1ad; font-size: 14px; max-width: 490px; margin: 0 auto 24px; line-height: 1.7; }
+.jury-photo-missing { width: 100%; height: 100%; min-height: 130px; display: grid; place-content: center; text-align: center; color: #849270; font-size: 11px; line-height: 1.7; padding: 12px; }
+@media (max-width: 1100px) { .jury-exhibits { grid-template-columns: repeat(3, minmax(0, 1fr)); } .jury-exhibit-copy > p { font-size: 16px; } }
+@media (max-width: 700px) {
+ .jury-exhibits { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+ .jury-seal { width: 104px; height: 104px; padding-top: 16px; }
+ .jury-seal strong { font-size: 16px; }
+ .jury-seal > span { font-size: 6px; }
+ .jury-submit { flex-direction: column; align-items: stretch; gap: 12px; }
+ .jury-submit.is-sealed { flex-direction: row; gap: 14px; padding: 18px; }
+ .jury-reveal { grid-template-columns: 1fr; }
+ .verdict-art { min-height: 0; aspect-ratio: 1.6; }
+ .verdict-copy { padding: 24px; }
+ .trophy-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+ .after-hours > summary span { display: block; margin: 10px 0 0; }
+}
+@media (max-width: 450px) {
+ .jury-heading h2 { font-size: 38px; }
+ .jury-seal { display: none; }
+ .jury-exhibits, .trophy-grid { grid-template-columns: 1fr; }
+ .jury-exhibit { display: grid; grid-template-columns: 95px minmax(0,1fr); }
+ .jury-exhibit-photo { height: 100%; aspect-ratio: auto; }
+ .jury-exhibit-photo > span { font-size: 7px; left: 5px; padding: 4px; }
+ .jury-exhibit-copy { padding: 14px 12px 0; }
+ .jury-exhibit-copy > p { font-size: 14px; margin-bottom: 14px; }
+ .jury-round-meta { font-size: 9px; }
+ .jury-submit h3 { font-size: 21px; }
+ .jury-member-bar > span { font-size: 9px; }
+}
