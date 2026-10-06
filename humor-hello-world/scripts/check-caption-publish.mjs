@@ -1,0 +1,25 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import ts from 'typescript';
+import { isSameOrigin } from '../src/lib/captions/request.ts';
+import { UUID } from '../src/lib/captions/validation.ts';
+const source = ts.transpileModule(readFileSync(new URL('../src/app/api/captions/publish/route.ts',import.meta.url),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
+let signedIn=true; const calls=[];
+const client={auth:{getUser:async()=>({data:{user:signedIn?{id:'owner'}:null}})},rpc:async(name,args)=>{calls.push({name,args});return {data:'caption-id',error:null};}};
+const mod={exports:{}};
+new Function('require','module','exports',source)(name=>{
+ if(name.endsWith('/request')) return {isSameOrigin};
+ if(name.endsWith('/validation')) return {UUID};
+ if(name.endsWith('/server')) return {createClient:async()=>client};
+ throw new Error(name);
+},mod,mod.exports);
+const imageId='7b6b88d7-bd62-4ec8-ae34-6a655fc201bd';
+const request=(body,origin='http://localhost:3000')=>new Request('http://localhost:3000/api/captions/publish',{method:'POST',headers:{origin,host:'localhost:3000','content-type':'application/json'},body:JSON.stringify(body)});
+for(const body of [null,{}, {imageId,text:''},{imageId,text:'  '},{imageId,text:'x'.repeat(241)},{imageId:'invalid',text:'Joke'}]) assert.equal((await mod.exports.POST(request(body))).status,400);
+assert.equal(calls.length,0);
+assert.equal((await mod.exports.POST(request({imageId,text:'My joke'},'https://evil.example'))).status,403);
+signedIn=false;assert.equal((await mod.exports.POST(request({imageId,text:'My joke'}))).status,401);signedIn=true;
+for(const text of ['Suggested joke',' My custom joke ']) assert.equal((await mod.exports.POST(request({imageId,text}))).status,201);
+assert.deepEqual(calls.map(c=>c.args.selected_text),['Suggested joke','My custom joke']);
+assert(calls.every(c=>c.name==='publish_selected_caption' && c.args.target_id===imageId));
+console.log('PASS publication request validation, authentication, origin, suggestion/custom selection, and one-caption RPC');

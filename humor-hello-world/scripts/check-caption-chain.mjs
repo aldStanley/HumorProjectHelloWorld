@@ -22,7 +22,7 @@ const calls = [];
 const description = 'A cat sitting on a keyboard next to a coffee cup.';
 try {
   globalThis.fetch = async (url, options) => {
-    assert.equal(url,'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent');
+    assert.equal(url,'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent');
     assert.equal(options.headers['x-goog-api-key'], 'test-key-not-real');
     const body = JSON.parse(options.body); calls.push(body);
     assert.equal(body.generationConfig.maxOutputTokens,1000);

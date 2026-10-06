@@ -19,7 +19,7 @@ assert(!isSameOrigin(new Request('http://internal/api/votes', {headers:{origin:'
 assert(!isSameOrigin(new Request('http://internal/api/votes', {headers:{origin:'null',host:'app.example'}})));
 
 const base = process.env.TEST_BASE_URL || 'http://127.0.0.1:3000';
-for (const path of ['/api/votes','/api/captions']) {
+for (const path of ['/api/votes','/api/captions','/api/captions/publish']) {
   for (const origin of [undefined, 'https://untrusted.example']) {
     const res = await fetch(base + path, { method: 'POST', headers: origin ? { origin } : {} });
     assert.equal(res.status,403);

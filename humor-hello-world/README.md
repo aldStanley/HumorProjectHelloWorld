@@ -11,16 +11,16 @@ Next.js app with a Google-gated, Supabase-backed joke collection at `/jokes`.
 
 ## Assignment 4: Caption Lab
 
-The `/jokes` page now combines a photo upload studio with a caption voting board. Existing jokes remain as the original collection. Each new upload creates three captions.
+The `/jokes` page now combines a photo upload studio with a caption voting board. Existing jokes remain as the original collection. Each new upload generates three private suggestions. The user chooses one or writes a custom joke; only that final joke is published.
 
 ### Required setup
 
 1. Apply `supabase/migrations/20261001000100_caption_lab.sql` to the existing Supabase project with the SQL Editor or `supabase db push` from an authenticated, linked CLI. Apply only unapplied migrations. This also makes the existing avatar bucket private: deploy the matching app update immediately afterward so profile photos use signed URLs.
-2. Set `GEMINI_API_KEY` in `.env.local` and in Vercel's Production and Preview environment settings. Never prefix this secret with `NEXT_PUBLIC_`. `GEMINI_MODEL` defaults to `gemini-2.5-flash-lite` and can be overridden with a compatible vision + structured-output model.
+2. Set `GEMINI_API_KEY` in `.env.local` and in Vercel's Production and Preview environment settings. Never prefix this secret with `NEXT_PUBLIC_`. `GEMINI_MODEL` defaults to `gemini-3.1-flash-lite` and can be overridden with a compatible vision + structured-output model.
    Keep the Google AI Studio project on Free Tier with billing disabled to avoid API charges. The app does not enable billing or fall back to another provider. Quota exhaustion returns an error. Google may use free-tier inputs and outputs to improve its products.
 3. Restart/redeploy after adding the key. If the key is missing, the upload endpoint reports an actionable configuration error; it never pretends to generate captions.
 
-The first [Gemini API](https://ai.google.dev/gemini-api/docs/image-understanding) call describes the uploaded image. A separate call receives only that description and returns three captions using [structured outputs](https://ai.google.dev/gemini-api/docs/structured-output). The server validates results, then a database transaction publishes the image description and all three caption rows together. No service-role key is required.
+The first [Gemini API](https://ai.google.dev/gemini-api/docs/image-understanding) call describes the uploaded image. A separate call receives only that description and returns three captions using [structured outputs](https://ai.google.dev/gemini-api/docs/structured-output). The server validates and saves a private draft. A separate authenticated publication request saves exactly one selected or custom caption atomically. No service-role key is required.
 
 ### Data and security
 
@@ -45,7 +45,7 @@ npm run test:chain
 
 `test:chain` verifies the real prompt-chain implementation with mocked HTTP responses (no paid calls). `test:captions` checks image signatures, malformed and duplicate model output, signed-out mutation requests, and origin checks. Requires Node 22.6+ for TypeScript stripping. Run `supabase/tests/caption_security.sql` in the SQL Editor after migrating; it checks database ownership, constraints, quota, and anonymous access in a rolled-back transaction. Requires one existing signed-in user and a seeded caption.
 
-Manual end-to-end acceptance: sign in, upload a real photo, verify three new captions with the same photo, vote and reload, switch the vote, then sign in as a second account and verify independent votes. Test image rejection and the missing-key error. In Incognito, `/jokes` must show the app's sign-in gate and mutation requests must be rejected.
+Manual end-to-end acceptance: sign in, upload a real photo, choose a suggestion or write a custom joke, then verify exactly one new caption with the photo, vote and reload, switch the vote, then sign in as a second account and verify independent votes. Test image rejection and the missing-key error. In Incognito, `/jokes` must show the app's sign-in gate and mutation requests must be rejected.
 
 ## Google sign-in without a client secret
 
@@ -89,3 +89,11 @@ Every member receives the same five daily exhibits, drawn from different images 
 Rounds close at midnight in `America/New_York`. The first authenticated visit after closing finalizes results and automatically awards one Golden Laugh to each winning predictor, even if that person misses the next day. No scheduled job is required. Highest rating score wins; tied scores go to the earlier exhibit number. A day without ballots has no winner. The next visit shows the latest completed round, and `/jokes/trophies` preserves earned captions, photos, and dates. Deleted source photos display a fallback.
 
 Run `npm run test:jury` for request validation, or `TEST_BASE_URL=http://localhost:3000 npm run test:jury` to include signed-out/origin HTTP checks. Run `supabase/tests/daily_jury.sql` in Supabase SQL Editor for rolled-back integration tests of ballot validation, ownership, sealing, cutoffs, winner selection, ties, quiet days, reward idempotency, anonymous access, and daylight-saving boundaries. Requires five eligible images. All test identities and fixtures are rolled back.
+
+### Local winner-reveal demonstration
+
+Run `npm run dev`, then open `http://localhost:3000/demo/jury`. Choose Winning pick, Losing pick, Didn’t participate, or No votes. Use Stage the reveal followed by Open the verdict for a presentation, or Replay reveal to replay the reward animation. The trophy link scrolls to a sample trophy on the same page. All data is fictional and local: no login, Supabase requests, Gemini calls, ballot writes, or real rewards. This page reuses the app’s actual reveal component and returns 404 in production builds, including Vercel deployments.
+
+### Choose one caption
+
+Apply `supabase/migrations/20261005000100_caption_selection.sql` before deploying the selection flow. Generation reserves and uploads the image, then saves three private suggestions with its description. `/api/captions/publish` publishes one selected or custom text (1–240 characters). Row locking and idempotent retries prevent duplicate publication. Unchosen drafts stay unpublished; a page reload currently abandons the in-browser selection, and administrators may clean up abandoned images later. Existing three-caption uploads are preserved. The legacy publication RPC remains during rollout for the previous deployed app. Run `supabase/tests/caption_selection.sql` for rolled-back database checks.

@@ -27,9 +27,9 @@ export async function POST(request: Request) {
     const { error: uploadError } = await client.storage.from("caption-images").upload(image.storage_path, bytes, { contentType: photo.type, upsert: false });
     if (uploadError) throw new Error("Your photo could not be saved. Please try again.");
     const { description, captions } = await generateCaptions(bytes, photo.type);
-    const { error: saveError } = await client.rpc("publish_caption_image", { target_id: image.id, image_description: description, captions });
+    const { error: saveError } = await client.rpc("save_caption_draft", { target_id: image.id, image_description: description, alternatives: captions });
     if (saveError) throw new Error("Your captions could not be saved. Please try again.");
-    return Response.json({ imageId: image.id, count: captions.length }, { status: 201, headers: { "Cache-Control": "no-store" } });
+    return Response.json({ imageId: image.id, captions }, { status: 201, headers: { "Cache-Control": "no-store" } });
   } catch (error) {
     // Deletion policy cannot remove published photos, even after an ambiguous network failure.
     const { error: cleanupError } = await client.storage.from("caption-images").remove([image.storage_path]);

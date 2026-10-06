@@ -361,3 +361,79 @@ body { background: #141612; }
  .jury-submit h3 { font-size: 21px; }
  .jury-member-bar > span { font-size: 9px; }
 }
+
+/* The daily ballot becomes a small theatrical courtroom. */
+.courtroom-scene { margin: 0 -18px; padding: 28px 18px 0; border: 1px solid #705038; border-radius: 12px; background: radial-gradient(ellipse at 50% 0, #fff0c8 0, transparent 65%), repeating-linear-gradient(90deg, transparent 0 119px, #78563c18 120px 122px), linear-gradient(#d7c3a0 0 67%, #99704c 67% 70%, #bd9670 70%); box-shadow: inset 0 0 70px #4b2b2020; }
+.courtroom-sign { text-align: center; color: #4d3325; font: bold 13px Georgia, serif; letter-spacing: .12em; }
+.courtroom-sign > span { display: block; font-size: 34px; margin-bottom: 8px; }
+.courtroom-sign small { display: block; font: 8px monospace; letter-spacing: .18em; margin-top: 10px; }
+.courtroom-scene .jury-exhibits { gap: 16px; align-items: stretch; }
+.courtroom-scene .jury-exhibit { position: relative; display: flex; flex-direction: column; overflow: visible; border: 0; border-radius: 0; background: transparent; box-shadow: none; min-width: 0; }
+.witness-stage { position: relative; padding-top: 175px; height: 415px; isolation: isolate; }
+.witness-portrait { position: absolute; bottom: 67px; left: 10%; width: 80%; height: 168px; border: 5px solid #e8d8b4; border-radius: 70px 70px 12px 12px; overflow: hidden; padding: 0; background: #d8ceb5; cursor: pointer; box-shadow: 0 10px 18px #39251940; transform-origin: bottom center; transition: transform .25s ease, box-shadow .25s ease, filter .25s ease; filter: saturate(.65); }
+.witness-portrait img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.witness-testimony { position: absolute; z-index: 4; top: 24px; left: -5px; right: -5px; background: #fffcf0; padding: 15px; border-radius: 12px; box-shadow: 0 7px 20px #452b2520; opacity: 0; transform: translateY(12px); pointer-events: none; transition: opacity .2s, transform .2s; }
+.witness-testimony::after { content: ''; position: absolute; bottom: -10px; left: calc(50% - 10px); border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 11px solid #fffcf0; }
+.witness-testimony > span { font: 8px monospace; letter-spacing: .1em; color: #826245; }
+.witness-testimony p { font: 600 14px/1.45 Georgia, serif; color: #30261e; margin: 8px 0 0; overflow-wrap: anywhere; }
+.jury-exhibit:hover .witness-testimony, .jury-exhibit:focus-within .witness-testimony, .jury-exhibit.testifying .witness-testimony { opacity: 1; transform: translateY(0); }
+.jury-exhibit:hover .witness-portrait, .jury-exhibit:focus-within .witness-portrait, .jury-exhibit.testifying .witness-portrait { transform: translateY(-12px) scale(1.08); filter: saturate(1); box-shadow: 0 0 0 6px #ffe89d55, 0 12px 25px #39251950; }
+.witness-stand { position: absolute; bottom: 0; width: 100%; height: 116px; pointer-events: none; z-index: 2; }
+.stand-rail, .stand-base { position: absolute; width: 100%; height: 23px; border-radius: 50% / 25%; background: linear-gradient(#b88955, #734329 35%, #4b291c 55%, #885330 80%, #49291e); border: 1px solid #4c2c20; box-shadow: 0 5px 6px #38201633; }
+.stand-rail { top: 0; z-index: 2; }
+.stand-base { bottom: 0; height: 20px; }
+.stand-spindles { position: absolute; inset: 12px 9px; display: flex; justify-content: space-between; border-radius: 0 0 25% 25%; background: #38241922; }
+.stand-spindles i { width: 12px; background: linear-gradient(90deg,#42281d,#ab7749 45%,#5b3523); border-radius: 3px 3px 35% 35%; box-shadow: 2px 0 3px #30180c44; }
+.stand-plaque { position: absolute; z-index: 3; top: 35px; left: 50%; transform: translateX(-50%); white-space: nowrap; padding: 7px 12px; border: 1px solid #d9b66d; border-radius: 3px; color: #362819; background: linear-gradient(120deg,#b58c43,#efdaa0,#bc964e); box-shadow: 0 3px 5px #20170c55; font: bold 9px monospace; letter-spacing: .08em; }
+.courtroom-scene .jury-exhibit-copy { padding: 16px 0 0; }
+.courtroom-scene .jury-rating button { background: #fff8e9; border-color: #94714d; color: #503724; min-height: 44px; }
+.courtroom-scene .jury-rating button[aria-pressed="true"] { background: #e5ff54; border-color: #526526; }
+.courtroom-scene .jury-rating button:nth-child(2)[aria-pressed="true"] { background: #efc5ad; }
+.courtroom-scene .jury-pick { justify-content: center; color: #382719; font-size: 11px; min-height: 48px; }
+.courtroom-scene .picked-exhibit .stand-plaque { background: #e5ff54; border-color: #f2ffb5; box-shadow: 0 0 18px #e5ff5480; }
+.courtroom-floor-label { text-align: center; padding: 20px 0; margin-top: 10px; border-top: 1px solid #78553955; color: #503725; font: 9px monospace; letter-spacing: .25em; }
+@media (max-width: 1100px) { .courtroom-scene .jury-exhibits { grid-template-columns: repeat(3,minmax(0,1fr)); } }
+@media (max-width: 700px) { .courtroom-scene { margin: 0 -10px; padding: 24px 12px 0; } .courtroom-scene .jury-exhibits { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; } .witness-stage { height: 430px; padding-top: 190px; } .witness-testimony { padding: 12px; } .witness-testimony p { font-size: 13px; } }
+@media (max-width: 450px) { .courtroom-scene .jury-exhibits { grid-template-columns: 1fr; } .courtroom-scene .jury-exhibit { width: min(100%,280px); margin: auto; } .witness-stage { height: 380px; } .witness-testimony p { font-size: 15px; } }
+@media (prefers-reduced-motion: reduce) { .witness-portrait, .witness-testimony { transition: none; } }
+
+.jury-demo { width: min(1120px, calc(100% - 40px)); margin: 50px auto; }
+.demo-toolbar { border: 1px solid #566044; border-radius: 12px; padding: clamp(20px,4vw,40px); margin-bottom: 28px; background: #202719; }
+.demo-toolbar h1 { font-size: clamp(32px,5vw,56px); letter-spacing: -.045em; margin: 16px 0; }
+.demo-toolbar p, .demo-footnote, .demo-trophy > p { color: #b5bda3; line-height: 1.6; }
+.demo-scenarios, .demo-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+.demo-toolbar button { cursor: pointer; border: 1px solid #737e5d; color: #edf1df; background: transparent; border-radius: 6px; padding: 12px 16px; min-height: 44px; font: inherit; }
+.demo-toolbar button[aria-pressed="true"] { background: #e5ff54; color: #222e10; border-color: #e5ff54; }
+.demo-actions button { font-size: 13px; }
+.demo-envelope { padding: 70px 24px; text-align: center; border: 1px solid #bdad73; border-radius: 10px; background: #eee9d7; color: #354022; }
+.demo-envelope > span { font-size: 48px; }
+.demo-envelope > p { font: 11px monospace; letter-spacing: .12em; }
+.demo-envelope h2 { font: 36px Georgia,serif; }
+.demo-trophy { margin: 32px 0; scroll-margin-top: 24px; }
+.demo-trophy .trophy-card { max-width: 360px; }
+.demo-footnote { font-size: 12px; margin-top: 28px; }
+
+.caption-card.own-caption { box-shadow: 0 0 0 1px #b29a61; transition: transform .2s, box-shadow .2s; }
+.caption-card.own-caption:hover, .caption-card.own-caption:focus-within { box-shadow: 0 0 0 2px #d4b96f; }
+.own-caption .photo-label { background: #f0e5c6f2; color: #614b20; font: 600 11px/1.4 Arial,sans-serif; letter-spacing: .01em; border: 1px solid #c7b37d; border-radius: 20px; padding: 6px 10px; }
+.caption-filters { display: flex; flex-wrap: wrap; gap: 6px; }
+.caption-filters a { padding: 11px 16px; border: 1px solid #596247; border-radius: 24px; color: #c4cbb6; font-size: 12px; text-decoration: none; min-height: 44px; display: inline-flex; align-items: center; }
+.caption-filters a[aria-current="page"] { background: #ece8d6; border-color: #ece8d6; color: #333c24; }
+.caption-filters a:hover { border-color: #d4b96f; }
+#collection-title { scroll-margin-top: 30px; }
+
+#my-creations-title { font-size: clamp(32px,5vw,56px); letter-spacing: -.045em; margin: 10px 0; }
+#my-creations-title span { color: #d4b96f; margin-left: 12px; }
+.caption-collection-heading:has(#my-creations-title) p:not(.eyebrow) { color: #b4bda3; line-height: 1.6; }
+@media (max-width: 700px) { .site-nav { flex-wrap: wrap; } .site-nav .nav-links { flex-wrap: wrap; } }
+
+#upload-studio { scroll-margin-top: 24px; }
+.caption-choices { border: 0; padding: 0; margin: 20px 0 0; min-width: 0; }
+.caption-choices legend { font-size: 22px; font-weight: 800; }
+.caption-choices > p { font-size: 13px; }
+.caption-choice { display: flex; gap: 12px; align-items: center; padding: 16px; margin: 10px 0; border: 1px solid #89933a; border-radius: 8px; background: #ffffff60; cursor: pointer; line-height: 1.5; }
+.caption-choice:has(input:checked) { background: #fffef2; border-color: #25330d; box-shadow: 0 0 0 1px #25330d; }
+.caption-choice input { accent-color: #344419; flex-shrink: 0; }
+.caption-choice small { display: block; font: 10px monospace; margin-bottom: 5px; }
+.custom-caption { display: block; font-size: 13px; margin: 16px 0; }
+.custom-caption textarea { display: block; width: 100%; background: #fffef2; color: #222; border: 1px solid #63712b; border-radius: 6px; padding: 12px; margin: 8px 0; font: inherit; resize: vertical; }
