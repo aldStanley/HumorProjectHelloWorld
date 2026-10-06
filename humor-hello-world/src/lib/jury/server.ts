@@ -1,6 +1,7 @@
 import "server-only";
 import { requireUser } from "@/lib/supabase/auth";
 import { createClient } from "@/lib/supabase/server";
+import { juryWinnerIds } from "./types";
 import type { JuryBallot, JuryEntry, JuryRound, JuryState } from "./types";
 
 async function withPhotos(entries: JuryEntry[]): Promise<JuryEntry[]> {
@@ -39,13 +40,14 @@ export async function getJuryState(): Promise<JuryState> {
       client.from("golden_laughs").select("round_day").eq("round_day", previousRound.round_day).eq("user_id", user.id).maybeSingle(),
     ]);
     if (myBallot.error || exhibits.error || reward.error) throw new Error("Unable to load the last verdict.");
-    const winner = exhibits.data?.find(entry => entry.caption_id === previousRound.winner_id) ?? null;
+    const winnerIds = new Set(juryWinnerIds(previousRound));
+    const winners = (exhibits.data ?? []).filter(entry => winnerIds.has(entry.caption_id)).sort((a, b) => a.position - b.position);
     const pick = exhibits.data?.find(entry => entry.caption_id === myBallot.data?.pick_id) ?? null;
-    const photos = await withPhotos([...(winner ? [winner] : []), ...(pick ? [pick] : [])]);
+    const photos = await withPhotos([...winners, ...(pick ? [pick] : [])]);
     const picks = previousRound.results?.find(result => result.caption_id === pick?.caption_id)?.picks ?? 0;
     reveal = {
       round: previousRound,
-      winner: photos.find(entry => entry.caption_id === winner?.caption_id) ?? null,
+      winners: photos.slice(0, winners.length),
       pick: photos.find(entry => entry.caption_id === pick?.caption_id) ?? null,
       support: pick && previousRound.ballot_count ? Math.round(picks / previousRound.ballot_count * 100) : null,
       earned: Boolean(reward.data),

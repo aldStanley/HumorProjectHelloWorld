@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { validateBallot, juryDate } from '../src/lib/jury/types.ts';
+import { validateBallot, juryDate, juryWinnerIds } from '../src/lib/jury/types.ts';
 
 const ids = Array.from({length:5}, (_,i) => `10000000-0000-4000-8000-00000000000${i+1}`);
 const ratings = Object.fromEntries(ids.map((id,i)=>[id,i%2 ? -1 : 1]));
@@ -18,3 +18,8 @@ if (process.env.TEST_BASE_URL) {
  assert.equal(res.status,401);
  console.log('PASS signed-out and cross-origin jury rejection');
 }
+
+assert.deepEqual(juryWinnerIds({winner_ids:ids.slice(0,2),winner_id:ids[0]}),ids.slice(0,2));
+assert.deepEqual(juryWinnerIds({winner_ids:[],winner_id:null}),[]);
+assert.deepEqual(juryWinnerIds({winner_id:ids[0]}),[ids[0]]);
+console.log('PASS co-winner IDs, quiet rounds, and legacy round compatibility');

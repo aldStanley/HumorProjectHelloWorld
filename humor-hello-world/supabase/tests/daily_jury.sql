@@ -1,4 +1,4 @@
--- Run after the daily-jury migration. Test identities, ballots, rewards, and clock
+-- Run after the daily-jury and co-winners migrations. Test identities, ballots, rewards, and clock
 -- changes are isolated in this transaction and are all rolled back.
 begin;
 select set_config('jury_test.a', gen_random_uuid()::text, true);
@@ -44,10 +44,11 @@ insert into public.jury_ballots(round_day,user_id,ratings,pick_id)
  select '2000-01-01',user_id,ratings,pick_id from public.jury_ballots
  where round_day=(clock_timestamp() at time zone 'America/New_York')::date
  and user_id in(current_setting('jury_test.a')::uuid,current_setting('jury_test.b')::uuid);
--- A five-way tie must resolve to exhibit 01. The third fixture has zero ballots.
+-- All five entries in a five-way tie must win. The third fixture has zero ballots.
 insert into public.jury_ballots(round_day,user_id,ratings,pick_id)
- select '2000-01-02',current_setting('jury_test.a')::uuid,jsonb_object_agg(caption_id::text,1),(array_agg(caption_id order by position))[1]
- from public.jury_entries where round_day='2000-01-02';
+ select '2000-01-02',u.id,jsonb_object_agg(e.caption_id::text,1),(array_agg(e.caption_id order by e.position))[u.pick_position]
+ from public.jury_entries e cross join (values(current_setting('jury_test.a')::uuid,1),(current_setting('jury_test.b')::uuid,2)) u(id,pick_position)
+ where e.round_day='2000-01-02' group by u.id,u.pick_position;
 select set_config('request.jwt.claim.sub', current_setting('jury_test.a'), true);
 set local role authenticated;
 do $$ begin
@@ -60,14 +61,17 @@ declare expected uuid;
 begin
   select caption_id into expected from public.jury_entries where round_day='2000-01-01' and position=1;
   if (select winner_id from public.jury_rounds where round_day='2000-01-01') is distinct from expected then raise exception 'FAIL wrong winner'; end if;
+  if (select winner_ids from public.jury_rounds where round_day='2000-01-01') is distinct from array[expected] then raise exception 'FAIL unique winner list'; end if;
   if (select count(*) from public.golden_laughs where round_day='2000-01-01') <> 1 then raise exception 'FAIL reward missing or duplicated'; end if;
-  if (select winner_id from public.jury_rounds where round_day='2000-01-02') is distinct from expected then raise exception 'FAIL tie rule'; end if;
-  if exists(select 1 from public.jury_rounds where round_day='2000-01-03' and (winner_id is not null or ballot_count <> 0 or finalized_at is null)) then raise exception 'FAIL quiet day'; end if;
+  if (select cardinality(winner_ids) from public.jury_rounds where round_day='2000-01-02') <> 5 then raise exception 'FAIL missing co-winners'; end if;
+  if (select count(*) from public.golden_laughs where round_day='2000-01-02') <> 1 then raise exception 'FAIL co-winner reward missing or duplicated'; end if;
+  if exists(select 1 from public.jury_rounds where round_day='2000-01-03' and (winner_id is not null or cardinality(winner_ids) <> 0 or ballot_count <> 0 or finalized_at is null)) then raise exception 'FAIL quiet day'; end if;
 end $$;
 reset role;
 select set_config('request.jwt.claim.sub', current_setting('jury_test.b'), true);
 set local role authenticated;
 do $$ begin
+  if (select count(*) from public.golden_laughs where round_day='2000-01-02' and caption_id=(select caption_id from public.jury_entries where round_day='2000-01-02' and position=2)) <> 1 then raise exception 'FAIL second co-winner pick did not earn its own trophy'; end if;
   if exists(select 1 from public.golden_laughs where round_day='2000-01-01') then raise exception 'FAIL losing pick earned reward or private reward leaked'; end if;
 end $$;
 reset role;

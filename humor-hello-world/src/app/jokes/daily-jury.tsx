@@ -7,15 +7,16 @@ import { juryDate, type JuryBallot, type JuryReveal, type JuryState } from "@/li
 import { JuryPhoto } from "./jury-photo";
 
 export function Reveal({ reveal, trophyHref = "/jokes/trophies" }: { reveal: JuryReveal; trophyHref?: string }) {
-  const { winner, pick, round, earned, support } = reveal;
-  if (!winner) return <section className="jury-reveal quiet-verdict"><span className="jury-kicker">LAST VERDICT · {juryDate(round.round_day)}</span><h2>A quiet day in court.</h2><p>No sealed ballots came in, so no winner or trophy was awarded. Today’s jury needs your verdict.</p></section>;
+  const { winners, pick, round, earned, support } = reveal;
+  if (!winners.length) return <section className="jury-reveal quiet-verdict"><span className="jury-kicker">LAST VERDICT · {juryDate(round.round_day)}</span><h2>A quiet day in court.</h2><p>No sealed ballots came in, so no winner or trophy was awarded. Today’s jury needs your verdict.</p></section>;
+  const tied = winners.length > 1;
   return <section className={`jury-reveal ${earned ? "winning-verdict" : ""}`} aria-labelledby="verdict-title">
-    <div className="verdict-art"><JuryPhoto src={winner.picture} alt={winner.description} /><span className="verdict-ribbon">THE JURY’S WINNER</span></div>
+    <div className="verdict-art"><JuryPhoto src={(earned ? pick : null)?.picture ?? winners[0].picture} alt={(earned ? pick : null)?.description ?? winners[0].description} /><span className="verdict-ribbon">{tied ? "THE JURY’S CO-WINNERS" : "THE JURY’S WINNER"}</span></div>
     <div className="verdict-copy"><span className="jury-kicker">THE VERDICT IS IN · {juryDate(round.round_day)}</span>
       <h2 id="verdict-title">{earned ? <>You called it! <span aria-hidden="true">✦</span></> : pick ? "The jury had other ideas." : "The crowd has spoken."}</h2>
-      <blockquote>“{winner.caption_text}”</blockquote>
-      {earned ? <><p className="golden-award"><span aria-hidden="true">✹</span> +1 Golden Laugh</p><p>Your pick won the crowd over. This joke now has a place in your collection.</p><Link className="jury-text-link" href={trophyHref}>See your trophy →</Link></> : pick ? <p>You backed “{pick.caption_text}”<br /><strong>{support}% of the jury picked it too.</strong> New evidence awaits below.</p> : <p>You weren’t on this jury. Take your seat in today’s round below.</p>}
-      <small>{round.ballot_count} sealed {round.ballot_count === 1 ? "ballot" : "ballots"} · Winner chosen by Funny / Meh ratings</small>
+      {tied ? <><p>{winners.length} jokes tied for the highest score. They share the win.</p><div className="verdict-co-winners">{winners.map(winner => <article className="verdict-co-winner" key={winner.caption_id}><div className="co-winner-photo"><JuryPhoto src={winner.picture} alt={winner.description} /></div><div><span className="jury-kicker">EXHIBIT {String(winner.position).padStart(2, "0")} · CO-WINNER</span><blockquote>“{winner.caption_text}”</blockquote></div></article>)}</div></> : <blockquote>“{winners[0].caption_text}”</blockquote>}
+      {earned ? <><p className="golden-award"><span aria-hidden="true">✹</span> +1 Golden Laugh</p><p>{tied ? "Your pick is a co-winner." : "Your pick won the crowd over."} This joke now has a place in your collection.</p><Link className="jury-text-link" href={trophyHref}>See your trophy →</Link></> : pick ? <p>You backed “{pick.caption_text}”<br /><strong>{support}% of the jury picked it too.</strong> New evidence awaits below.</p> : <p>You weren’t on this jury. Take your seat in today’s round below.</p>}
+      <small>{round.ballot_count} sealed {round.ballot_count === 1 ? "ballot" : "ballots"} · {tied ? "Co-winners" : "Winner"} chosen by Funny / Meh ratings</small>
     </div>
   </section>;
 }
@@ -82,7 +83,7 @@ export function DailyJury({ state }: { state: JuryState }) {
         </div>
         {error && <div className="jury-error" role="alert"><p>{error}</p><button onClick={() => router.refresh()}>Refresh round</button></div>}
       </>}
-      <details className="jury-rules"><summary>How does the jury work?</summary><p>Everyone gets the same five exhibits for the day. Funny adds one point; Meh subtracts one. Only complete, sealed ballots count. The highest score wins. Ties go to the earlier exhibit number. Predictions don’t affect the score.</p><p>Rounds close at midnight in America/New_York, including daylight saving time. Results appear on the first visit after closing. No ballots means no winner. A correct prediction earns exactly one Golden Laugh, saved automatically even if you miss the next day.</p></details>
+      <details className="jury-rules"><summary>How does the jury work?</summary><p>Everyone gets the same five exhibits for the day. Funny adds one point; Meh subtracts one. Only complete, sealed ballots count. The highest score wins. Every joke tied for the highest score is a co-winner. Predictions don’t affect the score.</p><p>Rounds close at midnight in America/New_York, including daylight saving time. Results appear on the first visit after closing. No ballots means no winner. Picking any winner or co-winner earns exactly one Golden Laugh, saved automatically even if you miss the next day.</p></details>
     </section>
   </div>;
 }

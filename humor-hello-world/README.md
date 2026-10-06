@@ -84,15 +84,17 @@ Deployment Protection must allow public access so Incognito visitors can reach t
 
 Apply `supabase/migrations/20261004000100_daily_comedy_jury.sql` after the caption-lab migration. It adds four RLS-protected tables and two authenticated RPCs; no new environment variables or paid services are needed.
 
+Apply `supabase/migrations/20261006000100_jury_co_winners.sql` to enable co-winners and award missing trophies for past tied rounds.
+
 Every member receives the same five daily exhibits, drawn from different images and favoring captions not recently shown. Members rate all five Funny (+1) or Meh (-1), separately predict the crowd's winner, then seal one immutable ballot. Daily ratings are separate from the optional caption board. Other people's ballots and daily standings stay hidden until closing.
 
-Rounds close at midnight in `America/New_York`. The first authenticated visit after closing finalizes results and automatically awards one Golden Laugh to each winning predictor, even if that person misses the next day. No scheduled job is required. Highest rating score wins; tied scores go to the earlier exhibit number. A day without ballots has no winner. The next visit shows the latest completed round, and `/jokes/trophies` preserves earned captions, photos, and dates. Deleted source photos display a fallback.
+Rounds close at midnight in `America/New_York`. The first authenticated visit after closing finalizes results and automatically awards one Golden Laugh to each winning predictor, even if that person misses the next day. No scheduled job is required. Highest rating score wins; all entries tied for the highest score are co-winners. Picking any co-winner earns one Golden Laugh for that round. A day without ballots has no winner. The next visit shows the latest completed round, and `/jokes/trophies` preserves earned captions, photos, and dates. Deleted source photos display a fallback.
 
 Run `npm run test:jury` for request validation, or `TEST_BASE_URL=http://localhost:3000 npm run test:jury` to include signed-out/origin HTTP checks. Run `supabase/tests/daily_jury.sql` in Supabase SQL Editor for rolled-back integration tests of ballot validation, ownership, sealing, cutoffs, winner selection, ties, quiet days, reward idempotency, anonymous access, and daylight-saving boundaries. Requires five eligible images. All test identities and fixtures are rolled back.
 
 ### Local winner-reveal demonstration
 
-Run `npm run dev`, then open `http://localhost:3000/demo/jury`. Choose Winning pick, Losing pick, Didn’t participate, or No votes. Use Stage the reveal followed by Open the verdict for a presentation, or Replay reveal to replay the reward animation. The trophy link scrolls to a sample trophy on the same page. All data is fictional and local: no login, Supabase requests, Gemini calls, ballot writes, or real rewards. This page reuses the app’s actual reveal component and returns 404 in production builds, including Vercel deployments.
+Run `npm run dev`, then open `http://localhost:3000/demo/jury`. Choose Winning pick, Co-winners, Losing pick, Didn’t participate, or No votes. Use Stage the reveal followed by Open the verdict for a presentation, or Replay reveal to replay the reward animation. The trophy link scrolls to a sample trophy on the same page. All data is fictional and local: no login, Supabase requests, Gemini calls, ballot writes, or real rewards. This page reuses the app’s actual reveal component and returns 404 in production builds, including Vercel deployments.
 
 ### Choose one caption
 
