@@ -21,7 +21,7 @@ export function Reveal({ reveal, trophyHref = "/jokes/trophies" }: { reveal: Jur
   </section>;
 }
 
-export function DailyJury({ state }: { state: JuryState }) {
+export function DailyJury({ state, signedIn = true }: { state: JuryState; signedIn?: boolean }) {
   const router = useRouter();
   const [ratings, setRatings] = useState<Record<string, number>>(state.ballot?.ratings ?? {});
   const [pickId, setPickId] = useState(state.ballot?.pick_id ?? "");
@@ -64,7 +64,7 @@ export function DailyJury({ state }: { state: JuryState }) {
     <section className="jury-court" aria-labelledby="jury-title">
       <header className="jury-heading"><div><span className="jury-kicker">COMEDY COURT · {juryDate(state.today)}</span><h2 id="jury-title">The floor is yours,<br /><em>your humor.</em></h2><p>Five exhibits. Your honest ratings. One prediction.<br />Return tomorrow to see whether your pick wins a Golden Laugh.</p></div><div className="jury-seal" aria-hidden="true">THE<br /><strong>COMEDY<br />JURY</strong><span>IN SESSION</span></div></header>
       <div className="jury-round-meta"><span>{timeLabel}</span><span>{sealed ? "VERDICT SEALED" : `${rated} / 5 EXHIBITS RATED`}</span></div>
-      {!state.round ? <div className="jury-waiting"><h3>The evidence is still coming in.</h3><p>We need five different images to open the first round. Add a photo below, then check back.</p></div> : <>
+      {!state.round ? <div className="jury-waiting"><h3>The evidence is still coming in.</h3><p>We need five captions to open the first round. Add a photo below, then check back.</p></div> : <>
         <p className="jury-instructions"><strong>01 / Rate what makes you laugh.</strong> Hover over a witness or tap their photo to hear the testimony. Then pick who wins the crowd.</p>
         <div className="courtroom-scene"><div className="courtroom-sign" aria-hidden="true"><span>⚖</span> THE PEOPLE v. BAD JOKES <small>FIVE WITNESSES · ONE VERDICT</small></div><div className="jury-exhibits">{state.entries.map(entry => <article className={`jury-exhibit ${openWitness === entry.caption_id ? "testifying" : ""} ${pickId === entry.caption_id ? "picked-exhibit" : ""}`} key={entry.caption_id}>
           <div className="witness-stage">
@@ -74,8 +74,8 @@ export function DailyJury({ state }: { state: JuryState }) {
             </button>
             <div className="witness-stand" aria-hidden="true"><div className="stand-rail" /><div className="stand-spindles">{[0,1,2,3,4].map(n => <i key={n} />)}</div><div className="stand-plaque">WITNESS {String(entry.position).padStart(2, "0")}</div><div className="stand-base" /></div>
           </div>
-          <div className="jury-exhibit-copy"><div className="jury-rating" role="group" aria-label={`Rate exhibit ${entry.position}`}><button type="button" disabled={locked} aria-pressed={ratings[entry.caption_id] === 1} onClick={() => setRatings(current => ({ ...current, [entry.caption_id]: 1 }))}>↑ Funny</button><button type="button" disabled={locked} aria-pressed={ratings[entry.caption_id] === -1} onClick={() => setRatings(current => ({ ...current, [entry.caption_id]: -1 }))}>↓ Meh</button></div>
-            <label className="jury-pick"><input type="radio" name={`winner-${state.today}`} value={entry.caption_id} checked={pickId === entry.caption_id} disabled={locked} onChange={() => setPickId(entry.caption_id)} /><span>{pickId === entry.caption_id ? "My pick to win ✦" : "Pick to win"}</span></label>
+          <div className="jury-exhibit-copy"><div className="jury-rating" role="group" aria-label={`Rate exhibit ${entry.position}`}><button type="button" disabled={locked} aria-pressed={ratings[entry.caption_id] === 1} onClick={() => signedIn ? setRatings(current => ({ ...current, [entry.caption_id]: 1 })) : router.push("/login")}>↑ Funny</button><button type="button" disabled={locked} aria-pressed={ratings[entry.caption_id] === -1} onClick={() => signedIn ? setRatings(current => ({ ...current, [entry.caption_id]: -1 })) : router.push("/login")}>↓ Meh</button></div>
+            <label className="jury-pick"><input type="radio" name={`winner-${state.today}`} value={entry.caption_id} checked={pickId === entry.caption_id} disabled={locked} onChange={() => signedIn ? setPickId(entry.caption_id) : router.push("/login")} /><span>{pickId === entry.caption_id ? "My pick to win ✦" : "Pick to win"}</span></label>
           </div>
         </article>)}</div><div className="courtroom-floor-label" aria-hidden="true">YOUR SEAT ON THE JURY</div></div>
         <div className={`jury-submit ${sealed ? "is-sealed" : ""}`}>

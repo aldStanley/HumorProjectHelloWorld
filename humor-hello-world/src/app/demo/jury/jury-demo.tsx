@@ -5,8 +5,8 @@ import { Reveal } from "@/app/jokes/daily-jury";
 import { JuryPhoto } from "@/app/jokes/jury-photo";
 import { juryDate, type JuryEntry, type JuryReveal } from "@/lib/jury/types";
 
-const winner: JuryEntry = { round_day: "2026-10-05", caption_id: "demo-winner", position: 1, caption_text: "Why do programmers prefer dark mode? Because light attracts bugs.", picture: "/jokes/joke-3.svg", private_image: false, description: "An illustration from the joke collection" };
-const other: JuryEntry = { ...winner, caption_id: "demo-other", position: 2, caption_text: "Why did the developer go broke? Because they used up all their cache.", picture: "/jokes/joke-1.svg" };
+const winner: JuryEntry = { round_day: "2026-10-05", caption_id: "demo-winner", position: 1, caption_text: "This coffee has attended more 8:40 lectures than I have.", picture: "/jokes/joke-2.svg", private_image: false, description: "An illustration from the joke collection" };
+const other: JuryEntry = { ...winner, caption_id: "demo-other", position: 2, caption_text: "My Columbia meal plan covers this banana. The emotional support is billed separately.", picture: "/jokes/joke-1.svg" };
 const scenarios = ["Winning pick", "Co-winners", "Losing pick", "Didn’t participate", "No votes"] as const;
 type Scenario = typeof scenarios[number];
 

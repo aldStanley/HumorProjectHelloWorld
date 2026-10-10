@@ -14,7 +14,7 @@ export default async function OnboardingPage({ searchParams }: {
   const user = await getUser();
   if (!user) redirect("/login");
   const profile = await getProfile(user.id);
-  if (isProfileComplete(profile)) redirect("/jokes");
+  if (isProfileComplete(profile)) redirect("/");
 
   const { error } = await searchParams;
 
@@ -22,7 +22,7 @@ export default async function OnboardingPage({ searchParams }: {
     <SiteNav />
     <section className="profile-card">
       <p className="eyebrow">ONE LAST STEP</p>
-      <h1>Tell us your name<span>.</span></h1>
+      <h1>Tell us <em>your name.</em></h1>
       <p className="collection-intro">Confirm your details to finish setting up your profile.</p>
       {error && <p className="auth-error" role="alert">{error === "save" ? "We couldn’t save your profile. Please try again." : "Enter a first and last name using 50 characters or fewer."}</p>}
       <form className="profile-form" action={completeProfile}>

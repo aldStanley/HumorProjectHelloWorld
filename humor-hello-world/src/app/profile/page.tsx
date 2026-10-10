@@ -26,7 +26,7 @@ export default async function ProfilePage({ searchParams }: {
     <SiteNav active="profile" />
     <header className="collection-heading profile-heading">
       <p className="eyebrow">YOUR ACCOUNT</p>
-      <h1>Your profile<span>.</span></h1>
+      <h1>Your <em>profile.</em></h1>
       <p className="collection-intro">Keep your name and optional profile photo up to date.</p>
     </header>
     {saved && <p className="success-message" role="status">Your profile has been saved.</p>}

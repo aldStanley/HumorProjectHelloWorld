@@ -11,15 +11,15 @@ export default async function LoginPage({ searchParams }: {
   searchParams: Promise<{ error?: string }>;
 }) {
   const user = await getUser();
-  if (user) redirect(isProfileComplete(await getProfile(user.id)) ? "/jokes" : "/onboarding");
+  if (user) redirect(isProfileComplete(await getProfile(user.id)) ? "/" : "/onboarding");
   const { error } = await searchParams;
   return (
     <main className="collection auth-page">
       <SiteNav />
       <section className="auth-card">
         <p className="eyebrow">A LITTLE LAUGHTER, JUST FOR YOU</p>
-        <h1>Good jokes.<br />Great company<span>.</span></h1>
-        <p className="collection-intro">Sign in with Google to open your private joke collection.</p>
+        <h1>Good jokes.<br /><em>Great company.</em></h1>
+        <p className="collection-intro">Sign in with Google to vote, upload photos, and collect Golden Laughs. Browsing is open to everyone.</p>
         <ul className="auth-benefits" aria-label="What to expect">
           <li>One quick step</li>
           <li>Come back anytime</li>

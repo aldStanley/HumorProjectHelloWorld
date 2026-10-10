@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 
 // Run against a local production build: npm run start, then npm run test:auth.
 const base = process.env.TEST_BASE_URL || 'http://127.0.0.1:3000';
-for (const path of ['/jokes', '/jokes?next=https://example.com', '/profile', '/onboarding']) {
+for (const path of ['/jokes/mine', '/jokes/trophies', '/profile', '/onboarding']) {
   const response = await fetch(base + path, { redirect: 'manual' });
   const body = await response.text();
   assert.equal(response.status, 307);
@@ -10,9 +10,20 @@ for (const path of ['/jokes', '/jokes?next=https://example.com', '/profile', '/o
   assert(!body.includes('joke-card'));
   console.log('PASS signed-out gate:', path);
 }
+for (const path of ['/', '/jokes']) {
+  const response = await fetch(base + path, { redirect: 'manual' });
+  assert.equal(response.status, 200);
+  assert((await response.text()).includes('The punchline board'));
+  console.log('PASS public browsing:', path);
+}
+for (const path of ['/api/votes', '/api/captions', '/api/jury']) {
+  const response = await fetch(base + path, { method: 'POST', headers: { origin: new URL(base).origin, 'content-type': 'application/json' }, body: '{}' });
+  assert.equal(response.status, 401);
+  console.log('PASS authenticated action:', path);
+}
 const login = await fetch(base + '/login');
 assert.equal(login.status, 200);
-assert((await login.text()).includes('Sign in with Google to open'));
+assert((await login.text()).includes('Sign in with Google to vote'));
 console.log('PASS login page');
 
 const cases = [

@@ -60,7 +60,7 @@ end $$;
 reset role;
 set local role anon;
 do $$ begin
-  begin perform 1 from public.jokes; raise exception 'FAIL anonymous caption access'; exception when insufficient_privilege then null; end;
+  perform 1 from public.jokes; -- Published captions are available to visitors.
   begin perform 1 from public.caption_votes; raise exception 'FAIL anonymous vote access'; exception when insufficient_privilege then null; end;
   begin perform public.reserve_caption_image('png'); raise exception 'FAIL anonymous generation'; exception when insufficient_privilege then null; end;
 end $$;

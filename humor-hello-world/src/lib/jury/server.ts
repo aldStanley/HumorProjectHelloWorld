@@ -1,5 +1,5 @@
 import "server-only";
-import { requireUser } from "@/lib/supabase/auth";
+import { getUser, requireUser } from "@/lib/supabase/auth";
 import { createClient } from "@/lib/supabase/server";
 import { juryWinnerIds } from "./types";
 import type { JuryBallot, JuryEntry, JuryRound, JuryState } from "./types";
@@ -15,9 +15,9 @@ async function withPhotos(entries: JuryEntry[]): Promise<JuryEntry[]> {
 }
 
 export async function getJuryState(): Promise<JuryState> {
-  const user = await requireUser();
+  const user = await getUser();
   const client = await createClient();
-  const prepared = await client.rpc("prepare_daily_jury");
+  const prepared = user ? await client.rpc("prepare_daily_jury") : { data: new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date()), error: null };
   if (prepared.error || typeof prepared.data !== "string") {
     console.error("Daily jury preparation failed", prepared.error?.code);
     throw new Error("The daily jury is temporarily unavailable.");
@@ -26,18 +26,18 @@ export async function getJuryState(): Promise<JuryState> {
   const [round, entries, ballot, previous, rewards] = await Promise.all([
     client.from("jury_rounds").select("*").eq("round_day", today).maybeSingle<JuryRound>(),
     client.from("jury_entries").select("*").eq("round_day", today).order("position").returns<JuryEntry[]>(),
-    client.from("jury_ballots").select("ratings,pick_id").eq("round_day", today).eq("user_id", user.id).maybeSingle<JuryBallot>(),
+    user ? client.from("jury_ballots").select("ratings,pick_id").eq("round_day", today).eq("user_id", user.id).maybeSingle<JuryBallot>() : Promise.resolve({ data: null, error: null, count: 0 }),
     client.from("jury_rounds").select("*").lt("round_day", today).not("finalized_at", "is", null).order("round_day", { ascending: false }).limit(1).maybeSingle<JuryRound>(),
-    client.from("golden_laughs").select("round_day", { count: "exact", head: true }).eq("user_id", user.id),
+    user ? client.from("golden_laughs").select("round_day", { count: "exact", head: true }).eq("user_id", user.id) : Promise.resolve({ data: null, error: null, count: 0 }),
   ]);
   if ([round.error, entries.error, ballot.error, previous.error, rewards.error].some(Boolean)) throw new Error("Unable to load the daily jury.");
   let reveal: JuryState["reveal"] = null;
   if (previous.data) {
     const previousRound = previous.data;
     const [myBallot, exhibits, reward] = await Promise.all([
-      client.from("jury_ballots").select("ratings,pick_id").eq("round_day", previousRound.round_day).eq("user_id", user.id).maybeSingle<JuryBallot>(),
+      user ? client.from("jury_ballots").select("ratings,pick_id").eq("round_day", previousRound.round_day).eq("user_id", user.id).maybeSingle<JuryBallot>() : Promise.resolve({ data: null, error: null, count: 0 }),
       client.from("jury_entries").select("*").eq("round_day", previousRound.round_day).returns<JuryEntry[]>(),
-      client.from("golden_laughs").select("round_day").eq("round_day", previousRound.round_day).eq("user_id", user.id).maybeSingle(),
+      user ? client.from("golden_laughs").select("round_day").eq("round_day", previousRound.round_day).eq("user_id", user.id).maybeSingle() : Promise.resolve({ data: null, error: null, count: 0 }),
     ]);
     if (myBallot.error || exhibits.error || reward.error) throw new Error("Unable to load the last verdict.");
     const winnerIds = new Set(juryWinnerIds(previousRound));

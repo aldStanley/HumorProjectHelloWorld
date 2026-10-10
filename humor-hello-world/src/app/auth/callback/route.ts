@@ -39,7 +39,7 @@ export async function POST(request: NextRequest) {
   const { data: profile } = data.user
     ? await client.from("profiles").select("id,first_name,last_name,avatar_path").eq("id", data.user.id).maybeSingle()
     : { data: null };
-  const destination = isProfileComplete(profile) ? "/jokes" : "/onboarding";
+  const destination = isProfileComplete(profile) ? "/" : "/onboarding";
   const response = NextResponse.redirect(new URL(destination, request.url), 303);
   response.headers.set("Cache-Control", "no-store");
   response.cookies.delete("g_csrf_token");

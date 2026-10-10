@@ -8,12 +8,12 @@ export async function signOut() {
   const client = await createClient();
   const { error } = await client.auth.signOut({ scope: "local" });
   if (error) throw new Error("Unable to sign out. Please try again.");
-  redirect("/login");
+  redirect("/");
 }
 
 export async function completeProfile(formData: FormData) {
   await saveProfile(formData, "/onboarding", false);
-  redirect("/jokes");
+  redirect("/");
 }
 
 export async function updateProfile(formData: FormData) {

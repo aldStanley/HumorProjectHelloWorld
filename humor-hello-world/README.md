@@ -45,7 +45,7 @@ npm run test:chain
 
 `test:chain` verifies the real prompt-chain implementation with mocked HTTP responses (no paid calls). `test:captions` checks image signatures, malformed and duplicate model output, signed-out mutation requests, and origin checks. Requires Node 22.6+ for TypeScript stripping. Run `supabase/tests/caption_security.sql` in the SQL Editor after migrating; it checks database ownership, constraints, quota, and anonymous access in a rolled-back transaction. Requires one existing signed-in user and a seeded caption.
 
-Manual end-to-end acceptance: sign in, upload a real photo, choose a suggestion or write a custom joke, then verify exactly one new caption with the photo, vote and reload, switch the vote, then sign in as a second account and verify independent votes. Test image rejection and the missing-key error. In Incognito, `/jokes` must show the app's sign-in gate and mutation requests must be rejected.
+Manual end-to-end acceptance: sign in, upload a real photo, choose a suggestion or write a custom joke, then verify exactly one new caption with the photo, vote and reload, switch the vote, then sign in as a second account and verify independent votes. Test image rejection and the missing-key error. In Incognito, `/` and `/jokes` must show public captions; mutation requests must be rejected.
 
 ## Google sign-in without a client secret
 
@@ -68,9 +68,9 @@ References: [Google redirect flow](https://developers.google.com/identity/gsi/we
 
 - Run `npm run lint` and `npm run build`.
 - Run `npm run start` in one terminal, then `npm run test:auth` in another. The HTTP checks verify the signed-out gate and rejection of missing/mismatched CSRF tokens, unsupported payloads, direct GET callbacks, and callback query strings. Set `TEST_BASE_URL` to test a deployed origin.
-- In a fresh Incognito session, visit `/jokes`: it must redirect to the gated `/login` UI without returning joke content.
+- In a fresh Incognito session, visit `/jokes`: it must show the caption board without requiring sign-in.
 - Complete Google sign-in: the credential must POST to `/auth/callback` without query parameters, then the collection must show your account and a Sign out button.
-- Reload to check session persistence. Sign out, then revisit `/jokes` to confirm the gate returns.
+- Reload to check session persistence. Sign out, then revisit `/jokes` to confirm browsing still works and voting requests sign-in.
 
 `getUser()` verifies identity with Supabase before protected data is fetched. The Next.js proxy refreshes sessions and prevents shared caching. Sign-out uses a same-origin Server Action.
 
@@ -86,11 +86,11 @@ Apply `supabase/migrations/20261004000100_daily_comedy_jury.sql` after the capti
 
 Apply `supabase/migrations/20261006000100_jury_co_winners.sql` to enable co-winners and award missing trophies for past tied rounds.
 
-Every member receives the same five daily exhibits, drawn from different images and favoring captions not recently shown. Members rate all five Funny (+1) or Meh (-1), separately predict the crowd's winner, then seal one immutable ballot. Daily ratings are separate from the optional caption board. Other people's ballots and daily standings stay hidden until closing.
+Every member receives the same five daily exhibits, favoring captions not recently shown, with repeated photos allowed. Members rate all five Funny (+1) or Meh (-1), separately predict the crowd's winner, then seal one immutable ballot. Daily ratings are separate from the optional caption board. Other people's ballots and daily standings stay hidden until closing.
 
 Rounds close at midnight in `America/New_York`. The first authenticated visit after closing finalizes results and automatically awards one Golden Laugh to each winning predictor, even if that person misses the next day. No scheduled job is required. Highest rating score wins; all entries tied for the highest score are co-winners. Picking any co-winner earns one Golden Laugh for that round. A day without ballots has no winner. The next visit shows the latest completed round, and `/jokes/trophies` preserves earned captions, photos, and dates. Deleted source photos display a fallback.
 
-Run `npm run test:jury` for request validation, or `TEST_BASE_URL=http://localhost:3000 npm run test:jury` to include signed-out/origin HTTP checks. Run `supabase/tests/daily_jury.sql` in Supabase SQL Editor for rolled-back integration tests of ballot validation, ownership, sealing, cutoffs, winner selection, ties, quiet days, reward idempotency, anonymous access, and daylight-saving boundaries. Requires five eligible images. All test identities and fixtures are rolled back.
+Run `npm run test:jury` for request validation, or `TEST_BASE_URL=http://localhost:3000 npm run test:jury` to include signed-out/origin HTTP checks. Run `supabase/tests/daily_jury.sql` in Supabase SQL Editor for rolled-back integration tests of ballot validation, ownership, sealing, cutoffs, winner selection, ties, quiet days, reward idempotency, anonymous access, and daylight-saving boundaries. Requires five eligible captions. All test identities and fixtures are rolled back.
 
 ### Local winner-reveal demonstration
 
@@ -99,3 +99,23 @@ Run `npm run dev`, then open `http://localhost:3000/demo/jury`. Choose Winning p
 ### Choose one caption
 
 Apply `supabase/migrations/20261005000100_caption_selection.sql` before deploying the selection flow. Generation reserves and uploads the image, then saves three private suggestions with its description. `/api/captions/publish` publishes one selected or custom text (1–240 characters). Row locking and idempotent retries prevent duplicate publication. Unchosen drafts stay unpublished; a page reload currently abandons the in-browser selection, and administrators may clean up abandoned images later. Existing three-caption uploads are preserved. The legacy publication RPC remains during rollout for the previous deployed app. Run `supabase/tests/caption_selection.sql` for rolled-back database checks.
+
+### Public browsing and campus captions
+
+Before deploying this version, apply `supabase/migrations/20261009000100_public_browsing_local_captions.sql`. The home page includes the jury and caption board. Anonymous visitors can read published captions, photos, scores, and existing jury rounds. Draft images, individual votes, ballots, profiles, and trophies retain their private permissions. Round preparation and settlement still run on authenticated visits. Clicking vote, predict, or upload requests Google sign-in.
+
+This migration replaces the six original assignment fixtures and their jury caption snapshots with Columbia/NYC captions. It preserves caption IDs, vote totals, winning picks, and trophies. Existing user-uploaded captions are unchanged.
+
+Caption Lab is the main entrance at `/`; `/jokes` remains a public compatibility URL. Navigation, Google sign-in completion, onboarding completion, and sign-out return to the home page. The Caption Lab charcoal/acid-yellow palette and editorial typography are shared by sign-in, profile, onboarding, loading, and recovery screens.
+
+The public-browsing migration was applied to the connected Supabase project through SQL Editor on October 9, 2026, and `supabase/tests/public_browsing.sql` passed there. Migration history in that database only tracks the original September migrations; subsequent migrations were applied manually. Do not rerun the public policy creation statements on that project. Other environments still need the migration before this app version is deployed.
+
+### Repeated photos
+
+Photo uploads do not check image hashes, original filenames, or matching content; every upload receives a new storage path. Apply `supabase/migrations/20261010000100_allow_repeated_jury_photos.sql` to remove the daily jury’s one-caption-per-image filter. Future rounds may include multiple captions from the same photo. Existing rounds retain their selected exhibits. Run `supabase/tests/repeated_jury_photos.sql` to verify this in a rolled-back transaction.
+
+The repeated-photo migration was applied to the connected Supabase project on October 10, 2026. The five-captions/one-photo regression test passed with all fixture changes rolled back.
+
+### Board-first home page
+
+The home page uses a compact heading and an always-visible upload studio above the public Punchline board. Funny/Meh caption voting is the main experience. The optional daily jury now lives at `/jokes/jury`, linked between the upload studio and the board; its verdict no longer occupies the home page. Cards share the charcoal palette and omit decorative stamps, photo labels, and numbering. Upload preview, generation, selection, and publication remain in the studio.

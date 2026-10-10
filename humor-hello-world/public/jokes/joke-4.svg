@@ -1,10 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title description">
-  <title id="title">JavaScript joke illustration</title>
-  <desc id="description">A cheerful pair of code brackets on a golden background.</desc>
-  <rect width="800" height="600" fill="#f4cf4e"/>
-  <path d="M305 170 185 300l120 130M495 170l120 130-120 130" fill="none" stroke="#101b30" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="m445 130-90 340" stroke="#101b30" stroke-width="24" stroke-linecap="round"/>
-  <circle cx="365" cy="285" r="10" fill="#101b30"/>
-  <circle cx="435" cy="285" r="10" fill="#101b30"/>
-  <path d="M365 335c20 22 50 22 70 0" fill="none" stroke="#101b30" stroke-width="12" stroke-linecap="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title"><title id="title">The 1 train</title><rect width="800" height="600" fill="#e3dcc5"/><rect x="130" y="100" width="540" height="360" rx="50" fill="#b8c4c1"/><rect x="175" y="160" width="190" height="150" rx="15" fill="#263b34"/><rect x="435" y="160" width="190" height="150" rx="15" fill="#263b34"/><circle cx="400" cy="365" r="45" fill="#cf3434"/><text x="400" y="387" text-anchor="middle" font-size="65" fill="white">1</text><path d="M230 480h340M200 520h400" stroke="#263b34" stroke-width="20"/></svg>

@@ -17,7 +17,7 @@ export async function proxy(request: NextRequest) {
     },
   });
   const { data: { user } } = await client.auth.getUser();
-  if (!user && (request.nextUrl.pathname.startsWith("/jokes") || request.nextUrl.pathname.startsWith("/profile") || request.nextUrl.pathname.startsWith("/onboarding"))) {
+  if (!user && ((request.nextUrl.pathname.startsWith("/jokes/mine") || request.nextUrl.pathname.startsWith("/jokes/trophies")) || request.nextUrl.pathname.startsWith("/profile") || request.nextUrl.pathname.startsWith("/onboarding"))) {
     const redirect = NextResponse.redirect(new URL("/login", request.url));
     response.cookies.getAll().forEach((cookie) => redirect.cookies.set(cookie));
     response = redirect;

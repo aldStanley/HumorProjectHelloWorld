@@ -26,7 +26,7 @@ try {
     assert.equal(options.headers['x-goog-api-key'], 'test-key-not-real');
     const body = JSON.parse(options.body); calls.push(body);
     assert.equal(body.generationConfig.maxOutputTokens,1000);
-    const text = calls.length === 1 ? description : JSON.stringify({captions:['Head of keyboard operations.','This meeting could have been a nap.','The intern has deleted gravity.']});
+    const text = calls.length === 1 ? description : JSON.stringify({captions:['Columbia’s newest TA grades exclusively in paw prints.','In NYC, even the cat needs coffee before the 1 train.','Columbia has replaced the Core with mandatory keyboard naps.']});
     return Response.json({candidates:[{finishReason:'STOP',content:{parts:[{text:'Internal reasoning',thought:true},{text}]}}]});
   };
   const result = await mod.exports.generateCaptions(Buffer.from([255,216,255]),'image/jpeg');
@@ -39,13 +39,26 @@ try {
   assert(!JSON.stringify(calls[1]).includes('inlineData'));
   assert.equal(result.captions.length,3);
   assert.equal(result.description,description);
+  const writerPrompt = calls[1].systemInstruction.parts[0].text;
+  assert(writerPrompt.includes('Every caption must explicitly include Columbia, NYC, or New York City'));
+  // A valid JSON response with just one generic option must never reach the user.
+  let offTopicCalls = 0;
+  globalThis.fetch = async () => {
+    const text = ++offTopicCalls % 2 === 1 ? description : JSON.stringify({captions:[
+      'Columbia’s newest TA grades exclusively in paw prints.',
+      'This meeting could have been a nap.',
+      'In NYC, even the cat needs coffee before the 1 train.',
+    ]});
+    return Response.json({candidates:[{finishReason:'STOP',content:{parts:[{text}]}}]});
+  };
+  await assert.rejects(mod.exports.generateCaptions(Buffer.from('x'),'image/png'),/Columbia\/NYC theme/);
   globalThis.fetch = async () => Response.json({candidates:[{finishReason:'MAX_TOKENS',content:{parts:[{text:'partial'}]}}]});
   await assert.rejects(mod.exports.generateCaptions(Buffer.from('x'),'image/png'),/could not finish/);
   globalThis.fetch = async () => Response.json({promptFeedback:{blockReason:'SAFETY'}});
   await assert.rejects(mod.exports.generateCaptions(Buffer.from('x'),'image/png'),/could not caption/);
   globalThis.fetch = async () => new Response('', {status:429});
   await assert.rejects(mod.exports.generateCaptions(Buffer.from('x'),'image/png'),/request limit/);
-  console.log('PASS two-call prompt chain, description-only handoff, incomplete output, and refusal handling');
+  console.log('PASS two-call prompt chain, Columbia/NYC requirement, off-topic rejection, description-only handoff, incomplete output, and refusal handling');
 } finally {
   globalThis.fetch = originalFetch;
   if (originalKey === undefined) delete process.env.GEMINI_API_KEY; else process.env.GEMINI_API_KEY = originalKey;
