@@ -1,11 +1,11 @@
 # The Humor Project
 
-Next.js app with a Google-gated, Supabase-backed joke collection at `/jokes`.
+Next.js app with a public, Supabase-backed Caption Lab at `/`. Google sign-in is required for voting and uploading.
 
 ## Local setup
 
 1. Run `npm ci` in this directory.
-2. Copy `.env.example` to `.env.local` and set the Supabase project URL, publishable key, and your Google OAuth client ID.
+2. Copy `.env.example` to `.env.local` and set the Supabase project URL and publishable key.
 3. Configure Google and Supabase as described below.
 4. Run `npm run dev` and open http://localhost:3000/jokes.
 
@@ -47,38 +47,41 @@ npm run test:chain
 
 Manual end-to-end acceptance: sign in, upload a real photo, choose a suggestion or write a custom joke, then verify exactly one new caption with the photo, vote and reload, switch the vote, then sign in as a second account and verify independent votes. Test image rejection and the missing-key error. In Incognito, `/` and `/jokes` must show public captions; mutation requests must be rejected.
 
-## Google sign-in without a client secret
+## Google sign-in across Vercel deployments
 
-This app uses Google Identity Services in **redirect** mode. Google posts an ID token to the application's `/auth/callback`. The server validates Google's double-submit CSRF cookie, calls `supabase.auth.signInWithIdToken`, saves the Supabase session in cookies via `@supabase/ssr`, and redirects to `/jokes`.
+Sign-in uses Supabase OAuth with PKCE. The browser starts `signInWithOAuth` with its current origin plus `/auth/callback`. Google always returns to Supabase's fixed callback; Supabase returns a code to the original deployment. The app exchanges that code using the same-host verifier cookie, saves session cookies, and sends the user home or to onboarding. No Google secret belongs in this app, `.env.local`, or Vercel.
 
-No Google client secret is used or stored. This is not the Supabase-hosted OAuth authorization-code flow.
+One-time configuration:
 
-1. In Google Cloud, configure the OAuth consent screen and create an OAuth client of type **Web application** for this project. Only basic sign-in identity is needed.
-2. Add each app origin to **Authorized JavaScript origins**, including `http://localhost:3000`, the production origin, and the exact deployment-specific Vercel origin you will submit.
-3. For each origin, add exactly `<origin>/auth/callback` to **Authorized redirect URIs**. No query parameters, trailing slash, or alternate callback route. For example: `http://localhost:3000/auth/callback`.
-4. In Supabase → Authentication → Sign In / Providers → Google, enable Google and register the Google client ID. Leave the client secret empty for ID-token sign-in. Keep nonce checking and email verification safeguards at their defaults. Apply the Assignment 4 RLS migration described above.
-5. This project's public Google client ID is configured in `src/lib/google.ts`. For a different client, set `NEXT_PUBLIC_GOOGLE_CLIENT_ID` locally and in Vercel. Redeploy after changing it because Next.js embeds this public value during the build.
-6. This app requests only basic Google identity. Google's [basic-identity exception](https://support.google.com/cloud/answer/15549945?hl=en) allows sign-in without a test-user allowlist even with a Testing audience. Revisit publishing and verification requirements if adding Google API scopes.
+1. In the existing Google Cloud Web application OAuth client, add this **Authorized redirect URI**: `https://mvxvwvjxokhrtlprtpwq.supabase.co/auth/v1/callback`. Preserve existing entries if older immutable deployments still use direct Google sign-in.
+2. In Supabase → Authentication → Sign In / Providers → Google, enable Google and configure the existing web client ID and its client secret. Keep nonce checks and email safeguards enabled. The secret stays in Supabase.
+3. In Supabase → Authentication → URL Configuration, set Site URL to the production home URL. Add these **Redirect URLs**:
+   - `http://localhost:3000/auth/callback`
+   - `https://humor-project-hello-world-aldstanleys-projects.vercel.app/auth/callback`
+   - `https://humor-project-hello-world-eta.vercel.app/auth/callback` (existing production alias).
+   - `https://humor-project-hello-world-*-aldstanleys-projects.vercel.app/auth/callback`
 
-The callback URL is built from the browser's current origin, so signing in on a deployment-specific URL keeps the session on that deployment. Google origins and redirect URIs must explicitly include that deployment hostname.
+The wildcard is restricted to this Vercel project and team. New commit deployments using this flow need no additional Google registration. Old immutable deployments keep their old implementation. If the Vercel project/team slug or Supabase project changes, update the corresponding callback configuration.
 
-References: [Google redirect flow](https://developers.google.com/identity/gsi/web/guides/integrate), [Supabase Google ID-token sign-in](https://supabase.com/docs/guides/auth/social-login/auth-google), [Supabase SSR](https://supabase.com/docs/guides/auth/server-side/creating-a-client).
+If Google accepts the redirect but Supabase reports `invalid_client` / `The provided client secret is invalid`, correct the Google provider secret in Supabase. Google's console may not reveal previously created secrets; add a new secret to the same OAuth client if needed, then store it in Supabase. Never commit a secret or place it in a `NEXT_PUBLIC_` variable.
+
+References: [Supabase Google OAuth](https://supabase.com/docs/guides/auth/social-login/auth-google), [Supabase redirect wildcards](https://supabase.com/docs/guides/auth/redirect-urls), [Supabase SSR](https://supabase.com/docs/guides/auth/server-side/creating-a-client).
 
 ## Validation
 
-- Run `npm run lint` and `npm run build`.
-- Run `npm run start` in one terminal, then `npm run test:auth` in another. The HTTP checks verify the signed-out gate and rejection of missing/mismatched CSRF tokens, unsupported payloads, direct GET callbacks, and callback query strings. Set `TEST_BASE_URL` to test a deployed origin.
+- Run `npm run lint`, `npm run build`, and `npm run test:oauth`. OAuth tests exercise the real Supabase SSR exchange with mocked HTTP responses, checking verifier handling, session cookies, home/onboarding redirects, and failed codes.
+- Run `npm run start` in one terminal, then `npm run test:auth` in another. The HTTP checks verify public browsing, authenticated actions, and rejection of missing/invalid OAuth codes, provider errors, and obsolete POST callbacks. Set `TEST_BASE_URL` to test a deployed origin.
 - In a fresh Incognito session, visit `/jokes`: it must show the caption board without requiring sign-in.
-- Complete Google sign-in: the credential must POST to `/auth/callback` without query parameters, then the collection must show your account and a Sign out button.
+- Complete Google sign-in: Google must return through the fixed Supabase callback and then GET the starting deployment’s `/auth/callback?code=…`; the home page must show your account and a Sign out button.
 - Reload to check session persistence. Sign out, then revisit `/jokes` to confirm browsing still works and voting requests sign-in.
 
 `getUser()` verifies identity with Supabase before protected data is fetched. The Next.js proxy refreshes sessions and prevents shared caching. Sign-out uses a same-origin Server Action.
 
 ## Vercel and submission
 
-Use Next.js with Root Directory `humor-hello-world`. The existing Supabase integration supplies the Supabase variables for Production. The registered Google client ID is included in the public app configuration; `NEXT_PUBLIC_GOOGLE_CLIENT_ID` is an optional override.
+Use Next.js with Root Directory `humor-hello-world`. The existing Supabase integration supplies the Supabase variables for Production. Google client credentials are configured in Supabase, not Vercel. Ensure the public Supabase variables are also available to Preview deployments.
 
-Deployment Protection must allow public access so Incognito visitors can reach the app's own Google sign-in gate. Submit the **deployment-specific URL** associated with the final Git commit (not the moving production or branch alias), ending in `/jokes`. Register that deployment origin and its exact `/auth/callback` URI in Google before testing and submitting.
+Deployment Protection must allow public access so Incognito visitors can reach the app's own Google sign-in gate. Submit the **deployment-specific URL** associated with the final Git commit (not the moving production or branch alias), ending in `/jokes`. The Supabase redirect pattern above covers new commit deployment URLs; test sign-in on the exact URL you submit.
 
 ## Daily Comedy Jury
 

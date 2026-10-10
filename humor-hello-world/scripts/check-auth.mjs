@@ -23,7 +23,10 @@ for (const path of ['/api/votes', '/api/captions', '/api/jury']) {
 }
 const login = await fetch(base + '/login');
 assert.equal(login.status, 200);
-assert((await login.text()).includes('Sign in with Google to vote'));
+const loginHtml = await login.text();
+assert(loginHtml.includes('Sign in with Google to vote'));
+assert(loginHtml.includes('Continue with Google'));
+assert(!loginHtml.includes('accounts.google.com/gsi/client'));
 console.log('PASS login page');
 
 const cases = [
@@ -50,4 +53,15 @@ const query = await fetch(base + '/auth/callback?next=/jokes', {
 });
 assert.equal(query.status, 303);
 assert.equal(new URL(query.headers.get('location'), base).pathname, '/login');
-console.log('PASS callback query string rejected');
+console.log('PASS obsolete callback POST rejected');
+
+for (const query of ['?code=invalid-code', '?error=access_denied', '?next=https://example.com', '?code=invalid-code&next=https://example.com']) {
+  const response = await fetch(base + '/auth/callback' + query, { redirect: 'manual' });
+  assert.equal(response.status, 303);
+  const location = new URL(response.headers.get('location'), base);
+  assert.equal(location.origin, new URL(base).origin);
+  assert.equal(location.pathname, '/login');
+  assert.equal(location.search, '?error=signin');
+  assert.equal(response.headers.get('cache-control'), 'no-store');
+  console.log('PASS OAuth callback rejection:', query);
+}
