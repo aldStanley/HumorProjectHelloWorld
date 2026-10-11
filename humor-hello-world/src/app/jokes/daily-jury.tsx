@@ -26,7 +26,6 @@ export function DailyJury({ state, signedIn = true }: { state: JuryState; signed
   const router = useRouter();
   const [pickId, setPickId] = useState(state.ballot?.pick_id ?? "");
   const [sealed, setSealed] = useState<JuryBallot | null>(state.ballot);
-  const [openWitness, setOpenWitness] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const [remaining, setRemaining] = useState<number | null>(null);
@@ -64,13 +63,13 @@ export function DailyJury({ state, signedIn = true }: { state: JuryState; signed
       <header className="jury-heading"><div><span className="jury-kicker">COMEDY COURT · {juryDate(state.today)}</span><h2 id="jury-title">The floor is yours,<br /><em>your humor.</em></h2><p>Five exhibits. One joke. One vote.<br />Choose your favorite and return tomorrow to see whether it wins a Golden Laugh.</p></div><div className="jury-seal" aria-hidden="true">THE<br /><strong>COMEDY<br />JURY</strong><span>IN SESSION</span></div></header>
       <div className="jury-round-meta"><span>{timeLabel}</span><span>{sealed ? "VERDICT SEALED" : pickId ? "1 JOKE SELECTED" : "CHOOSE 1 JOKE"}</span></div>
       {!state.round ? <div className="jury-waiting"><h3>The evidence is still coming in.</h3><p>We need five captions to open the first round. Add a photo below, then check back.</p></div> : <>
-        <p className="jury-instructions"><strong>01 / Choose the joke that makes you laugh.</strong> Hover over a witness or tap their photo to hear the testimony. You can select only one joke.</p>
-        <div className="courtroom-scene"><div className="courtroom-sign" aria-hidden="true"><span>⚖</span> THE PEOPLE v. BAD JOKES <small>FIVE WITNESSES · ONE VERDICT</small></div><div className="jury-exhibits">{state.entries.map(entry => <article className={`jury-exhibit ${openWitness === entry.caption_id ? "testifying" : ""} ${pickId === entry.caption_id ? "picked-exhibit" : ""}`} key={entry.caption_id}>
+        <p className="jury-instructions"><strong>01 / Choose the joke that makes you laugh.</strong> Read all five punchlines below, then choose one joke.</p>
+        <div className="courtroom-scene"><div className="courtroom-sign" aria-hidden="true"><span>⚖</span> THE PEOPLE v. BAD JOKES <small>FIVE WITNESSES · ONE VERDICT</small></div><div className="jury-exhibits">{state.entries.map(entry => <article className={`jury-exhibit ${pickId === entry.caption_id ? "picked-exhibit" : ""}`} key={entry.caption_id}>
+          <div className="witness-testimony" id={`testimony-${entry.caption_id}`}><span>THE WITNESS SAYS…</span><p>“{entry.caption_text}”</p></div>
           <div className="witness-stage">
-            <div className="witness-testimony" id={`testimony-${entry.caption_id}`}><span>THE WITNESS SAYS…</span><p>“{entry.caption_text}”</p></div>
-            <button type="button" className="witness-portrait" aria-label={`Hear witness ${entry.position}: ${entry.caption_text}`} aria-pressed={openWitness === entry.caption_id} onClick={() => setOpenWitness(current => current === entry.caption_id ? null : entry.caption_id)}>
+            <div className="witness-portrait">
               <JuryPhoto src={entry.picture} alt={entry.description} />
-            </button>
+            </div>
             <div className="witness-stand" aria-hidden="true"><div className="stand-rail" /><div className="stand-spindles">{[0,1,2,3,4].map(n => <i key={n} />)}</div><div className="stand-plaque">WITNESS {String(entry.position).padStart(2, "0")}</div><div className="stand-base" /></div>
           </div>
           <div className="jury-exhibit-copy"><CaptionSourceTag source={entry.caption_source} />
