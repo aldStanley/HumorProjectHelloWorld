@@ -5,9 +5,13 @@ import { juryWinnerIds } from "./types";
 import type { JuryBallot, JuryEntry, JuryRound, JuryState } from "./types";
 
 async function withPhotos(entries: JuryEntry[]): Promise<JuryEntry[]> {
+  if (!entries.length) return entries;
+  const client = await createClient();
+  const { data: sources, error: sourceError } = await client.from("jokes").select("id,caption_source").in("id", [...new Set(entries.map(entry => entry.caption_id))]);
+  if (sourceError) throw new Error("Unable to load caption sources.");
+  entries = entries.map(entry => ({ ...entry, caption_source: sources?.find(joke => joke.id === entry.caption_id)?.caption_source ?? "unknown" }));
   const paths = [...new Set(entries.filter(entry => entry.private_image).map(entry => entry.picture))];
   if (!paths.length) return entries;
-  const client = await createClient();
   const { data, error } = await client.storage.from("caption-images").createSignedUrls(paths, 3600);
   if (error) throw new Error("Unable to load jury photos.");
   const urls = new Map(data.map(image => [image.path, image.signedUrl]));

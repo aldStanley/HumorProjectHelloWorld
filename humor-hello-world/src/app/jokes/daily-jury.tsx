@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { juryDate, type JuryBallot, type JuryReveal, type JuryState } from "@/lib/jury/types";
 import { JuryPhoto } from "./jury-photo";
+import { CaptionSourceTag } from "./caption-source";
 
 export function Reveal({ reveal, trophyHref = "/jokes/trophies" }: { reveal: JuryReveal; trophyHref?: string }) {
   const { winners, pick, round, earned, support } = reveal;
@@ -14,7 +15,7 @@ export function Reveal({ reveal, trophyHref = "/jokes/trophies" }: { reveal: Jur
     <div className="verdict-art"><JuryPhoto src={(earned ? pick : null)?.picture ?? winners[0].picture} alt={(earned ? pick : null)?.description ?? winners[0].description} /><span className="verdict-ribbon">{tied ? "THE JURY’S CO-WINNERS" : "THE JURY’S WINNER"}</span></div>
     <div className="verdict-copy"><span className="jury-kicker">THE VERDICT IS IN · {juryDate(round.round_day)}</span>
       <h2 id="verdict-title">{earned ? <>You called it! <span aria-hidden="true">✦</span></> : pick ? "The jury had other ideas." : "The crowd has spoken."}</h2>
-      {tied ? <><p>{winners.length} jokes tied for the highest score. They share the win.</p><div className="verdict-co-winners">{winners.map(winner => <article className="verdict-co-winner" key={winner.caption_id}><div className="co-winner-photo"><JuryPhoto src={winner.picture} alt={winner.description} /></div><div><span className="jury-kicker">EXHIBIT {String(winner.position).padStart(2, "0")} · CO-WINNER</span><blockquote>“{winner.caption_text}”</blockquote></div></article>)}</div></> : <blockquote>“{winners[0].caption_text}”</blockquote>}
+      {tied ? <><p>{winners.length} jokes tied for the highest score. They share the win.</p><div className="verdict-co-winners">{winners.map(winner => <article className="verdict-co-winner" key={winner.caption_id}><div className="co-winner-photo"><JuryPhoto src={winner.picture} alt={winner.description} /></div><div><span className="jury-kicker">EXHIBIT {String(winner.position).padStart(2, "0")} · CO-WINNER</span><CaptionSourceTag source={winner.caption_source} /><blockquote>“{winner.caption_text}”</blockquote></div></article>)}</div></> : <><CaptionSourceTag source={winners[0].caption_source} /><blockquote>“{winners[0].caption_text}”</blockquote></>}
       {earned ? <><p className="golden-award"><span aria-hidden="true">✹</span> +1 Golden Laugh</p><p>{tied ? "Your pick is a co-winner." : "Your pick won the crowd over."} This joke now has a place in your collection.</p><Link className="jury-text-link" href={trophyHref}>See your trophy →</Link></> : pick ? <p>You backed “{pick.caption_text}”<br /><strong>{support}% of the jury picked it too.</strong> New evidence awaits below.</p> : <p>You weren’t on this jury. Take your seat in today’s round below.</p>}
       <small>{round.ballot_count} sealed {round.ballot_count === 1 ? "ballot" : "ballots"} · {tied ? "Co-winners" : "Winner"} chosen by jury votes</small>
     </div>
@@ -72,7 +73,7 @@ export function DailyJury({ state, signedIn = true }: { state: JuryState; signed
             </button>
             <div className="witness-stand" aria-hidden="true"><div className="stand-rail" /><div className="stand-spindles">{[0,1,2,3,4].map(n => <i key={n} />)}</div><div className="stand-plaque">WITNESS {String(entry.position).padStart(2, "0")}</div><div className="stand-base" /></div>
           </div>
-          <div className="jury-exhibit-copy">
+          <div className="jury-exhibit-copy"><CaptionSourceTag source={entry.caption_source} />
             <label className="jury-pick"><input type="radio" name={`winner-${state.today}`} value={entry.caption_id} checked={pickId === entry.caption_id} disabled={locked} onChange={() => signedIn ? setPickId(entry.caption_id) : router.push("/login")} /><span>{pickId === entry.caption_id ? "My vote ✦" : "Vote for this joke"}</span></label>
           </div>
         </article>)}</div><div className="courtroom-floor-label" aria-hidden="true">YOUR SEAT ON THE JURY</div></div>

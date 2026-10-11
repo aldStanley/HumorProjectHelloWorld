@@ -126,3 +126,9 @@ The home page uses a compact heading and an always-visible upload studio above t
 ### One joke vote per daily jury
 
 Apply `supabase/migrations/20261010000200_single_jury_vote.sql` before deploying this change. The jury now offers one radio choice and one sealed vote per user per daily round. The API constructs the single-vote payload, and the database rejects multiple joke votes and repeat submissions. Existing ballots in unfinalized rounds become a single vote for their saved pick. Finalized results and earned trophies remain unchanged. Run `supabase/tests/single_jury_vote.sql` to verify database enforcement in a rolled-back transaction.
+
+## Caption source tags
+
+Apply `supabase/migrations/20261010000300_caption_source.sql` before deploying this version. Published AI suggestions show **AI-generated**; the custom-writing option shows **Human-written**. The database derives `jokes.caption_source` from saved suggestions during publication, so the tag also works with existing app versions. Existing uploaded jokes are backfilled using their stored suggestions; old AI-only publications are marked AI. Imported jokes with no source record stay unlabeled rather than being assumed human-written. Tags appear in the upload choices, punchline board, My creations, daily jury, and trophies.
+
+Run `supabase/tests/caption_source.sql` in the SQL editor to check suggestion/custom provenance, legacy publication, retries, and unknown sources. Test data rolls back.

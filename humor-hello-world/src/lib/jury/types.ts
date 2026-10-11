@@ -1,3 +1,5 @@
+import type { CaptionSource } from "@/app/jokes/caption-source";
+
 export type JuryEntry = {
   round_day: string;
   caption_id: string;
@@ -6,6 +8,7 @@ export type JuryEntry = {
   picture: string;
   private_image: boolean;
   description: string;
+  caption_source?: CaptionSource;
 };
 export type JuryResult = { caption_id: string; position: number; score: number; funny_votes: number; picks: number };
 export type JuryRound = { round_day: string; closes_at: string; finalized_at: string | null; winner_id: string | null; winner_ids?: string[]; ballot_count: number; results: JuryResult[] | null };
