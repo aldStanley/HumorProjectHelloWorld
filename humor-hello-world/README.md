@@ -20,7 +20,7 @@ The `/jokes` page now combines a photo upload studio with a caption voting board
    Keep the Google AI Studio project on Free Tier with billing disabled to avoid API charges. The app does not enable billing or fall back to another provider. Quota exhaustion returns an error. Google may use free-tier inputs and outputs to improve its products.
 3. Restart/redeploy after adding the key. If the key is missing, the upload endpoint reports an actionable configuration error; it never pretends to generate captions.
 
-The first [Gemini API](https://ai.google.dev/gemini-api/docs/image-understanding) call describes the uploaded image. A separate call receives only that description and returns three captions using [structured outputs](https://ai.google.dev/gemini-api/docs/structured-output). The server validates and saves a private draft. A separate authenticated publication request saves exactly one selected or custom caption atomically. No service-role key is required.
+The first [Gemini API](https://ai.google.dev/gemini-api/docs/image-understanding) call describes the uploaded image. A separate call receives only that description and returns three captions using [structured outputs](https://ai.google.dev/gemini-api/docs/structured-output). The writer is prompted to generate Columbia campus or NYC jokes using natural local references. There is no theme keyword filter or automatic retry based on topic; the server checks caption format and saves a private draft. A separate authenticated publication request saves exactly one selected or custom caption atomically. No service-role key is required.
 
 ### Data and security
 

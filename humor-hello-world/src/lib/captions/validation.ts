@@ -18,13 +18,3 @@ export function parseCaptions(text: string): string[] {
   if (new Set(captions).size !== 3) throw new Error("The writer repeated itself. Please try again.");
   return captions;
 }
-
-// Generated suggestions require an explicit local reference in every option.
-// Keep the general parser separate: user-written captions are still free-form.
-export function parseCampusCaptions(text: string): string[] {
-  const captions = parseCaptions(text);
-  if (captions.some(caption => !/\b(?:Columbia|NYC|New York City)\b/i.test(caption))) {
-    throw new Error("The writer missed the Columbia/NYC theme. Please generate captions again.");
-  }
-  return captions;
-}
