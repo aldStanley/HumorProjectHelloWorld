@@ -89,7 +89,7 @@ Apply `supabase/migrations/20261004000100_daily_comedy_jury.sql` after the capti
 
 Apply `supabase/migrations/20261006000100_jury_co_winners.sql` to enable co-winners and award missing trophies for past tied rounds.
 
-Every member receives the same five daily exhibits, favoring captions not recently shown, with repeated photos allowed. Members rate all five Funny (+1) or Meh (-1), separately predict the crowd's winner, then seal one immutable ballot. Daily ratings are separate from the optional caption board. Other people's ballots and daily standings stay hidden until closing.
+Every member receives the same five daily exhibits, favoring captions not recently shown, with repeated photos allowed. Members choose one joke and seal one immutable vote per daily round. Each vote adds one point only to that joke. Daily votes are separate from the optional caption board. Other people's ballots and daily standings stay hidden until closing.
 
 Rounds close at midnight in `America/New_York`. The first authenticated visit after closing finalizes results and automatically awards one Golden Laugh to each winning predictor, even if that person misses the next day. No scheduled job is required. Highest rating score wins; all entries tied for the highest score are co-winners. Picking any co-winner earns one Golden Laugh for that round. A day without ballots has no winner. The next visit shows the latest completed round, and `/jokes/trophies` preserves earned captions, photos, and dates. Deleted source photos display a fallback.
 
@@ -122,3 +122,7 @@ The repeated-photo migration was applied to the connected Supabase project on Oc
 ### Board-first home page
 
 The home page uses a compact heading and an always-visible upload studio above the public Punchline board. Funny/Meh caption voting is the main experience. The optional daily jury now lives at `/jokes/jury`, linked between the upload studio and the board; its verdict no longer occupies the home page. Cards share the charcoal palette and omit decorative stamps, photo labels, and numbering. Upload preview, generation, selection, and publication remain in the studio.
+
+### One joke vote per daily jury
+
+Apply `supabase/migrations/20261010000200_single_jury_vote.sql` before deploying this change. The jury now offers one radio choice and one sealed vote per user per daily round. The API constructs the single-vote payload, and the database rejects multiple joke votes and repeat submissions. Existing ballots in unfinalized rounds become a single vote for their saved pick. Finalized results and earned trophies remain unchanged. Run `supabase/tests/single_jury_vote.sql` to verify database enforcement in a rolled-back transaction.

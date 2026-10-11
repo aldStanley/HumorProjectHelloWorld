@@ -17,15 +17,12 @@ export function juryDate(day: string) {
   return new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(`${day}T12:00:00Z`));
 }
 
-export function validateBallot(value: unknown): value is { roundDay: string; ratings: Record<string, number>; pickId: string } {
-  if (!value || typeof value !== "object") return false;
+export function validateBallot(value: unknown): value is { roundDay: string; pickId: string } {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return false;
   const body = value as Record<string, unknown>;
   const uuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
   if (typeof body.roundDay !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(body.roundDay) || Number.isNaN(Date.parse(body.roundDay))) return false;
-  if (typeof body.pickId !== "string" || !uuid.test(body.pickId)) return false;
-  if (!body.ratings || typeof body.ratings !== "object" || Array.isArray(body.ratings)) return false;
-  const ratings = Object.entries(body.ratings);
-  return ratings.length === 5 && ratings.every(([id, rating]) => uuid.test(id) && (rating === 1 || rating === -1)) && Object.hasOwn(body.ratings, body.pickId);
+  return typeof body.pickId === "string" && uuid.test(body.pickId) && !Object.hasOwn(body, "ratings");
 }
 
 // Older database responses remain readable while the migration is rolled out.
