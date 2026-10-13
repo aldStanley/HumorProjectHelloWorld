@@ -507,10 +507,7 @@ body { background: #141612; }
 .caption-score small { font: 10px Arial, sans-serif; letter-spacing: 0; }
 .vote-status { color: #b6b9ab; font-size: 11px; }
 .vote-status:empty { display: none; }
-.daily-challenge-link { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 16px 0; margin: 16px 0 0; border-bottom: 1px solid #41443a; }
-.daily-challenge-link h2 { font-size: 17px; margin: 0 0 7px; }
-.daily-challenge-link p { font-size: 12px; color: #a4a895; margin: 0; }
-.daily-challenge-link a { color: var(--acid); font-size: 13px; flex-shrink: 0; padding: 10px 0; }
+#daily-jury { margin-top: 24px; scroll-margin-top: 24px; }
 .jury-page .jury-reveal { grid-template-columns: 100px 1fr; }
 .jury-page .verdict-art { min-height: 100px; }
 .jury-page .verdict-ribbon { display: none; }
@@ -532,7 +529,6 @@ body { background: #141612; }
   .caption-collection-heading { flex-direction: row; align-items: center; gap: 10px; }
   .caption-collection-heading h2 { font-size: 21px; }
   .board-intro { display: none; }
-  .daily-challenge-link { align-items: flex-start; flex-direction: column; gap: 8px; }
 }
 .caption-filters { flex-wrap: nowrap; gap: 18px; }
 .caption-filters a { padding: 10px 0; border: 0; border-radius: 0; color: #a4a895; white-space: nowrap; }
