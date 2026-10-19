@@ -520,6 +520,67 @@ body { background: #141612; }
 .jury-page .quiet-verdict p { margin-bottom: 0; }
 .jury-page .jury-heading h2 { font-size: 32px; margin: 12px 0; }
 .jury-page .jury-seal { display: none; }
+
+/* Keep the daily ballot and the start of the board in the same desktop view. */
+.collection:has(.daily-jury-compact) { padding-top: 16px; }
+.collection:has(.daily-jury-compact) .site-nav { margin-bottom: 8px; padding-bottom: 0; }
+.collection:has(.daily-jury-compact) .lab-heading-compact h1 { font-size: clamp(28px, 2.6vw, 34px); }
+.collection:has(.daily-jury-compact) .lab-intro { margin: 6px 0 12px; }
+.collection:has(.daily-jury-compact) .upload-studio-compact { padding: 8px 18px; gap: 18px; }
+.collection:has(.daily-jury-compact) .upload-studio-compact .drop-zone { min-height: 64px; }
+.collection:has(.daily-jury-compact) .upload-studio-compact.has-photo .drop-zone { min-height: 180px; }
+.collection:has(.daily-jury-compact) .studio-status:empty { display: none; }
+#daily-jury:has(.daily-jury-compact) { margin-top: 12px; }
+.daily-jury-compact { margin: 0; }
+.daily-jury-compact .jury-court { padding: 0; background: transparent; }
+.daily-jury-compact .courtroom-scene { margin: 0; padding: 10px 14px 0; border-radius: 6px; }
+.courtroom-topline { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.daily-jury-compact .courtroom-sign { text-align: left; letter-spacing: .04em; }
+.daily-jury-compact .courtroom-sign h2 { font: bold 14px/1.3 Georgia, serif; margin: 0; }
+.daily-jury-compact .courtroom-sign h2 span { font-size: 18px; margin-right: 5px; }
+.daily-jury-compact .courtroom-sign p { font: 11px/1.4 Arial, sans-serif; letter-spacing: 0; margin: 4px 0 0; }
+.jury-swipe-hint { display: none; }
+.courtroom-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 5px; font: 10px/1.4 Arial, sans-serif; color: #503725; }
+.courtroom-meta a { color: #503725; text-underline-offset: 3px; }
+.daily-jury-compact .jury-exhibits { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.daily-jury-compact .witness-testimony { margin: 8px 0; padding: 10px; border-radius: 6px; }
+.daily-jury-compact .witness-testimony > span { font-size: 7px; }
+.daily-jury-compact .witness-testimony p { font-size: 12px; line-height: 1.35; margin-top: 5px; }
+.daily-jury-compact .witness-stage { height: 90px; }
+.daily-jury-compact .witness-portrait { bottom: 24px; height: 64px; width: 70%; left: 15%; border-width: 3px; border-radius: 35px 35px 6px 6px; }
+.daily-jury-compact .witness-stand { height: 44px; }
+.daily-jury-compact .stand-rail { height: 12px; }
+.daily-jury-compact .stand-spindles { top: 10px; bottom: 8px; }
+.daily-jury-compact .stand-plaque { top: 12px; padding: 3px 7px; font-size: 8px; }
+.daily-jury-compact .stand-base { height: 10px; }
+.daily-jury-compact .jury-exhibit-copy { flex: 0 0 44px; padding: 0; justify-content: flex-end; }
+.daily-jury-compact .caption-source-tag { align-self: center; margin-bottom: 0; font-size: 9px; padding: 3px 5px; }
+.daily-jury-compact .jury-pick { padding: 5px 0; min-height: 30px; font-size: 10px; }
+.daily-jury-compact .jury-submit { flex-direction: row; align-items: center; gap: 12px; margin: 4px 0 0; padding: 6px 0; border-top: 1px solid #78553955; }
+.daily-jury-compact .jury-submit p { color: #503725; margin: 2px 0; font-size: 11px; line-height: 1.4; }
+.daily-jury-compact .jury-submit .jury-vote-status { font-weight: 700; }
+.daily-jury-compact .jury-submit.is-sealed { background: transparent; border-radius: 0; border-right: 0; border-bottom: 0; border-left: 0; }
+.daily-jury-compact .seal-verdict-button { min-height: 40px; padding: 10px 18px; }
+.daily-jury-compact .jury-rules, .jury-last-result { display: inline-block; vertical-align: top; border: 0; padding: 6px 0 0; margin-right: 18px; color: #b6b9ab; font: 10px/1.6 Arial, sans-serif; }
+.daily-jury-compact summary { color: #b6b9ab; min-height: 24px; cursor: pointer; }
+.daily-jury-compact details[open] { display: block; margin-right: 0; }
+.daily-jury-compact .jury-reveal { margin: 8px 0; }
+.jury-page:has(.daily-jury-compact) + .caption-collection { margin-top: 14px; }
+@media (max-width: 800px) {
+  .jury-swipe-hint { display: inline; }
+  .daily-jury-compact .jury-exhibits { display: flex; overflow-x: auto; gap: 12px; scroll-snap-type: x proximity; padding: 0 3px 4px; }
+  .daily-jury-compact .jury-exhibit { flex: 0 0 176px; width: 176px; margin: 0; scroll-snap-align: start; }
+  .daily-jury-compact .courtroom-topline { align-items: flex-start; }
+  .daily-jury-compact .courtroom-meta { max-width: 130px; text-align: right; flex-shrink: 0; }
+  .daily-jury-compact .witness-testimony { flex: 1 0 auto; }
+  .daily-jury-compact .witness-testimony p { font-size: 13px; }
+}
+@media (max-width: 450px) {
+  .daily-jury-compact .courtroom-topline { flex-wrap: wrap; gap: 6px; }
+  .daily-jury-compact .courtroom-meta { flex-direction: row; justify-content: space-between; align-items: center; max-width: none; width: 100%; text-align: left; }
+  .daily-jury-compact .jury-submit { flex-wrap: wrap; }
+  .daily-jury-compact .seal-verdict-button { width: 100%; }
+}
 @media (max-width: 640px) {
   .collection .site-nav { margin-bottom: 20px; }
   .mobile-break { display: block; }

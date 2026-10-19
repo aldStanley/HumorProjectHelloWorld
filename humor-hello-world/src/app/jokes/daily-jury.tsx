@@ -56,15 +56,10 @@ export function DailyJury({ state, signedIn = true }: { state: JuryState; signed
     finally { sending.current = false; setBusy(false); }
   }
 
-  return <div className="daily-jury">
-    <div className="jury-member-bar"><span>YOUR DAILY COMEDY RITUAL</span><Link href="/jokes/trophies"><span aria-hidden="true">✹</span> {state.rewardCount} Golden {state.rewardCount === 1 ? "Laugh" : "Laughs"} <span aria-hidden="true">↗</span></Link></div>
-    {state.reveal && <Reveal reveal={state.reveal} />}
+  return <div className="daily-jury daily-jury-compact">
     <section className="jury-court" aria-labelledby="jury-title">
-      <header className="jury-heading"><div><span className="jury-kicker">COMEDY COURT · {juryDate(state.today)}</span><h2 id="jury-title">The floor is yours,<br /><em>your humor.</em></h2><p>Five exhibits. One joke. One vote.<br />Choose your favorite and return tomorrow to see whether it wins a Golden Laugh.</p></div><div className="jury-seal" aria-hidden="true">THE<br /><strong>COMEDY<br />JURY</strong><span>IN SESSION</span></div></header>
-      <div className="jury-round-meta"><span>{timeLabel}</span><span>{sealed ? "VERDICT SEALED" : pickId ? "1 JOKE SELECTED" : "CHOOSE 1 JOKE"}</span></div>
-      {!state.round ? <div className="jury-waiting"><h3>The evidence is still coming in.</h3><p>We need five captions to open the first round. Add a photo above, then check back.</p></div> : <>
-        <p className="jury-instructions"><strong>01 / Choose the joke that makes you laugh.</strong> Read all five punchlines below, then choose one joke.</p>
-        <div className="courtroom-scene"><div className="courtroom-sign" aria-hidden="true"><span>⚖</span> THE PEOPLE v. BAD JOKES <small>FIVE WITNESSES · ONE VERDICT</small></div><div className="jury-exhibits">{state.entries.map(entry => <article className={`jury-exhibit ${pickId === entry.caption_id ? "picked-exhibit" : ""}`} key={entry.caption_id}>
+      {!state.round ? <div className="jury-waiting"><h3 id="jury-title">The evidence is still coming in.</h3><p>We need five captions to open the first round. Add a photo above, then check back.</p></div> : <>
+        <div className="courtroom-scene"><header className="courtroom-topline"><div className="courtroom-sign"><h2 id="jury-title"><span aria-hidden="true">⚖</span> THE PEOPLE v. BAD JOKES</h2><p>Choose your favorite. One vote per day.<span className="jury-swipe-hint"> Swipe to see all five.</span></p></div><div className="courtroom-meta"><span>{juryDate(state.today)} · {timeLabel}</span><Link href="/jokes/trophies">✹ {state.rewardCount} Golden {state.rewardCount === 1 ? "Laugh" : "Laughs"} ↗</Link></div></header><div className="jury-exhibits">{state.entries.map(entry => <article className={`jury-exhibit ${pickId === entry.caption_id ? "picked-exhibit" : ""}`} key={entry.caption_id}>
           <div className="witness-testimony" id={`testimony-${entry.caption_id}`}><span>THE WITNESS SAYS…</span><p>“{entry.caption_text}”</p></div>
           <div className="witness-stage">
             <div className="witness-portrait">
@@ -75,12 +70,15 @@ export function DailyJury({ state, signedIn = true }: { state: JuryState; signed
           <div className="jury-exhibit-copy"><CaptionSourceTag source={entry.caption_source} />
             <label className="jury-pick"><input type="radio" name={`winner-${state.today}`} value={entry.caption_id} checked={pickId === entry.caption_id} disabled={locked} onChange={() => signedIn ? setPickId(entry.caption_id) : router.push("/login")} /><span>{pickId === entry.caption_id ? "My vote ✦" : "Vote for this joke"}</span></label>
           </div>
-        </article>)}</div><div className="courtroom-floor-label" aria-hidden="true">YOUR SEAT ON THE JURY</div></div>
+        </article>)}</div>
         <div className={`jury-submit ${sealed ? "is-sealed" : ""}`}>
-          {sealed ? <><span className="sealed-mark" aria-hidden="true">✓</span><div role="status"><h3>Your verdict is sealed.</h3><p>You backed “{pick?.caption_text}”</p><p>Come back after midnight ET for the reveal. A winning pick earns one Golden Laugh automatically.</p></div></> : <><div><span className="jury-kicker">02 / MAKE YOUR VOTE OFFICIAL</span><h3>{pick ? `Exhibit ${String(pick.position).padStart(2, "0")} is your pick.` : "Which joke gets your vote?"}</h3><p>Select one joke. You can change your selection before sealing; your vote is final once sealed.</p></div><button className="seal-verdict-button" disabled={busy || !pickId || closed} onClick={submit}>{busy ? "Sealing…" : closed ? "Round closed" : "Seal my verdict ↗"}</button></>}
+          <div><p className="jury-vote-status" role="status">{sealed ? "✓ Your vote is in." : pick ? `Witness ${String(pick.position).padStart(2, "0")} is your pick. Your vote is final once submitted.` : "Choose one joke above, then submit your vote."}</p><p>Come back tomorrow to see who wins.</p></div>
+          {!sealed && <button className="seal-verdict-button" disabled={busy || !pickId || closed} onClick={submit}>{busy ? "Submitting…" : closed ? "Round closed" : "Submit vote ↗"}</button>}
         </div>
         {error && <div className="jury-error" role="alert"><p>{error}</p><button onClick={() => router.refresh()}>Refresh round</button></div>}
+        </div>
       </>}
+      {state.reveal && <details className="jury-last-result"><summary>See the last verdict</summary><Reveal reveal={state.reveal} /></details>}
       <details className="jury-rules"><summary>How does the jury work?</summary><p>Everyone gets the same five exhibits for the day. Each user can vote for one joke per daily round. Only sealed votes count, and each adds one point to the selected joke. The most votes wins. Every joke tied for the most votes is a co-winner.</p><p>Rounds close at midnight in America/New_York, including daylight saving time. Results appear on the first visit after closing. No ballots means no winner. Picking any winner or co-winner earns exactly one Golden Laugh, saved automatically even if you miss the next day.</p></details>
     </section>
   </div>;
