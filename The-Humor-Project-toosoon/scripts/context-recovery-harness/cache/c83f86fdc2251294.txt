@@ -1,0 +1,156 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "My situationship getting the whole restaurant to sing 'Happy Birthday' to his new girl.",
+      "context": "It costs me my entire morning rewatching my situationship's Instagram story of him leading a full-restaurant 'Happy Birthday' singalong for his new girl, who just blankly sips her wine until it's over.",
+      "metaphor": "Putting on a whole song and dance for someone who's already decided they're not interested.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "A viewer can easily recover 'putting on a song and dance' from the caption's \"getting the whole restaurant to sing\" and the 'uninterested' audience from the image's unimpressed queen.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity performs energetically for another entity, who watches with unimpressed judgment.",
+          "secondary": "The performer is a jester, and the watcher is a queen on a throne, with a pose of critical evaluation (hand on chin)."
+        },
+        "cast": [
+          {
+            "image_party": "A jester actively dancing and gesturing",
+            "played_by": "my situationship",
+            "score": 0.4,
+            "reason": "The figure is a cartoon jester, not a literal person, but its energetic dancing and gesturing maps to him performing to impress someone else."
+          },
+          {
+            "image_party": "a queen, who is sitting on a throne watching",
+            "played_by": "his new girl",
+            "score": 0.4,
+            "reason": "The figure is a cartoon queen, not a literal person, but her unimpressed and judgmental pose while watching the performance maps to her evaluating him."
+          }
+        ],
+        "relation": "is actively dancing and gesturing for"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption's setup of a grand performance for his new girl perfectly preserves the core relation where one entity 'is actively dancing and gesturing for' another.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can fully reconstruct the dynamic of him making a grand public gesture for her, with the image supplying her unimpressed reaction, telling the whole story.",
+      "element_allusions": [
+        {
+          "element": "Someone putting on a whole song and dance",
+          "played_by": "my situationship leading a full-restaurant 'Happy Birthday' singalong",
+          "allusion": 1.0,
+          "reason": "The caption's phrase \"getting the whole restaurant to sing 'Happy Birthday'\" is an unmistakable and specific allusion to this high-effort performance."
+        },
+        {
+          "element": "Someone who's already decided they're not interested",
+          "played_by": "his new girl, who just blankly sips her wine",
+          "allusion": 0.9,
+          "reason": "The caption names \"his new girl,\" and the image of the judgmental queen delivers her uninterested state, making the implication almost certain."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "Him making that blurry concert pic she took his new Hinge profile photo.",
+      "context": "My situationship making his Hinge profile picture the blurry concert photo she took of him means I lose my lunch break scrolling through his new girl's pristine, him-free feed to confirm she still hasn't posted him once.",
+      "metaphor": "Enthusiastically presenting your best work to a skeptical, nitpicky authority figure.",
+      "metaphor_recovery": 0.7,
+      "metaphor_recovery_reason": "The caption's \"making that... Hinge profile photo\" clearly carries the 'presenting work' part, and the image carries the 'skeptical authority', but the 'nitpicky' quality is not recoverable.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity performs energetically for another entity, who watches with unimpressed judgment.",
+          "secondary": "The performer is a jester, and the watcher is a queen on a throne, with a pose of critical evaluation (hand on chin)."
+        },
+        "cast": [
+          {
+            "image_party": "A jester actively dancing and gesturing",
+            "played_by": "my situationship",
+            "score": 0.4,
+            "reason": "The figure is a cartoon jester, not a literal person, but its energetic dancing and gesturing maps to him performing to impress someone else."
+          },
+          {
+            "image_party": "a queen, who is sitting on a throne watching",
+            "played_by": "his new girl",
+            "score": 0.4,
+            "reason": "The figure is a cartoon queen, not a literal person, but her unimpressed and judgmental pose while watching the performance maps to her evaluating him."
+          }
+        ],
+        "relation": "is actively dancing and gesturing for"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption's setup of him making the picture his profile photo is the performance, preserving the core relation where one entity 'is actively dancing and gesturing for' another.",
+      "context_recovery": 0.8,
+      "context_recovery_reason": "A reader understands the specific performance (a Hinge profile pic gesture) and the implied dynamic, though the reason for her skepticism (her own feed) is not recoverable.",
+      "element_allusions": [
+        {
+          "element": "The enthusiastic presentation",
+          "played_by": "my situationship making his Hinge profile picture the blurry concert photo",
+          "allusion": 1.0,
+          "reason": "The caption \"making that blurry concert pic she took his new Hinge profile photo\" is a direct and complete description of the enthusiastic gesture."
+        },
+        {
+          "element": "Your best work",
+          "played_by": "the blurry concert photo she took of him",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names \"that blurry concert pic she took,\" making the allusion perfect."
+        },
+        {
+          "element": "A skeptical, nitpicky authority figure",
+          "played_by": "his new girl with her pristine, him-free feed",
+          "allusion": 0.7,
+          "reason": "The image of the queen portrays the 'skeptical authority figure', but her 'pristine, him-free feed'—the evidence of her skepticism—is not recoverable from the caption."
+        }
+      ],
+      "match_overall": 0.8
+    },
+    {
+      "caption": "My situationship leaving a five-paragraph comment on his new girl's salad pic.",
+      "context": "Reading the five-paragraph emotional dissertation my situationship left on his new girl's post of a salad, only for her to reply '❤️', costs me the last of my self-respect as I mute them both for the third time this month.",
+      "metaphor": "Sharing something you poured your heart into, only to face a cynical and dismissive audience.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "A viewer can perfectly recover 'pouring your heart into something' from \"a five-paragraph comment on... a salad pic\" and the 'dismissive audience' from the unimpressed queen image.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity performs energetically for another entity, who watches with unimpressed judgment.",
+          "secondary": "The performer is a jester, and the watcher is a queen on a throne, with a pose of critical evaluation (hand on chin)."
+        },
+        "cast": [
+          {
+            "image_party": "A jester actively dancing and gesturing",
+            "played_by": "my situationship",
+            "score": 0.4,
+            "reason": "The figure is a cartoon jester, not a literal person, but its energetic dancing and gesturing maps to him performing to impress someone else."
+          },
+          {
+            "image_party": "a queen, who is sitting on a throne watching",
+            "played_by": "his new girl",
+            "score": 0.4,
+            "reason": "The figure is a cartoon queen, not a literal person, but her unimpressed and judgmental pose while watching the performance maps to her evaluating him."
+          }
+        ],
+        "relation": "is actively dancing and gesturing for"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption's setup of him leaving a massive comment for her is a perfect performance, preserving the core relation where one entity 'is actively dancing and gesturing for' another.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The caption's extreme specificity about the 'five-paragraph comment' and the 'salad pic' allows a reader to reconstruct the entire absurd scenario perfectly.",
+      "element_allusions": [
+        {
+          "element": "Something you poured your heart into",
+          "played_by": "the five-paragraph emotional dissertation my situationship left",
+          "allusion": 1.0,
+          "reason": "The phrase \"a five-paragraph comment\" is a direct, unmistakable reference to this high-effort gesture."
+        },
+        {
+          "element": "A cynical and dismissive audience",
+          "played_by": "his new girl who replied '❤️'",
+          "allusion": 0.8,
+          "reason": "The caption names \"his new girl\" as the audience, and the image of the unimpressed queen powerfully implies the dismissive reaction represented by the minimal emoji."
+        }
+      ],
+      "match_overall": 0.4
+    }
+  ]
+}
+```

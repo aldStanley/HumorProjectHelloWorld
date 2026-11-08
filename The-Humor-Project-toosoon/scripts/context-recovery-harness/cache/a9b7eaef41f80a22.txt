@@ -1,0 +1,165 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "Me at 3am and 3:01am trying to solve the reflection in his sunglasses.",
+      "context": "Me at 3am and me at 3:01am hunched over his new profile picture, zooming in on the reflection in his sunglasses to see if that's the girl he said was 'just a friend' after he liked her post from two minutes ago but left my text from yesterday on read.",
+      "metaphor": "Two people collaboratively overthinking a problem that has no real solution.",
+      "metaphor_recovery": 0.8,
+      "metaphor_recovery_reason": "The caption recovers 'two people collaboratively overthinking' (\"Me at 3am and 3:01am trying to solve\") and the 'problem with no real solution' (\"the reflection in his sunglasses\"), but not the larger context that makes the overthinking absurd (e.g., that he has moved on).",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities share an identical, focused posture to observe the same point below them.",
+          "secondary": "They are on an elevated subway platform, suggesting a public setting and a sense of curiosity or concern."
+        },
+        "cast": [
+          {
+            "image_party": "Two men on an elevated subway platform are bent over at the waist",
+            "played_by": "me at 3am and me at 3:01am",
+            "caption_span": "Me at 3am and 3:01am",
+            "score": 1.0,
+            "reason": "The two state-stamped selves perfectly match the two figures in the image, both in cardinality and in their unified, obsessive focus."
+          }
+        ],
+        "relation": "simultaneously looking down onto"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The pixels clearly show two men bent over in a parallel, focused posture, looking at the same point on the tracks below.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption names the two entities (\"Me at 3am and 3:01am\") and implies their shared, focused action (\"trying to solve\").",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption's arrangement preserves the analog's core relation ('Two similar-kind entities share an identical, focused posture to observe the same point below them'), with both analog-to-image and analog-to-caption scoring 1.0.",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "No staged entities were dropped; both 'me at 3am' and 'me at 3:01am' are present in the caption.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can fully reconstruct the specific, self-awarely chaotic moment of analyzing a photo reflection late at night.",
+      "element_allusions": [
+        {
+          "element": "Two people collaboratively overthinking",
+          "played_by": "me at 3am and me at 3:01am",
+          "evidence": "caption",
+          "caption_span": "Me at 3am and 3:01am trying to solve",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names the two collaborating entities and their action of 'trying to solve', which is a perfect synonym for overthinking in this context."
+        },
+        {
+          "element": "A problem that has no real solution",
+          "played_by": "deciphering a blurry reflection in sunglasses",
+          "evidence": "caption",
+          "caption_span": "the reflection in his sunglasses",
+          "allusion": 1.0,
+          "reason": "The caption names the exact, famously indecipherable detail, making the futility of the task immediately clear."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me who was 'done' and my urge to text him analyzing his Venmo feed.",
+      "context": "Me who told my friends I was 'finally done' and my urge to text him, both poring over his Venmo transactions with a girl whose name I don't know after he posted a story from a bar I've never been to.",
+      "metaphor": "Peering into the messy, hidden workings of a system that's supposed to just 'work'.",
+      "metaphor_recovery": 0.7,
+      "metaphor_recovery_reason": "The caption recovers the act of 'peering into messy, hidden workings' (\"analyzing his Venmo feed\"), but the 'system that's supposed to work' (the situationship) is only weakly implied by the internal contradiction of being 'done' yet still looking.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities share an identical, focused posture to observe the same point below them.",
+          "secondary": "They are on an elevated subway platform, suggesting a public setting and a sense of curiosity or concern."
+        },
+        "cast": [
+          {
+            "image_party": "Two men on an elevated subway platform are bent over at the waist",
+            "played_by": "me who was 'done' and my urge to text him",
+            "caption_span": "Me who was 'done' and my urge to text him",
+            "score": 1.0,
+            "reason": "The two personified entities (a version of herself and her urge) are a perfect fit for the two figures in their shared, focused action."
+          }
+        ],
+        "relation": "simultaneously looking down onto"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The pixels clearly show two men bent over in a parallel, focused posture, looking at the same point on the tracks below.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption explicitly names the two entities (\"Me who was 'done' and my urge to text him\") engaged in a shared, focused action (\"analyzing\").",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption's arrangement preserves the analog's core relation ('Two similar-kind entities share an identical, focused posture to observe the same point below them'), with both analog-to-image and analog-to-caption scoring 1.0.",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "No staged entities were dropped; both 'me who told my friends I was 'finally done'' and 'my urge to text him' are present.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can perfectly reconstruct the story: the internal conflict of claiming to be over someone while simultaneously deep-diving their financial transactions.",
+      "element_allusions": [
+        {
+          "element": "The messy, hidden workings",
+          "played_by": "his public Venmo transaction history",
+          "evidence": "caption",
+          "caption_span": "his Venmo feed",
+          "allusion": 1.0,
+          "reason": "The caption names the specific social media 'back-end', which is a well-known source for this kind of detective work."
+        },
+        {
+          "element": "A system that's supposed to just 'work'",
+          "played_by": "the unspoken rules of the situationship",
+          "evidence": "caption",
+          "caption_span": "Me who was 'done'",
+          "allusion": 0.8,
+          "reason": "The phrase 'who was done' strongly implies a broken system or relationship that should have ended, making the allusion highly recoverable."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "Me and my self-respect looking for one sad song on his 'liked' playlist.",
+      "context": "Me and my last shred of self-respect desperately scrolling through his Spotify 'liked songs' playlist, searching for one single sad song after he soft-launched a new girl on his story with the caption 'so happy'.",
+      "metaphor": "A desperate, last-ditch effort to find something precious that's probably gone forever.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "The caption strongly recovers the 'desperate effort' (\"looking for one sad song\") and the 'something precious that's gone' (any sign of his sadness), making the entire metaphor highly reconstructable.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities share an identical, focused posture to observe the same point below them.",
+          "secondary": "They are on an elevated subway platform, suggesting a public setting and a sense of curiosity or concern."
+        },
+        "cast": [
+          {
+            "image_party": "Two men on an elevated subway platform are bent over at the waist",
+            "played_by": "me and my self-respect",
+            "caption_span": "Me and my self-respect",
+            "score": 1.0,
+            "reason": "The pairing of 'me' and a personified 'self-respect' perfectly fits the two figures engaged in a collaborative, desperate task."
+          }
+        ],
+        "relation": "simultaneously looking down onto"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The pixels clearly show two men bent over in a parallel, focused posture, looking at the same point on the tracks below.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption names the two unified entities (\"Me and my self-respect\") and their shared, focused action (\"looking for\").",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption's arrangement preserves the analog's core relation ('Two similar-kind entities share an identical, focused posture to observe the same point below them'), with both analog-to-image and analog-to-caption scoring 1.0.",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "No staged entities were dropped; both 'me' and 'my self-respect' are in the caption.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can clearly reconstruct the story of searching for proof that an ex is secretly sad, a very specific and relatable sad-girl behavior.",
+      "element_allusions": [
+        {
+          "element": "A desperate, last-ditch effort",
+          "played_by": "me and my last shred of self-respect",
+          "evidence": "caption",
+          "caption_span": "Me and my self-respect looking for one sad song",
+          "allusion": 1.0,
+          "reason": "The act of searching a music playlist for a single sad song is a perfectly conveyed last-ditch effort, and bringing 'self-respect' along for the ride heightens the desperation."
+        },
+        {
+          "element": "Something precious that's probably gone forever",
+          "played_by": "any sign that he is also sad about us ending",
+          "evidence": "caption",
+          "caption_span": "one sad song",
+          "allusion": 0.9,
+          "reason": "In this context, 'one sad song' is a clear and effective proxy for 'any sign that he is also sad,' making the underlying hope and its probable futility very clear."
+        }
+      ],
+      "match_overall": 1.0
+    }
+  ]
+}
+```

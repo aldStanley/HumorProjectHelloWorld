@@ -1,0 +1,14 @@
+{
+  "figures": [
+    {
+      "anchor": "left jester-like character standing with arms raised, facing the seated figure",
+      "candidates": ["my urge to text back"]
+    },
+    {
+      "anchor": "right crowned princess/queen-like character seated in a chair, facing the jester",
+      "candidates": ["me"]
+    }
+  ],
+  "entities_in_caption": ["me", "my urge to text back", "its SNL sketch"],
+  "entities_expected_in_image": ["me", "my urge to text back"]
+}

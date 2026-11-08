@@ -1,0 +1,1 @@
+{"cast_match":0.25,"pose_match":0.55,"story_match":0.7,"overall_recovered":0.6,"verdict":"partly","note":"They got the broad joke that the ex/situationship bored or exhausted his friend by explaining how he fumbled her, but did not map the two figures or catch the specific beer-glass-counting versus passed-out-from-boredom roles."}

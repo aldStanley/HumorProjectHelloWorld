@@ -1,0 +1,210 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "Me at 3am rereading the risky text I sent, and me at 1am who was so sure about it.",
+      "context": "Me at 3am rereading the vulnerable paragraph I sent him two hours ago, while me at 1am who thought it was a brave and powerful idea has fully passed away.",
+      "metaphor": "The silent, worn-out 'comedown' after an intense event, where there's nothing left to say or do.",
+      "metaphor_recovery": 0.8,
+      "metaphor_recovery_reason": "A reader can recover the 'comedown' from the visual exhaustion and the 'intense event' from the \"risky text,\" but the 'nothing left to do' part is slightly obscured by the active rereading.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity focuses intently on a small detail while a similar-kind entity collapses beside it.",
+          "secondary": "The entities are seated close together on a staircase in a state of exhaustion, but are not interacting."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "Me at 3am rereading the risky text",
+            "caption_span": "Me at 3am rereading the risky text I sent",
+            "score": 1.0,
+            "reason": "The caption names a singular entity ('Me at 3am') whose focused, obsessive action maps perfectly to the figure's posture."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "me at 1am who was so sure about it",
+            "caption_span": "me at 1am who was so sure about it",
+            "score": 1.0,
+            "reason": "The caption names a singular entity ('me at 1am') whose implied defeat is a perfect match for the figure's collapsed posture."
+          }
+        ],
+        "relation": "sitting close together but are not interacting"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The pixels clearly show one figure staring into a glass (a small detail) while the other figure is completely collapsed beside them.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption names both the focusing entity (\"Me at 3am rereading\") and the collapsing entity (\"me at 1am who was so sure about it\"), placing them together in the same moment.",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption's arrangement perfectly preserves the analog's core: 'One entity focuses intently on a small detail while a similar-kind entity collapses beside it.'",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "Both entities staged in the context ('Me at 3am' and 'me at 1am') survive into the caption's text.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can easily reconstruct the story: she sent a risky text, felt brave ('sure about it'), and is now spiraling with regret while waiting for a reply.",
+      "element_allusions": [
+        {
+          "element": "an intense event",
+          "played_by": "sending the vulnerable paragraph",
+          "evidence": "caption",
+          "caption_span": "the risky text I sent",
+          "allusion": 1.0,
+          "reason": "The caption's phrase \"the risky text I sent\" directly and specifically alludes to the high-stakes action that set off this internal state."
+        },
+        {
+          "element": "the silent, worn-out 'comedown'",
+          "played_by": "the two hours of waiting",
+          "evidence": "image",
+          "caption_span": "",
+          "allusion": 0.9,
+          "reason": "The exhausted, dejected postures of both figures in the image perfectly deliver the feeling of a post-action comedown without any words."
+        },
+        {
+          "element": "people who have nothing left to say or do",
+          "played_by": "Me at 3am and me at 1am",
+          "evidence": "caption",
+          "caption_span": "Me at 3am... and me at 1am",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names the two personae, \"Me at 3am\" and \"me at 1am,\" who together embody this state."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "Me crafting a chill 'lol' reply while my resolve to not seem desperate checks out.",
+      "context": "Me trying to craft the perfect nonchalant reply to his 'hey' after he ghosted for a week, as my resolve to not seem desperate completely short-circuits and dies.",
+      "metaphor": "Being physically together but emotionally worlds apart, each lost in their own private struggle.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "A reader can recover the 'physically together' part from the image and the caption's structure, and the 'private struggles' from the acts of \"crafting a chill 'lol' reply\" versus the collapsing \"resolve.\"",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity focuses intently on a small detail while a similar-kind entity collapses beside it.",
+          "secondary": "The entities are seated close together on a staircase in a state of exhaustion, but are not interacting."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "Me crafting a chill 'lol' reply",
+            "caption_span": "Me crafting a chill 'lol' reply",
+            "score": 1.0,
+            "reason": "The caption names a singular entity ('Me') whose hyper-focused task perfectly fits the figure's intense, downward-looking posture."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "my resolve to not seem desperate",
+            "caption_span": "my resolve to not seem desperate",
+            "score": 1.0,
+            "reason": "The caption names a singular personified force ('my resolve') whose defeat is a perfect match for the figure's collapsed posture."
+          }
+        ],
+        "relation": "sitting close together but are not interacting"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The pixels clearly show one figure staring into a glass (a small detail) while the other figure is completely collapsed beside them.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption names both the focusing entity (\"Me crafting a chill 'lol' reply\") and the collapsing entity (\"my resolve\"), placing them side-by-side with \"while.\"",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption's arrangement perfectly preserves the analog's core: 'One entity focuses intently on a small detail while a similar-kind entity collapses beside it.'",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "Both entities staged in the context ('Me' and 'my resolve to not seem desperate') survive into the caption's text.",
+      "context_recovery": 0.8,
+      "context_recovery_reason": "A reader can reconstruct that she's replying to a text, but the backstory of him ghosting for a week is not recoverable, slightly weakening the context.",
+      "element_allusions": [
+        {
+          "element": "being physically together",
+          "played_by": "Me and my resolve",
+          "evidence": "caption",
+          "caption_span": "Me... while my resolve",
+          "allusion": 0.9,
+          "reason": "The caption's grammatical structure (\"Me... while my resolve...\") places the two entities in the same scene at the same time, implying togetherness."
+        },
+        {
+          "element": "one person lost in their private struggle",
+          "played_by": "Me",
+          "evidence": "caption",
+          "caption_span": "Me crafting a chill 'lol' reply",
+          "allusion": 1.0,
+          "reason": "The caption's description of her trying to craft a specific type of reply perfectly illustrates her active, private struggle."
+        },
+        {
+          "element": "another person lost in their private struggle",
+          "played_by": "my resolve to not seem desperate",
+          "evidence": "image",
+          "caption_span": "",
+          "allusion": 1.0,
+          "reason": "The image of the totally collapsed figure perfectly delivers the outcome of the resolve's losing struggle without the caption needing to state it."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "Me analyzing his Hinge voice prompt while my last shred of self-respect just sits there.",
+      "context": "Me zooming in on his Hinge profile's new voice prompt to see if I can hear the girl he's obviously on a date with, while my last shred of self-respect just quietly expires.",
+      "metaphor": "When a shared crisis hits, one person tries to analyze the problem while the other completely shuts down.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "A reader can perfectly recover the 'shared crisis' (\"his Hinge voice prompt\"), the 'analysis' (\"Me analyzing\"), and the 'shut down' (the visual of the collapsed figure representing self-respect).",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity focuses intently on a small detail while a similar-kind entity collapses beside it.",
+          "secondary": "The entities are seated close together on a staircase in a state of exhaustion, but are not interacting."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "Me analyzing his Hinge voice prompt",
+            "caption_span": "Me analyzing his Hinge voice prompt",
+            "score": 1.0,
+            "reason": "The caption names a singular entity ('Me') whose focused, analytical action is a perfect match for the figure's intense posture."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "my last shred of self-respect",
+            "caption_span": "my last shred of self-respect",
+            "score": 1.0,
+            "reason": "The caption names a singular personified force ('my last shred of self-respect') whose defeat is perfectly embodied by the figure's collapsed posture."
+          }
+        ],
+        "relation": "sitting close together but are not interacting"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The pixels clearly show one figure staring into a glass (a small detail) while the other figure is completely collapsed beside them.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption names both the focusing entity (\"Me analyzing\") and the collapsing entity (\"my last shred of self-respect\"), placing them in the same scene with \"while.\"",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption's arrangement perfectly preserves the analog's core: 'One entity focuses intently on a small detail while a similar-kind entity collapses beside it.'",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "Both entities staged in the context ('Me' and 'my last shred of self-respect') survive into the caption's text.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can fully reconstruct the core story: she is obsessively analyzing his dating profile, and her self-respect is taking the hit.",
+      "element_allusions": [
+        {
+          "element": "a shared crisis",
+          "played_by": "his new voice prompt",
+          "evidence": "caption",
+          "caption_span": "his Hinge voice prompt",
+          "allusion": 1.0,
+          "reason": "The caption names the specific trigger, \"his Hinge voice prompt,\" making the crisis perfectly clear."
+        },
+        {
+          "element": "one person [who] tries to analyze the problem",
+          "played_by": "Me",
+          "evidence": "caption",
+          "caption_span": "Me analyzing his Hinge voice prompt",
+          "allusion": 1.0,
+          "reason": "The caption explicitly states her action is \"analyzing,\" which is a direct match for the element."
+        },
+        {
+          "element": "the other [person who] completely shuts down",
+          "played_by": "my last shred of self-respect",
+          "evidence": "image",
+          "caption_span": "",
+          "allusion": 1.0,
+          "reason": "The image of the totally defeated, collapsed figure is a perfect visual representation of a force 'shutting down' or expiring."
+        }
+      ],
+      "match_overall": 1.0
+    }
+  ]
+}
+```

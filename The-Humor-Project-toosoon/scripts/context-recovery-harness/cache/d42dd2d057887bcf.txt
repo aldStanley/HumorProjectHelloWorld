@@ -1,0 +1,14 @@
+{
+  "figures": [
+    {
+      "anchor": "left side, pink starfish character looking sideways with half-lidded eyes",
+      "candidates": ["me", "my better judgment"]
+    },
+    {
+      "anchor": "right side, yellow sponge character looking sideways with half-lidded eyes",
+      "candidates": ["me", "my better judgment"]
+    }
+  ],
+  "entities_in_caption": ["me", "my better judgment", "the 'read' receipt", "my 3am paragraph"],
+  "entities_expected_in_image": ["me", "my better judgment"]
+}

@@ -1,0 +1,32 @@
+```json
+[
+  {
+    "situation": "Peering into the messy, hidden workings of a system that's supposed to just 'work'.",
+    "resonance": 0.9,
+    "resonance_why": "Captures the universal frustration of having to troubleshoot the 'guts' of a system, be it software, bureaucracy, or a home appliance.",
+    "image_clarity": 0.7,
+    "clarity_why": "The train tracks are literally the system's 'workings' and their postures mimic a focused, diagnostic inspection."
+  },
+  {
+    "situation": "Being completely captivated by someone else's drama or misfortune.",
+    "resonance": 1.0,
+    "resonance_why": "The 'rubbernecking' impulse, from gossip to online drama, is a near-universal and highly recognizable social behavior.",
+    "image_clarity": 0.5,
+    "clarity_why": "The image shows shared, intense fascination, but the target could just as easily be a mechanical failure as a social one."
+  },
+  {
+    "situation": "A desperate, last-ditch effort to find something precious that's probably gone forever.",
+    "resonance": 0.9,
+    "resonance_why": "The specific feeling of loss combined with the irrational hope of recovery is a potent and very common human experience.",
+    "image_clarity": 0.6,
+    "clarity_why": "Their posture strongly implies searching for a small dropped item, and the location makes its retrieval seem hopeless."
+  },
+  {
+    "situation": "Two people collaboratively overthinking a problem that has no real solution.",
+    "resonance": 0.8,
+    "resonance_why": "Anxiety-fueled rumination over past events or future worries, especially when validated by a friend, is a common modern experience.",
+    "image_clarity": 0.4,
+    "clarity_why": "Their static, intense focus on the unchangeable tracks can suggest being 'stuck' in analysis, but this is a highly interpretive read."
+  }
+]
+```

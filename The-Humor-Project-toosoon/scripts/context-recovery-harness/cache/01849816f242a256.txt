@@ -1,0 +1,28 @@
+{
+  "figures": [
+    {
+      "figure": "left alien with head bowed, one hand on its face, holding the other alien's hand",
+      "entity_guess": "him",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "He appears upset or overwhelmed, which fits being told that the narrator actually blocked him this time."
+    },
+    {
+      "figure": "right alien leaning in, holding the left alien's hand and touching/comforting its arm",
+      "entity_guess": "his best friend",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "The gentle hand-holding and leaning in fit the best friend calmly explaining or comforting him."
+    }
+  ],
+  "unresolved": [
+    "I",
+    "actually blocked him this time",
+    "this time"
+  ],
+  "story_guess": "The joke is that a guy is being gently comforted by his best friend while being told that the narrator has really blocked him now, implying he is upset or in denial about it.",
+  "cast_clarity": 0.9,
+  "pose_clarity": 0.9,
+  "story_clarity": 0.85,
+  "verdict": "got_it"
+}

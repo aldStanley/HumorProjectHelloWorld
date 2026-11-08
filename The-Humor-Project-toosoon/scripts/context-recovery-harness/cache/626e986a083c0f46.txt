@@ -1,0 +1,14 @@
+{
+  "figures": [
+    {
+      "anchor": "left side, seated on steps, hunched over holding a clear cup",
+      "candidates": ["him", "his friend"]
+    },
+    {
+      "anchor": "right side, seated on steps, hunched forward with head down",
+      "candidates": ["him", "his friend"]
+    }
+  ],
+  "entities_in_caption": ["him", "his friend", "me"],
+  "entities_expected_in_image": ["him", "his friend"]
+}

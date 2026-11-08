@@ -1,0 +1,24 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "Two men bent over at the waist",
+      "entity": "me and my bestie",
+      "fit": 0.9,
+      "reason": "The two men's identical, intensely focused posture of bending over to scrutinize something perfectly captures me and my best friend jointly analyzing every detail of his behavior."
+    }
+  ],
+  "weakest_fit": 0.9,
+  "why": "The image of two people in a synchronized, obsessive posture is a strong fit for the persona's core activity of over-analyzing a situationship with her friends.",
+  "secondary_nominations": [
+    {
+      "entity": "a mundane public setting",
+      "possibilities": [
+        "the group chat at 2 am",
+        "his venmo transaction history",
+        "the 10th re-watch of his instagram story"
+      ]
+    }
+  ]
+}
+```

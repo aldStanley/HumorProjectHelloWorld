@@ -1,0 +1,1 @@
+{"cast_match":0.85,"pose_match":0.7,"story_match":0.8,"overall_recovered":0.8,"verdict":"got_it","note":"They nailed the core joke of obsessively investigating a girl's reflection despite claiming to be over him, though they missed the specific sunglasses/Instagram story context."}

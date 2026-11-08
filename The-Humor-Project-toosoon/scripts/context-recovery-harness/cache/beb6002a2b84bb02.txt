@@ -1,0 +1,6 @@
+```json
+{
+  "core": "Two same-kind entities assume an identical, focused posture to observe a shared, unseen point below them.",
+  "secondary": "The entities are arranged in parallel on an elevated platform, bent over with an air of intense, synchronized curiosity in a mundane public setting."
+}
+```

@@ -1,0 +1,76 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Me drafting a casual 'hey stranger' text to the guy who ghosted me three months ago, while my better judgment just watches, too tired to even bring up the screenshots from last time.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "my better judgment",
+      "metaphor": "Listening to a friend describe their latest terrible plan that you no longer have the energy to argue against.",
+      "element_map": [
+        {
+          "element": "a friend",
+          "played_by": "Me (the part drafting the text)",
+          "score": 1.0,
+          "reason": "The impulsive side of me, acting with the unearned optimism of a separate person, is perfectly cast as the friend with the bad idea."
+        },
+        {
+          "element": "their latest terrible plan",
+          "played_by": "Drafting a text to the guy who ghosted me",
+          "score": 1.0,
+          "reason": "This action is the quintessential terrible plan, a textbook case of self-sabotage with a high probability of ending in disappointment."
+        },
+        {
+          "element": "the listener who no longer has the energy to argue",
+          "played_by": "my better judgment",
+          "score": 1.0,
+          "reason": "This entity's role is to witness the bad plan with weary resignation, a perfect match for its description as being 'too tired to argue'."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's 'me' and 'my better judgment' perfectly fill the slots of two peer entities expressing weary disappointment (one through action, one through inaction) at the stimulus of the drafted text."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect allegory for the chosen metaphor, and all its components map flawlessly to the core analog and the ensemble."
+      }
+    },
+    {
+      "context": "Me and my better judgment staring at the single 'read' receipt under the paragraph I sent him at 3am after he posted a song we both liked.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "my better judgment",
+      "metaphor": "The shared exhaustion of looking at the consequences of a poor decision made the night before.",
+      "element_map": [
+        {
+          "element": "the consequences of a poor decision",
+          "played_by": "The single 'read' receipt with no reply",
+          "score": 1.0,
+          "reason": "The 'read' receipt is the silent, concrete, and disappointing outcome of the impulsive text, perfectly embodying the consequence."
+        },
+        {
+          "element": "a poor decision made the night before",
+          "played_by": "Sending him a paragraph at 3am",
+          "score": 1.0,
+          "reason": "This action is explicitly the impulsive, ill-advised decision that directly led to the current state of exhausted regret."
+        },
+        {
+          "element": "The shared exhaustion",
+          "played_by": "Me and my better judgment",
+          "score": 1.0,
+          "reason": "Both entities in the moment are united by a feeling of low-energy defeat, perfectly matching the required shared exhaustion."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment maps 'me' and 'my better judgment' as two peer entities expressing weary disappointment (dejection and disapproval) toward the stimulus of the ignored text."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment's scenario, entities, and stimulus align perfectly with the metaphor and core structure, resulting in a flawless fit."
+      }
+    }
+  ]
+}
+```

@@ -1,0 +1,188 @@
+{
+  "proposal": "control-flow layer for the activity graph (lens 'discovery-all')",
+  "proposedAs": "result.routines — a sibling of result.phases/edges/artifacts. Routines are CONTROL nodes: they say when/why phases run, not what data they exchange. Phase references are id-threaded like edges (phaseId + display name). Every routine carries verbatim evidence per the edges-need-evidence policy, an era validity window (cadences changed between the class era and the summer era, so unversioned cadences would read as contradictions), and a dataSignal line stating the corroborating date-pattern statistic where one exists.",
+  "triggerTypes": {
+    "clock": "a cron or fixed time-of-day starts the work",
+    "meeting": "a recurring synchronous meeting is the start/approval point",
+    "bot": "an automated agent pings humans to begin",
+    "quota": "a standing output quota (N per period) drives the work",
+    "deadline-pull": "a downstream fixed deadline pulls upstream work into existence"
+  },
+  "derivedFrom": "goal_workflow_lenses id='discovery-all' (snapshot 2026-08-05) + all 2,449 goal_chunk_items rows; trigger-language mining + weekday histograms + edge lag asymmetry. No live APIs.",
+  "routines": [
+    {
+      "id": "cf-daily-study-goal",
+      "name": "Daily-Study Goal (aspiration vs. practice)",
+      "cadence": "goal: 1 release/day (stated 2026-06-24); observed: card-driven, roughly one study per week in July",
+      "correction": "An earlier draft presented this as an operating 'Daily Study Loop' fired by a 09:00 cron. The D/O/L record refutes that: (a) 2026-07-03 meeting decision — 'The team will continue executing humor studies using manual processes when automation is not available'; (b) the same DM thread that stated the goal reports a zero-study week on 2026-07-07 ('I didn't make a study for the entirety of last week'); (c) releases were one Linear card per study — HP-1147 (jul 8–10), HP-1175 (jul 12–30, 18 days), HP-1227 (jul 22–27), HP-1279 (aug 5) — not cron-fired. The 09:00 cron (set up 6/24) automated study CREATION, and release automation was still being designed on 7/09.",
+      "trigger": { "type": "quota", "spec": "standing goal of one study release per day; in practice each release is started by opening a Linear card for a flavor" },
+      "era": { "from": "2026-06-24", "to": null, "label": "summer-2026; at the dataset's edge the cadence tightens — HP-1254 released Mon 8/03, HP-1279 ('for 8/5') released Wed 8/05, the first beats of an MWF rhythm" },
+      "successor": "The daily goal's successor cadence IS in the record: HP-1144 'Release a new humor study Mon-Wed-Fri' — completed by Tamar.Lando 2026-07-20, ingested as a done-card D/O/L outcome (meta.doneCard, linear-done-cards lane: one row per card, only once its state is done; open/canceled cards never ingested) and placed in the 'Evaluating Captions via the Humor Study' phase. First visible MWF beats: HP-1254 released Mon 8/03, HP-1279 Wed 8/05. Two search-hygiene lessons from initially missing it: (1) match word-form variants — a regex with comma/space separators missed hyphenated 'Mon-Wed-Fri'; claims of absence require variant-robust search; (2) the card LENSES (stale, computed 7/27, cards ≤ HP-1206) are not the graph — done-card chunks are placed directly in phase chunkIds. Cadence-shaped card titles are trigger declarations and reach the D/O/Ls only at completion — a recurring card that never closes stays invisible.",
+      "steps": [
+        { "seq": 1, "action": "Linear card opened for the study (HP-1147/1175/1227/1279)", "phaseId": "ph-e5ded0b9", "phase": "Project & Course Management in Linear and Google Drive" },
+        { "seq": 2, "action": "Generate captions for the flavor", "phaseId": "ph-7b9e43cb", "phase": "Engineering and Tuning the AI Generation Pipeline" },
+        { "seq": 3, "action": "Study is released to raters", "phaseId": "ph-c7dd7d38", "phase": "Evaluating Captions via the `Humor Study`" },
+        { "seq": 4, "action": "Ratings accumulate; results feed synthesis", "phaseId": "ph-a1d19909", "phase": "Synthesizing Insights to Refine Models and Strategy" }
+      ],
+      "branches": [
+        { "when": "since 2026-07-23, increasingly the primary path", "path": "release via Tamar's Quick Study creator (PR #131: 'publish a study directly from image + caption pairs'), bypassing the AI generation pipeline", "evidence": { "quote": "I used Tamar's quick study creator to do this rather than wiating for the vercel timeout bug to be fix, and I that that soluation is better.", "date": "2026-07-27", "source": "Stand-up · Lydia Chilton · HP-1227" } }
+      ],
+      "evidence": [
+        { "quote": "The primary goal is to release one humor study per day. And every day we improve the automation of RELEASING the humor study (not actually writing the humor itself - yet. We need more data and a better learning loop first).", "date": "2026-06-24", "source": "DM-U08QEFGH8CF", "person": "Lydia Chilton", "note": "the goal statement" },
+        { "quote": "The team will continue executing humor studies using manual processes when automation is not available.", "date": "2026-07-03", "source": "Meeting · 2026/07/03", "note": "the refuting decision — automation was not carrying releases" },
+        { "quote": "I didn't make a study for the entirety of last week because I was working on a tool to filter good/bad images out of bradley's scraper.", "date": "2026-07-07", "source": "DM-U08QEFGH8CF", "person": "Lydia Chilton", "note": "zero-study week, same thread as the goal" },
+        { "quote": "allowing the team to set up a cron job to automate this process daily at 9:00 AM, rather than requiring manual intervention.", "date": "2026-06-24", "source": "Meeting · 2026/06/24", "note": "creation automation, not an operating release loop" }
+      ],
+      "dataSignal": "release cards: HP-1147 jul 8–10, HP-1175 jul 12–30 (18 days), HP-1227 jul 22–27, HP-1279 aug 5 — ~1/week, not daily. (The 'study mentions' weekday spread measures talk about studies, not releases.)",
+      "confidence": 0.9
+    },
+    {
+      "id": "cf-weekly-flavor-cycle",
+      "name": "Weekly Flavor Cycle (Writers' Room)",
+      "cadence": "weekly",
+      "trigger": { "type": "meeting", "spec": "Writers' Room weekly session; mid-week work feeds an end-of-week class release" },
+      "era": { "from": "2026-01-25", "to": null, "label": "spring-2026 origin, continues through summer" },
+      "steps": [
+        { "seq": 1, "action": "Launch a new humor flavor", "phaseId": "ph-2262131d", "phase": "Defining Creative Strategy in the `Writer's Room`" },
+        { "seq": 2, "action": "Pick a test set of images", "phaseId": "ph-ce145803", "phase": "Scoring and Curating Source Images with `JPEG Assist`" },
+        { "seq": 3, "action": "Generate captions with the flavor", "phaseId": "ph-7b9e43cb", "phase": "Engineering and Tuning the AI Generation Pipeline" },
+        { "seq": 4, "action": "Internal group rating", "phaseId": "ph-2262131d", "phase": "Defining Creative Strategy in the `Writer's Room`", "gate": { "type": "quality", "rule": "at least some captions must be judged good ('worth rating') before class release" } },
+        { "seq": 5, "action": "Discuss, then release to the class for ratings", "phaseId": "ph-c7dd7d38", "phase": "Evaluating Captions via the `Humor Study`" },
+        { "seq": 6, "action": "Analyze the ratings", "phaseId": "ph-a1d19909", "phase": "Synthesizing Insights to Refine Models and Strategy" }
+      ],
+      "evidence": [
+        { "quote": "Every week, we test new humor flavors: - Launch a flavor - Pick a test set of images - Generate - Rate within the group to make sure at least some of them are good (worth rating) - discuss - Then we release to class and get ratings. - We analyze ratings", "date": "2026-01-25", "source": "WRITERS ROOM MANIFESTO" }
+      ],
+      "dataSignal": "writers-room channel activity peaks Wednesday and Friday (12 each of 60 active days) — a mid-week session feeding an end-of-week release",
+      "confidence": 0.85
+    },
+    {
+      "id": "cf-friday-5pm-release",
+      "name": "Friday 5 PM Review-Study Release",
+      "cadence": "weekly (Friday 17:00 ET); spring variant ran daily at 17:00 ET",
+      "trigger": { "type": "clock", "spec": "fixed release slot anchored to the class schedule — 'right after class'" },
+      "era": { "from": "2026-02-02", "to": null, "label": "class-anchored; reconfirmed 2026-07-06 for summer grading studies" },
+      "steps": [
+        { "seq": 1, "action": "Captions and image set assembled in time for the slot", "phaseId": "ph-7b9e43cb", "phase": "Engineering and Tuning the AI Generation Pipeline" },
+        { "seq": 2, "action": "Study released at 17:00 ET", "phaseId": "ph-c7dd7d38", "phase": "Evaluating Captions via the `Humor Study`" },
+        { "seq": 3, "action": "Students complete it; results graded/analyzed", "phaseId": "ph-a1d19909", "phase": "Synthesizing Insights to Refine Models and Strategy" }
+      ],
+      "pulls": [
+        { "phaseId": "ph-ce145803", "phase": "Scoring and Curating Source Images with `JPEG Assist`", "note": "the release slot pulls image curation into existence — the dataflow edge (images → pipeline) runs opposite to the control direction" },
+        { "phaseId": "ph-7b9e43cb", "phase": "Engineering and Tuning the AI Generation Pipeline", "note": "caption generation is scheduled to meet the slot, not the other way around" }
+      ],
+      "evidence": [
+        { "quote": "Weekly review studies release Fridays at 5:00 PM ET (right after class).", "date": "2026-07-06", "source": "Meeting Notes (Ariel & Tamar)" },
+        { "quote": "The team decided to release studies at 5pm ET after class since students complete them during lectures.", "date": "2026-02-02", "source": "Writer room Meeting Notes 1-30" }
+      ],
+      "dataSignal": "JPEG-Assist curation lags its consumers, not vice versa: 91–100% of curation activity falls within 3 days AFTER pipeline/study activity, while the forward (dataflow) direction has 11–30 day median lags — demand-pull, not push. Publishing phase activity is 58% Friday (7 of 12 active days).",
+      "confidence": 0.9
+    },
+    {
+      "id": "cf-mwf-standup-loop",
+      "name": "Standup Loop (Akify bot)",
+      "cadence": "per-team MWF pings; aggregate across staggered teams runs every weekday, Saturday zero",
+      "cadenceCorrection": "An earlier draft claimed 'daily until ~jul 7, then MWF'. The dates disprove it: submissions BEFORE jul 8 were MWF-patterned (n=4: Mon, Wed, Fri, Mon) and near-daily-weekday AFTER (Tue:4, Thu:3), with a 'daily standup seems redundant' complaint on 7/22. Correct reading: MWF is the per-team ping schedule (7/07 quote, course teams); teams are staggered and some stayed daily, so the aggregate is Mon–Fri.",
+      "trigger": { "type": "bot", "spec": "Akify bot Slack-pings each member to start their standup; hard 23:00 ET submission lockout" },
+      "era": { "from": "2026-06-23", "to": null, "label": "summer-2026, ongoing (active through 2026-08-05)" },
+      "steps": [
+        { "seq": 1, "action": "Bot pings assignees on active Linear cards", "phaseId": "ph-5533ac51", "phase": "Developing Internal Admin Tools" },
+        { "seq": 2, "action": "Member submits standup before 23:00 ET", "phaseId": "ph-e5ded0b9", "phase": "Project & Course Management in Linear and Google Drive", "gate": { "type": "deadline", "rule": "23:00 ET hard lockout — no late submissions" } },
+        { "seq": 3, "action": "Standups feed card progress/blocker lenses", "phaseId": "ph-e5ded0b9", "phase": "Project & Course Management in Linear and Google Drive" }
+      ],
+      "evidence": [
+        { "quote": "I've set them up for Monday, Wednesday, and Friday each week.", "date": "2026-07-07", "source": "student-brain", "person": "Michael Roger" },
+        { "quote": "You should have just gotten a Slack message from Akify bot to do today's standup", "date": "2026-06-23", "source": "bron-bron-sum26", "person": "Michael Roger" },
+        { "quote": "the system automatically locks out users after the 11 PM ET deadline, which prevents the submission of late stand-ups.", "date": "2026-07-05", "source": "Meeting · 2026/07/05", "person": "Jon" },
+        { "quote": "Asking for a daily standup seems redundant since we don't work on our tasks every day", "date": "2026-07-22", "source": "Elad Hirsh", "note": "evidence of the daily→MWF cadence change pressure" }
+      ],
+      "dataSignal": "standup chunk days: Mon:6 Wed:6 Fri:5 Tue:4 Thu:3 Sat:0 — MWF top-three, zero Saturday",
+      "confidence": 0.95
+    },
+    {
+      "id": "cf-weekend-planning-approval",
+      "name": "Weekend Planning-and-Approval Cycle",
+      "cadence": "weekly (Saturday and/or Sunday meetings)",
+      "trigger": { "type": "meeting", "spec": "recurring weekend team meeting: demos reviewed, approvals granted, week's assignments set" },
+      "era": { "from": "2026-06-01", "to": null, "label": "summer-2026; spring sibling was the Tuesday merge deadline for pods" },
+      "steps": [
+        { "seq": 1, "action": "Teams demo the week's work", "phaseId": "ph-e5ded0b9", "phase": "Project & Course Management in Linear and Google Drive" },
+        { "seq": 2, "action": "Approval gates fire: image sets blessed for studies, features go/no-go'd for launch, schema changes approved", "phaseId": "ph-e5ded0b9", "phase": "Project & Course Management in Linear and Google Drive", "gate": { "type": "approval", "rule": "artifacts exist before the meeting but cannot flow downstream until blessed in it" } },
+        { "seq": 3, "action": "Next week's assignments issued to teams", "phaseId": "ph-e5ded0b9", "phase": "Project & Course Management in Linear and Google Drive" }
+      ],
+      "evidence": [
+        { "quote": "I would start by uploading the images we approved from Saturday's meeting", "date": "2026-06-29", "source": "bron-bron-sum26", "note": "Saturday meeting gates the image → study edge" },
+        { "quote": "Following the demonstration and the absence of any major objections, Michael Roger and the team approve the launch of the demographic questions feature.", "date": "2026-08-05", "source": "Meeting · 2026/08/05" },
+        { "quote": "The goal of these weekly meetings is to review progress across teams in approximately 45 minutes, a structure modeled after internal meetings at Apple.", "date": "2026-06-13", "source": "Meeting · 2026/06/13", "person": "Michael Roger" },
+        { "quote": "Tasks will be due before our meetings on Tuesdays. At this deadline, your branch should be merged into main and the PR closed. Completion /= In Review", "date": "2026-06-26", "source": "Meeting Agenda.docx", "note": "spring/pod-era sibling: meeting as merge barrier" },
+        { "quote": "No. it's under review. the current status is 'Review'. Keep it that way until Michael approves it.", "date": "2026-07-10", "source": "Stand-up · Jia Liu · HP-1084", "note": "the standing per-card approval gate the meeting cadence services" }
+      ],
+      "dataSignal": "15 of 35 summer meeting days are Sat/Sun (Sat:8 Sun:7)",
+      "confidence": 0.85
+    },
+    {
+      "id": "cf-subdaily-ingestion-chain",
+      "name": "Sub-Daily Ingestion Chain",
+      "cadence": "every 1–2 hours, steps sequenced by staggered minute offsets",
+      "trigger": { "type": "clock", "spec": "scrape at :00 → topic extraction at :02 → math-team scoring at :04; scraper itself 2-hourly (HP-1080); student-brain refresh 2-hourly" },
+      "era": { "from": "2026-04-17", "to": null, "label": "hourly from April; 2-hourly AWS EventScheduler infra from July" },
+      "steps": [
+        { "seq": 1, "action": "Scrape Sidechat posts (minute :00)", "phaseId": "ph-e3a93e4b", "phase": "Sourcing and Analyzing Topics from Sidechat" },
+        { "seq": 2, "action": "Run topic extraction (minute :02)", "phaseId": "ph-e3a93e4b", "phase": "Sourcing and Analyzing Topics from Sidechat" },
+        { "seq": 3, "action": "Run math-team scoring (minute :04)", "phaseId": "ph-190deaa1", "phase": "Analyzing Live Performance on `Crackd.ai` and `Sidechat`" }
+      ],
+      "risks": [ "ordering exists only in the clock offsets — no step triggers or awaits the previous one, so a slow scrape silently feeds stale data to extraction" ],
+      "evidence": [
+        { "quote": "suggested increasing the cadence to hourly, pulling side chat posts at minute zero, running topic extraction at minute two, and math team calculations at minute four, ensuring updated information", "date": "2026-04-17", "source": "Meeting · 2026/04/17", "person": "Michael Roger" },
+        { "quote": "I have written the code for the AWS Lambda caller, now I am in the process of deploying the code to staging and then hooking that up to EventScheduler to make the API call run consistently.", "date": "2026-07-03", "source": "Stand-up · Bradley Fang · HP-1080 (scraper cron, every two hours)" },
+        { "quote": "reports that the 'student brain' data is now automatically updated every two hours via a cron job", "date": "2026-07-05", "source": "Meeting · 2026/07/05", "person": "Michael Roger" }
+      ],
+      "dataSignal": "sub-daily — invisible at day grain; evidenced by quotes and the cron registry work (HP-1080, HP-1093–1096, cron monitoring)",
+      "confidence": 0.9
+    },
+    {
+      "id": "cf-daily-sidechat-quota",
+      "name": "Daily Sidechat Post Quota",
+      "cadence": "daily quota; weekly selection gate on top",
+      "trigger": { "type": "quota", "spec": "one post to Sidechat every day; of the ~3 weekly social posts, one must come from the top-10 internally-upvoted captions" },
+      "era": { "from": "2026-01-25", "to": "2026-05-31", "label": "spring-2026 (publishing phase largely dormant by July — dateLast 2026-07-13)" },
+      "steps": [
+        { "seq": 1, "action": "Pick/produce the day's post", "phaseId": "ph-2262131d", "phase": "Defining Creative Strategy in the `Writer's Room`" },
+        { "seq": 2, "action": "Weekly: source one post from top-10 internal upvotes", "phaseId": "ph-c7dd7d38", "phase": "Evaluating Captions via the `Humor Study`", "gate": { "type": "selection", "rule": "internal upvote ranking selects which caption earns publication" } },
+        { "seq": 3, "action": "Post to Sidechat/Instagram", "phaseId": "ph-bb266695", "phase": "Publishing Content to `Crackd.ai`, `Sidechat`, and `Instagram`" }
+      ],
+      "evidence": [
+        { "quote": "We need to post one thing to Sidechat everyday,", "date": "2026-01-25", "source": "WRITERS ROOM MANIFESTO" },
+        { "quote": "Maybe you pick one of your favorites from the top 10 of the week. Just so we can make sure that the things that our humor group is saying is upvoted people like on side chat as well.", "date": "2026-02-02", "source": "Writers room meeting note transcript 1-30", "person": "Lydia B. Chilton" }
+      ],
+      "dataSignal": "Publishing phase has only 12 active days total and dateLast 2026-07-13 — consistent with a spring-era quota that lapsed",
+      "confidence": 0.75
+    }
+  ],
+  "graphAlignment": {
+    "method": "Each routine's consecutive step pairs (phaseId → phaseId) tested against the graph's 19 evidenced edges (fromId/toId/via/confidence); steps anchored to result.children sub-activity nodes where a matching node exists.",
+    "headline": "9 of 18 step-hops ride an evidenced data edge; ALL hops that carry only a start signal (cron fires, bot pings, meeting blesses) have no edge. The graph's missing hops are exactly the control-only ones.",
+    "edgeBackedHops": [
+      "daily-study-goal: AI Pipeline → Humor Study via 'AI-generated captions' (1.0); Humor Study → Synthesis via 'Humor Study results' (1.0)",
+      "flavor-cycle: JPEG Assist → AI Pipeline via 'Curated source images' (0.9); Writer's Room → Humor Study via 'Humor Flavor personas/configurations' (1.0); Humor Study → Synthesis via 'Humor Study results' (1.0); Synthesis → Writer's Room via 'Humor insights' (0.7) — the graph closes the weekly cycle itself",
+      "friday-release: AI Pipeline → Humor Study via 'AI-generated captions' (1.0); Humor Study → Synthesis via 'Humor Study results' (1.0)",
+      "quota: Writer's Room → Humor Study via 'Humor Flavor personas/configurations' (1.0); Humor Study → Publishing via 'Top-performing captions' (0.8)"
+    ],
+    "controlOnlyHops": [
+      "sub-daily: Sourcing → Analyzing Live Performance (the :02→:04 cron hop) — NO EDGE",
+      "daily-study-goal: Project & Course Mgmt → AI Pipeline (card assignment starts the work) — NO EDGE",
+      "standup: Internal Admin Tools → Project & Course Management (bot ping) — NO EDGE",
+      "flavor-cycle: Writer's Room → JPEG Assist (pick-the-test-set instruction) — NO EDGE; AI Pipeline → Writer's Room (bring captions to internal rating) — NO EDGE",
+      "weekend-approval: all hops within Project & Course Management; approvals carry no artifact — structurally unrepresentable as flow edges"
+    ],
+    "childAnchors": [
+      "cf-daily-study-goal step 3 → child 'Launch, schedule, and conduct recurring Humor Study sessions' (Humor Study)",
+      "cf-daily-sidechat-quota step 3 → child 'Manage the content publishing schedule and posting frequency' (Publishing)",
+      "cf-subdaily-ingestion-chain step 1 → child 'Scrape posts from Sidechat, Instagram, and other sources' (Sourcing); infra: 'Implement and manage cron jobs and background job runners' (Backend), 'Build and manage the self-service Cron job system' (Admin Tools)"
+    ]
+  },
+  "notCovered": [
+    "Analyzing Live Performance has NO routine: its evidenced inbound edge (Publishing → Analysis) shows forward median lag 11d with only 13% within 3 days — real inputs, no start signal. This is the canonical 'hard to conceptualize because nothing triggers it' phase; a routine would have to be invented, not discovered.",
+    "Event-triggers below routine grain (merge-to-staging → deploy, DB trigger on upvote_count, schema change → regen types) are per-edge control annotations, not cadenced routines — they'd belong on edges as trigger:{type:'event'}, not in result.routines."
+  ]
+}

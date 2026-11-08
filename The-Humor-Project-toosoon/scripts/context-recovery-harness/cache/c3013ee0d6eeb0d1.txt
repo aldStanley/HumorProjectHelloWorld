@@ -1,0 +1,37 @@
+{
+  "figures": [
+    {
+      "figure": "foreground older man in striped shirt bent over toward the tracks",
+      "entity_guess": "him or his friend",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "The caption reads the bent-over, concentrated posture as someone intensely helping draft an apology text, but it does not distinguish whether he is 'him' or 'his friend' and no phone/text is visible."
+    },
+    {
+      "figure": "foreground man in light blue shirt bent over behind/over the striped-shirt man",
+      "entity_guess": "him or his friend",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "The caption makes his close, leaning posture part of the idea that the two men are collaborating on an excuse, but it does not identify which one is 'him' versus 'his friend' and no actual text is visible."
+    },
+    {
+      "figure": "distant person standing upright on the opposite platform",
+      "entity_guess": null,
+      "confident": false,
+      "pose_explained": false,
+      "pose_note": "The caption does not appear to refer to this background person or explain why they are standing there."
+    }
+  ],
+  "unresolved": [
+    "which foreground man is 'him'",
+    "which foreground man is 'his friend'",
+    "'was swamped' apology text",
+    "ghosting me",
+    "me"
+  ],
+  "story_guess": "The joke is that the two bent-over men look like they are seriously collaborating, recast as a guy and his friend carefully crafting a fake 'I was swamped' apology after ignoring the speaker.",
+  "cast_clarity": 0.55,
+  "pose_clarity": 0.65,
+  "story_clarity": 0.75,
+  "verdict": "partly"
+}

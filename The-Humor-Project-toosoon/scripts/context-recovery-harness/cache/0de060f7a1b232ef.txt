@@ -1,0 +1,33 @@
+{
+  "figures": [
+    {
+      "anchor": "foreground left, bent over near the platform edge",
+      "candidates": [
+        "me",
+        "my bestie"
+      ]
+    },
+    {
+      "anchor": "foreground right, bent over behind/next to the other foreground person",
+      "candidates": [
+        "me",
+        "my bestie"
+      ]
+    },
+    {
+      "anchor": "background center, standing on the opposite platform",
+      "candidates": [
+        "me",
+        "my bestie"
+      ]
+    }
+  ],
+  "entities_in_caption": [
+    "me",
+    "my bestie"
+  ],
+  "entities_expected_in_image": [
+    "me",
+    "my bestie"
+  ]
+}

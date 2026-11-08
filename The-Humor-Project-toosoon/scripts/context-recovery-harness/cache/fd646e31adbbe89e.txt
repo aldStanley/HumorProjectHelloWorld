@@ -1,0 +1,162 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "Me and my bestie rereading my 3 a.m. 'did you have fun with me??' double text.",
+      "context": "My bestie and I silently re-read the double text I sent him at 3 a.m. asking 'did you have fun with me tonight??', the only reply being his green bubble from an hour ago that just says 'gn'.",
+      "metaphor": "The shared exhaustion of looking at the consequences of a poor decision made the night before.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two peer entities stand together and observe something with shared weariness and judgment.",
+          "secondary": "The entities are friends, and the mood is low-energy and dejected."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "me",
+            "score": 1.0,
+            "reason": "The register read correctly assigns the persona to Patrick, whose exhausted and resigned expression perfectly embodies her feeling about her own actions."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "my bestie",
+            "score": 1.0,
+            "reason": "The register read correctly assigns the best friend to SpongeBob, whose look of tired judgment is the ideal reaction for this role."
+          }
+        ],
+        "relation": "stand next to each other and observe"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption places the two cast entities ('me and my bestie') in the core relation to 'stand next to each other and observe' the text message.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can fully reconstruct the core scenario: the user and her friend are examining a regrettable, needy double text sent late at night. Only his 'gn' reply is missing, but the image implies the outcome.",
+      "element_allusions": [
+        {
+          "element": "shared exhaustion",
+          "played_by": "our silent, mutual re-reading of the texts",
+          "allusion": 1.0,
+          "reason": "The caption's phrase 'Me and my bestie rereading' directly states the shared activity, and the image's expressions deliver the exhaustion."
+        },
+        {
+          "element": "the consequences",
+          "played_by": "his one-word 'gn' reply",
+          "allusion": 0.8,
+          "reason": "The caption doesn't name his reply, but the image's dejected and judgmental faces strongly imply that the response to the double text was negative or dismissive."
+        },
+        {
+          "element": "a poor decision made the night before",
+          "played_by": "my 3 a.m. double text",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names the poor decision by quoting the specific, needy '3 a.m. ... double text'."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me reading his 'roommates aren't here' text to my bestie after swearing I was done.",
+      "context": "Me, trying to sound casual, reading my situationship's 'just come over, my roommates aren't here' text aloud to my bestie, who's already heard me swear I was done with him three times this month.",
+      "metaphor": "Listening to a friend describe their latest terrible plan that you no longer have the energy to argue against.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two peer entities stand together and observe something with shared weariness and judgment.",
+          "secondary": "The entities are friends, and the mood is low-energy and dejected."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "me",
+            "score": 1.0,
+            "reason": "The register read correctly assigns the persona to Patrick, whose exhausted expression captures the feeling of being pulled back into a bad cycle."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "my bestie",
+            "score": 1.0,
+            "reason": "The register read correctly assigns the best friend to SpongeBob, whose tired disapproval is perfect for someone who has heard this all before."
+          }
+        ],
+        "relation": "stand next to each other and observe"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption places 'Me' and 'my bestie' in the core relation to 'stand next to each other and observe' the text being read aloud, preserving the arrangement.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can perfectly reconstruct the scenario: I received a booty-call text from a guy I swore I was done with, and am now presenting it to my weary friend.",
+      "element_allusions": [
+        {
+          "element": "a friend",
+          "played_by": "me",
+          "allusion": 1.0,
+          "reason": "The caption starts with 'Me', directly identifying the persona in the scene."
+        },
+        {
+          "element": "their latest terrible plan",
+          "played_by": "the implicit plan to go see him again",
+          "allusion": 0.9,
+          "reason": "The caption's quote of his 'roommates aren't here' text, combined with the phrase 'after swearing I was done', makes the terrible plan to go over unmistakable."
+        },
+        {
+          "element": "you (the listener)",
+          "played_by": "my bestie",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'my bestie' as the audience for the text message."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "My bestie after I get his bi-weekly breadcrumb text and say 'this time feels different'.",
+      "context": "My bestie and I listen to myself say 'no, but this time feels different' after my situationship texts me the exact same 'thinking of you' message he sends every two weeks to keep me on the hook.",
+      "metaphor": "Two veterans watching an enthusiastic newcomer confidently suggest an idea that has failed repeatedly.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two peer entities stand together and observe something with shared weariness and judgment.",
+          "secondary": "The entities are friends, and the mood is low-energy and dejected."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "me",
+            "score": 1.0,
+            "reason": "The register read correctly assigns the persona to Patrick, whose dejected look embodies the part of her that knows 'this time' isn't different."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "my bestie",
+            "score": 1.0,
+            "reason": "The register read correctly assigns the best friend to SpongeBob, whose weary expression is the perfect reaction to hearing the familiar, deluded phrase again."
+          }
+        ],
+        "relation": "stand next to each other and observe"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption places 'my bestie' and 'I' (me) in the core relation to 'stand next to each other and observe' the situation unfolding from my deluded statement.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can easily reconstruct the cycle: I receive a predictable text, voice unfounded optimism, and my friend (and my inner self) is exhausted by the pattern.",
+      "element_allusions": [
+        {
+          "element": "Two veterans",
+          "played_by": "me and my bestie",
+          "allusion": 0.9,
+          "reason": "The phrase 'his bi-weekly breadcrumb text' clearly establishes that this is a long-standing, repeated pattern, making the 'veteran' status of both 'me' and 'my bestie' obvious."
+        },
+        {
+          "element": "an enthusiastic newcomer",
+          "played_by": "my own deluded flicker of hope",
+          "allusion": 1.0,
+          "reason": "The quoted phrase 'this time feels different' perfectly embodies the naive, hopeful 'newcomer' perspective being voiced."
+        },
+        {
+          "element": "an idea that has failed repeatedly",
+          "played_by": "the belief that his breadcrumbing text means he has changed",
+          "allusion": 1.0,
+          "reason": "The caption's combination of 'bi-weekly breadcrumb text' and 'this time feels different' makes it clear that the failing idea is the belief that this time is an exception."
+        }
+      ],
+      "match_overall": 0.9
+    }
+  ]
+}
+```

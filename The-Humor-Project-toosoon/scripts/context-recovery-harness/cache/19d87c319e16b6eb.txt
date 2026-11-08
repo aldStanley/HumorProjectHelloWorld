@@ -1,0 +1,1 @@
+{"cast_match":1,"pose_match":0.9,"story_match":0.8,"overall_recovered":0.85,"verdict":"got_it","note":"The viewer nailed the figure mapping and core joke of drink-scrying over an unreplied text, though they missed the specific trigger that he viewed the story quickly but still ignored the Saturday text."}

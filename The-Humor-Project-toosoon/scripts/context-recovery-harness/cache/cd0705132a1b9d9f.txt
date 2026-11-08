@@ -1,0 +1,110 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "Me explaining to my bestie how his 'hey' after 5 days shows real emotional progress.",
+      "context": "Pacing my room on FaceTime, I'm giving my bestie a point-by-point breakdown of why his 'hey' text after five days of silence is a sign of huge emotional progress, while she just stares at me, completely deadpan.",
+      "metaphor": "Trying desperately to win the approval of someone who is indifferent or judgmental.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity performs energetically for another entity, who watches with unimpressed judgment.",
+          "secondary": "The performer is animated and gesturing; the observer is seated on a throne, looking critical."
+        },
+        "cast": [
+          {
+            "image_party": "A jester actively dancing and gesturing",
+            "played_by": "me",
+            "score": 1.0,
+            "reason": "The jester's desperate, animated performance is a perfect visual for me passionately making my case to my friend."
+          },
+          {
+            "image_party": "a queen, who is sitting on a throne watching",
+            "played_by": "my bestie",
+            "score": 1.0,
+            "reason": "The queen's judgmental, unimpressed posture perfectly captures my bestie's deadpan stare during my explanation."
+          }
+        ],
+        "relation": "performs for"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption preserves the core relation where 'me' (the jester) 'performs for' an unimpressed 'my bestie' (the queen), leaving her reaction to the image.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "From the caption and image, a reader can fully reconstruct the story: I'm trying to sell a delusional theory to my friend, who is clearly not buying it.",
+      "element_allusions": [
+        {
+          "element": "Someone trying desperately to win approval",
+          "played_by": "me",
+          "allusion": 1.0,
+          "reason": "The caption opens with 'Me explaining...', and the jester's body language in the image clearly shows a desperate performance."
+        },
+        {
+          "element": "Someone who is indifferent or judgmental",
+          "played_by": "my bestie",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'my bestie' as the audience for the explanation."
+        },
+        {
+          "element": "The approval being sought",
+          "played_by": "my bestie's validation of my theory",
+          "allusion": 0.9,
+          "reason": "The act of 'explaining' the theory to my bestie strongly implies that her agreement is the goal, which the image shows is not being given."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me explaining to my best friend how answering his 'u up?' text was a power move.",
+      "context": "I’m performing a dramatic monologue for my best friend about how answering his 'u up?' text last night was actually a power move to get closure, not me caving again, as she just slowly shakes her head 'no'.",
+      "metaphor": "Putting on a whole show to sell an idea to an unimpressed authority figure.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity performs energetically for another entity, who watches with unimpressed judgment.",
+          "secondary": "The performer is animated and gesturing; the observer is seated on a throne, looking critical."
+        },
+        "cast": [
+          {
+            "image_party": "A jester actively dancing and gesturing",
+            "played_by": "me",
+            "score": 1.0,
+            "reason": "The jester's dramatic performance directly maps to me delivering my monologue justifying my actions."
+          },
+          {
+            "image_party": "a queen, who is sitting on a throne watching",
+            "played_by": "my best friend",
+            "score": 1.0,
+            "reason": "The queen's unimpressed gaze is the perfect visual for my best friend who is not buying my story about a 'power move'."
+          }
+        ],
+        "relation": "performs for"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption perfectly preserves the core relation: 'me' (the jester) 'performs for' my unimpressed 'best friend' (the queen), leaving her judgment to the image.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can easily reconstruct the moment: I'm trying to justify a weak moment as a win, and my friend's reaction in the image shows she knows the truth.",
+      "element_allusions": [
+        {
+          "element": "A whole show",
+          "played_by": "my dramatic monologue",
+          "allusion": 0.9,
+          "reason": "The caption's 'Me explaining' combined with the jester's theatricality in the image strongly implies the explanation is a full, dramatic performance."
+        },
+        {
+          "element": "An idea being sold",
+          "played_by": "the concept that caving was a 'power move'",
+          "allusion": 1.0,
+          "reason": "The caption explicitly states the exact, absurd idea being sold: that answering the text 'was a power move.'"
+        },
+        {
+          "element": "An unimpressed authority figure",
+          "played_by": "my best friend",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'my best friend' as the audience of this performance."
+        }
+      ],
+      "match_overall": 0.9
+    }
+  ]
+}
+```

@@ -1,0 +1,8 @@
+{
+  "cast_match": 1,
+  "pose_match": 0.9,
+  "story_match": 0.95,
+  "overall_recovered": 0.95,
+  "verdict": "got_it",
+  "note": "The viewer correctly identified the speaker as the animated jester and the deadpan bestie as the seated queen, and recovered the joke about overinterpreting a delayed 'hey' as emotional progress."
+}

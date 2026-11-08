@@ -1,0 +1,126 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "Me at 9pm watching me at 2am unblock his number after he posted at our bar.",
+      "context": "Me at 9pm who blocked his number watching me at 2am unblock it to see if his 'delivered' message turns blue after he posted a picture at the bar we were supposed to go to.",
+      "metaphor": "Watching a friend make the same, predictable bad decision for the tenth time and being too tired to intervene anymore.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "A reader can recover the pattern of one self (the 'friend') making a bad decision while another self watches, as the caption explicitly frames it as \"Me at 9pm watching me at 2am\"; the image's exhausted expressions imply being 'too tired to intervene'.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities stand side-by-side, sharing a weary reaction to an off-screen stimulus.",
+          "secondary": "One entity has a tired and dejected expression, while the other squints with weary suspicion."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "me at 9pm",
+            "caption_span": "Me at 9pm",
+            "score": 1.0,
+            "reason": "The caption names this state-stamped self, which fits the exhausted, dejected figure's role as the self too tired for this cycle."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "me at 2am",
+            "caption_span": "me at 2am",
+            "score": 1.0,
+            "reason": "The caption names this state-stamped self, whose active role in the bad decision fits the disapproving-but-acting figure."
+          }
+        ],
+        "relation": "stand next to each other and observe"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The image shows two peer figures standing next to each other and observing something with a shared weary reaction, perfectly matching the core analog.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption names two similar-kind entities, \"Me at 9pm\" and \"me at 2am\", and places them in a side-by-side relationship of observation (\"watching\").",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption's arrangement preserves the analog's core relation of 'two similar-kind entities stand side-by-side, sharing a weary reaction to an off-screen stimulus', with both analog_to_image and analog_to_caption scoring 1.0.",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "The caption ships both staged entities ('me at 9pm' and 'me at 2am') and the core trigger (unblocking after he posted at their bar); no entities were dropped.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can fully reconstruct the internal conflict between past resolve and present weakness, triggered by a specific, provocative act from him.",
+      "element_allusions": [
+        {
+          "element": "The watcher who is too tired to intervene",
+          "played_by": "me at 9pm",
+          "evidence": "caption",
+          "caption_span": "Me at 9pm",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names this entity, and the tired expression on the corresponding figure in the image reinforces the feeling of being too tired to intervene."
+        },
+        {
+          "element": "A friend making a predictable bad decision",
+          "played_by": "me at 2am",
+          "evidence": "caption",
+          "caption_span": "me at 2am unblock his number",
+          "allusion": 1.0,
+          "reason": "The caption names this entity and specifies the predictable bad decision, making the role fully recoverable."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me and my dignity after saying 'no worries!' when he rain-checked for the third time.",
+      "context": "Me and my last shred of dignity looking at each other after I laughed and said 'no worries at all!' when he cancelled our plans for the third time with a one-word 'raincheck' text.",
+      "metaphor": "The shared, silent moment between two people after witnessing an incredibly awkward or draining social interaction.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "A reader can recover the pattern of two 'people' (\"Me and my dignity\") sharing a silent moment (the image) after a draining social interaction (her fake-nice reply to his third cancellation).",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities stand side-by-side, sharing a weary reaction to an off-screen stimulus.",
+          "secondary": "One entity has a tired and dejected expression, while the other squints with weary suspicion."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "my dignity",
+            "caption_span": "my dignity",
+            "score": 1.0,
+            "reason": "The caption names this personified force, whose dejected nature is a perfect fit for the tired, collapsed figure."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "Me",
+            "caption_span": "Me",
+            "score": 1.0,
+            "reason": "The caption names her as the main actor, and her self-disapproval after the fact maps well to the squinting, judgmental figure."
+          }
+        ],
+        "relation": "stand next to each other and observe"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The image shows two peer figures standing next to each other sharing a weary, judgmental look, which perfectly matches the core analog.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption names two similar-kind entities, \"Me\" and the personified \"my dignity\", and places them together in a shared moment (\"Me and my dignity after...\").",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption's arrangement preserves the analog's core relation of 'two similar-kind entities stand side-by-side, sharing a weary reaction to an off-screen stimulus', with both analog_to_image and analog_to_caption scoring 1.0.",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "The caption ships both staged entities ('Me' and 'my dignity'), the polite reply ('no worries!'), and the trigger (third rain-check); nothing was dropped.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "From the caption and image, a reader can perfectly reconstruct the story of her being repeatedly let down, pretending it's fine, and the subsequent internal collapse.",
+      "element_allusions": [
+        {
+          "element": "The first person witnessing the event",
+          "played_by": "me",
+          "evidence": "caption",
+          "caption_span": "Me",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names this entity as the central actor in the scene."
+        },
+        {
+          "element": "The second person witnessing the event",
+          "played_by": "my last shred of dignity",
+          "evidence": "caption",
+          "caption_span": "my dignity",
+          "allusion": 1.0,
+          "reason": "The caption names this personified force, making its role as the silent co-witness perfectly clear."
+        }
+      ],
+      "match_overall": 1.0
+    }
+  ]
+}
+```

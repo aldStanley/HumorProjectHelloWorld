@@ -1,0 +1,72 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Pacing my room on FaceTime, I'm giving my bestie a point-by-point breakdown of why his 'hey' text after five days of silence is a sign of huge emotional progress, while she just stares at me, completely deadpan.",
+      "register": "in_scene",
+      "metaphor": "Trying desperately to win the approval of someone who is indifferent or judgmental.",
+      "element_map": [
+        {
+          "element": "Someone trying desperately to win approval",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "My passionate, over-the-top breakdown of a simple text is a clear performance designed to get my bestie to validate my delusion."
+        },
+        {
+          "element": "Someone who is indifferent or judgmental",
+          "played_by": "my bestie",
+          "score": 1.0,
+          "reason": "Her deadpan stare perfectly embodies the unimpressed, 'I've heard this all before' judgment of a friend watching a friend make the same mistake."
+        },
+        {
+          "element": "The approval being sought",
+          "played_by": "my bestie's validation of my theory",
+          "score": 1.0,
+          "reason": "The entire performance is aimed at getting her to co-sign the idea that his low-effort text is meaningful, which is the specific approval I need."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "My (the first entity's) energetic effort to please with a performative breakdown is met with the dismissive judgment of my bestie (a different-kind entity: the grounded observer)."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect instantiation of the metaphor and core dynamic, with all elements and core slots mapping flawlessly."
+      }
+    },
+    {
+      "context": "I’m performing a dramatic monologue for my best friend about how answering his 'u up?' text last night was actually a power move to get closure, not me caving again, as she just slowly shakes her head 'no'.",
+      "register": "in_scene",
+      "metaphor": "Putting on a whole show to sell an idea to an unimpressed authority figure.",
+      "element_map": [
+        {
+          "element": "A whole show",
+          "played_by": "my dramatic monologue",
+          "score": 1.0,
+          "reason": "The act of reframing a weak moment as a 'dramatic monologue' directly casts my desperate justification as a theatrical performance."
+        },
+        {
+          "element": "An idea being sold",
+          "played_by": "the concept that caving was a 'power move'",
+          "score": 1.0,
+          "reason": "This is the specific, transparently false idea that the entire performance is trying, and failing, to sell."
+        },
+        {
+          "element": "An unimpressed authority figure",
+          "played_by": "my best friend",
+          "score": 0.9,
+          "reason": "She acts as the authority on my repeated patterns and is clearly unimpressed, but 'authority figure' is a slightly stronger, more formal term for a best friend."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "My energetic effort (the monologue) is met with the dismissive judgment (her head shake) of my best friend, who is a different-kind entity in this context (the realist vs. the fantasist)."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The weakest aspect is the mapping of 'my best friend' to 'authority figure,' which is a very strong but not perfect fit."
+      }
+    }
+  ]
+}
+```

@@ -1,0 +1,72 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Staring at his best friend’s supportive comment under the sad black-and-white photo he posted an hour after breaking up with me, realizing he’s the one being cradled for the decision that shattered my week.",
+      "register": "watched_scene",
+      "metaphor": "Gently supporting someone through a deep personal sadness or failure.",
+      "element_map": [
+        {
+          "element": "The one being supported",
+          "played_by": "my situationship",
+          "score": 0.9,
+          "reason": "He has positioned himself as the one experiencing sadness by posting the photo, making him the focus of the support."
+        },
+        {
+          "element": "The supporter",
+          "played_by": "his best friend",
+          "score": 1.0,
+          "reason": "His friend's comment is the direct and visible act of providing gentle support and consolation."
+        },
+        {
+          "element": "The deep personal sadness or failure",
+          "played_by": "the breakup he initiated",
+          "score": 0.8,
+          "reason": "The breakup is framed as his personal failure or source of sadness, even though he was the one who caused it."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "One entity ('his best friend') supports another distressed, same-kind entity ('my situationship') directly."
+      },
+      "overall": {
+        "score": 0.8,
+        "reason": "The weakest element is the 'deep personal sadness,' which is inferred from his performative post rather than being a confirmed state."
+      }
+    },
+    {
+      "context": "Refreshing his Venmo feed to see if he paid his best friend back for drinks, knowing it means the 'we need to talk about how you're treating her' conversation I begged his friend to have is over, and I'm still just an expense he needs to settle.",
+      "register": "watched_scene",
+      "metaphor": "Trying to gently introduce a difficult, world-altering truth to someone who isn't ready for it.",
+      "element_map": [
+        {
+          "element": "The one introducing the truth",
+          "played_by": "his best friend",
+          "score": 0.9,
+          "reason": "In the imagined scene, his friend is the reluctant messenger tasked with delivering the hard truth about my situationship's behavior."
+        },
+        {
+          "element": "The one receiving the truth",
+          "played_by": "my situationship",
+          "score": 1.0,
+          "reason": "He is the person who must confront the truth about his actions, making him the downcast recipient of the conversation."
+        },
+        {
+          "element": "The difficult, world-altering truth",
+          "played_by": "the reality of how badly he is treating me",
+          "score": 0.8,
+          "reason": "This truth is 'world-altering' from my perspective and is the difficult subject he is likely not ready to hear."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The imagined scene perfectly casts 'his best friend' as the supporting entity and 'my situationship' as the distressed, same-kind entity."
+      },
+      "overall": {
+        "score": 0.8,
+        "reason": "The weakest aspect is mapping 'world-altering truth' onto a specific relationship dynamic, which is high-stakes for me but less so objectively."
+      }
+    }
+  ]
+}
+```

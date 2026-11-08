@@ -1,0 +1,39 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "Patrick, with a tired and dejected expression",
+      "entity": "his best friend",
+      "fit": 0.4,
+      "reason": "This is a cartoon figure, but his visibly tired and dejected expression aligns well with a friend who is emotionally exhausted by the ongoing situationship drama."
+    },
+    {
+      "figure": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+      "entity": "his roommate",
+      "fit": 0.4,
+      "reason": "This is a cartoon figure, but his weary and suspicious squint maps onto a roommate who has witnessed this pattern of behavior before and disapproves."
+    }
+  ],
+  "relationship": "His best friend and roommate share a look of mutual exhaustion and disapproval regarding his actions in his situationship with the off-screen persona.",
+  "weakest_fit": 0.4,
+  "why": "This lens fits the image's core emotional texture of shared, weary judgment between peers, but the fit is capped because the figures are non-literal cartoons, not photographed men.",
+  "secondary_nominations": [
+    {
+      "entity": "a low-energy moment",
+      "possibilities": [
+        "the morning after another fight",
+        "another debrief about my texts",
+        "him asking for advice again"
+      ]
+    },
+    {
+      "entity": "a mundane situation",
+      "possibilities": [
+        "the same argument for the tenth time",
+        "him deciding whether to text me back",
+        "another one of his 'i miss her' moods"
+      ]
+    }
+  ]
+}
+```

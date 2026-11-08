@@ -1,0 +1,38 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "Patrick, with a tired and dejected expression",
+      "entity": "me",
+      "fit": 1.0,
+      "reason": "The figure's cartoonish despair and exhaustion perfectly mask the persona's state of being worn down by her own patterns."
+    },
+    {
+      "figure": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+      "entity": "my better judgment",
+      "fit": 1.0,
+      "reason": "The figure's expression of tired, suspicious disapproval is a perfect personification of the part of her brain that knows this is a bad idea but is too drained to fight it."
+    }
+  ],
+  "weakest_fit": 1.0,
+  "why": "This dynamic shows my exhausted self existing alongside my equally exhausted but suspicious better judgment as we both watch me about to make the same bad decision again.",
+  "secondary_nominations": [
+    {
+      "entity": "a low-energy moment",
+      "possibilities": [
+        "the hour after he leaves",
+        "staring at the 'delivered' receipt",
+        "deciding whether to open the notification"
+      ]
+    },
+    {
+      "entity": "a mundane situation",
+      "possibilities": [
+        "seeing he watched my story",
+        "his one-word reply",
+        "another Saturday night with no text"
+      ]
+    }
+  ]
+}
+```

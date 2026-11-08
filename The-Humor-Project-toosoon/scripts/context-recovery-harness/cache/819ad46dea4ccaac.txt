@@ -1,0 +1,26 @@
+{
+  "figures": [
+    {
+      "anchor": "left cartoon jester standing with hands raised, facing the seated figure",
+      "candidates": [
+        "my situationship"
+      ]
+    },
+    {
+      "anchor": "right crowned princess seated on a throne, facing the jester",
+      "candidates": [
+        "his new girl"
+      ]
+    }
+  ],
+  "entities_in_caption": [
+    "me",
+    "my situationship",
+    "his five-year plan to be a DJ",
+    "his new girl"
+  ],
+  "entities_expected_in_image": [
+    "my situationship",
+    "his new girl"
+  ]
+}

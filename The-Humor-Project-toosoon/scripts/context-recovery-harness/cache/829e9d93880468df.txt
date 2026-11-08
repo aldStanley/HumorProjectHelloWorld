@@ -1,0 +1,38 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "Patrick, with a tired and dejected expression",
+      "entity": "me",
+      "fit": 1.0,
+      "reason": "Patrick is a cartoon figure whose expression of utter exhaustion and resignation is a perfect avatar for the persona's feelings about her own toxic patterns."
+    },
+    {
+      "figure": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+      "entity": "my bestie",
+      "fit": 1.0,
+      "reason": "SpongeBob is a cartoon figure whose face of judgmental, weary disapproval perfectly embodies the friend who has heard this all before but will support her anyway."
+    }
+  ],
+  "weakest_fit": 1.0,
+  "why": "This lens is a perfect fit, as the image of two cartoon friends sharing a moment of mutual dejection and weary judgment maps directly onto the persona's core dynamic with her best friend over a situationship.",
+  "secondary_nominations": [
+    {
+      "entity": "a low-energy moment",
+      "possibilities": [
+        "the 20-minute silence before deciding to text him back",
+        "the debrief after he leaves",
+        "realizing we're about to make a bad decision"
+      ]
+    },
+    {
+      "entity": "a mundane situation",
+      "possibilities": [
+        "his name lighting up my phone",
+        "the read receipt he just left me on",
+        "his one-word reply"
+      ]
+    }
+  ]
+}
+```

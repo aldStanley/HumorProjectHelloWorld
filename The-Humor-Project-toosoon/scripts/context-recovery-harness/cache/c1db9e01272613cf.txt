@@ -1,0 +1,105 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Telling my group chat 'omg i'm so happy for him, he deserves it' as I watch him and his best friend on the comedown after the party where he soft-launched a new girl in his photo dump, knowing he'll probably text me 'you up?' in an hour.",
+      "register": "watched_scene",
+      "metaphor": "The silent, worn-out 'comedown' after an intense event, where there's nothing left to say or do.",
+      "element_map": [
+        {
+          "element": "an intense event",
+          "played_by": "the party where he soft-launched a new girl",
+          "score": 1.0,
+          "reason": "A soft-launch is a peak-stakes, emotionally charged event within the ambiguous world of a situationship."
+        },
+        {
+          "element": "the silent, worn-out 'comedown'",
+          "played_by": "the visible exhaustion of my situationship and his best friend",
+          "score": 1.0,
+          "reason": "Their slumped, non-communicative postures are a perfect visual representation of a physical and emotional post-event collapse."
+        },
+        {
+          "element": "the feeling that there's nothing left to say or do",
+          "played_by": "my performative happiness vs. his inevitable late-night text",
+          "score": 0.9,
+          "reason": "His action has created a finality that leaves no room for real discussion, mirrored in their physical silence and my own cynical, resigned prediction of his behavior."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'My situationship' perfectly fills the role of the entity in focused despair/rumination, while 'his best friend' fills the role of the entity in total collapse."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The fit is excellent, with the slightly abstract 'nothing left to say' element being strongly supported by the specific and painful context of a soft-launch."
+      }
+    },
+    {
+      "context": "Liking his best friend’s photo of them looking absolutely shattered after a rager, leaving a 'looks fun lol' comment an hour after my situationship left my 'can we talk?' text on read because he was 'just so slammed with work this week.'",
+      "register": "watched_scene",
+      "metaphor": "Being physically together but emotionally worlds apart, each lost in their own private struggle.",
+      "element_map": [
+        {
+          "element": "being physically together",
+          "played_by": "my situationship and his best friend",
+          "score": 1.0,
+          "reason": "The two men are literally sitting side-by-side on the same staircase, in close physical proximity."
+        },
+        {
+          "element": "being emotionally worlds apart",
+          "played_by": "the disconnect between his partying and my attempt to communicate",
+          "score": 0.9,
+          "reason": "The moment's power comes from the stark contrast between his social reality and his emotional unavailability to me, creating a massive emotional distance."
+        },
+        {
+          "element": "each lost in their own private struggle",
+          "played_by": "his physical comedown vs. my emotional anxiety over being ignored",
+          "score": 0.9,
+          "reason": "He is visibly consumed by his post-party exhaustion while I am trapped in the completely separate pain of being actively ignored, creating two parallel miseries."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The core is perfectly cast with 'my situationship' as the figure in focused despair and 'his best friend' as the one in total collapse."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The moment is a very strong and layered fit, perfectly capturing both the literal and figurative distances described in the metaphor."
+      }
+    },
+    {
+      "context": "Refreshing his friend's story for the fifth time, watching my situationship stare into his cup while his best friend crashes out next to him after he blew up our 'perfect' week by saying he 'just can't give me what I need right now.'",
+      "register": "watched_scene",
+      "metaphor": "When a shared crisis hits, one person tries to analyze the problem while the other completely shuts down.",
+      "element_map": [
+        {
+          "element": "a shared crisis",
+          "played_by": "the abrupt end of our situationship's good phase",
+          "score": 0.9,
+          "reason": "His declaration is the central, destabilizing event that triggers the divergent responses and the subsequent misery."
+        },
+        {
+          "element": "the person who tries to analyze the problem",
+          "played_by": "my situationship",
+          "score": 1.0,
+          "reason": "His posture of staring intently into his glass is a perfect visual for someone ruminating on a problem they just created."
+        },
+        {
+          "element": "the person who completely shuts down",
+          "played_by": "his best friend",
+          "score": 0.7,
+          "reason": "His friend is physically collapsed, but it's more likely from exhaustion or being tired of the drama than being a primary party to the 'crisis,' making the 'shut down' a secondary effect."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The core slots are perfectly filled by 'my situationship' as the entity in focused despair and 'his best friend' as the entity in a state of total collapse."
+      },
+      "overall": {
+        "score": 0.7,
+        "reason": "The overall fit is strong but limited by the weakest element's score; his best friend's collapse reads more as fatigue from a long night than an emotional shutdown from the 'shared crisis.'"
+      }
+    }
+  ]
+}
+```

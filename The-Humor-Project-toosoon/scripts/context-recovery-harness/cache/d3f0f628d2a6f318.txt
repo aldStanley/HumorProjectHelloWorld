@@ -1,0 +1,32 @@
+```json
+[
+  {
+    "situation": "Gently supporting someone through a deep personal sadness or failure.",
+    "resonance": 0.9,
+    "resonance_why": "This is a core, universal human experience of giving or receiving comfort in a time of need.",
+    "image_clarity": 0.9,
+    "clarity_why": "The body language—one figure slumped and downcast, the other holding and leaning in—is a classic visual of consolation."
+  },
+  {
+    "situation": "Your current, wiser self trying to comfort and integrate a younger, more wounded part of yourself.",
+    "resonance": 0.8,
+    "resonance_why": "The concept of 'inner child' work and healing past trauma is a very common theme in modern mental health.",
+    "image_clarity": 0.4,
+    "clarity_why": "This is a purely conceptual metaphor; nothing in the image explicitly states the two figures are aspects of one person."
+  },
+  {
+    "situation": "Welcoming a newcomer into a reality that is completely foreign and overwhelming to them.",
+    "resonance": 0.7,
+    "resonance_why": "Most people have felt the disorientation and anxiety of being new, whether at a school, a job, or in a different country.",
+    "image_clarity": 0.6,
+    "clarity_why": "The alien figures inherently suggest a 'foreign' context, and the poses map well to a gentle guide and an overwhelmed newcomer."
+  },
+  {
+    "situation": "Trying to gently introduce a difficult, world-altering truth to someone who isn't ready for it.",
+    "resonance": 0.7,
+    "resonance_why": "This captures the heavy feeling of being the bearer of bad news or a paradigm-shifting idea.",
+    "image_clarity": 0.5,
+    "clarity_why": "The downcast posture could signify receiving a heavy truth, but it's visually indistinguishable from general sadness about a past event."
+  }
+]
+```

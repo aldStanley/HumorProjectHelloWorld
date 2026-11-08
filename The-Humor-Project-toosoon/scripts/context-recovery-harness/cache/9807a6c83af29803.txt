@@ -1,0 +1,38 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "a person slumped over looking down into a glass",
+      "entity": "me",
+      "fit": 0.9,
+      "reason": "The figure's posture of being slumped over while intensely focused on the glass is a perfect representation of obsessively re-reading texts, fitting the 'me' entity despite the male read."
+    },
+    {
+      "figure": "a person completely hunched over with their head buried in their arms",
+      "entity": "my bestie",
+      "fit": 0.9,
+      "reason": "This figure's posture of total collapse and exhaustion perfectly captures a friend providing drained, silent support after a long night of situationship drama, fitting the 'my bestie' entity despite the male read."
+    }
+  ],
+  "weakest_fit": 0.9,
+  "why": "The image's core dynamic of two people sharing a quiet, miserable comedown in a public space is a very strong match for the persona's world of post-situationship drama with a friend.",
+  "secondary_nominations": [
+    {
+      "entity": "a post-event comedown",
+      "possibilities": [
+        "the debrief after he left my place",
+        "when the fake 'i don't care' energy runs out",
+        "the morning after going back to him"
+      ]
+    },
+    {
+      "entity": "a gritty public staircase",
+      "possibilities": [
+        "waiting for the 4am uber home",
+        "the walk of shame",
+        "crashing out before we make it home"
+      ]
+    }
+  ]
+}
+```

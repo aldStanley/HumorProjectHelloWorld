@@ -1,0 +1,29 @@
+{
+  "figures": [
+    {
+      "anchor": "left, jester-like character standing with hands raised facing the seated figure",
+      "candidates": [
+        "me",
+        "my best friend",
+        "his"
+      ]
+    },
+    {
+      "anchor": "right, princess/queen-like character seated on a throne facing the standing figure",
+      "candidates": [
+        "me",
+        "my best friend"
+      ]
+    }
+  ],
+  "entities_in_caption": [
+    "me",
+    "my best friend",
+    "his"
+  ],
+  "entities_expected_in_image": [
+    "me",
+    "my best friend",
+    "his"
+  ]
+}

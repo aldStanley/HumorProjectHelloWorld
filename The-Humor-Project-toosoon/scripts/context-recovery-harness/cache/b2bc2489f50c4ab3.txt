@@ -1,0 +1,29 @@
+{
+  "figures": [
+    {
+      "figure": "left pink starfish with half-lidded eyes and a small frown, looking toward the other character",
+      "entity_guess": "my bestie",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "The unimpressed, tired look fits a best friend reacting skeptically to hearing 'this time feels different' again, but the caption does not explicitly say which visible character is the bestie."
+    },
+    {
+      "figure": "right yellow sponge with half-lidded eyes and a flat frown",
+      "entity_guess": "I/me",
+      "confident": false,
+      "pose_explained": false,
+      "pose_note": "If this is the speaker who got the breadcrumb text, the deadpan pose is not clearly explained; the caption implies the speaker is hopeful or delusional, not necessarily visibly unimpressed."
+    }
+  ],
+  "unresolved": [
+    "his",
+    "his bi-weekly breadcrumb text",
+    "the person sending the breadcrumb text",
+    "this time feels different"
+  ],
+  "story_guess": "The joke is that the narrator's best friend is exhausted and skeptical because the narrator keeps overinterpreting a low-effort occasional text from a guy as a sign that things will finally change.",
+  "cast_clarity": 0.45,
+  "pose_clarity": 0.55,
+  "story_clarity": 0.85,
+  "verdict": "partly"
+}

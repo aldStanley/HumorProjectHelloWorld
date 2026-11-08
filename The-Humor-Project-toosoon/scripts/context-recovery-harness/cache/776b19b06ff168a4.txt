@@ -1,0 +1,32 @@
+{
+  "figures": [
+    {
+      "anchor": "foreground left/near person in a striped shirt bent over by the platform edge",
+      "candidates": [
+        "him",
+        "his boy"
+      ]
+    },
+    {
+      "anchor": "foreground right/back person in a light blue shirt bent over by the platform edge",
+      "candidates": [
+        "him",
+        "his boy"
+      ]
+    },
+    {
+      "anchor": "distant person standing upright on the opposite platform near the center",
+      "candidates": []
+    }
+  ],
+  "entities_in_caption": [
+    "him",
+    "his boy",
+    "me",
+    "my 'good communication' Hinge prompt"
+  ],
+  "entities_expected_in_image": [
+    "him",
+    "his boy"
+  ]
+}

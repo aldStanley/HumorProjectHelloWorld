@@ -1,0 +1,162 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "Him and his friend after he tries reading his future in a cup before texting me at 4am.",
+      "context": "Realizing I'm going to get another 4 a.m. 'i miss you' text after seeing him trying to read his future in the bottom of a cup while his best friend just accepts defeat, both of them stuck on the same step they've been on for months.",
+      "metaphor": "Stuck in the same ongoing struggle, where one person keeps searching for a way out while the other has completely surrendered to despair.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities sit together in a shared state of dejection, but are isolated in their own separate, non-interactive postures.",
+          "secondary": "The setting is a gritty public staircase, and the mood is tired, exhausted, or a post-event comedown."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "my situationship",
+            "score": 0.9,
+            "reason": "This figure's focused, tired posture while staring into a glass perfectly embodies the role of the situationship."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "his best friend",
+            "score": 0.8,
+            "reason": "This figure's collapsed, dejected posture fits the role of the best friend who has given up on the situation."
+          }
+        ],
+        "relation": "are sitting close together on a staircase but are not interacting"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption correctly places the two cast entities, 'Him and his friend,' in a shared but unresolved state that mirrors how they 'are sitting close together... but are not interacting'.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "From the caption's setup ('reading his future... before texting me at 4am') and the image's aftermath, a reader can easily reconstruct the story of his cyclical, late-night spiraling.",
+      "element_allusions": [
+        {
+          "element": "the same ongoing struggle",
+          "played_by": "his self-destructive cycle",
+          "allusion": 0.8,
+          "reason": "The combination of his dejected state in the image and the caption's mention of a recurring 4am text strongly implies 'his self-destructive cycle'."
+        },
+        {
+          "element": "one person [who] keeps searching for a way out",
+          "played_by": "my situationship",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'Him' and his futile action of 'reading his future in a cup,' making the allusion to him searching for a way out unmistakable."
+        },
+        {
+          "element": "the other [who] has completely surrendered to despair",
+          "played_by": "his best friend",
+          "allusion": 1.0,
+          "reason": "The caption names 'his friend,' and his collapsed posture in the image clearly conveys he has surrendered to the situation's hopelessness."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "My situationship and his best friend two weeks into his new relationship.",
+      "context": "Seeing my situationship stare into an empty glass like it holds the answers for why his new girl is already mad at him, while his best friend just gives up and sleeps on the stairs, leaving me to wonder why I'm still paying attention to his self-made dramas.",
+      "metaphor": "Being right next to someone who is falling apart, but being completely absorbed in your own separate world.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities sit together in a shared state of dejection, but are isolated in their own separate, non-interactive postures.",
+          "secondary": "The setting is a gritty public staircase, and the mood is tired, exhausted, or a post-event comedown."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "my situationship",
+            "score": 0.9,
+            "reason": "This figure's focused, tired posture while staring into a glass perfectly embodies the role of the situationship."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "his best friend",
+            "score": 0.8,
+            "reason": "This figure's collapsed, dejected posture fits the role of the best friend who has given up on the situation."
+          }
+        ],
+        "relation": "are sitting close together on a staircase but are not interacting"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption places 'My situationship and his best friend' in a shared context, letting the image deliver their separate, non-interactive reactions, thus upholding the core relation.",
+      "context_recovery": 0.8,
+      "context_recovery_reason": "The caption's premise ('two weeks into his new relationship') paired with the image of utter dejection lets a reader fully reconstruct the story that his new relationship is already a disaster.",
+      "element_allusions": [
+        {
+          "element": "someone who is falling apart",
+          "played_by": "my situationship",
+          "allusion": 0.9,
+          "reason": "The caption places 'my situationship' in a new relationship, and the image's depiction of his despair strongly implies he is 'falling apart' because of it."
+        },
+        {
+          "element": "[being] right next to someone",
+          "played_by": "his best friend",
+          "allusion": 1.0,
+          "reason": "The caption names 'his best friend' and the image physically shows him right next to his friend."
+        },
+        {
+          "element": "[being] completely absorbed in your own separate world",
+          "played_by": "his best friend",
+          "allusion": 0.9,
+          "reason": "The caption names 'his best friend,' whose collapsed posture in the image perfectly illustrates him being checked out and 'absorbed in his own separate world' of exhaustion."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "My ex and his best friend after he spent hours explaining how he 'fumbled' me.",
+      "context": "Watching my situationship meticulously count the beer logos left on his glass while his best friend literally passes out from boredom after he spent the whole night explaining how he 'fumbled' by ending things with me last week.",
+      "metaphor": "Facing the same overwhelming problem, but one person distracts themselves with a tiny detail while the other collapses under the weight of it.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities sit together in a shared state of dejection, but are isolated in their own separate, non-interactive postures.",
+          "secondary": "The setting is a gritty public staircase, and the mood is tired, exhausted, or a post-event comedown."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "my situationship",
+            "score": 0.9,
+            "reason": "This figure's focused, tired posture while staring into a glass perfectly embodies the role of the situationship, here labeled 'my ex'."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "his best friend",
+            "score": 0.8,
+            "reason": "This figure's collapsed, dejected posture fits the role of the best friend who has given up on the situation."
+          }
+        ],
+        "relation": "are sitting close together on a staircase but are not interacting"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption establishes a shared inciting incident for 'My ex and his best friend,' perfectly setting up the image which shows them sitting together but not interacting.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can perfectly reconstruct the entire story: the caption states he spent hours talking about 'fumbling' her, and the image shows the exhausted aftermath for both him and his friend.",
+      "element_allusions": [
+        {
+          "element": "the same overwhelming problem",
+          "played_by": "the fallout from him ending things",
+          "allusion": 1.0,
+          "reason": "The caption explicitly states the problem is that 'he spent hours explaining how he 'fumbled' me,' directly referencing the fallout."
+        },
+        {
+          "element": "one person [who] distracts themselves with a tiny detail",
+          "played_by": "my situationship",
+          "allusion": 0.9,
+          "reason": "The caption names 'My ex', and the image completes the allusion by showing him fixated on a 'tiny detail' (his glass) as a coping mechanism."
+        },
+        {
+          "element": "the other [who] collapses under the weight of it",
+          "played_by": "his best friend",
+          "allusion": 1.0,
+          "reason": "The caption explains that 'his best friend' endured hours of the explanation, so his collapsed state in the image is clearly a direct result of that 'weight'."
+        }
+      ],
+      "match_overall": 0.8
+    }
+  ]
+}
+```

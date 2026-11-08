@@ -1,0 +1,180 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "My bestie and I 30 seconds after I swore I was finally blocking him.",
+      "context": "My bestie sits in silence and just watches me type 'omw!' to my situationship after he texted 'you up?' at 1am for the fourth time this month, thirty seconds after I swore I was finally blocking him.",
+      "metaphor": "Watching a friend make the same, predictable bad decision for the tenth time and being too tired to intervene anymore.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "The viewer can fully recover 'a friend making the bad decision' (the 'I' in the caption, caving '30 seconds after' a promise), 'the one watching' ('my bestie'), and 'the feeling of being too tired to intervene' (the image's expressions), making the pattern clear.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities observe an unseen stimulus with shared weary disapproval.",
+          "secondary": "The entities stand side-by-side, one looking dejected and the other suspicious."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "me",
+            "score": 1.0,
+            "reason": "The register read binds this figure to 'me', and Patrick's exhausted, dejected look perfectly embodies the persona's feeling of being emotionally drained."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "my bestie",
+            "score": 1.0,
+            "reason": "The register read binds this figure to 'my bestie', and SpongeBob's judgmental, weary expression is the ideal representation of a friend who's seen this all before."
+          }
+        ],
+        "relation": "stand next to each other and observe"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption perfectly preserves the core analog where two similar-kind entities ('My bestie and I') 'observe' an implied off-screen stimulus (my phone) with the shared disapproval shown in the image.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can fully reconstruct the story: I promised to block him, but my bestie is now watching me immediately go back on my word, which is why we both look so defeated.",
+      "element_allusions": [
+        {
+          "element": "a friend making the bad decision",
+          "played_by": "me",
+          "allusion": 1.0,
+          "reason": "The caption's use of 'I' explicitly casts the persona in this role, with the timing '30 seconds after I swore' defining the bad decision."
+        },
+        {
+          "element": "the one watching",
+          "played_by": "my bestie",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'My bestie' as the other party present for the action."
+        },
+        {
+          "element": "the same, predictable bad decision",
+          "played_by": "my immediately caving and agreeing to go over",
+          "allusion": 0.9,
+          "reason": "The phrase '30 seconds after I swore I was finally blocking him' makes the immediate reversal and act of caving unmistakable."
+        },
+        {
+          "element": "the feeling of being too tired to intervene",
+          "played_by": "my bestie's silence",
+          "allusion": 0.8,
+          "reason": "This is not stated, but the weary, silent expressions in the image, paired with the setup, strongly imply that words have failed and this is all that's left."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "Me and my bestie staring at his 'had a family emergency' text.",
+      "context": "Me and my bestie staring at my phone as I read aloud his paragraph explaining he couldn't text because he 'had a family emergency,' right after his friend's story showed him in the background of a party.",
+      "metaphor": "Listening to someone's obviously exaggerated or fake story and trying not to call them out on it.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "The viewer recovers the 'obviously fake story' (the quoted text), the 'people listening' ('Me and my bestie'), and the feeling of 'trying not to call them out' (the silent, weary staring in the image), perfectly rebuilding the metaphor.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities observe an unseen stimulus with shared weary disapproval.",
+          "secondary": "The entities stand side-by-side, one looking dejected and the other suspicious."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "me",
+            "score": 1.0,
+            "reason": "The register read binds this figure to 'me', and Patrick's exhausted, dejected look perfectly embodies the persona's feeling of being emotionally drained."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "my bestie",
+            "score": 1.0,
+            "reason": "The register read binds this figure to 'my bestie', and SpongeBob's judgmental, weary expression is the ideal representation of a friend who's seen this all before."
+          }
+        ],
+        "relation": "stand next to each other and observe"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption preserves the core analog as 'Me and my bestie' (two similar-kind entities) 'observe' an unseen stimulus ('his text') with the shared disapproval shown in the image.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can fully reconstruct the story: we are reading his obviously fake excuse for being unavailable, and our expressions show we aren't buying it for a second.",
+      "element_allusions": [
+        {
+          "element": "someone's obviously exaggerated or fake story",
+          "played_by": "his text about a 'family emergency'",
+          "allusion": 1.0,
+          "reason": "The caption quotes the 'family emergency' text, and the quotes themselves signal that it's a suspicious claim."
+        },
+        {
+          "element": "the people listening",
+          "played_by": "me and my bestie",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'Me and my bestie' as the audience for the text."
+        },
+        {
+          "element": "the social tightrope of not calling them out",
+          "played_by": "our shared, silent staring at the phone",
+          "allusion": 1.0,
+          "reason": "The caption's verb 'staring' combined with the image's non-confrontational, weary expressions perfectly captures the silent processing of a lie."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "Me and my bestie watching the Hinge app he 'deleted' on a date.",
+      "context": "My bestie and I looking across the street at my situationship on a date with a Hinge girl he swore he'd deleted the app for, as I check my own reflection in my black phone screen.",
+      "metaphor": "The shared, silent moment between two people after witnessing an incredibly awkward or draining social interaction.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "The viewer can rebuild the entire metaphor: 'two people' ('Me and my bestie') witness a 'draining social interaction' (watching him on a date after he lied) which results in a 'shared, silent moment' (the act of 'watching' plus the image's reaction).",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities observe an unseen stimulus with shared weary disapproval.",
+          "secondary": "The entities stand side-by-side, one looking dejected and the other suspicious."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "me",
+            "score": 1.0,
+            "reason": "The register read binds this figure to 'me', and Patrick's exhausted, dejected look perfectly embodies the persona's feeling of being emotionally drained."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "my bestie",
+            "score": 1.0,
+            "reason": "The register read binds this figure to 'my bestie', and SpongeBob's judgmental, weary expression is the ideal representation of a friend who's seen this all before."
+          }
+        ],
+        "relation": "stand next to each other and observe"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption holds the core analog where 'Me and my bestie' (two similar-kind entities) 'observe' an unseen stimulus (the date) with the shared weary disapproval shown in the image.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The story is fully recoverable: he lied about deleting Hinge, and now we are watching him on a date with a girl from that very app, which explains our looks of defeat.",
+      "element_allusions": [
+        {
+          "element": "two people",
+          "played_by": "my bestie and I",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'Me and my bestie' as the two people involved."
+        },
+        {
+          "element": "the awkward or draining social interaction",
+          "played_by": "him being on a date after lying about it",
+          "allusion": 1.0,
+          "reason": "The phrase 'watching the Hinge app he 'deleted' on a date' perfectly encapsulates the lie and the painful discovery."
+        },
+        {
+          "element": "the shared, silent moment",
+          "played_by": "us looking across the street",
+          "allusion": 1.0,
+          "reason": "The verb 'watching' implies the shared observation, and the image itself delivers the silent, non-verbal communication of the moment."
+        },
+        {
+          "element": "the non-verbal 'did you just see that?' check-in",
+          "played_by": "our shared gaze and proximity",
+          "allusion": 1.0,
+          "reason": "This is fully delivered by the image, which depicts two friends standing together and sharing the exact same weary, judgmental gaze at an off-screen event."
+        }
+      ],
+      "match_overall": 0.9
+    }
+  ]
+}
+```

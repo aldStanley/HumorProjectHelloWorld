@@ -1,0 +1,28 @@
+{
+  "figures": [
+    {
+      "figure": "left seated young man in blue cap, hunched forward looking down and holding a clear cup",
+      "entity_guess": "my situationship",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "The caption implies he is miserable or emotionally wrecked two weeks into his new relationship, which fits the hunched, head-down posture, but nothing in the image anchors him specifically as the situationship rather than the best friend."
+    },
+    {
+      "figure": "right seated young man in green shirt, hunched over with head down on/near his arms",
+      "entity_guess": "his best friend",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "The caption implies the best friend is also miserable or exhausted because of the situationship's new relationship, which fits the slumped posture, but nothing in the image anchors him specifically as the best friend rather than the situationship."
+    }
+  ],
+  "unresolved": [
+    "his new relationship",
+    "why the best friend is affected by the new relationship",
+    "which visible person is the situationship versus the best friend"
+  ],
+  "story_guess": "The joke is that the speaker's situationship got into a new relationship, and only two weeks later he and his best friend already look defeated or miserable.",
+  "cast_clarity": 0.5,
+  "pose_clarity": 0.7,
+  "story_clarity": 0.65,
+  "verdict": "partly"
+}

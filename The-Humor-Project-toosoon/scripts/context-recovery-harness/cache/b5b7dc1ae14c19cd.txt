@@ -1,0 +1,38 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "a person slumped over looking down into a glass",
+      "entity": "my delusion",
+      "fit": 1.0,
+      "reason": "The figure's intense, focused examination of the glass perfectly embodies the act of finding hope and meaning in meaningless scraps of information."
+    },
+    {
+      "figure": "a person completely hunched over with their head buried in their arms",
+      "entity": "me",
+      "fit": 0.7,
+      "reason": "The body language of total emotional collapse perfectly captures her state, but the figure is a photographed man, so the mask isn't seamless."
+    }
+  ],
+  "weakest_fit": 0.7,
+  "why": "This arrangement stages her emotional collapse while her delusion sits right beside her, relentlessly looking for a sign of hope in the scraps of a toxic situation.",
+  "secondary_nominations": [
+    {
+      "entity": "a post-event comedown",
+      "possibilities": [
+        "the morning after I swore I was done",
+        "the 4am feeling when he's gone home",
+        "the vibe after he finally texts back 'k'"
+      ]
+    },
+    {
+      "entity": "a gritty public staircase",
+      "possibilities": [
+        "the rock bottom part of my brain",
+        "a situationship with no future",
+        "waiting for the uber of shame"
+      ]
+    }
+  ]
+}
+```

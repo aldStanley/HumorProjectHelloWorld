@@ -1,0 +1,38 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "a person slumped over looking down into a glass",
+      "entity": "me rereading his last text",
+      "fit": 0.8,
+      "reason": "The figure is a photographed man, costing some fit, but his tired focus on the glass perfectly captures the persona's obsessive analysis of a small, contained detail."
+    },
+    {
+      "figure": "a person completely hunched over with their head buried in their arms",
+      "entity": "my resolve to be unbothered",
+      "fit": 1.0,
+      "reason": "The figure's posture of total collapse is a literal representation of a defeated internal force."
+    }
+  ],
+  "weakest_fit": 0.8,
+  "why": "This dynamic stages the moment her obsessive analysis of his behavior overpowers and defeats her attempt to remain emotionally detached.",
+  "secondary_nominations": [
+    {
+      "entity": "a post-event comedown",
+      "possibilities": [
+        "the 3 hours after he leaves",
+        "the morning after I said I was done for good",
+        "the silence after the risky text"
+      ]
+    },
+    {
+      "entity": "a gritty public staircase",
+      "possibilities": [
+        "the situationship itself",
+        "the wait for his reply",
+        "my current emotional state"
+      ]
+    }
+  ]
+}
+```

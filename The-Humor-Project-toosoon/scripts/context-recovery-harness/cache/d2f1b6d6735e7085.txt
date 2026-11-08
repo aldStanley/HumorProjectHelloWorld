@@ -1,0 +1,1 @@
+{"cast_match":1,"pose_match":0.88,"story_match":0.9,"overall_recovered":0.92,"verdict":"got_it","note":"The viewer correctly mapped the jester to me and the queen to the skeptical best friend, and recovered the joke of overdramatically reframing a late-night reply as a strategic power move, though they missed the specific closure/not-caving-again angle."}

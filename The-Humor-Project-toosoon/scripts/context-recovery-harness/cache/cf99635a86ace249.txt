@@ -1,0 +1,24 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "Two men bent over at the waist",
+      "entity": "me",
+      "fit": 0.4,
+      "reason": "The synchronized, intense focus perfectly captures her obsessive analysis of the situation, but the assignment is capped by the cardinality mismatch of a singular \"me\" on a plural figure."
+    }
+  ],
+  "weakest_fit": 0.4,
+  "why": "This arrangement stages her internal state as a unified obsession, where all parts of her are bent towards the same self-destructive analysis.",
+  "secondary_nominations": [
+    {
+      "entity": "a mundane public setting",
+      "possibilities": [
+        "the chat window I've had open for hours",
+        "his social media profile at 2am",
+        "waiting for the three dots to appear"
+      ]
+    }
+  ]
+}
+```

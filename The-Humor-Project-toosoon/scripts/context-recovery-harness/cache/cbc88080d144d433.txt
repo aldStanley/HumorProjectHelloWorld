@@ -1,0 +1,117 @@
+```json
+{
+  "matches": [
+    {
+      "context": "His best friend and roommate share a silent, tired glance after he asks to borrow a phone to watch my Instagram story because I blocked him on his own account last night.",
+      "register": "watched_scene",
+      "metaphor": "The shared, silent moment between two people after witnessing an incredibly awkward or draining social interaction.",
+      "element_map": [
+        {
+          "element": "Two people",
+          "played_by": "His best friend and roommate",
+          "score": 1.0,
+          "reason": "The moment explicitly names two peer entities who are sharing the experience, perfectly matching the element's cardinality."
+        },
+        {
+          "element": "The shared, silent moment",
+          "played_by": "their silent, tired glance",
+          "score": 1.0,
+          "reason": "This is a direct, literal translation of the non-verbal communication that defines the metaphorical moment."
+        },
+        {
+          "element": "The awkward or draining social interaction",
+          "played_by": "his request to borrow a phone to circumvent me blocking him",
+          "score": 1.0,
+          "reason": "This action is a textbook example of a low-stakes but deeply awkward social event that would provoke such a reaction."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's 'his best friend and roommate' perfectly fill the slot for 'two peer entities' jointly expressing 'weary disappointment' (a silent, tired glance) toward the stimulus of his awkward request."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a direct and literal embodiment of the metaphor, with every element and core slot filled perfectly."
+      }
+    },
+    {
+      "context": "His best friend and roommate just watch him with dead eyes as he picks up his phone to text me 'hey' for the fifth time this week after telling them yesterday he needed to 'let me go for my own good'.",
+      "register": "watched_scene",
+      "metaphor": "Watching a friend make the same, predictable bad decision for the tenth time and being too tired to intervene anymore.",
+      "element_map": [
+        {
+          "element": "A friend making a bad decision",
+          "played_by": "him (my situationship)",
+          "score": 1.0,
+          "reason": "He is the central figure whose actions are being judged as a repetitive mistake by his peers."
+        },
+        {
+          "element": "The predictable bad decision",
+          "played_by": "texting me again after vowing to stop",
+          "score": 1.0,
+          "reason": "The context specifies this is the 'fifth time this week', establishing it as a clear, predictable pattern of behavior."
+        },
+        {
+          "element": "The tired observers",
+          "played_by": "His best friend and roommate",
+          "score": 1.0,
+          "reason": "The two friends are explicitly cast as the observers, matching the plural nature of the element."
+        },
+        {
+          "element": "The exhaustion from non-intervention",
+          "played_by": "their dead-eyed watching",
+          "score": 0.9,
+          "reason": "Watching with 'dead eyes' is a powerful visual signifier for the emotional state of being too exhausted to engage."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'His best friend and roommate' are the two peer entities, and their 'dead-eyed watching' is the joint expression of weary disappointment toward the stimulus of his repetitive texting."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The fit is excellent, but the mapping of an emotional state ('exhaustion') to a physical expression ('dead eyes') is slightly less direct than other elements, making it the weakest link."
+      }
+    },
+    {
+      "context": "His roommate and best friend just stare blankly as he finishes explaining how he 'had to be the bad guy' on the phone with me, conveniently leaving out the part where he was the one who called me first after ignoring my texts for three days.",
+      "register": "watched_scene",
+      "metaphor": "Listening to someone's obviously exaggerated or fake story and trying not to call them out on it.",
+      "element_map": [
+        {
+          "element": "Someone telling an exaggerated or fake story",
+          "played_by": "him (my situationship)",
+          "score": 1.0,
+          "reason": "He is the sole speaker, spinning a self-serving narrative about his interaction with me."
+        },
+        {
+          "element": "The story itself",
+          "played_by": "his explanation of being 'the bad guy' while omitting his own culpability",
+          "score": 1.0,
+          "reason": "The sentence clearly defines the content of the fake story and the crucial information it omits."
+        },
+        {
+          "element": "The listeners who know the truth",
+          "played_by": "His roommate and best friend",
+          "score": 1.0,
+          "reason": "As his close peers who have heard this before, they are perfectly positioned as the skeptical audience."
+        },
+        {
+          "element": "The effort of not calling them out",
+          "played_by": "their blank staring",
+          "score": 0.9,
+          "reason": "A blank stare is a classic, passive expression of disapproval and the effort to withhold a more active response."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'His roommate and best friend' are the two peer entities, and their 'blank staring' jointly expresses weary disappointment toward the stimulus of his fake story."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The fit is very strong, with the weakest aspect being the interpretation of 'blank staring' as the effort of non-confrontation, which is a solid but slightly abstract link."
+      }
+    }
+  ]
+}
+```

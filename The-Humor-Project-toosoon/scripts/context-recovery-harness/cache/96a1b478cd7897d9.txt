@@ -1,0 +1,32 @@
+```json
+[
+  {
+    "situation": "Listening to someone's obviously exaggerated or fake story and trying not to call them out on it.",
+    "resonance": 0.9,
+    "resonance_why": "Nearly everyone has a friend or family member who tells tall tales, making this a deeply familiar social tightrope to walk.",
+    "image_clarity": 1.0,
+    "clarity_why": "SpongeBob's squint is the classic look of intense skepticism, while Patrick's expression is the sheer exhaustion of having to listen."
+  },
+  {
+    "situation": "The shared, silent moment between two people after witnessing an incredibly awkward or draining social interaction.",
+    "resonance": 1.0,
+    "resonance_why": "This is a universal bonding experience, the non-verbal 'did you just see that?' check-in with an ally.",
+    "image_clarity": 0.9,
+    "clarity_why": "Their shared focus off-screen and twin expressions of weariness perfectly capture the feeling of processing a recent, unpleasant event."
+  },
+  {
+    "situation": "Watching a friend make the same, predictable bad decision for the tenth time and being too tired to intervene anymore.",
+    "resonance": 0.9,
+    "resonance_why": "A common, painful dynamic in long-term relationships where you have to let people learn their own lessons.",
+    "image_clarity": 0.8,
+    "clarity_why": "Patrick's look is pure dejection and resignation, while SpongeBob's suspicious gaze feels like a weary 'I knew this would happen'."
+  },
+  {
+    "situation": "Two veterans of an industry looking at a new, over-hyped trend they know is destined to fail.",
+    "resonance": 0.7,
+    "resonance_why": "A very recognizable feeling for anyone with deep experience in a field, but it's more niche than general social situations.",
+    "image_clarity": 0.6,
+    "clarity_why": "Their cynical and tired expressions fit, but the specific context of industry veteranship would require a caption to be clear."
+  }
+]
+```

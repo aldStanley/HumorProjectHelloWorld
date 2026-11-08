@@ -1,0 +1,72 @@
+```json
+{
+  "matches": [
+    {
+      "context": "My bestie is totally passed out while I spend our 4am Uber ride zooming in on the screenshot of his 'boys night' story, trying to decide if the watch on the girl's wrist is the one his ex tagged him in two years ago.",
+      "register": "in_scene",
+      "metaphor": "When a shared crisis hits, one person tries to analyze the problem while the other completely shuts down.",
+      "element_map": [
+        {
+          "element": "a shared crisis",
+          "played_by": "my situationship potentially soft-launching another girl",
+          "score": 0.9,
+          "reason": "The crisis is primarily mine, but its fallout is shared with my bestie who is providing support, making it a strong fit."
+        },
+        {
+          "element": "the person who tries to analyze the problem",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "My obsessive forensic analysis of a screenshot is a perfect, modern embodiment of trying to 'solve' the problem."
+        },
+        {
+          "element": "the person who completely shuts down",
+          "played_by": "my bestie",
+          "score": 1.0,
+          "reason": "Being 'totally passed out' is the ultimate form of shutdown after being subjected to hours of secondhand drama."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The core slots are perfectly filled by me (in focused despair, analyzing a screenshot) and my bestie (in total collapse, passed out)."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The overall fit is excellent, limited only slightly by the crisis being personally mine rather than truly mutual."
+      }
+    },
+    {
+      "context": "My bestie is asleep on the steps after he finally left at 3am, and I'm just sitting here re-reading our fight texts from before he came over, trying to find where I could have been 'less intense'.",
+      "register": "in_scene",
+      "metaphor": "The silent, worn-out 'comedown' after an intense event, where there's nothing left to say or do.",
+      "element_map": [
+        {
+          "element": "the intense event",
+          "played_by": "the fight with my situationship that preceded him coming over",
+          "score": 1.0,
+          "reason": "This is a classic high-stakes situationship event that perfectly sets the stage for a subsequent emotional and physical crash."
+        },
+        {
+          "element": "the worn-out people",
+          "played_by": "me and my bestie",
+          "score": 1.0,
+          "reason": "The plural element is perfectly filled by the two distinct, exhausted entities in the moment."
+        },
+        {
+          "element": "the silent comedown",
+          "played_by": "my obsessive text analysis and her exhausted sleep",
+          "score": 0.9,
+          "reason": "The combination of our two behaviors perfectly embodies the quiet, miserable exhaustion that defines a post-drama comedown."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "My focused despair is captured by re-reading texts to self-blame, while my bestie's total collapse is literal as she is asleep on the steps."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The fit is very strong, with the weakest link being that the 'comedown' is an abstract state rather than an active entity."
+      }
+    }
+  ]
+}
+```

@@ -1,0 +1,30 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "One of the two men bent over at the waist",
+      "entity": "me",
+      "fit": 0.8,
+      "reason": "His intense, hyper-focused posture of looking down for something perfectly embodies her state when obsessively analyzing a text or situation."
+    },
+    {
+      "figure": "The other of the two men bent over at the waist",
+      "entity": "my delusion",
+      "fit": 1.0,
+      "reason": "His identical, synchronized posture shows him acting as an inseparable partner to 'me', helping her search for evidence to support a desired narrative."
+    }
+  ],
+  "weakest_fit": 0.8,
+  "why": "This dynamic stages the perfect, synchronized collaboration between her and her own delusion as they both obsessively scrutinize a situation for meaning.",
+  "secondary_nominations": [
+    {
+      "entity": "a mundane public setting",
+      "possibilities": [
+        "our one-sided chat history",
+        "the 45-minute window he hasn't responded in",
+        "the notes app where I draft the text"
+      ]
+    }
+  ]
+}
+```

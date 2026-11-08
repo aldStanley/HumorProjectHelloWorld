@@ -1,0 +1,93 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Me at 2 AM, holding my phone over the 'block' button, while me from yesterday, who swore to all her friends this was the last time, loudly lists every single reason he's trash after he sent another 'you good?' text.",
+      "register": "internal",
+      "me_side": "Me at 2 AM",
+      "force_side": "me from yesterday",
+      "metaphor": "Putting on a whole show to sell an idea to an unimpressed authority figure.",
+      "element_map": [
+        {
+          "element": "The one putting on the show",
+          "played_by": "me from yesterday",
+          "score": 1.0,
+          "reason": "This persona is energetically performing the 'show' of listing his flaws in a desperate attempt to sell the 'block him' idea to her present self."
+        },
+        {
+          "element": "The unimpressed authority figure",
+          "played_by": "Me at 2 AM",
+          "score": 1.0,
+          "reason": "She holds the ultimate power (the block button) and her hesitation proves she is the unimpressed judge of the performance being staged by her past self."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The energetic effort of 'me from yesterday' is met with the dismissive, judgmental stillness of 'me at 2 AM', perfectly fitting the core dynamic between two different-kind entities (past vs. present self)."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect instantiation of the metaphor, and the me-vs-me conflict maps flawlessly onto the core analog's entities."
+      }
+    },
+    {
+      "context": "Me trying to look nonchalant while staring at my phone as the urge to text him back drafts an entire SNL sketch to send after he left my heartfelt paragraph on read for six hours.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "the urge to text him back",
+      "metaphor": "Trying desperately to win the approval of someone who is indifferent or judgmental.",
+      "element_map": [
+        {
+          "element": "Someone trying desperately to win approval",
+          "played_by": "the urge to text him back",
+          "score": 1.0,
+          "reason": "This internal force is performing frantically—drafting a comedy sketch—to win the approval of the part of her that wants to maintain composure."
+        },
+        {
+          "element": "Someone who is indifferent or judgmental",
+          "played_by": "Me",
+          "score": 1.0,
+          "reason": "Her entire performance of looking nonchalant is an act of judgment and feigned indifference directed at her own desperate internal urge."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'The urge to text him back' is the entity with energetic effort, while 'me' is the different-kind entity (the conscious self) holding a pose of dismissive judgment."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment's entities map perfectly to both the metaphor's elements and the core analog's structure, creating a flawless fit."
+      }
+    },
+    {
+      "context": "Me watching his new story go up after he's ignored my text for two days while my delusion explains how he's probably just busy saving orphans and definitely isn't ghosting me.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "my delusion",
+      "metaphor": "Explaining a fun, creative passion to someone who only sees it as frivolous and impractical.",
+      "element_map": [
+        {
+          "element": "Someone explaining a fun, creative passion",
+          "played_by": "my delusion",
+          "score": 1.0,
+          "reason": "'My delusion' is passionately and creatively explaining an elaborate fictional scenario to make an unbearable situation feel safe."
+        },
+        {
+          "element": "Someone who only sees it as frivolous and impractical",
+          "played_by": "Me",
+          "score": 0.9,
+          "reason": "The 'me' in this scenario is grounded in the painful reality of being ignored, viewing the delusion's story as a necessary but ultimately frivolous fantasy."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The energetic, performative effort of 'my delusion' is met by the dismissive, judgmental evaluation of 'me', who is stationary and watching things unfold."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The weakest aspect is the fit for 'me' as the one seeing the passion as frivolous, since she is also the one who desperately needs the delusion to function."
+      }
+    }
+  ]
+}
+```

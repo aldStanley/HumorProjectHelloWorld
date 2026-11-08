@@ -1,0 +1,29 @@
+{
+  "figures": [
+    {
+      "figure": "person on the left wearing a blue cap, seated on the stairs and looking down at their hands",
+      "entity_guess": "Me rereading his 'lol' for the 10th time",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "Their head is down toward their hands, which fits the idea of staring at and rereading a text, though the exact message is not visible."
+    },
+    {
+      "figure": "person on the right in a green shirt, curled forward with head down on their arms",
+      "entity_guess": "my bestie fresh off a text breakup",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "Their hunched, collapsed posture fits someone upset or drained after being broken up with."
+    }
+  ],
+  "unresolved": [
+    "his 'lol'",
+    "his",
+    "for the 10th time",
+    "text breakup"
+  ],
+  "story_guess": "The joke is that the speaker is obsessively overanalyzing a tiny 'lol' text while sitting beside a best friend who is visibly devastated after being dumped by text.",
+  "cast_clarity": 0.9,
+  "pose_clarity": 0.8,
+  "story_clarity": 0.85,
+  "verdict": "got_it"
+}

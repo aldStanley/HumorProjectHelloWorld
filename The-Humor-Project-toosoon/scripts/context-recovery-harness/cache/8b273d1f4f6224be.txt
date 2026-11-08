@@ -1,0 +1,98 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "My situationship explaining his 'five-year plan to be a DJ' to his new girl.",
+      "context": "Typing 'lol told you he was all talk' to my friends after hearing my situationship tried to sell his new girl on his 'five-year plan to be a DJ' and she just asked him if he had a 401k, even though my stomach is in a knot hoping she dumps him.",
+      "metaphor": "Putting on a whole show to sell an idea to an unimpressed authority figure.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity performs energetically for another seated, unimpressed entity.",
+          "secondary": "The performer is a jester and the observer is a queen on a throne; her expression is judgmental."
+        },
+        "cast": [
+          {
+            "image_party": "A jester actively dancing and gesturing",
+            "played_by": "my situationship",
+            "score": 0.4,
+            "reason": "The figure is a cartoon jester, not a literal person, but its energetic dancing and gesturing maps to him performing to impress someone else."
+          },
+          {
+            "image_party": "a queen, who is sitting on a throne watching the performance",
+            "played_by": "his new girl",
+            "score": 0.4,
+            "reason": "The figure is a cartoon queen, not a literal person, but her unimpressed and judgmental pose while watching the performance maps to her evaluating him."
+          }
+        ],
+        "relation": "is actively dancing and gesturing for"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption preserves the core relation: one entity (situationship) 'is actively dancing and gesturing for' another (his new girl), who the image shows is unimpressed.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "From the caption and image, a reader can fully reconstruct the story: a guy is pitching a likely-unrealistic dream to a new girl, and she is visibly not buying it.",
+      "element_allusions": [
+        {
+          "element": "a whole show to sell an idea",
+          "played_by": "his 'five-year plan to be a DJ'",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names his 'five-year plan to be a DJ', making this element fully recoverable."
+        },
+        {
+          "element": "an unimpressed authority figure",
+          "played_by": "his new girl",
+          "allusion": 1.0,
+          "reason": "The caption names 'his new girl' and the image perfectly portrays her as an 'unimpressed authority figure' in this context."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "Him posting that cringe guitar solo right after following his new girl.",
+      "context": "Calmly scrolling past my situationship's cringe-worthy guitar solo story he posted an hour after following his new girl, just to check the viewer list every five minutes to see if *she's* watched it yet while my own heart feels like it's going to fall out of my ass.",
+      "metaphor": "Trying desperately to win the approval of someone who is indifferent or judgmental.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity performs energetically for another seated, unimpressed entity.",
+          "secondary": "The performer is a jester and the observer is a queen on a throne; her expression is judgmental."
+        },
+        "cast": [
+          {
+            "image_party": "A jester actively dancing and gesturing",
+            "played_by": "my situationship",
+            "score": 0.4,
+            "reason": "The figure is a cartoon jester, not a literal person, but its energetic dancing and gesturing maps to him performing to impress someone else."
+          },
+          {
+            "image_party": "a queen, who is sitting on a throne watching the performance",
+            "played_by": "his new girl",
+            "score": 0.4,
+            "reason": "The figure is a cartoon queen, not a literal person, but her unimpressed and judgmental pose while watching the performance maps to her evaluating him."
+          }
+        ],
+        "relation": "is actively dancing and gesturing for"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption preserves the core relation: one entity (him) 'is actively dancing and gesturing for' another (his new girl), with the image showing her implied reaction.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The caption and image perfectly reconstruct the scenario of a guy's cringey, performative social media post aimed at a new girl, with the image supplying her likely unimpressed reaction.",
+      "element_allusions": [
+        {
+          "element": "someone trying desperately to win approval",
+          "played_by": "my situationship",
+          "allusion": 1.0,
+          "reason": "The caption's description of him posting a 'cringe guitar solo right after following' her makes his desperate attempt at approval unmistakable."
+        },
+        {
+          "element": "someone who is indifferent or judgmental",
+          "played_by": "his new girl",
+          "allusion": 1.0,
+          "reason": "The caption establishes 'his new girl' as the audience, and the image of the unimpressed queen completes her character as indifferent or judgmental."
+        }
+      ],
+      "match_overall": 0.8
+    }
+  ]
+}
+```

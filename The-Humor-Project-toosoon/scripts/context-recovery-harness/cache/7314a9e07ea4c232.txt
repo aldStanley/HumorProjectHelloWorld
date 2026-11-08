@@ -1,0 +1,180 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "His best friend and roommate after he asks to borrow a phone to see my story.",
+      "context": "His best friend and roommate share a silent, tired glance after he asks to borrow a phone to watch my Instagram story because I blocked him on his own account last night.",
+      "metaphor": "The shared, silent moment between two people after witnessing an incredibly awkward or draining social interaction.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "The viewer can fully recover the metaphor: the 'two people' are named, the 'draining social interaction' is his request to borrow a phone to circumvent a block, and the 'shared, silent moment' is delivered by the image's expressions.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities stand together and observe something with a shared negative emotion.",
+          "secondary": "The entities have tired, dejected, and weary expressions of suspicion and disapproval."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "his best friend",
+            "score": 0.4,
+            "reason": "The figure's tired and dejected expression aligns well with a friend exhausted by the drama, but the score is capped as the figure is a non-literal cartoon."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "his roommate",
+            "score": 0.4,
+            "reason": "The figure's weary and suspicious look maps onto a disapproving roommate, but the score is capped as the figure is a non-literal cartoon."
+          }
+        ],
+        "relation": "stand next to each other and observe something off-screen"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption perfectly preserves the arrangement where the two cast entities 'stand next to each other and observe something off-screen' (his request).",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The story is fully reconstructible: his friends are reacting to him asking to use a phone to see my story, implying I've blocked him on his own.",
+      "element_allusions": [
+        {
+          "element": "Two people",
+          "played_by": "His best friend and roommate",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'His best friend and roommate'."
+        },
+        {
+          "element": "The shared, silent moment",
+          "played_by": "their silent, tired glance",
+          "allusion": 0.9,
+          "reason": "The image itself delivers the silent, tired glance as the reaction to the setup provided in the caption."
+        },
+        {
+          "element": "The awkward or draining social interaction",
+          "played_by": "his request to borrow a phone to circumvent me blocking him",
+          "allusion": 1.0,
+          "reason": "The caption's phrase 'asks to borrow a phone to see my story' perfectly encapsulates this specific, awkward action."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "His roommate and best friend watching him text me 'hey' for the 5th time this week.",
+      "context": "His best friend and roommate just watch him with dead eyes as he picks up his phone to text me 'hey' for the fifth time this week after telling them yesterday he needed to 'let me go for my own good'.",
+      "metaphor": "Watching a friend make the same, predictable bad decision for the tenth time and being too tired to intervene anymore.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "All parts are recoverable: the caption names the 'friend' (him), the 'predictable bad decision' ('text me 'hey' for the 5th time'), and the 'tired observers' (roommate and best friend), with the image showing their exhaustion.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities stand together and observe something with a shared negative emotion.",
+          "secondary": "The entities have tired, dejected, and weary expressions of suspicion and disapproval."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "his best friend",
+            "score": 0.4,
+            "reason": "The figure's tired and dejected expression aligns well with a friend exhausted by the drama, but the score is capped as the figure is a non-literal cartoon."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "his roommate",
+            "score": 0.4,
+            "reason": "The figure's weary and suspicious look maps onto a disapproving roommate, but the score is capped as the figure is a non-literal cartoon."
+          }
+        ],
+        "relation": "stand next to each other and observe something off-screen"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption maintains the core arrangement where the friends 'stand next to each other and observe something off-screen' (him texting me).",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "The story is clear—his friends are tired of him repeatedly texting me—though the specific context of him vowing to stop is implied rather than stated.",
+      "element_allusions": [
+        {
+          "element": "A friend making a bad decision",
+          "played_by": "him (my situationship)",
+          "allusion": 1.0,
+          "reason": "The pronoun 'him' clearly refers to the situationship, whose actions are the focus of the caption."
+        },
+        {
+          "element": "The predictable bad decision",
+          "played_by": "texting me again after vowing to stop",
+          "allusion": 1.0,
+          "reason": "The phrase 'text me 'hey' for the 5th time this week' perfectly communicates the repetitive, predictable nature of the action."
+        },
+        {
+          "element": "The tired observers",
+          "played_by": "His best friend and roommate",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'His roommate and best friend'."
+        },
+        {
+          "element": "The exhaustion from non-intervention",
+          "played_by": "their dead-eyed watching",
+          "allusion": 0.9,
+          "reason": "The image of their tired, dejected faces is the perfect visual representation of being too exhausted to intervene."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "His roommate and best friend after his speech on how he 'had to be the bad guy'.",
+      "context": "His roommate and best friend just stare blankly as he finishes explaining how he 'had to be the bad guy' on the phone with me, conveniently leaving out the part where he was the one who called me first after ignoring my texts for three days.",
+      "metaphor": "Listening to someone's obviously exaggerated or fake story and trying not to call them out on it.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "The metaphor is highly recoverable: the caption names the 'listeners' (roommate and best friend) and the 'exaggerated or fake story' (his speech), while the image shows their effort of 'not calling them out on it'.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities stand together and observe something with a shared negative emotion.",
+          "secondary": "The entities have tired, dejected, and weary expressions of suspicion and disapproval."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "his best friend",
+            "score": 0.4,
+            "reason": "The figure's tired and dejected expression aligns well with a friend exhausted by the drama, but the score is capped as the figure is a non-literal cartoon."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "his roommate",
+            "score": 0.4,
+            "reason": "The figure's weary and suspicious look maps onto a disapproving roommate, but the score is capped as the figure is a non-literal cartoon."
+          }
+        ],
+        "relation": "stand next to each other and observe something off-screen"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption perfectly holds the arrangement where his friends 'stand next to each other and observe something off-screen' (in this case, the aftermath of his speech).",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A sad-girl reader instantly recognizes the self-serving 'I had to be the bad guy' narrative, making the specific situation fully understandable from the quote alone.",
+      "element_allusions": [
+        {
+          "element": "Someone telling an exaggerated or fake story",
+          "played_by": "him (my situationship)",
+          "allusion": 1.0,
+          "reason": "The phrase 'his speech' clearly establishes him as the one telling the story."
+        },
+        {
+          "element": "The story itself",
+          "played_by": "his explanation of being 'the bad guy' while omitting his own culpability",
+          "allusion": 1.0,
+          "reason": "The caption's direct quote 'had to be the bad guy' perfectly alludes to this self-serving narrative."
+        },
+        {
+          "element": "The listeners who know the truth",
+          "played_by": "His roommate and best friend",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'His roommate and best friend'."
+        },
+        {
+          "element": "The effort of not calling them out",
+          "played_by": "their blank staring",
+          "allusion": 0.9,
+          "reason": "The image provides the weary, non-confrontational expressions that represent the effort to stay silent."
+        }
+      ],
+      "match_overall": 0.9
+    }
+  ]
+}
+```

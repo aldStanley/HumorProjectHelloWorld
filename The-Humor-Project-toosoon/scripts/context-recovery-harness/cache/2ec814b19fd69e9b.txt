@@ -1,0 +1,105 @@
+```json
+{
+  "matches": [
+    {
+      "context": "My bestie and I silently re-read the double text I sent him at 3 a.m. asking 'did you have fun with me tonight??', the only reply being his green bubble from an hour ago that just says 'gn'.",
+      "register": "in_scene",
+      "metaphor": "The shared exhaustion of looking at the consequences of a poor decision made the night before.",
+      "element_map": [
+        {
+          "element": "shared exhaustion",
+          "played_by": "our silent, mutual re-reading of the texts",
+          "score": 1.0,
+          "reason": "The silent, low-energy act of staring at the phone together perfectly embodies the shared emotional drain."
+        },
+        {
+          "element": "the consequences",
+          "played_by": "his one-word 'gn' reply",
+          "score": 1.0,
+          "reason": "His curt, dismissive text is the direct and disappointing consequence being observed."
+        },
+        {
+          "element": "a poor decision made the night before",
+          "played_by": "my 3 a.m. double text",
+          "score": 1.0,
+          "reason": "The vulnerable and arguably needy late-night text is the specific bad decision whose fallout is now clear."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "\"Me\" and \"my bestie\" are the two peer entities, and our silent staring represents a joint expression of weary disappointment toward the unseen stimulus of his bad text."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect instantiation of the metaphor, and its entities map flawlessly to the core analog."
+      }
+    },
+    {
+      "context": "Me, trying to sound casual, reading my situationship's 'just come over, my roommates aren't here' text aloud to my bestie, who's already heard me swear I was done with him three times this month.",
+      "register": "in_scene",
+      "metaphor": "Listening to a friend describe their latest terrible plan that you no longer have the energy to argue against.",
+      "element_map": [
+        {
+          "element": "a friend",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "I am literally the friend describing my own bad plan to my bestie."
+        },
+        {
+          "element": "their latest terrible plan",
+          "played_by": "the implicit plan to go see him again",
+          "score": 1.0,
+          "reason": "The plan to accept his low-effort booty call, after vowing not to, is the 'terrible plan' in question."
+        },
+        {
+          "element": "you (the listener)",
+          "played_by": "my bestie",
+          "score": 1.0,
+          "reason": "My bestie is the exhausted listener who has witnessed this exact scenario play out multiple times before."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "\"Me\" (with dejection) and \"my bestie\" (with weary disapproval) are the two peers jointly reacting to the unseen stimulus of his text message."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The scenario is a direct, literal fit for the metaphor pattern and its roles map perfectly to the core analog."
+      }
+    },
+    {
+      "context": "My bestie and I listen to myself say 'no, but this time feels different' after my situationship texts me the exact same 'thinking of you' message he sends every two weeks to keep me on the hook.",
+      "register": "in_scene",
+      "metaphor": "Two veterans watching an enthusiastic newcomer confidently suggest an idea that has failed repeatedly.",
+      "element_map": [
+        {
+          "element": "Two veterans",
+          "played_by": "me and my bestie",
+          "score": 1.0,
+          "reason": "Having been through this exact cycle countless times, we are both veterans of his behavior and my reaction."
+        },
+        {
+          "element": "an enthusiastic newcomer",
+          "played_by": "my own deluded flicker of hope",
+          "score": 0.9,
+          "reason": "The sudden, unfounded optimism voiced aloud acts as the naive 'newcomer' to a situation that is anything but new."
+        },
+        {
+          "element": "an idea that has failed repeatedly",
+          "played_by": "the belief that his breadcrumbing text means he has changed",
+          "score": 1.0,
+          "reason": "This specific hope—that this time is different—is the idea that is suggested and then proven false every two weeks."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "\"Me\" and \"my bestie\" are the two peer entities expressing weary disappointment toward the stimulus of my own naive words, which are prompted by his text."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The overall fit is very strong, weakened only slightly by the abstract mapping of a 'newcomer' to an internal feeling of hope."
+      }
+    }
+  ]
+}
+```

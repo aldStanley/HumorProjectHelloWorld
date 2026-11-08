@@ -1,0 +1,27 @@
+{
+  "figures": [
+    {
+      "anchor": "left figure seated on the steps wearing a backward blue cap, hunched forward looking down at hands",
+      "candidates": [
+        "my ex",
+        "his best friend"
+      ]
+    },
+    {
+      "anchor": "right figure seated on the steps in a green shirt, hunched forward with head down",
+      "candidates": [
+        "my ex",
+        "his best friend"
+      ]
+    }
+  ],
+  "entities_in_caption": [
+    "me",
+    "my ex",
+    "his best friend"
+  ],
+  "entities_expected_in_image": [
+    "my ex",
+    "his best friend"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "content": [
+    {
+      "name": "Smudge the Cat (Smiling Cat Meme)",
+      "type": "meme",
+      "confidence": 95,
+      "description": "A photo of a cat with a digitally altered human-like smile, widely used as a reaction image to convey awkwardness, forced positivity, or discomfort in meme culture."
+    }
+  ],
+  "scene_context": "This image is a popular meme known as the 'Smiling Cat' or 'Awkward Cat' reaction image, often used online to humorously express situations where someone is pretending to be okay or is awkwardly smiling through discomfort.",
+  "meme": {
+    "is_meme": true,
+    "template_name": "Smiling Cat / Awkward Cat reaction",
+    "meaning": "Used to convey forced positivity, awkwardness, or pretending everything is fine in uncomfortable situations.",
+    "how_a_caption_should_use_it": "The caption should describe a situation where someone is pretending to be fine, happy, or okay, while the image delivers the awkward or forced smile. The caption is the setup, and the image is the punchline.",
+    "image_is_punchline": true,
+    "image_delivers": "an awkward, forced smile or pretending to be okay",
+    "confidence": 0.95,
+    "example_captions": [
+      "When your boss tells a terrible joke and you have to laugh.",
+      "Me at family gatherings when someone asks about my love life.",
+      "When you say 'no worries' but you're actually very worried."
+    ]
+  }
+}

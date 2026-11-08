@@ -1,0 +1,45 @@
+{
+  "content": [
+    {
+      "name": "Colleen Ballinger (Miranda Sings apology video)",
+      "type": "celebrity",
+      "confidence": 90,
+      "description": "Colleen Ballinger, known for her character Miranda Sings, in the viral ukulele apology video. This image became widely recognized online as part of a controversial apology video."
+    }
+  ],
+  "scene_context": "This image is from Colleen Ballinger's infamous ukulele apology video, which became a viral meme and reaction image in 2023. The video was widely mocked and remixed online for its tone and delivery.",
+  "meme": {
+    "is_meme": true,
+    "template_name": "Ukulele Apology Video / Colleen Ballinger Apology",
+    "meaning": "Used to mock insincere or performative apologies, or to sarcastically express regret for trivial matters. The image is often captioned to highlight awkward, tone-deaf, or self-serving attempts to smooth over something bad.",
+    "how_a_caption_should_use_it": "A caption should usually put the culprit, system, or offender as the subject, name the concrete thing they caused, and let the image imply the awkward apology rather than literally saying it.",
+    "caption_rule": "A good caption completes: '___ after clearly causing ___ and acting like this performance fixes it.'",
+    "good_setups": [
+      "X after causing ___",
+      "X after making everyone deal with ___",
+      "X when their solution to ___ is this",
+      "X trying to recover from ___"
+    ],
+    "matching_requirements": [
+      "The setup must include the specific offense, inconvenience, or failure being smoothed over.",
+      "The culprit, system, or offender should be clear, especially in an 'X after Y' structure.",
+      "The image should function as the implied awkward apology, not as a caption that has to announce the apology.",
+      "The tone should feel disproportionate, insincere, or tone-deaf."
+    ],
+    "avoid_patterns": [
+      "Captions that literally announce that this is an apology",
+      "First-person sorry statements that do not name the culprit clearly",
+      "Apologizing without naming what caused the problem",
+      "General embarrassment or regret with no clear offense"
+    ],
+    "image_is_punchline": true,
+    "image_delivers": "awkward, performative apology",
+    "confidence": 0.98,
+    "example_captions": [
+      "The group project leader after ignoring every message until the night before.",
+      "The printer after jamming on the final page of the document.",
+      "The app after logging you out halfway through checkout.",
+      "The cat after knocking a full glass of water onto your laptop."
+    ]
+  }
+}

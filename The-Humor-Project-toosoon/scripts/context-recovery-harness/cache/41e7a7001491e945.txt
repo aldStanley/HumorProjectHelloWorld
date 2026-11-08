@@ -1,0 +1,194 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "My delusion and I rereading our one good chat after he sent a 'lol'.",
+      "context": "Me rereading our one good conversation from three weeks ago after he replied 'lol' to the long paragraph I just sent him about my bad day.",
+      "metaphor": "Gently supporting someone through a deep personal sadness or failure.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "The caption and image clearly show a personified force ('My delusion') supporting a person ('I') through sadness, with the 'lol' text being the failure; the 'gentle' aspect is perfectly conveyed by the image's pose.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity gently supports another similar-kind entity that is in a state of collapse.",
+          "secondary": "The interaction is intimate and caring, set in a warm, natural environment."
+        },
+        "cast": [
+          {
+            "image_party": "an alien with a slumped, downcast posture",
+            "played_by": "I",
+            "caption_span": "I",
+            "score": 1.0,
+            "reason": "The caption's 'I' is a singular entity matching the single figure, whose slumped posture fits the feeling of getting a dismissive text."
+          },
+          {
+            "image_party": "an alien figure with a caring and supportive demeanor",
+            "played_by": "My delusion",
+            "caption_span": "My delusion",
+            "score": 1.0,
+            "reason": "The caption's 'My delusion' is a singular entity matching the single figure, whose supportive pose perfectly embodies the delusion's comforting role."
+          }
+        ],
+        "relation": "gently holds the hands and cradles the head of"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The pixels clearly show one figure gently holding and supporting another figure who is slumped and downcast, matching the core relation.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption names two entities, 'My delusion' and 'I', in a shared activity where the context implies one is supporting the other through a negative event.",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption preserves the core relation 'one entity gently supports another' by showing the delusion comforting her after a bad text; the fit is strong on both the image and caption edges.",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "No entities were dropped; 'me' ('I'), 'my delusion', the bad reply ('lol'), and the rereading behavior are all present.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can fully reconstruct the story: she received a dismissive 'lol' and is now coping by having her own delusion help her reread a better, older conversation.",
+      "element_allusions": [
+        {
+          "element": "someone going through sadness or failure",
+          "played_by": "me",
+          "evidence": "caption",
+          "caption_span": "I... after he sent a 'lol'",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'I' and the triggering failure ('he sent a lol'), making the role unmistakable."
+        },
+        {
+          "element": "a gentle supporter",
+          "played_by": "my delusion",
+          "evidence": "caption",
+          "caption_span": "My delusion",
+          "allusion": 1.0,
+          "reason": "The caption names 'My delusion' as her partner in the coping mechanism, and the image's gentle posture fully lands its supportive role."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "My chill girl delusion helping me draft a 'hey stranger' text at 2am.",
+      "context": "Me at 2am drafting a casual 'hey stranger' reply to the guy I dramatically announced I was done with forever in the group chat yesterday, after he sent me a single fire emoji reaction to my story.",
+      "metaphor": "Your current, wiser self trying to comfort and integrate a younger, more wounded part of yourself.",
+      "metaphor_recovery": 0.8,
+      "metaphor_recovery_reason": "A reader recovers an ironic version of the metaphor: a self-deceiving impulse ('My chill girl delusion') is comforting a wounded part ('me at 2am'), which is a clear, if inverted, mapping.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity gently supports another similar-kind entity that is in a state of collapse.",
+          "secondary": "The interaction is intimate and caring, set in a warm, natural environment."
+        },
+        "cast": [
+          {
+            "image_party": "an alien with a slumped, downcast posture",
+            "played_by": "me",
+            "caption_span": "me",
+            "score": 1.0,
+            "reason": "The caption's 'me' is a singular entity matching the single figure, whose slumped posture embodies the vulnerability of a weak moment at 2am."
+          },
+          {
+            "image_party": "an alien figure with a caring and supportive demeanor",
+            "played_by": "My chill girl delusion",
+            "caption_span": "My chill girl delusion",
+            "score": 1.0,
+            "reason": "The caption's 'My chill girl delusion' is a singular entity matching the single figure, whose supportive pose perfectly represents this enabling internal voice."
+          }
+        ],
+        "relation": "gently holds the hands and cradles the head of"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The pixels clearly show one figure gently holding and supporting another figure who is slumped and downcast, matching the core relation.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption, 'My chill girl delusion helping me...', explicitly states a supportive relationship between the two named entities.",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption preserves the core relation 'one entity gently supports another' by stating the delusion is 'helping' her; the fit is strong on both the image and caption edges.",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "No entities were dropped; 'me at 2am' and the specific delusion ('chill girl delusion') are both named, as is the exact text being drafted.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can fully reconstruct the core moment of weakness: she's up late drafting a risky text, enabled by the delusion that it's a 'chill' thing to do.",
+      "element_allusions": [
+        {
+          "element": "a younger, more wounded part of yourself",
+          "played_by": "me at 2am",
+          "evidence": "caption",
+          "caption_span": "me... at 2am",
+          "allusion": 1.0,
+          "reason": "The caption's mention of 'me' at the specific, vulnerable time of '2am' perfectly recovers this element."
+        },
+        {
+          "element": "your current, wiser self",
+          "played_by": "the delusion of being the chill girl",
+          "evidence": "caption",
+          "caption_span": "My chill girl delusion",
+          "allusion": 0.9,
+          "reason": "The caption names the 'chill girl delusion,' and the humor comes from the audience understanding this is the *opposite* of a wiser self, thus ironically recovering the element's role."
+        }
+      ],
+      "match_overall": 0.7
+    },
+    {
+      "caption": "My delusion telling me they're just friends as I zoom in on her hand.",
+      "context": "Me zooming in on the hand of the girl in his latest Instagram post to see if it's his ex, while my delusion calmly insists they're just friends catching up.",
+      "metaphor": "Trying to gently introduce a difficult, world-altering truth to someone who isn't ready for it.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "A reader recovers the inverse of the metaphor: a part of the self ('My delusion') gently introduces a comforting lie to shield another part ('I') from a difficult truth she is actively investigating ('zoom in on her hand').",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity gently supports another similar-kind entity that is in a state of collapse.",
+          "secondary": "The interaction is intimate and caring, set in a warm, natural environment."
+        },
+        "cast": [
+          {
+            "image_party": "an alien with a slumped, downcast posture",
+            "played_by": "I",
+            "caption_span": "I",
+            "score": 1.0,
+            "reason": "The caption's 'I' is a singular entity matching the single figure, whose downcast focus mirrors the act of intently stalking a photo for painful details."
+          },
+          {
+            "image_party": "an alien figure with a caring and supportive demeanor",
+            "played_by": "My delusion",
+            "caption_span": "My delusion",
+            "score": 1.0,
+            "reason": "The caption's 'My delusion' is a singular entity matching the single figure, whose gentle, comforting pose perfectly embodies its role of whispering soothing lies."
+          }
+        ],
+        "relation": "gently holds the hands and cradles the head of"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The pixels clearly show one figure gently holding and supporting another figure who is slumped and downcast, matching the core relation.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption shows 'My delusion' acting supportively ('telling me they're just friends') toward 'I' while she is in a vulnerable state.",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption preserves the core relation 'one entity gently supports another' by describing the delusion's comforting words during a stressful act; the fit is strong on both edges.",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "No entities were dropped; 'me' ('I'), 'my delusion', the lie ('they're just friends'), and the specific stalking behavior ('zoom in on her hand') are all present.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can perfectly reconstruct the specific, relatable moment of IG stalking a potential rival while trying to tell yourself it's nothing.",
+      "element_allusions": [
+        {
+          "element": "someone who isn't ready for a truth",
+          "played_by": "me",
+          "evidence": "caption",
+          "caption_span": "I",
+          "allusion": 1.0,
+          "reason": "The caption shows 'I' simultaneously seeking the truth (zooming in) while being comforted by a lie, which perfectly illustrates someone not ready to face what they find."
+        },
+        {
+          "element": "the person gently introducing it",
+          "played_by": "my delusion",
+          "evidence": "caption",
+          "caption_span": "My delusion telling me they're just friends",
+          "allusion": 1.0,
+          "reason": "The caption explicitly states the delusion's role and the comforting lie it is 'gently' introducing to her."
+        },
+        {
+          "element": "a difficult, world-altering truth",
+          "played_by": "the confirmation that he's with another girl",
+          "evidence": "caption",
+          "caption_span": "zoom in on her hand",
+          "allusion": 0.9,
+          "reason": "The highly specific act of zooming in on another woman's hand in his photo strongly implies the 'difficult truth' being investigated is a romantic relationship."
+        }
+      ],
+      "match_overall": 0.6
+    }
+  ]
+}
+```

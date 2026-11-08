@@ -1,0 +1,25 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "Two men bent over at the waist",
+      "entity": "my situationship and his best friend",
+      "fit": 0.9,
+      "reason": "The two men are bent over in a synchronized posture of intense, shared focus, which literally mirrors how he and his best friend would analyze her texts or social media activity together."
+    }
+  ],
+  "relationship": "His best friend is helping my situationship scrutinize or figure out something related to the speaker.",
+  "weakest_fit": 0.9,
+  "why": "The image of two men intensely and jointly focused on something unseen is a very strong literal parallel for the persona's experience of being analyzed and discussed by her situationship and his inner circle.",
+  "secondary_nominations": [
+    {
+      "entity": "a mundane public setting",
+      "possibilities": [
+        "the group chat where they talk about me",
+        "another regular day of him being weird",
+        "the five minutes he has to think about me"
+      ]
+    }
+  ]
+}
+```

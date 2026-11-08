@@ -1,0 +1,779 @@
+RUN mtss3ik9-helwy GigaChad — re-run from the persona and the student read — exported from the browser record (Chrome Profile 1, localhost:3003) on 2026-09-09; persona file docs/prompts/personas/03-gigachad/gigachad-2026-09-07.md, step 2 of flavor 1563 as it was on 2026-09-08 (the "Write 15 short reaction jokes" template) — analyzed 2026-09-09 with docs/prompts/reaction-jokes-s3-analyze.md and docs/prompts/analyses/comic-moves/comic-moves-2026-09-09.md, refined with docs/prompts/reaction-jokes-s4-refine.md, on gpt-5.6-sol at high effort
+
+SUMMARY: actions {'keep': 96, 'refine_execution': 25, 'reject': 14} | analysis failed 0 | rule overrode the analyzer 0× | refined 25 jokes → 56 variants
+primary moves: [('event_specific_analogy', 44), ('mundane_as_epic', 27), ('persona_worldview', 18), ('unknown', 17), ('status_value_inversion', 8), ('latent_irony', 8), ('adversity_as_advantage', 7), ('reality_reacts_to_gigachad', 6)]
+
+=== Moment 1: Uris Pool maintenance closure — cursing the inconvenient timing
+
+    1. [KEEP            ] Uris Pool closes after move-in. Even water fears my arrival.
+        premise: The badly timed shutdown of a campus swimming facility is interpreted as its water avoiding an intimidating new student.
+        moves: reality_reacts_to_gigachad, status_value_inversion, mundane_as_epic
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    2. [KEEP            ] Maintenance blocked my cooldown. Fine. I will perspire with dignity.
+        premise: Because the closed pool prevents students from cooling off, the speaker reframes staying sweaty as something to take pride in.
+        moves: persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    3. [KEEP            ] The pool denied me recovery. My muscles have filed a divine grievance.
+        premise: A maintenance shutdown prevents a post-move-in swim, so the speaker imagines his body formally appealing the decision to a higher authority.
+        moves: mundane_as_epic, persona_worldview, reality_reacts_to_gigachad  |  not in catalog: The speaker personifies his muscles as complainants in a formal dispute.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    4. [KEEP            ] Uris chose maintenance at peak exhaustion. Cowardice wears a clipboard.
+        premise: Closing the pool just when move-in-weary students want relief frames campus bureaucracy as an opponent that waits until people are vulnerable.
+        moves: mundane_as_epic, persona_worldview  |  not in catalog: Campus bureaucracy is personified as a cowardly adversary deliberately exploiting students' fatigue.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    5. [REFINE_EXECUTION] I moved every box. Now I must swim through adversity.
+        premise: After finishing move-in, a student turns the pool activity denied by maintenance into a metaphor for enduring that denial.
+        moves: unknown, persona_worldview, mundane_as_epic  |  not in catalog: A literal-to-figurative wordplay pivot uses the denied pool activity as the metaphor for overcoming the closure.
+        premise good · execution good · legibility slight_inference · persona fit high
+        problem: Because Uris Pool and the maintenance closure are never named, the reader must infer that the final metaphor refers to the literal activity the student has just been denied.
+          variant 1: I moved every box. Uris Pool closed for maintenance. Now I must swim through adversity.   (fix: names the maintenance closure immediately before the swimming metaphor)
+          variant 2: I moved every box, then maintenance closed Uris Pool before my swim. Now I must swim through adversity.   (fix: establishes the denied literal swim before pivoting to the figurative one)
+
+    6. [REFINE_EXECUTION] Campus promised an amenity. It delivered a character-building puddle.
+        premise: The pool's badly timed closure makes a source of post-move-in relief function instead as an involuntary lesson in tolerating disappointment.
+        moves: adversity_as_advantage, persona_worldview  |  not in catalog: The line uses a promise-versus-result bait-and-switch that diminishes the expected pool into something trivial.
+        premise good · execution weak · legibility slight_inference · persona fit medium
+        problem: The word “puddle” makes the line sound like a complaint about the pool’s size or quality, leaving the maintenance closure and its inconvenient timing unstated.
+          variant 1: Campus promised a post-move-in swim. Uris Pool's 7–9:30 maintenance closure delivered a mandatory seminar in disappointment.   (fix: names the maintenance closure and exact window instead of implying a low-quality pool)
+          variant 2: You finished moving in expecting Uris Pool. From 7 to 9:30, it was closed for maintenance. Resilience training had already begun.   (fix: makes the planned relief collide directly with the closure window)
+          variant 3: Uris Pool closed for maintenance during the post-move-in cooldown. The swim was canceled. The disappointment practicum was mandatory.   (fix: states that the closure, not the pool itself, turns relief into involuntary training)
+
+    7. [KEEP            ] The gates are locked. My backstroke continues spiritually.
+        premise: Being denied access to the pool cannot stop someone from carrying out the swim in an imagined, nonphysical way.
+        moves: persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    8. [KEEP            ] I sought cool water. Uris prescribed hotter resolve.
+        premise: The badly timed pool closure is treated as an intentional endurance test in which continued discomfort builds determination.
+        moves: adversity_as_advantage, reality_reacts_to_gigachad, persona_worldview  |  not in catalog: A temperature contrast converts the desired physical relief into intensified determination.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    9. [KEEP            ] Maintenance is temporary. The move-in pump is eternal.
+        premise: The brief loss of swimming access is dismissed because carrying belongings supposedly gave students lasting muscle gains.
+        moves: persona_worldview, mundane_as_epic  |  not in catalog: It adapts a familiar motivational aphorism into a contrast between the closure and the physical effects of carrying belongings.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+   10. [KEEP            ] If the pool will not receive me, the cold shower inherits greatness.
+        premise: Being denied a swim is reframed as the inferior cooling-off option getting lucky enough to host the displaced student.
+        moves: status_value_inversion, mundane_as_epic, reality_reacts_to_gigachad
+        premise good · execution excellent · legibility immediate · persona fit high
+
+   11. [KEEP            ] Uris closed exactly when needed. Precision is admirable, even in betrayal.
+        premise: The maintenance window disrupts students’ swimming plans so perfectly that it feels like a skillfully executed act against them.
+        moves: unknown, latent_irony, persona_worldview  |  not in catalog: GigaChad gives a backhanded compliment to the apparent competence with which Uris frustrates students.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+   12. [REJECT          ] I do not curse inconvenient timing. I make timing regret its inconvenience.
+        premise: A student imagines a badly scheduled closure as an opponent who can be made to suffer instead of merely disrupting the student's plans.
+        moves: reality_reacts_to_gigachad  |  not in catalog: A mirrored sentence structure reverses which side inflicts the disruption and which side suffers from it.
+        premise weak · execution excellent · legibility immediate · persona fit high
+
+   13. [KEEP            ] The pool rests after watching me move in. Understandable.
+        premise: The maintenance closure is imagined as the facility becoming tired merely from observing a student's relocation effort, reversing who should need recovery.
+        moves: reality_reacts_to_gigachad, status_value_inversion
+        premise good · execution excellent · legibility immediate · persona fit high
+
+   14. [REFINE_EXECUTION] No swim tonight. I will cool off by lowering my heart rate through dominance.
+        premise: A person treats voluntary bodily calm as a substitute for the physical relief lost when the pool closes.
+        moves: persona_worldview  |  not in catalog: The joke pivots from relief from heat to physiological calm, presenting the second meaning as a replacement for the first.
+        premise good · execution good · legibility immediate · persona fit high
+        problem: The abstract word “dominance” does not specify what is being controlled, so the punchline is less concrete than the pool setup.
+          variant 1: No swim tonight. I will cool off by lowering my heart rate until my pulse submits.   (fix: Names the pulse as the specific bodily function being controlled.)
+          variant 2: No swim tonight. I will cool off by lowering my heart rate. My heartbeat answers to me.   (fix: Makes the source of dominance concrete by placing the heartbeat under his command.)
+
+   15. [REJECT          ] They drained my plans, not my discipline.
+        premise: The pool closure cancels a swim but cannot diminish the swimmer's resolve.
+        moves: persona_worldview  |  not in catalog: A pool-maintenance verb is transferred to the student's thwarted intention, creating contextual wordplay.
+        premise weak · execution good · legibility slight_inference · persona fit medium
+
+=== Moment 2: Campus gate restrictions continued — condemning a political crackdown
+
+ ♥  1. [KEEP            ] Campus gates should test calves, not political obedience.
+        premise: An access barrier is acceptable as an exercise obstacle, but not as a tool for suppressing dissent.
+        moves: persona_worldview  |  not in catalog: A parallel contrast turns a political critique into an absurd rule distinguishing physical challenge from ideological compliance.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    2. [REFINE_EXECUTION] An emergency restriction that never ends is just cowardice with office hours.
+        premise: The administration has converted its fear of student protest into a routine campus-access policy.
+        moves: unknown, latent_irony  |  not in catalog: The joke reclassifies a normalized security policy as institutional fear packaged in bureaucratic form.
+        premise good · execution good · legibility immediate · persona fit medium
+        problem: By naming only an abstract restriction rather than the campus gates, the line reads as a reusable political aphorism instead of fully owning this campus moment.
+          variant 1: An emergency closure of the campus gates that never ends is just cowardice with office hours.   (fix: Names the campus gates while preserving the temporary-response-versus-permanent-policy contradiction.)
+          variant 2: Close the campus gates for an emergency. Keep them closed as policy, and it becomes cowardice with office hours.   (fix: Makes the campus-gate action explicit before reclassifying its permanence as bureaucratic fear.)
+
+ ♥  3. [REFINE_EXECUTION] The administration saw student power and prescribed more fence. Weak diagnosis.
+        premise: The university absurdly treats political activism as an illness that physical barriers can cure.
+        moves: event_specific_analogy, status_value_inversion
+        premise good · execution weak · legibility slight_inference · persona fit medium
+        problem: The closing judgment targets the diagnosis even though the fence has been framed as the prescribed treatment, muddling what exactly is weak.
+          variant 1: The administration saw student power and prescribed more fence around campus. Weak prescription.   (fix: Targets the closing judgment at the prescribed treatment.)
+          variant 2: The administration saw student power and diagnosed an acute campus-fence deficiency. Weak diagnosis.   (fix: Reframes the fence shortage as the diagnosis, matching the closing judgment.)
+
+    4. [REFINE_EXECUTION] I respect resistance training. I do not respect making campus access the resistance.
+        premise: The university has turned simply entering school into a struggle that belongs in both a gym and a protest.
+        moves: unknown, persona_worldview, latent_irony  |  not in catalog: The joke pivots the word "resistance" from strength exercise to institutional obstruction and political defiance.
+        premise good · execution good · legibility slight_inference · persona fit high
+        problem: The phrase "making campus access the resistance" blurs whether entry is being obstructed or whether seeking entry is itself an act of political defiance.
+          variant 1: I respect resistance training. I do not respect the university adding resistance to campus access.   (fix: Identifies the university as imposing the obstacle on campus entry.)
+          variant 2: I respect resistance training. The campus gate should not be the resistance machine.   (fix: Makes the gate the obstructing apparatus rather than entry an act of defiance.)
+
+    5. [REFINE_EXECUTION] NYPD entered. Open access left. Administration still calls this higher education.
+        premise: By answering dissent with law enforcement and lasting barriers, a university acts against the openness implied by its educational role.
+        moves: latent_irony  |  not in catalog: Mirrored arrival-and-departure phrasing presents police presence and campus openness as directly exchanging places.
+        premise good · execution good · legibility slight_inference · persona fit medium
+        problem: The final turn makes the reader infer why restricted campus access contradicts the university’s educational identity rather than making that precise irony fully legible.
+          variant 1: NYPD entered. Open access left. Administration closed the gates on dissent and still calls it higher education.   (fix: Makes the clash between suppressing dissent and serving education explicit)
+          variant 2: NYPD entered. Open access left. A university for open inquiry now restricts its own students. Administration still calls this higher education.   (fix: Names open inquiry as the educational purpose contradicted by restricted access)
+
+ ♥  6. [REFINE_EXECUTION] A gate protects the campus. A permanent checkpoint protects the administration from its reflection.
+        premise: An access-control policy that outlives the unrest becomes a way for university leaders to avoid facing their responsibility for the crackdown.
+        moves: latent_irony  |  not in catalog: The parallel sentences repeat the idea of protection while shifting it from physical security to institutional avoidance.
+        premise good · execution good · legibility slight_inference · persona fit medium
+        problem: The abstract reflection metaphor makes the reader infer how continued restrictions help university leaders avoid confronting their role in the crackdown.
+          variant 1: A gate protects the campus. A permanent checkpoint protects the administration from admitting it chose police over its students.   (fix: Names the administration’s avoided admission about its role in the crackdown.)
+          variant 2: A gate protects the campus. An enduring checkpoint protects the administration from confronting its own crackdown.   (fix: Replaces the reflection metaphor with the specific act of confronting responsibility.)
+          variant 3: A gate protects the campus. A checkpoint that outlives the protests protects the administration from answering for the arrests.   (fix: Makes the checkpoint’s permanence and the accountability it prevents explicit.)
+
+    7. [REJECT          ] New students deserve orientation, not normalization of a crackdown.
+        premise: Incoming undergraduates are being taught to accept protest-era security measures as ordinary instead of being introduced to how the campus historically operated.
+        moves: latent_irony  |  not in catalog: The line uses parallel institutional nouns to create a slogan-like antithesis between welcoming students and conditioning them to accept restrictions.
+        premise none · execution weak · legibility immediate · persona fit low
+
+ ♥  8. [REFINE_EXECUTION] Spring 2024 ended. The administration’s fear remains enrolled full-time.
+        premise: The continuing gate restrictions turn the institution’s anxiety about past protests into a student with permanent campus status.
+        moves: event_specific_analogy, latent_irony  |  not in catalog: Institutional anxiety is personified as a student whose campus status outlasts the event that produced it.
+        premise excellent · execution good · legibility immediate · persona fit medium
+        problem: The line lacks GigaChad’s distinctive stoic or heroic worldview, so its sharp deadpan observation could come from any campus commentator.
+          variant 1: The Spring 2024 protests ended. The campus gates remain closed, and the administration’s fear remains enrolled full-time. Consistency without courage is cowardice with perfect attendance.   (fix: adds a stoic aphorism that condemns the administration’s persistence as disciplined cowardice)
+          variant 2: The Spring 2024 protests ended. The campus gates remain closed, and the administration’s fear remains enrolled full-time. A locked gate cannot give fear a spine.   (fix: adds GigaChad’s heroic physical worldview by judging institutional fear as spineless)
+
+    9. [REJECT          ] They locked the gates after the Palestine protests. Iron fears what conviction can carry.
+        premise: The administration’s security barriers imply that it views students’ political resolve as a force requiring physical containment.
+        moves: unknown, status_value_inversion, persona_worldview  |  not in catalog: The joke personifies a physical barrier as intimidated by an abstract political force, reversing which side appears powerful.
+        premise weak · execution good · legibility slight_inference · persona fit high
+
+ ♥ 10. [KEEP            ] My shoulders are restricted by doorframes. Students should not be restricted by politics.
+        premise: An exceptionally broad person treats being unable to fit through an entrance as the only acceptable access barrier, contrasting it with an institution limiting campus entry after protests.
+        moves: event_specific_analogy, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+   11. [REJECT          ] The old campus norm was open access. Progress does not walk backward through a checkpoint.
+        premise: The new security barrier is pictured as making social advancement physically retreat, exposing the policy as regression.
+        moves: unknown  |  not in catalog: The joke personifies an abstract ideal and converts a policy rollback into literal backward motion through the campus barrier.
+        premise weak · execution excellent · legibility immediate · persona fit medium
+
+ ♥ 12. [REJECT          ] Administration chose barriers over dialogue. Even my rest days show more courage.
+        premise: Officials who physically seal off a campus to avoid engaging protesters look more timid than a bodybuilder during scheduled recovery.
+        moves: persona_worldview  |  not in catalog: The administration is belittled by comparing its conduct with the persona at his least active.
+        premise weak · execution excellent · legibility immediate · persona fit medium
+
+ ♥ 13. [KEEP            ] A university afraid of its own students is merely a fortress with electives.
+        premise: When a school treats the people it teaches as intruders, its academic purpose becomes secondary to controlling them.
+        moves: latent_irony, event_specific_analogy
+        premise good · execution excellent · legibility immediate · persona fit medium
+
+   14. [KEEP            ] Keep naming the gate closures. Silence is how temporary chains earn tenure.
+        premise: An unchallenged emergency access rule can become a permanent university fixture, like a probationary professor gaining a permanent appointment.
+        moves: event_specific_analogy, latent_irony
+        premise excellent · execution excellent · legibility immediate · persona fit medium
+
+   15. [KEEP            ] Open the campus. If your authority needs locked gates, it has skipped legitimacy day.
+        premise: The administration’s dependence on access restrictions exposes its political mandate as the institutional equivalent of an athlete’s conspicuously neglected muscle group.
+        moves: unknown, event_specific_analogy, persona_worldview  |  not in catalog: A gym-cliché substitution treats political legitimacy as a muscle group the administration failed to train.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+=== Moment 3: Fall course registration opened — cursing broken registration tools
+
+    1. [REFINE_EXECUTION] Vergil demands the exact course name. Destiny has apparently enabled two-factor authentication.
+        premise: The registration platform treats choosing classes that shape a student’s future like entering a secured account with an extra identity check.
+        moves: event_specific_analogy, mundane_as_epic
+        premise good · execution good · legibility slight_inference · persona fit medium
+        problem: Calling the title requirement two-factor authentication leaves the first factor unstated, so the security analogy is not fully closed on the page.
+          variant 1: Vergil demands your password, then the exact course title. Destiny has apparently enabled two-factor authentication.   (fix: identifies the password as the first check before the exact-title requirement)
+          variant 2: First, log in to Vergil. Then speak the exact course title. Destiny has apparently enabled two-factor authentication.   (fix: stages the login and exact-title demand as the two factors)
+
+    2. [KEEP            ] Fall registration is resistance training for the frontal lobe.
+        premise: A broken enrollment platform forces students to exert their minds the way gym equipment forces people to exert their muscles.
+        moves: event_specific_analogy, adversity_as_advantage, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    3. [KEEP            ] You do not suck at course search. Course search has failed to earn you.
+        premise: Instead of students proving they can navigate the registration platform, the dysfunctional platform must prove it deserves their effort.
+        moves: status_value_inversion
+        premise excellent · execution excellent · legibility immediate · persona fit high
+
+    4. [KEEP            ] Vergil returned zero results. Even the void should have office hours.
+        premise: A failed class search is treated as an abstract absence that still owes students the basic accessibility expected of a campus service.
+        moves: mundane_as_epic  |  not in catalog: The joke personifies the absence created by a failed search as a campus authority obligated to make itself available.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    5. [KEEP            ] I entered a subject. Vergil requested a prophecy.
+        premise: Because the course-search tool requires exact class titles, students must somehow know what they are trying to discover.
+        moves: event_specific_analogy, latent_irony, mundane_as_epic
+        premise excellent · execution excellent · legibility immediate · persona fit high
+
+    6. [KEEP            ] Building a fall schedule should require discipline, not archaeological excavation.
+        premise: The registration system hides ordinary courses so thoroughly that locating them feels like unearthing long-buried objects.
+        moves: event_specific_analogy, persona_worldview, mundane_as_epic
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    7. [KEEP            ] Vergil permits schedule conflicts because lesser systems still believe in linear time.
+        premise: A registration tool’s failure to stop overlapping classes is reinterpreted as evidence that it is too advanced for the normal rules of when things can happen.
+        moves: unknown, mundane_as_epic, persona_worldview  |  not in catalog: A software defect is reclassified as proof that the tool is more advanced than systems that prevent the defect.
+        premise excellent · execution excellent · legibility immediate · persona fit high
+
+    8. [REFINE_EXECUTION] A registration tool should spot conflicts. I cannot personally bench-press causality every semester.
+        premise: Software that permits overlapping classes absurdly makes students responsible for defeating the laws of time.
+        moves: event_specific_analogy, latent_irony, persona_worldview  |  not in catalog: The verb “spot” pivots from software detection to a weightlifting spotter, linking the setup to the physical feat in the turn.
+        premise excellent · execution good · legibility slight_inference · persona fit high
+        problem: Causality is not the constraint created by overlapping classes, so the punchline makes the reader translate a scheduling conflict into the wrong physical law.
+          variant 1: A registration tool should spot conflicts. I cannot personally bench-press time every semester.   (fix: replaces causality with the actual constraint of time)
+          variant 2: A registration tool should spot conflicts. I cannot personally bench-press one hour into two.   (fix: makes the impossible temporal demand concrete)
+          variant 3: A registration tool should spot conflicts. I cannot personally bench-press simultaneous classes into separate hours.   (fix: maps overlapping classes directly onto impossible rescheduling)
+
+    9. [KEEP            ] The class exists. The search result does not. Academia has achieved negative enrollment.
+        premise: A registration platform defeats its purpose so thoroughly that offering a course seems to move students farther away from taking it.
+        moves: latent_irony, mundane_as_epic
+        premise excellent · execution excellent · legibility immediate · persona fit medium
+
+   10. [REFINE_EXECUTION] Students are united against Vergil. Frustration has finally completed the group project.
+        premise: A bad registration platform produces better campus-wide cooperation than an assigned team exercise.
+        moves: adversity_as_advantage  |  not in catalog: Frustration is personified as the competent participant who finally makes a collaborative assignment succeed.
+        premise good · execution good · legibility immediate · persona fit medium
+        problem: The generic group-assignment framing lacks a distinctly GigaChad worldview, so the wording could belong to any dry campus commentator.
+          variant 1: Students are united against Vergil. Pain is the group-project partner that carries everyone.   (fix: casts Vergil-induced frustration as a powerful teammate through GigaChad’s strength-and-suffering worldview)
+          variant 2: The group project asked students to cooperate. Vergil forged them into a unit.   (fix: reframes shared registration misery as a stoic forge that produces campus unity)
+
+   11. [REFINE_EXECUTION] Exact course names are not prerequisites. They are passwords guarding tuition I already paid.
+        premise: The registration system treats advance knowledge of official class titles like an access credential for an education students have already purchased.
+        moves: event_specific_analogy, latent_irony
+        premise excellent · execution weak · legibility slight_inference · persona fit medium
+        problem: The password metaphor says the official titles guard the tuition payment itself rather than the classes or education that payment is supposed to provide.
+          variant 1: Exact course names are not prerequisites. They are passwords guarding the education my tuition already paid for.   (fix: Redirects the password’s gatekeeping from the tuition payment to the education it purchased.)
+          variant 2: Exact course names are not prerequisites. Vergil uses them as passwords to unlock classes my tuition already purchased.   (fix: Makes the official titles credentials for accessing the purchased classes rather than the payment itself.)
+
+   12. [KEEP            ] I came to register for fall. Vergil enrolled me in Advanced Patience.
+        premise: The malfunctioning course-registration system forces students to practice emotional endurance as though its failures were part of their education.
+        moves: adversity_as_advantage, event_specific_analogy, persona_worldview
+        premise excellent · execution excellent · legibility immediate · persona fit high
+
+   13. [KEEP            ] The registrar built a labyrinth. Fortunately, my calves were forged for myth.
+        premise: Physical conditioning is absurdly treated as the skill needed to navigate a confusing enrollment interface as though it were an ancient maze.
+        moves: event_specific_analogy, mundane_as_epic, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+   14. [KEEP            ] Broken registration tools create strong students and catastrophically weird Tuesdays.
+        premise: A dysfunctional enrollment system builds resilience while also producing absurd class timetables.
+        moves: adversity_as_advantage, persona_worldview  |  not in catalog: The line extends a familiar character-building maxim with a bathetic practical consequence: a mangled weekly schedule.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+   15. [REJECT          ] Demand the fix calmly. Even marble knows when the interface is garbage.
+        premise: A system is so obviously dysfunctional that it earns criticism from someone almost impossible to rattle.
+        moves: persona_worldview
+        premise weak · execution good · legibility immediate · persona fit high
+
+=== Moment 4: Fall course registration opened — checking reputations before enrolling
+
+    1. [KEEP            ] Fall registration opens. The tribe gathers to choose which syllabus will test the bloodline.
+        premise: Crowdsourcing professor reviews makes schedule planning resemble a community deciding what kind of academic hardship one of its members can handle.
+        moves: mundane_as_epic, event_specific_analogy
+        premise good · execution excellent · legibility immediate · persona fit high
+
+ ♥  2. [KEEP            ] Before enrolling, consult the elders: three anonymous sophomores and one comment saying “run.”
+        premise: Students elevate a handful of unverified peer opinions into authoritative guidance for an academically consequential decision.
+        moves: latent_irony, mundane_as_epic
+        premise good · execution excellent · legibility immediate · persona fit medium
+
+ ♥  3. [KEEP            ] A professor review is a spotter for the GPA.
+        premise: Peer ratings protect students from choosing an instructor who could harm their grades, just as a gym partner prevents injury during a risky lift.
+        moves: event_specific_analogy, persona_worldview
+        premise excellent · execution excellent · legibility immediate · persona fit high
+
+    4. [KEEP            ] I do not seek easy professors. I seek honorable adversaries with clear rubrics.
+        premise: Course-review shopping is reframed as entering a contest where difficulty is welcome but unpredictable evaluation is not.
+        moves: event_specific_analogy, mundane_as_epic, status_value_inversion, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    5. [KEEP            ] The registration portal gives credits. Sidechat gives prophecy.
+        premise: Students get formal course data from the university but trust anonymous classmates to forecast which choice will spare them a bad semester.
+        moves: event_specific_analogy, mundane_as_epic, latent_irony
+        premise good · execution excellent · legibility immediate · persona fit high
+
+ ♥  6. [KEEP            ] Choosing professors by reputation is not cowardice. Every warrior inspects the arena.
+        premise: Students who research instructors before enrolling are doing the academic equivalent of assessing risks before a demanding contest.
+        moves: mundane_as_epic, event_specific_analogy
+        premise good · execution excellent · legibility immediate · persona fit high
+
+ ♥  7. [KEEP            ] One bad instructor can turn three credits into a Greek tragedy.
+        premise: Choosing the wrong professor makes a routine class feel catastrophically consequential.
+        moves: mundane_as_epic
+        premise good · execution excellent · legibility immediate · persona fit medium
+
+    8. [REFINE_EXECUTION] Peer advice is communal strength. No GPA should lift alone.
+        premise: Students use classmates’ instructor recommendations to reduce the academic risk of choosing a course section, much as a spotter reduces risk during weight training.
+        moves: event_specific_analogy, persona_worldview
+        premise good · execution good · legibility slight_inference · persona fit high
+        problem: “Peer advice” is too broad to identify professor reviews during registration, so the lifting analogy can read as generic academic support.
+          variant 1: Professor reviews are communal spotters. No GPA should lift alone.   (fix: Names professor reviews as the specific form of peer advice.)
+          variant 2: Choose your professor with a classmate spotting you. No GPA should lift alone.   (fix: Makes classmates’ role in reducing registration risk explicit.)
+
+ ♥  9. [KEEP            ] Stand tall before the dropdown menu. The correct section senses hesitation.
+        premise: Students approach course selection as if the enrollment options were evaluating their confidence instead of being evaluated themselves.
+        moves: status_value_inversion, persona_worldview  |  not in catalog: The course option is anthropomorphized as an opponent that can detect uncertainty.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+ ♥ 10. [KEEP            ] My schedule requires balance: challenge, wisdom, and nobody described as “basically teach yourself.”
+        premise: Students treat avoiding instructors known for poor teaching as equally important to intellectual growth when choosing courses.
+        moves: unknown, persona_worldview  |  not in catalog: A lofty three-part list ends with a blunt course-review veto, creating comic bathos.
+        premise good · execution excellent · legibility immediate · persona fit medium
+
+   11. [KEEP            ] An 8 a.m. with a beloved professor remains an 8 a.m. Dawn respects no reputation.
+        premise: Peer approval of an instructor cannot make a painfully early class time appealing.
+        moves: mundane_as_epic, persona_worldview  |  not in catalog: It pits two registration criteria against each other, with the undesirable time slot overriding the instructor's popularity.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+   12. [KEEP            ] Office hours reveal character. Course reviews reveal casualties.
+        premise: Meeting an instructor shows their personality, while past students’ reports document how much harm the class has caused.
+        moves: event_specific_analogy, mundane_as_epic
+        premise good · execution excellent · legibility immediate · persona fit high
+
+   13. [KEEP            ] I inspect professors as I inspect barbells: stability first, suffering second.
+        premise: Students vet instructors before committing to a demanding class just as lifters check equipment before a hard set: difficulty is acceptable only when the setup is dependable.
+        moves: event_specific_analogy, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+   14. [KEEP            ] Four professors enter the poll. One leaves with my tuition.
+        premise: Crowdsourced instructor selection resembles a winner-take-all contest whose prize is the student's enrollment money.
+        moves: event_specific_analogy, mundane_as_epic
+        premise good · execution excellent · legibility immediate · persona fit medium
+
+   15. [KEEP            ] Submit the schedule calmly. Commitment is uncertainty after it gains posture.
+        premise: Finalizing course registration does not resolve students' doubts; it merely makes their indecision appear decisive.
+        moves: persona_worldview  |  not in catalog: The joke aphoristically redefines decisiveness as doubt presented with a confident exterior.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+=== Moment 5: Fall move-in began — unloading extra dorm stuff
+
+    1. [KEEP            ] Fall move-in is campus deload week: fewer possessions, stronger spine.
+        premise: Students passing unwanted dorm gear to newly arrived classmates resemble weightlifters intentionally reducing a burden to recover.
+        moves: event_specific_analogy, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+ ♥  2. [KEEP            ] The mini fridge has completed its training. Send it to an underclassman.
+        premise: A secondhand dorm appliance is treated as though its time with an older student has qualified it to help a younger one.
+        moves: mundane_as_epic, persona_worldview  |  not in catalog: The appliance is personified as something that gains experience through prior use and becomes ready for a new assignment.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    3. [KEEP            ] I do not hoard dorm stuff. Objects must earn their square footage.
+        premise: Limited room space turns every possession into a candidate that has to prove it is useful enough to keep.
+        moves: persona_worldview  |  not in catalog: The joke personifies belongings as occupants subject to a strict performance review for the room they consume.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+ ♥  4. [KEEP            ] Give away the old clothes. If they still fit, apologize to your shoulders.
+        premise: Wardrobe purging doubles as a test of whether the owner has gained enough upper-body muscle to outgrow last year's shirts.
+        moves: persona_worldview  |  not in catalog: The joke personifies the owner's shoulders as a neglected party owed an apology for insufficient muscular growth.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    5. [KEEP            ] Selling move-out leftovers during move-in is tactical reincarnation.
+        premise: Departing students time the transfer of unwanted dorm goods so the same objects begin another campus life with arriving students.
+        moves: event_specific_analogy, mundane_as_epic, latent_irony
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    6. [KEEP            ] Household clutter is body fat for the room. Begin the cut.
+        premise: Students getting rid of accumulated dorm possessions resemble someone trying to lose unwanted weight.
+        moves: event_specific_analogy, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+ ♥  7. [KEEP            ] Never pay for storage. Make your burden someone else’s dorm essential.
+        premise: Move-in lets students solve their clutter problem by presenting the same objects as solutions to newcomers’ needs.
+        moves: status_value_inversion, latent_irony
+        premise good · execution excellent · legibility immediate · persona fit medium
+
+    8. [KEEP            ] Discount the mini fridge until resistance melts. Urgency respects aggression.
+        premise: A student’s need to unload a used refrigerator turns routine price cutting into a campaign against hesitant buyers, with the appliance’s cooling function adding a temperature joke.
+        moves: mundane_as_epic, event_specific_analogy, persona_worldview  |  not in catalog: The wording adds temperature-based wordplay by associating melting with an appliance designed to keep things cold.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+ ♥  9. [KEEP            ] Sidechat has become a marketplace of appliances and absolution.
+        premise: Students are getting rid of unwanted dorm belongings to relieve themselves of both physical clutter and personal burden.
+        moves: mundane_as_epic  |  not in catalog: It pairs a literal category of goods with the sellers' emotional relief as though both are being exchanged.
+        premise good · execution excellent · legibility immediate · persona fit medium
+
+   10. [KEEP            ] One student’s purge is another student’s fully furnished dynasty.
+        premise: Move-in turns unwanted dorm gear from a hauling problem for sellers into the basis of a comically lavish household for buyers.
+        moves: mundane_as_epic  |  not in catalog: It uses a familiar trash-to-treasure proverb structure to contrast how the giver and recipient value the same belongings.
+        premise good · execution excellent · legibility immediate · persona fit medium
+
+   11. [KEEP            ] Move-in buyers approach. List everything. Opportunity favors the unencumbered.
+        premise: The influx of students needing dorm supplies tempts sellers to turn a routine clear-out into a total liquidation.
+        moves: mundane_as_epic, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+ ♥ 12. [KEEP            ] My mini fridge contains protein and silence. It is not for sale.
+        premise: Amid the move-in purge, one person refuses to part with an appliance because he treats it as an indispensable expression of his austere identity.
+        moves: persona_worldview  |  not in catalog: A mundane possession is given an absurd identity based on its owner's personal values.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+ ♥ 13. [KEEP            ] Dorm appliances do not die. They descend into younger hands.
+        premise: Used mini-fridges and other dorm goods circulate from outgoing students to newcomers as if they were family heirlooms.
+        moves: mundane_as_epic, event_specific_analogy
+        premise excellent · execution excellent · legibility immediate · persona fit high
+
+   14. [KEEP            ] I carry no move-out leftovers. Attachment has poor grip strength.
+        premise: A person has no excess dorm belongings because emotional bonds to possessions are imagined as physically unable to retain them.
+        moves: event_specific_analogy, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+   15. [REFINE_EXECUTION] A giveaway is generosity performed at moving-truck speed.
+        premise: Students’ apparent charity is being driven by the urgent desire to avoid hauling unwanted belongings.
+        moves: unknown, latent_irony  |  not in catalog: The joke mock-defines an altruistic act in a way that exposes logistical urgency as its real driver.
+        premise good · execution good · legibility slight_inference · persona fit medium
+        problem: The phrase “moving-truck speed” can suggest a vehicle’s velocity rather than the deadline-driven haste caused by having to load unwanted belongings.
+          variant 1: A giveaway is generosity under a loading deadline.   (fix: replaces vehicle velocity with the explicit pressure of loading)
+          variant 2: A giveaway is generosity when the alternative is hauling it yourself.   (fix: states the unwanted hauling that creates the urgency)
+
+=== Moment 6: Fall move-in began — bargaining for better rooms
+
+ ♥  1. [KEEP            ] Fall move-in is not complete until you challenge fate for a better single.
+        premise: Students treat last-minute dorm trading as a required confrontation with the housing outcome they were assigned.
+        moves: mundane_as_epic, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+ ♥  2. [KEEP            ] Housing gave you an assignment. Destiny gave you DMs.
+        premise: Private-message bargaining gives students an informal way to overturn the university’s official room placement.
+        moves: mundane_as_epic, latent_irony
+        premise excellent · execution excellent · legibility immediate · persona fit high
+
+    3. [KEEP            ] Every room-swap post is a warrior placing square footage on the altar of negotiation.
+        premise: Routine dorm-trade ads are framed as if students are making solemn sacrifices in a high-stakes contest.
+        moves: mundane_as_epic, event_specific_analogy
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    4. [KEEP            ] A single is not a room. It is a monastery with a mini-fridge.
+        premise: Students value private dorm housing because its isolation can feel like a sacred retreat despite its ordinary student amenities.
+        moves: event_specific_analogy, mundane_as_epic
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    5. [REFINE_EXECUTION] Corridor-style housing builds calves, community, and an immortal bladder.
+        premise: Dorms with shared hallway facilities can be framed as involuntary physical and social conditioning because residents walk farther, encounter more neighbors, and postpone bathroom trips.
+        moves: adversity_as_advantage, persona_worldview, mundane_as_epic  |  not in catalog: A three-part benefits list escalates from plausible outcomes to an impossible claim about bodily endurance.
+        premise good · execution excellent · legibility slight_inference · persona fit high
+        problem: The joke only implies the shared-bathroom inconvenience, so readers must supply why corridor-style housing would develop extreme bladder endurance.
+          variant 1: The shared bathroom is down the hall. Corridor-style housing builds calves, community, and an immortal bladder.   (fix: names the bathroom’s hallway distance before the endurance payoff)
+          variant 2: Residents postpone the walk to the shared hall bathroom. Corridor-style housing builds calves, community, and an immortal bladder.   (fix: makes delayed bathroom trips the explicit source of bladder endurance)
+
+ ♥  6. [KEEP            ] List the dorm’s strengths. Conceal your desperation. Commerce respects composure.
+        premise: Room-swapping students advertise housing they want to escape as attractive while pretending they are not eager to trade it.
+        moves: event_specific_analogy, latent_irony, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+ ♥  7. [KEEP            ] Room swaps are chess, except every piece owns a shower caddy.
+        premise: Students conduct dorm trades like a high-level strategy contest while remaining visibly ordinary undergraduates dealing with communal bathrooms.
+        moves: event_specific_analogy
+        premise excellent · execution excellent · legibility immediate · persona fit medium
+
+    8. [KEEP            ] My housing assignment cannot disappoint me. I renegotiate destiny before unpacking the fitted sheet.
+        premise: A student treats trading away an unwanted dorm room on arrival as taking control of the whole year before doing the most basic move-in chore.
+        moves: mundane_as_epic, status_value_inversion, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    9. [KEEP            ] Move in. Assess. Bargain. Conquer. The mattress stays extra-long; the will grows longer.
+        premise: A routine dorm trade becomes a campaign in which a student’s persistence is absurdly measured against the size of the bed.
+        moves: mundane_as_epic, persona_worldview  |  not in catalog: The closing line pivots from the mattress’s physical length to treating determination as if it could be measured the same way.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+   10. [KEEP            ] Suites test brotherhood. Singles test whether silence can handle me.
+        premise: Communal housing strains social bonds, while private housing is imagined as vulnerable to an occupant whose presence overwhelms solitude.
+        moves: status_value_inversion, reality_reacts_to_gigachad, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+   11. [REFINE_EXECUTION] If the dorm does not fit, trade it. Even marble gets moved before becoming a monument.
+        premise: Students exchanging unsuitable housing are compared to repositioning raw material so it can eventually take an ideal, lasting form.
+        moves: event_specific_analogy, mundane_as_epic, persona_worldview
+        premise good · execution good · legibility slight_inference · persona fit high
+        problem: The comparison shifts its subject from the room being exchanged to the student as the raw material, leaving the reader to infer what ultimately takes the lasting form.
+          variant 1: If the dorm does not fit, trade it. A room is marble until the right swap makes it a monument.   (fix: Makes the swapped room both the raw marble and the eventual monument)
+          variant 2: If the dorm does not fit, trade it. Its rooms are marble; every swap moves the dorm toward monumental form.   (fix: Defines the rooms as raw material and the dorm as the lasting form)
+
+   12. [KEEP            ] The housing office assigns rooms. Students assign value. The market has entered the laundry room.
+        premise: At move-in, residents behave like traders on an informal exchange for living arrangements.
+        moves: event_specific_analogy, latent_irony  |  not in catalog: The line uses parallel phrasing and a semantic pivot on “assign,” then personifies an informal market as physically arriving in a dorm.
+        premise good · execution excellent · legibility immediate · persona fit medium
+
+   13. [KEEP            ] Fall move-in has become a bazaar of singles. I arrive with one key and sovereign posture.
+        premise: Students negotiate dorm exchanges like merchants, while one participant assumes confidence itself is sufficient bargaining power.
+        moves: event_specific_analogy, persona_worldview, mundane_as_epic
+        premise good · execution excellent · legibility immediate · persona fit high
+
+   14. [KEEP            ] The ideal dorm has privacy, sunlight, and enough floor space to honor gravity.
+        premise: Students assess housing by ordinary comforts while treating the ability to exercise as an equally fundamental amenity.
+        moves: persona_worldview, mundane_as_epic
+        premise good · execution excellent · legibility immediate · persona fit high
+
+   15. [KEEP            ] Never beg for a better room. Offer square footage with unbroken eye contact.
+        premise: Students trying to trade away their dorm assignment must present themselves as sellers with leverage even though they are the ones seeking an upgrade.
+        moves: status_value_inversion, latent_irony, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+=== Moment 7: Columbia NSOP began — issuing jaded warnings
+
+    1. [KEEP            ] Welcome to Columbia. Trust is earned in reps, not orientation slides.
+        premise: Freshmen should judge guidance by repeated firsthand experience rather than polished administrative presentations, as if credibility were a capacity built through exercise.
+        moves: event_specific_analogy, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    2. [KEEP            ] Freshmen, choose friends like spotters: one weak grip and the whole semester lands on your chest.
+        premise: An unreliable social circle formed during orientation can be dangerous for the same reason as a bad safety partner in weight training: the person meant to protect you can make a failure much worse.
+        moves: event_specific_analogy, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+ ♥  3. [KEEP            ] NSOP gives you a lanyard. Upperclassmen give you survival scripture.
+        premise: The official orientation provides ceremonial logistics while experienced students provide the guidance newcomers actually need.
+        moves: latent_irony, mundane_as_epic
+        premise excellent · execution excellent · legibility immediate · persona fit high
+
+    4. [KEEP            ] The administration provides the map. Veterans point out where the dragons actually live.
+        premise: Official orientation gives freshmen a sanitized guide, while experienced students supply firsthand warnings about the dangers it leaves out.
+        moves: event_specific_analogy, mundane_as_epic, latent_irony
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    5. [REJECT          ] Do not mistake instant closeness for loyalty. Even pre-workout needs time to dissolve.
+        premise: New orientation friendships are being treated as proven bonds before they have had a chance to develop, like using a powdered drink before it is fully mixed.
+        moves: event_specific_analogy, persona_worldview
+        premise weak · execution good · legibility immediate · persona fit high
+
+    6. [KEEP            ] A freshman sees a friend group. A senior sees six future diplomatic crises.
+        premise: New students see early social circles as harmless, while upperclassmen recognize them as networks of unstable alliances.
+        moves: mundane_as_epic, event_specific_analogy  |  not in catalog: The joke contrasts newcomer innocence with an upperclassman's experience-driven foresight by giving the same scene two interpretations.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    7. [KEEP            ] Orientation says “find your people.” Wisdom says “conduct background checks first.”
+        premise: Upperclassmen’s warnings recast freshmen’s first friendships as a high-stakes vetting process meant to expose hidden social risks.
+        moves: event_specific_analogy, latent_irony
+        premise good · execution excellent · legibility immediate · persona fit medium
+
+ ♥  8. [KEEP            ] Columbia has two curricula: the official one and the one whispered by survivors.
+        premise: At orientation, upperclassmen resemble veterans briefing new arrivals on dangers that administrators leave out.
+        moves: event_specific_analogy, latent_irony, mundane_as_epic
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    9. [KEEP            ] My circle remains drama-free because entry requires three references and a deadlift.
+        premise: Messy friendship groups could be prevented by making prospective members pass professional vetting and a strength test.
+        moves: event_specific_analogy, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+   10. [REJECT          ] Listen to upperclassmen. Experience is merely trauma with excellent posture.
+        premise: Older students package the painful consequences of their campus mistakes as useful guidance for newcomers.
+        moves: unknown, persona_worldview  |  not in catalog: It cynically redefines hard-earned wisdom as lingering harm made respectable through confident presentation.
+        premise weak · execution excellent · legibility immediate · persona fit high
+
+ ♥ 11. [KEEP            ] The welcome speech builds confidence. The Sidechat warning builds perimeter defenses.
+        premise: Official orientation reassures freshmen, while upperclassmen's unofficial advice prepares them as if campus life were a siege.
+        moves: event_specific_analogy, mundane_as_epic  |  not in catalog: The parallel sentence structure pivots from emotional reassurance to literal-sounding military fortification.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+ ♥ 12. [KEEP            ] Freshmen arrive with open hearts. Seniors recommend helmets.
+        premise: Experienced students frame newcomers’ optimism as dangerous exposure best met with protective gear.
+        moves: event_specific_analogy, latent_irony
+        premise good · execution excellent · legibility immediate · persona fit medium
+
+ ♥ 13. [REJECT          ] Friend-group drama is emotional cardio. I prefer stairs.
+        premise: The stress of tangled peer relationships is treated as an inferior substitute for actual exercise.
+        moves: event_specific_analogy, persona_worldview
+        premise weak · execution excellent · legibility immediate · persona fit high
+
+   14. [KEEP            ] Trust the administration exactly as far as you can bench the administration.
+        premise: Official campus guidance deserves no confidence because its credibility is measured by an impossible feat of physically lifting the institution.
+        moves: persona_worldview  |  not in catalog: It converts a familiar skepticism idiom into a gym-based test, treating an abstract institution as a physical load.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+ ♥ 15. [KEEP            ] NSOP lasts days. A poorly chosen group chat can outlive empires.
+        premise: An early online social circle can produce fallout long after the welcome program ends.
+        moves: mundane_as_epic
+        premise excellent · execution excellent · legibility immediate · persona fit high
+
+=== Moment 8: Fall classes began — chafing at the late start
+
+ ♥  1. [KEEP            ] The semester fears my arrival. I respect its hesitation.
+        premise: The delayed academic term is imagined as stalling because the student intimidates it, while he magnanimously allows it more time to prepare.
+        moves: reality_reacts_to_gigachad, status_value_inversion
+        premise excellent · execution excellent · legibility immediate · persona fit high
+
+    2. [KEEP            ] Fall classes started late because knowledge needed another warm-up set.
+        premise: The semester's delay is imagined as education preparing itself like an athlete before exercise.
+        moves: event_specific_analogy, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+ ♥  3. [KEEP            ] I arrived mentally in August. The semester is still catching up.
+        premise: A student was ready for classes so early that the delayed academic calendar looks unprepared by comparison.
+        moves: reality_reacts_to_gigachad, status_value_inversion
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    4. [REFINE_EXECUTION] My routine has been denied an opponent.
+        premise: The late start is treated as a postponed contest between fall classes and the student's carefully planned schedule.
+        moves: mundane_as_epic, persona_worldview
+        premise good · execution weak · legibility hard_to_parse · persona fit high
+        problem: By naming only “routine” and “opponent,” the line makes the reader guess that fall classes are the absent challenger.
+          variant 1: Fall classes are late to the arena. My routine has been denied its opponent.   (fix: names fall classes as the absent challenger)
+          variant 2: My routine prepared to face fall classes. The late start has denied it an opponent.   (fix: states the planned contest before delivering the original turn)
+          variant 3: Fall classes begin late this year. My routine waits for its opponent.   (fix: anchors the opponent metaphor directly to the delayed classes)
+
+    5. [REFINE_EXECUTION] The calendar says wait. My posture says begin.
+        premise: The student's physical readiness is absurdly treated as more authoritative than the official semester schedule.
+        moves: persona_worldview, status_value_inversion
+        premise good · execution good · legibility slight_inference · persona fit high
+        problem: Because neither classes nor the semester is named, the reader must infer what the calendar is delaying and what is supposed to start.
+          variant 1: The official semester calendar says classes must wait. My posture says begin.   (fix: Names classes as the thing the official semester calendar is delaying.)
+          variant 2: The calendar says wait. My posture begins the fall semester.   (fix: Names the fall semester directly in the comic turn.)
+
+    6. [KEEP            ] The registrar moved the date. I moved heavier weight.
+        premise: A delayed semester becomes bonus gym time, turning an institutional inconvenience into physical progress.
+        moves: adversity_as_advantage, persona_worldview  |  not in catalog: The repeated verb creates a parallel between administrative rescheduling and advancing in weightlifting.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    7. [REJECT          ] Patience is strength held motionless. Mine is approaching failure.
+        premise: Waiting for classes to begin is treated like an isometric exercise that students can no longer sustain.
+        moves: persona_worldview
+        premise weak · execution excellent · legibility immediate · persona fit high
+
+    8. [KEEP            ] Every empty day before class is a rest day I did not authorize.
+        premise: The delayed semester resembles an athlete being forced to stop training despite being eager to continue.
+        moves: event_specific_analogy, persona_worldview, status_value_inversion
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    9. [REFINE_EXECUTION] The syllabus delayed combat. My pencils remain honorable.
+        premise: The late semester start is compared to a postponed battle, with unused school supplies cast as soldiers whose dignity survives the wait.
+        moves: mundane_as_epic  |  not in catalog: The school supplies are personified as soldiers capable of retaining dignity while they wait.
+        premise good · execution weak · legibility slight_inference · persona fit high
+        problem: The first sentence makes the syllabus sound like the cause of the postponement, obscuring that the late semester start is what deferred the imagined battle.
+          variant 1: The late start of fall classes postponed combat. My pencils remain honorable.   (fix: Names the late class start, rather than the syllabus, as the cause of postponement.)
+          variant 2: Combat awaits the semester’s delayed arrival. My pencils remain honorable.   (fix: Makes the imagined battle wait directly on the delayed semester.)
+
+   10. [KEEP            ] Classes begin when the calendar develops courage.
+        premise: The semester's delay is imagined as a frightened schedule refusing to act.
+        moves: unknown, mundane_as_epic, persona_worldview  |  not in catalog: The joke personifies the schedule and attributes the delayed start to fear.
+        premise good · execution excellent · legibility immediate · persona fit medium
+
+   11. [REJECT          ] Waiting for lectures is cardio for the soul. I prefer deadlifts.
+        premise: The semester’s delayed opening resembles an unwanted endurance workout that a strength athlete dismisses as the wrong kind of training.
+        moves: event_specific_analogy, adversity_as_advantage, persona_worldview
+        premise weak · execution excellent · legibility immediate · persona fit high
+
+   12. [REJECT          ] A late start cannot weaken me. It can only inconvenience greatness.
+        premise: A delayed semester is framed as a challenge to an extraordinary person, but it proves capable only of causing a minor annoyance.
+        moves: mundane_as_epic, persona_worldview  |  not in catalog: The speaker refers to himself as an abstract embodiment of superiority, escalating the self-regard in the punchline.
+        premise weak · execution excellent · legibility immediate · persona fit high
+
+   13. [KEEP            ] The lecture hall remains empty because it has not finished preparing for me.
+        premise: The delayed semester is reinterpreted as the university needing extra time to ready itself for one student's arrival.
+        moves: reality_reacts_to_gigachad, status_value_inversion
+        premise good · execution excellent · legibility immediate · persona fit high
+
+   14. [KEEP            ] Semester routine is civilization. This waiting period is barbarism.
+        premise: Resuming classes is imagined as the only thing preventing students’ idle pre-term limbo from becoming a collapse of social order.
+        moves: mundane_as_epic, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+   15. [REFINE_EXECUTION] I sharpened my pencil so early it now has tenure.
+        premise: The delay before the semester has lasted long enough for a newly prepared school supply to acquire the senior status of a longtime professor.
+        moves: unknown  |  not in catalog: The joke gives a school supply an absurdly accelerated academic career to exaggerate how long students have been ready for classes to begin.
+        premise good · execution good · legibility immediate · persona fit low
+        problem: The concise academic wordplay lacks GigaChad’s stoic, self-mythologizing worldview, so it could belong to almost any deadpan speaker.
+          variant 1: I sharpened my pencil before fall classes. The semester tested its discipline; it now has tenure.   (fix: frames the long wait as a stoic trial of discipline)
+          variant 2: My pencil met the late semester with perfect posture. It waited so long, the university granted it tenure.   (fix: applies GigaChad’s serene posture doctrine to the pencil’s career-length wait)
+          variant 3: I sharpened my pencil for fall classes. It endured the delay without complaint and emerged tenured.   (fix: turns the pencil’s long wait into a mythic feat of silent endurance)
+
+=== Moment 9: Campus gates reopened — mocking safety panic
+
+    1. [KEEP            ] The campus gates reopened. Civilization survived contact with the sidewalk.
+        premise: The alarm over allowing ordinary pedestrians onto campus is mocked as if routine public access had threatened all of society.
+        moves: mundane_as_epic
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    2. [KEEP            ] If an open gate defeats your composure, the gate was never the weak point.
+        premise: Students who treat routine public access as a security vulnerability accidentally reveal their own emotional fragility.
+        moves: status_value_inversion, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    3. [KEEP            ] New York entered campus. Campus immediately requested a spotter.
+        premise: The university treats routine contact with the surrounding city like a dangerously heavy burden it cannot manage alone.
+        moves: event_specific_analogy, persona_worldview  |  not in catalog: The university is personified as an anxious lifter seeking assistance.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    4. [KEEP            ] I do not fear public access. The public deserves access to excellence.
+        premise: Reopening the campus gates is not a danger to students but a benefit to visitors, who get to encounter someone exceptional.
+        moves: status_value_inversion, persona_worldview
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    5. [KEEP            ] The gates are open because even iron understands it cannot contain destiny.
+        premise: A routine campus reopening is framed as the barrier admitting that attempts to restrict movement are futile.
+        moves: mundane_as_epic, persona_worldview  |  not in catalog: The physical barrier is personified as recognizing the futility of restraint.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    6. [REJECT          ] Campus safety panic is cardio for people afraid of actual cardio.
+        premise: People overreacting to harmless visitors become so agitated that their fear resembles physical exertion, revealing how sheltered they are.
+        moves: event_specific_analogy, persona_worldview
+        premise weak · execution excellent · legibility immediate · persona fit high
+
+    7. [KEEP            ] Columbia met the surrounding city and discovered its greatest threat: proximity.
+        premise: The alarm over open gates reveals that some students regard ordinary New Yorkers simply being nearby as dangerous.
+        moves: latent_irony  |  not in catalog: The joke personifies the university and uses an anticlimactic reveal that substitutes mere nearness for an expected concrete danger.
+        premise excellent · execution excellent · legibility immediate · persona fit medium
+
+    8. [KEEP            ] A closed gate protects comfort. An open gate reveals spines.
+        premise: Restricting campus access lets sheltered students avoid having their courage tested, while restoring public access exposes their fear as cowardice.
+        moves: persona_worldview  |  not in catalog: The balanced contrast turns the barrier's two states into a moral test of courage.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+    9. [KEEP            ] I crossed an open campus gate today. No robbery. Only character development.
+        premise: Treating routine public access as a danger makes an uneventful trip through campus seem like a lesson in overcoming sheltered fear.
+        moves: unknown, persona_worldview, mundane_as_epic  |  not in catalog: The joke sets up the feared outcome of public access, then replaces it with an anticlimactic claim of personal growth.
+        premise good · execution excellent · legibility immediate · persona fit medium
+
+   10. [REFINE_EXECUTION] The public walked in. Tuition remained undefeated.
+        premise: Students fear outsiders will take their money, even though Columbia’s charges already do so far more effectively.
+        moves: unknown  |  not in catalog: The joke redirects the feared robbery from outside visitors to Columbia’s own charges and casts the latter as the more formidable threat.
+        premise good · execution good · legibility slight_inference · persona fit medium
+        problem: Because the wording never names robbery or financial harm, the reader must infer why ordinary visitors and Columbia’s charges are being compared.
+          variant 1: The gates opened. The public robbed no one. Tuition remained undefeated.   (fix: names robbery explicitly before the competitive turn)
+          variant 2: The public walked in through open gates. Tuition still took the most money.   (fix: makes the financial comparison explicit by naming who took the money)
+
+   11. [REFINE_EXECUTION] If ordinary access feels like invasion, widen your stance and your worldview.
+        premise: Students who mistake reopened campus gates for a threat need both more physical confidence and a less sheltered perspective.
+        moves: persona_worldview, latent_irony  |  not in catalog: The joke pairs a literal adjustment in body posture with a figurative expansion of perspective through parallel phrasing.
+        premise good · execution good · legibility slight_inference · persona fit high
+        problem: The phrase "ordinary access" is too abstract to identify the reopened campus gates immediately, so the reader must infer the event before the turn lands.
+          variant 1: If reopened campus gates feel like an invasion, widen your stance and your worldview.   (fix: replaces the abstract access phrase with the specific reopened campus gates)
+          variant 2: The campus gates reopened. If that feels like an invasion, widen your stance and your worldview.   (fix: states the gate reopening before the original physical-and-mental turn)
+
+   12. [REFINE_EXECUTION] New Yorkers see an open gate. Panic sees a final boss.
+        premise: Sheltered students catastrophize routine public access to campus into an overwhelming danger.
+        moves: mundane_as_epic  |  not in catalog: It contrasts a normal observer’s interpretation with an anxious one and personifies fear as the second observer.
+        premise good · execution good · legibility immediate · persona fit medium
+        problem: The “final boss” turn is generic internet diction, so the otherwise sharp contrast is not fully owned by GigaChad’s stoic, mythic voice.
+          variant 1: New Yorkers see an open gate. Panic declares the walls of Troy fallen.   (fix: Replaces generic gamer diction with a solemn mythic catastrophe tied to the gate.)
+          variant 2: New Yorkers see an open gate. Panic grants the apocalypse campus access.   (fix: Turns routine access into a scripture-scale threat in GigaChad’s absolute voice.)
+          variant 3: New Yorkers see an open gate. Panic records the fall of an empire.   (fix: Recasts the imagined danger as calm, monumental history rather than an internet trope.)
+
+   13. [KEEP            ] I welcome open campus access. Fear gains strength when you give it a keycard.
+        premise: Security restrictions meant to exclude danger instead admit and legitimize students’ anxiety.
+        moves: event_specific_analogy, persona_worldview  |  not in catalog: Anxiety is personified as an entrant who can be granted institutional access.
+        premise good · execution excellent · legibility immediate · persona fit high
+
+   14. [REFINE_EXECUTION] The gate has two positions. Your nervous system has one assignment.
+        premise: The entrance can operate in either state, while fearful students appear unable to manage the simpler task of staying calm around ordinary public access.
+        moves: unknown, persona_worldview  |  not in catalog: A numerical parallel contrasts the entrance’s two mechanical states with a person’s supposedly simpler duty to remain calm, making safety panic look like incompetence.
+        premise good · execution good · legibility slight_inference · persona fit high
+        problem: The punch line never identifies remaining calm as the nervous system’s assignment, so the reader must supply the intended rebuke.
+          variant 1: The campus gate has two positions. Your nervous system has one assignment: remain calm.   (fix: Explicitly names remaining calm as the nervous system’s assignment.)
+          variant 2: The campus gate has two positions. In both, your nervous system has one duty: stay calm.   (fix: Makes calmness the single duty required in either gate position.)
+
+   15. [KEEP            ] Campus reopened to the city. The city was very brave about it.
+        premise: The safety concern is backwards because ordinary New Yorkers have more reason to dread encountering Columbia students than students have to dread the public.
+        moves: unknown, mundane_as_epic  |  not in catalog: The joke reverses the presumed direction of danger, treating the surrounding public as endangered by the student body rather than the reverse.
+        premise excellent · execution excellent · legibility immediate · persona fit medium
+

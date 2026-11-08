@@ -1,0 +1,168 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "His best friend and roommate after he complains I'm 'distant' for leaving him on read.",
+      "context": "His best friend and roommate listen to him complain that I'm being 'weird and distant' the morning after he left me on read when I asked if we were still on for tonight.",
+      "metaphor": "The shared exhaustion of looking at the consequences of a poor decision made the night before.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar entities stand together observing a third, off-screen thing with shared exhaustion and disapproval.",
+          "secondary": "The entities have tired, dejected, and suspicious expressions, indicating a low-energy, judgmental mood."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "his best friend",
+            "score": 0.4,
+            "reason": "This is a cartoon figure, but his visibly tired and dejected expression aligns well with a friend who is emotionally exhausted by the ongoing situationship drama."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "his roommate",
+            "score": 0.4,
+            "reason": "This is a cartoon figure, but his weary and suspicious squint maps onto a roommate who has witnessed this pattern of behavior before and disapproves."
+          }
+        ],
+        "relation": "share a look of mutual exhaustion and disapproval regarding his actions"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption correctly casts his best friend and roommate as the two entities who 'share a look of mutual exhaustion and disapproval regarding his actions' which are happening off-screen.",
+      "context_recovery": 0.8,
+      "context_recovery_reason": "The reader can fully reconstruct the hypocrisy of the situation: he's complaining about her being distant for the exact behavior he modeled, and his friends are over it.",
+      "element_allusions": [
+        {
+          "element": "the shared exhaustion",
+          "played_by": "the mutual weariness of his best friend and roommate",
+          "allusion": 1.0,
+          "reason": "The caption names 'his best friend and roommate' and the image delivers their mutual weariness."
+        },
+        {
+          "element": "the consequences",
+          "played_by": "his complaining about me being distant",
+          "allusion": 1.0,
+          "reason": "The caption explicitly quotes his complaint that she's 'distant'."
+        },
+        {
+          "element": "a poor decision made the night before",
+          "played_by": "him leaving me on read",
+          "allusion": 1.0,
+          "reason": "The caption states that her being 'distant' was a direct response to her 'leaving him on read'."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "His roommate and best friend watching him draft a 'that's crazy' text to my feelings dump.",
+      "context": "His best friend and roommate watch him spend twenty minutes drafting a 'that's crazy' text back to me after I finally told him how his mixed signals were making me feel.",
+      "metaphor": "Listening to a friend describe their latest terrible plan that you no longer have the energy to argue against.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar entities stand together observing a third, off-screen thing with shared exhaustion and disapproval.",
+          "secondary": "The entities have tired, dejected, and suspicious expressions, indicating a low-energy, judgmental mood."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "his best friend",
+            "score": 0.4,
+            "reason": "This is a cartoon figure, but his visibly tired and dejected expression aligns well with a friend who is emotionally exhausted by the ongoing situationship drama."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "his roommate",
+            "score": 0.4,
+            "reason": "This is a cartoon figure, but his weary and suspicious squint maps onto a roommate who has witnessed this pattern of behavior before and disapproves."
+          }
+        ],
+        "relation": "share a look of mutual exhaustion and disapproval regarding his actions"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption perfectly frames his roommate and best friend as the two peers who 'share a look of mutual exhaustion and disapproval regarding his actions' (drafting the text).",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The caption and image fully reconstruct the specific moment: she sent a vulnerable text ('feelings dump'), he's responding dismissively, and his friends are exhausted by it.",
+      "element_allusions": [
+        {
+          "element": "a friend",
+          "played_by": "him",
+          "allusion": 0.9,
+          "reason": "The subject 'him' is clearly implied as the person being watched by 'His roommate and best friend'."
+        },
+        {
+          "element": "their latest terrible plan",
+          "played_by": "his plan to send a dismissive 'that's crazy' text",
+          "allusion": 1.0,
+          "reason": "The caption explicitly states the content of the text he is drafting, making the terrible plan clear."
+        },
+        {
+          "element": "you (the listeners)",
+          "played_by": "his best friend and roommate",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'His roommate and best friend' as the observers."
+        },
+        {
+          "element": "the energy you no longer have",
+          "played_by": "their tired and dejected expressions",
+          "allusion": 1.0,
+          "reason": "The image, serving as the reaction to the caption's setup, directly provides their tired and dejected expressions."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "His boys after he says 'this time it's different' about his ex, ignoring my flowers.",
+      "context": "His roommate and best friend zone out as he starts talking for the tenth time about how 'this time it's different' with his ex, completely ignoring the flowers I sent to his office yesterday.",
+      "metaphor": "Two veterans watching an enthusiastic newcomer confidently suggest an idea that has failed repeatedly.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar entities stand together observing a third, off-screen thing with shared exhaustion and disapproval.",
+          "secondary": "The entities have tired, dejected, and suspicious expressions, indicating a low-energy, judgmental mood."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "his best friend",
+            "score": 0.4,
+            "reason": "This is a cartoon figure, but his visibly tired and dejected expression aligns well with a friend who is emotionally exhausted by the ongoing situationship drama."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "his roommate",
+            "score": 0.4,
+            "reason": "This is a cartoon figure, but his weary and suspicious squint maps onto a roommate who has witnessed this pattern of behavior before and disapproves."
+          }
+        ],
+        "relation": "share a look of mutual exhaustion and disapproval regarding his actions"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption positions 'His boys' (the two entities) to 'share a look of mutual exhaustion and disapproval regarding his actions' (his speech about his ex), which is unresolved.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The reader can reconstruct the entire painful scenario: she sent flowers, he's ignoring them to talk about his ex again, and his friends have heard this all before.",
+      "element_allusions": [
+        {
+          "element": "Two veterans",
+          "played_by": "his roommate and best friend",
+          "allusion": 1.0,
+          "reason": "The caption's 'His boys' directly refers to his friends, and the image's weary faces imply their 'veteran' status in this drama."
+        },
+        {
+          "element": "an enthusiastic newcomer",
+          "played_by": "him in his moment of deluded optimism",
+          "allusion": 0.9,
+          "reason": "His deluded optimism is perfectly captured by the specific, quoted phrase 'this time it's different'."
+        },
+        {
+          "element": "an idea that has failed repeatedly",
+          "played_by": "his suggestion of getting back together with his ex",
+          "allusion": 1.0,
+          "reason": "The caption makes this clear by mentioning 'his ex' in conjunction with the quote, implying a recurring, failed idea."
+        }
+      ],
+      "match_overall": 0.8
+    }
+  ]
+}
+```

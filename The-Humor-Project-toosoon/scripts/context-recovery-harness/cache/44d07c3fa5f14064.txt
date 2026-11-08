@@ -1,0 +1,144 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "Me and my bestie identifying the girl in his reflection after I said I was done.",
+      "context": "My bestie and I spend twenty minutes zooming in on the reflection in his sunglasses on his new story trying to identify the girl with him, even though I told her five minutes ago I was 'so over it' and didn't even want to look.",
+      "metaphor": "When two people get intensely focused on a problem that is technically not their business.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two same-kind entities share an identical, focused posture over a shared, unseen point of interest.",
+          "secondary": "They are on an elevated subway platform, and their focus is intense, curious, or concerned."
+        },
+        "cast": [
+          {
+            "image_party": "Two men bent over at the waist",
+            "played_by": "me and my bestie",
+            "score": 0.3,
+            "reason": "The fit is low because the figures are visibly men, but their identical, intensely focused posture perfectly captures the dynamic of over-analyzing a text or social media post together."
+          }
+        ],
+        "relation": "share an identical, focused posture looking down"
+      },
+      "physical_fit": 0.3,
+      "physical_fit_reason": "The caption perfectly sets up 'me and my bestie' for the 'identical, focused posture looking down' that the image delivers, but the fit is capped by the cast's low score.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can fully reconstruct the story: two friends obsessively analyzing an ex's photo to identify a new girl, despite one claiming to be over him.",
+      "element_allusions": [
+        {
+          "element": "The two focused people",
+          "played_by": "me and my bestie",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'Me and my bestie'."
+        },
+        {
+          "element": "The problem that is not their business",
+          "played_by": "the identity of the girl with him",
+          "allusion": 1.0,
+          "reason": "The caption's clause 'identifying the girl in his reflection' directly recovers this element."
+        },
+        {
+          "element": "The force of it not being their business",
+          "played_by": "my own declaration of being 'so over it'",
+          "allusion": 1.0,
+          "reason": "The phrase 'after I said I was done' perfectly captures the self-contradictory stance."
+        }
+      ],
+      "match_overall": 0.8
+    },
+    {
+      "caption": "Me and my bestie after he replied 'Acknowledged.' to my paragraph.",
+      "context": "After he replied 'Acknowledged.' to my paragraph about my feelings, my bestie and I are scrolling all the way back to our first Hinge messages from six months ago to see if the red flags were actually 'more of an orange'.",
+      "metaphor": "The collective, morbid curiosity about a system's messy or dangerous foundation.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two same-kind entities share an identical, focused posture over a shared, unseen point of interest.",
+          "secondary": "They are on an elevated subway platform, and their focus is intense, curious, or concerned."
+        },
+        "cast": [
+          {
+            "image_party": "Two men bent over at the waist",
+            "played_by": "me and my bestie",
+            "score": 0.3,
+            "reason": "The fit is low because the figures are visibly men, but their identical, intensely focused posture perfectly captures the dynamic of over-analyzing a text or social media post together."
+          }
+        ],
+        "relation": "share an identical, focused posture looking down"
+      },
+      "physical_fit": 0.3,
+      "physical_fit_reason": "The caption provides the trigger that would cause 'me and my bestie' to assume the 'identical, focused posture' the image depicts; the fit is capped by the cast's score.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "The hyper-specific trigger ('Acknowledged.' to a feelings paragraph) makes the subsequent forensic analysis, depicted by the image, almost universally understood in this context.",
+      "element_allusions": [
+        {
+          "element": "The collective with morbid curiosity",
+          "played_by": "me and my bestie",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'Me and my bestie'."
+        },
+        {
+          "element": "The system",
+          "played_by": "our six-month situationship",
+          "allusion": 0.8,
+          "reason": "The image of deep analysis following a reply to a 'paragraph' strongly implies a deep-dive into the history of an established relationship."
+        },
+        {
+          "element": "The messy or dangerous foundation",
+          "played_by": "the potential 'red flags' in our first Hinge messages",
+          "allusion": 0.9,
+          "reason": "The cold reply combined with the image's intense scrutiny powerfully implies a retrospective search for what went wrong from the beginning (i.e., red flags)."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "Me and my bestie 10 mins after I dramatically threw his number away.",
+      "context": "Me and my bestie are on our hands and knees looking for the napkin with his number on it that I dramatically threw towards the trash can ten minutes ago while announcing 'I'm finally done with him'.",
+      "metaphor": "A desperate, shared search for something valuable that just fell out of reach.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two same-kind entities share an identical, focused posture over a shared, unseen point of interest.",
+          "secondary": "They are on an elevated subway platform, and their focus is intense, curious, or concerned."
+        },
+        "cast": [
+          {
+            "image_party": "Two men bent over at the waist",
+            "played_by": "me and my bestie",
+            "score": 0.3,
+            "reason": "The fit is low because the figures are visibly men, but their identical, intensely focused posture perfectly captures the dynamic of over-analyzing a text or social media post together."
+          }
+        ],
+        "relation": "share an identical, focused posture looking down"
+      },
+      "physical_fit": 0.3,
+      "physical_fit_reason": "The caption sets up the exact scenario—a search—that necessitates the 'identical, focused posture looking down' shown in the image; the fit is capped by the cast's score.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The reader can perfectly reconstruct the ironic story: a dramatic declaration of being 'done' is immediately followed by a desperate search for what was just discarded.",
+      "element_allusions": [
+        {
+          "element": "The desperate searchers",
+          "played_by": "me and my bestie",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'Me and my bestie'."
+        },
+        {
+          "element": "The valuable thing",
+          "played_by": "the napkin with his number on it",
+          "allusion": 1.0,
+          "reason": "The phrase 'his number' is a direct and complete reference to the valuable object."
+        },
+        {
+          "element": "The state of being 'out of reach'",
+          "played_by": "my dramatic act of throwing it away",
+          "allusion": 1.0,
+          "reason": "The caption's clause 'dramatically threw his number away' explicitly recovers this element."
+        }
+      ],
+      "match_overall": 0.9
+    }
+  ]
+}
+```

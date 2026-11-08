@@ -1,0 +1,1 @@
+{"cast_match":1,"pose_match":0.8,"story_match":0.85,"overall_recovered":0.88,"verdict":"got_it","note":"They correctly recovered the narrator being delusional/emotionally invested and the bestie offering support, though they missed the specific jealousy-vs-still-obsessed rationale."}

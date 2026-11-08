@@ -1,0 +1,32 @@
+{
+  "figures": [
+    {
+      "anchor": "foreground left, bent over the platform edge looking down toward the tracks",
+      "candidates": [
+        "me",
+        "my delusion"
+      ]
+    },
+    {
+      "anchor": "foreground right, bent over behind the other person looking down toward the tracks",
+      "candidates": [
+        "me",
+        "my delusion"
+      ]
+    },
+    {
+      "anchor": "background center, standing alone on the opposite platform",
+      "candidates": []
+    }
+  ],
+  "entities_in_caption": [
+    "me",
+    "my delusion",
+    "his Venmo",
+    "everyone"
+  ],
+  "entities_expected_in_image": [
+    "me",
+    "my delusion"
+  ]
+}

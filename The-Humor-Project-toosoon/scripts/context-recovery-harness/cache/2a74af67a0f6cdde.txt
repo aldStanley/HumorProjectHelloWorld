@@ -1,0 +1,1 @@
+{"figures":[{"anchor":"left figure seated on steps, head down, holding a phone-like object","candidates":["me","him","my bestie"]},{"anchor":"right figure seated on steps, bent forward with head down","candidates":["me","him","my bestie"]}],"entities_in_caption":["me","him","my bestie"],"entities_expected_in_image":["me","him","my bestie"]}

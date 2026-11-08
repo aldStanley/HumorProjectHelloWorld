@@ -1,0 +1,72 @@
+```json
+{
+  "matches": [
+    {
+      "context": "My situationship and his best friend huddled over his phone, trying to decode my one-sentence reply to his 'we should talk' text as if it's a bomb instead of me just being tired of this.",
+      "register": "watched_scene",
+      "metaphor": "Peering into the messy, hidden workings of a system that's supposed to just 'work'.",
+      "element_map": [
+        {
+          "element": "The people peering into the workings",
+          "played_by": "my situationship and his best friend",
+          "score": 1.0,
+          "reason": "This is a direct and literal mapping of the two figures in the scene to the agents in the metaphor."
+        },
+        {
+          "element": "A system that's supposed to just 'work'",
+          "played_by": "a simple text conversation",
+          "score": 1.0,
+          "reason": "Direct communication is the basic 'system' that they are treating as a complex, broken machine needing diagnosis."
+        },
+        {
+          "element": "The messy, hidden workings",
+          "played_by": "my presumed emotional state or hidden meaning",
+          "score": 0.9,
+          "reason": "They aren't looking at the text itself but searching for the invisible, messy 'workings' of my motivation they assume are behind it."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The 'two same-kind entities' are perfectly played by 'my situationship and his best friend' assuming an 'identical, focused posture' to observe the 'shared, unseen point' of the text on his phone."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The overall fit is excellent, limited only by the slightly abstract mapping of my presumed emotional state to the 'messy, hidden workings'."
+      }
+    },
+    {
+      "context": "My situationship and his best friend poring over my latest tweet — 'finally threw out the trash' — trying to decide if it’s about my ex-roommate like the replies think or about him ghosting me for a week.",
+      "register": "watched_scene",
+      "metaphor": "Two people collaboratively overthinking a problem that has no real solution.",
+      "element_map": [
+        {
+          "element": "The two people",
+          "played_by": "my situationship and his best friend",
+          "score": 1.0,
+          "reason": "This is a direct 1:1 mapping of the actors in the moment to the actors in the metaphor."
+        },
+        {
+          "element": "A problem that has no real solution",
+          "played_by": "the intended, ambiguous target of my tweet",
+          "score": 1.0,
+          "reason": "The ambiguity is the point; there is no definitive answer they can find, making it a perfect unsolvable problem."
+        },
+        {
+          "element": "The collaborative overthinking",
+          "played_by": "their shared effort to analyze the tweet and its replies",
+          "score": 0.9,
+          "reason": "Their intense analysis is a perfect example of collaborative overthinking, with the public replies only adding to their confusion."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'My situationship and his best friend' perfectly fill the 'two same-kind entities' slot, focused in an identical posture over the 'shared, unseen point' of the tweet on a phone."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The fit is very strong, with the weakest aspect being the slight conceptual gap between the specific action of analyzing a tweet and the broader term 'overthinking'."
+      }
+    }
+  ]
+}
+```

@@ -1,0 +1,96 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "My bestie and I trying to decode the six-minute difference in his late-night 'hey' texts.",
+      "context": "My bestie and I are leaning over my phone, meticulously comparing the 2:17 AM timestamp of his 'hey' text to the 2:23 AM one from last week, as if finding a six-minute difference will somehow reveal whether he's thinking of me or just horny.",
+      "metaphor": "Two people collaboratively overthinking a problem that has no real solution.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "A viewer can recover 'Two people collaboratively overthinking' from 'My bestie and I' + the image, and 'a problem that has no real solution' from the absurd task of decoding a 'six-minute difference in his...texts'.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar entities are bent over, looking down together at a shared point of focus.",
+          "secondary": "The setting is a mundane public space; their posture is one of intense scrutiny."
+        },
+        "cast": [
+          {
+            "image_party": "Two men on an elevated subway platform are bent over at the waist",
+            "played_by": "me and my bestie",
+            "score": 0.9,
+            "reason": "The plural entity 'me and my bestie' perfectly matches the two figures, and their synchronized, focused action aligns with the register read's rationale."
+          }
+        ],
+        "relation": "are bent over at the waist, simultaneously looking down onto"
+      },
+      "physical_fit": 0.9,
+      "physical_fit_reason": "The caption places 'me and my bestie' in the shared act of scrutiny, matching the core analog where two entities 'are bent over at the waist, simultaneously looking down onto' a shared focus.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "From the caption and image, a reader can fully reconstruct the story: two friends are absurdly over-analyzing the timestamps on a boy's low-effort texts.",
+      "element_allusions": [
+        {
+          "element": "The two people overthinking",
+          "played_by": "me and my bestie",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'My bestie and I' as the agents performing the overthinking."
+        },
+        {
+          "element": "The problem with no real solution",
+          "played_by": "the true intention behind his one-word text",
+          "allusion": 0.9,
+          "reason": "The act of 'trying to decode the six-minute difference' clearly implies a search for a hidden meaning in a trivial detail, perfectly alluding to the unsolvable problem."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me and my bestie trying to identify the girl from the reflection in his IG story's spoon.",
+      "context": "Saying 'I'm so over it' as my best friend and I hold my phone inches from our faces, trying to un-blur the reflection of the new girl's face in the spoon from his Instagram story after he told me he 'wasn't ready for anything serious' last week.",
+      "metaphor": "A desperate, last-ditch effort to find something precious that's probably gone forever.",
+      "metaphor_recovery": 0.7,
+      "metaphor_recovery_reason": "A viewer recovers the 'desperate, last-ditch effort' from the absurd task of identifying a face in a 'spoon's reflection', but the 'precious thing that's gone forever' (hope) is only weakly implied, not carried by the words.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar entities are bent over, looking down together at a shared point of focus.",
+          "secondary": "The setting is a mundane public space; their posture is one of intense scrutiny."
+        },
+        "cast": [
+          {
+            "image_party": "Two men on an elevated subway platform are bent over at the waist",
+            "played_by": "me and my bestie",
+            "score": 0.9,
+            "reason": "The plural entity 'me and my bestie' perfectly matches the two figures, and their synchronized, focused action aligns with the register read's rationale."
+          }
+        ],
+        "relation": "are bent over at the waist, simultaneously looking down onto"
+      },
+      "physical_fit": 0.9,
+      "physical_fit_reason": "The caption places 'me and my bestie' in the shared act of scrutiny, matching the core analog where two entities 'are bent over at the waist, simultaneously looking down onto' a shared focus.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can fully reconstruct the specific, hyper-online detective work: two friends trying to identify a new girl from an impossibly tiny clue on Instagram.",
+      "element_allusions": [
+        {
+          "element": "The searchers",
+          "played_by": "me and my best friend",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'Me and my bestie' as the people performing the search."
+        },
+        {
+          "element": "The precious thing that's gone forever",
+          "played_by": "the hope of exclusivity (or the truth)",
+          "allusion": 0.6,
+          "reason": "A viewer infers that identifying 'the girl' means confirming a loss of hope, but the caption itself doesn't allude to the 'preciousness' or finality of that loss."
+        },
+        {
+          "element": "The desperate, last-ditch effort",
+          "played_by": "trying to identify a face from a spoon's reflection",
+          "allusion": 1.0,
+          "reason": "The caption perfectly captures this specific, futile behavior with 'trying to identify the girl from the reflection in his IG story's spoon'."
+        }
+      ],
+      "match_overall": 0.9
+    }
+  ]
+}
+```

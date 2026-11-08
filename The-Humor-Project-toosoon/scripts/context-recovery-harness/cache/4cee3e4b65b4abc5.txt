@@ -1,0 +1,60 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Typing 'lol told you he was all talk' to my friends after hearing my situationship tried to sell his new girl on his 'five-year plan to be a DJ' and she just asked him if he had a 401k, even though my stomach is in a knot hoping she dumps him.",
+      "register": "watched_scene",
+      "metaphor": "Putting on a whole show to sell an idea to an unimpressed authority figure.",
+      "element_map": [
+        {
+          "element": "a whole show to sell an idea",
+          "played_by": "his 'five-year plan to be a DJ'",
+          "score": 0.9,
+          "reason": "This is a performative, grandiose pitch designed to impress and secure a future, perfectly mapping to a showy sales attempt."
+        },
+        {
+          "element": "an unimpressed authority figure",
+          "played_by": "his new girl",
+          "score": 1.0,
+          "reason": "She holds all the power in the exchange, and her pragmatic question about a 401k serves as a direct, unimpressed judgment on his creative 'idea'."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "My situationship's energetic effort to please is his DJ plan pitch, and the dismissive judgment by a different-kind entity is the new girl's practical, unimpressed 401k question."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The fit is excellent, with the weakest aspect being the mapping of a 'plan' to a 'show', which is a strong but not perfect one-to-one fit."
+      }
+    },
+    {
+      "context": "Calmly scrolling past my situationship's cringe-worthy guitar solo story he posted an hour after following his new girl, just to check the viewer list every five minutes to see if *she's* watched it yet while my own heart feels like it's going to fall out of my ass.",
+      "register": "watched_scene",
+      "metaphor": "Trying desperately to win the approval of someone who is indifferent or judgmental.",
+      "element_map": [
+        {
+          "element": "someone trying desperately to win approval",
+          "played_by": "my situationship",
+          "score": 1.0,
+          "reason": "Posting a performative, skill-based story immediately after following someone is a classic, desperate modern attempt to win their approval."
+        },
+        {
+          "element": "someone who is indifferent or judgmental",
+          "played_by": "his new girl",
+          "score": 0.8,
+          "reason": "Her indifference is strongly implied by her failure to view the story, which is the direct metric of engagement for the performance he's putting on."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "My situationship's energetic effort is his performative guitar solo story, and the new girl's dismissive judgment is her pointed absence from the viewer list."
+      },
+      "overall": {
+        "score": 0.8,
+        "reason": "The overall fit is strong, limited only by the fact that the new girl's indifference is inferred from a lack of action rather than an explicit, observable judgment."
+      }
+    }
+  ]
+}
+```

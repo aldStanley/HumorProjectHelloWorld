@@ -1,0 +1,1 @@
+{"figures":[{"anchor":"left side, pink starfish character looking sideways with tired eyes","candidates":["me","my bestie"]},{"anchor":"right side, yellow sponge character looking sideways with tired eyes","candidates":["me","my bestie"]}],"entities_in_caption":["me","my bestie"],"entities_expected_in_image":["me","my bestie"]}

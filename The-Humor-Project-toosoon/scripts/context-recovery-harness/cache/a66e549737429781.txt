@@ -1,0 +1,72 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Picturing his best friend gently explaining that he's going to lose me after I finally deleted his number, a fantasy that has me checking my blocked messages folder just in case he actually listened.",
+      "register": "watched_scene",
+      "metaphor": "Gently introducing someone to a difficult truth that will change how they see things.",
+      "element_map": [
+        {
+          "element": "the one gently introducing a truth",
+          "played_by": "his best friend",
+          "score": 1.0,
+          "reason": "His best friend is perfectly cast in the role of the gentle, supportive advisor delivering a hard-to-hear message."
+        },
+        {
+          "element": "a difficult truth",
+          "played_by": "the fact that he's going to lose me",
+          "score": 0.9,
+          "reason": "The consequence of his actions—losing her—is the central difficult truth that he is being made to confront."
+        },
+        {
+          "element": "the someone whose view will change",
+          "played_by": "my situationship",
+          "score": 1.0,
+          "reason": "He is the direct recipient of the difficult truth, and the entire point of the interaction is for him to see things differently."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's entities perfectly fill the core slots: 'his best friend' is the supporting entity and 'my situationship' is the distressed, same-kind entity."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The moment strongly maps to all metaphor elements and the core analog, with the weakest element still scoring very high."
+      }
+    },
+    {
+      "context": "Imagining his best friend telling him it's okay to not be ready for a relationship after he told me he 'can't give me what I want,' which costs me another night of sleep trying to be the cool girl who understands.",
+      "register": "watched_scene",
+      "metaphor": "Comforting a friend whose problems are too weird for most people to understand.",
+      "element_map": [
+        {
+          "element": "a friend whose problems are too weird",
+          "played_by": "my situationship",
+          "score": 0.9,
+          "reason": "His emotional unavailability is framed as a complex, personal problem his friend understands, but to her, it's a 'weird' issue because it's the direct source of her pain."
+        },
+        {
+          "element": "most people",
+          "played_by": "me",
+          "score": 0.4,
+          "reason": "She stands in for the outside perspective that doesn't understand or enable his behavior, but the singular 'me' is a cardinality mismatch for the plural 'most people'."
+        },
+        {
+          "element": "the comforting friend",
+          "played_by": "his best friend",
+          "score": 1.0,
+          "reason": "His best friend is perfectly cast as the one providing validation and comfort for his 'weird' problems."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's entities perfectly fill the core slots: 'his best friend' is the supporting entity and 'my situationship' is the distressed, same-kind entity."
+      },
+      "overall": {
+        "score": 0.4,
+        "reason": "The overall fit is limited by the cardinality mismatch of casting the singular 'me' in the role of the plural 'most people'."
+      }
+    }
+  ]
+}
+```

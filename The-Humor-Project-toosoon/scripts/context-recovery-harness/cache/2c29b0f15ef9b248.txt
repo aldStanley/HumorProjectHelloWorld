@@ -1,0 +1,36 @@
+{
+  "figures": [
+    {
+      "anchor": "foreground left, man bent over looking down near the train tracks",
+      "candidates": [
+        "me",
+        "my delusion"
+      ]
+    },
+    {
+      "anchor": "foreground right, man in light blue shirt bent over looking down near the train tracks",
+      "candidates": [
+        "me",
+        "my delusion"
+      ]
+    },
+    {
+      "anchor": "background center, distant person standing on the opposite platform",
+      "candidates": [
+        "me",
+        "my delusion"
+      ]
+    }
+  ],
+  "entities_in_caption": [
+    "me",
+    "my delusion",
+    "his new 'k'",
+    "one he sent three months ago",
+    "he"
+  ],
+  "entities_expected_in_image": [
+    "me",
+    "my delusion"
+  ]
+}

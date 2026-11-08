@@ -1,0 +1,1 @@
+{"cast_match":0.9,"pose_match":0.85,"story_match":0.75,"overall_recovered":0.8,"verdict":"got_it","note":"The viewer correctly identified the best friend comforting the downcast situationship guy, though they missed the specific context that he was not ready for a relationship and that the narrator is losing sleep trying to be understanding."}

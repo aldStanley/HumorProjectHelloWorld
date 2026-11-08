@@ -1,0 +1,28 @@
+{
+  "figures": [
+    {
+      "figure": "left small alien in red hood with eyes closed, hand on face, holding the other alien's hand",
+      "entity_guess": "him",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "He looks upset or ashamed, which fits being comforted after saying he can't give the narrator what she wants."
+    },
+    {
+      "figure": "right gray alien leaning in, holding/comforting the left alien's hand",
+      "entity_guess": "his best friend",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "The leaning-in and hand-holding fit the best friend reassuring him that it's okay."
+    }
+  ],
+  "unresolved": [
+    "me",
+    "what I want",
+    "why saying he 'can't give me what I want' needs this level of comfort"
+  ],
+  "story_guess": "The joke is that after a guy tells the narrator he can't give her what she wants, his best friend dramatically comforts him as if he is the one who needs reassurance.",
+  "cast_clarity": 0.85,
+  "pose_clarity": 0.8,
+  "story_clarity": 0.75,
+  "verdict": "got_it"
+}

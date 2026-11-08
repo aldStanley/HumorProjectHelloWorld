@@ -1,0 +1,121 @@
+{
+  "content": [
+    {
+      "name": "Colleen Ballinger (apology video with ukulele)",
+      "type": "meme",
+      "confidence": 95,
+      "description": "Colleen Ballinger, known for her character Miranda Sings, in her infamous 2023 ukulele apology video. This frame became widely circulated as a meme and reaction image, often used to mock insincere, performative, or tone-deaf public apologies."
+    }
+  ],
+  "scene_context": "This image is from Colleen Ballinger's 2023 ukulele apology video, which became a viral meme because it turned a public apology into an awkward musical performance. Online, the image is primarily used to parody bad apologies, PR damage control, and people responding to criticism with an obviously performative apology instead of genuine accountability.",
+  "meme": {
+    "is_meme": true,
+    "template_name": "Colleen Ballinger ukulele apology",
+    "meaning": "Used when someone has done something wrong, been caught, or is facing criticism, and their response is an insincere, performative, awkward, or tone-deaf apology rather than genuine accountability.",
+    "how_a_caption_should_use_it": "The caption should set up a situation where someone clearly owes an apology. The image delivers the punchline by replacing what should have been a sincere apology with the infamous ukulele apology.",
+    "caption_rule": "A good caption should naturally complete the sentence: '...and now they're giving the world's worst apology.' If that sentence does not make sense, this meme is probably not appropriate.",
+    "matching_requirements": [
+      "Someone did something wrong, caused a problem, or is receiving criticism or backlash.",
+      "Someone is expected to apologize or publicly respond.",
+      "The joke is about the apology itself—not merely the original mistake.",
+      "The image should represent an insincere, performative, or overly theatrical apology."
+    ],
+    "good_setups": [
+      "X after getting caught...",
+      "X after everyone found out...",
+      "X after the backlash...",
+      "X after everyone complained...",
+      "X apologizing for...",
+      "X addressing the allegations...",
+      "Company after customers complain...",
+      "Me after forgetting our anniversary...",
+      "Student after getting caught cheating..."
+    ],
+    "avoid_patterns": [
+      "X explaining...",
+      "Me explaining why...",
+      "Explaining why...",
+      "The reason X happened...",
+      "Why X happened...",
+      "Someone simply describing what happened."
+    ],
+    "do_not_match": [
+      "Ordinary explanations.",
+      "Stressful situations without wrongdoing.",
+      "Being overwhelmed or busy.",
+      "Embarrassing moments where nobody is expected to apologize.",
+      "Generic excuses that are not apologies.",
+      "Confessions without an apology.",
+      "Awkward situations that do not involve accountability.",
+      "Events where nobody has done anything wrong."
+    ],
+    "image_is_punchline": true,
+    "image_delivers": "a comically performative, awkward, and obviously insincere apology",
+    "confidence": 0.99,
+    "example_captions": {
+      "generic_apology": [
+        "I'd like to address the allegations.",
+        "I'm sorry you felt that way.",
+        "My PR team said I should apologize.",
+        "I made a little song to explain everything.",
+        "Here's my apology, but make it acoustic."
+      ],
+      "dodging_responsibility": [
+        "Mistakes were made. By everyone else.",
+        "I'd like to apologize if anyone was offended.",
+        "I take full responsibility... for my emotional journey.",
+        "Let's focus on healing instead of accountability.",
+        "The only thing I did wrong was getting caught."
+      ],
+      "work": [
+        "Me apologizing after pushing broken code to production.",
+        "Developer after deleting the production database.",
+        "My boss after production went down.",
+        "Company after customers discover the data breach.",
+        "Me after saying 'this will only take five minutes.'"
+      ],
+      "school": [
+        "Student after getting caught cheating.",
+        "Me apologizing after plagiarizing my assignment.",
+        "My group project partner after contributing nothing.",
+        "Professor after accidentally deleting everyone's grades."
+      ],
+      "tech": [
+        "The intern after running DELETE without a WHERE clause.",
+        "Me after deploying on Friday afternoon.",
+        "Me after saying 'works on my machine.'",
+        "Windows after restarting during your presentation."
+      ],
+      "relationships": [
+        "Me after forgetting our anniversary.",
+        "Me after eating the last slice of pizza.",
+        "My roommate after leaving dishes in the sink all week."
+      ],
+      "gaming": [
+        "Me after throwing the ranked match.",
+        "The healer after letting the tank die.",
+        "Me after rage-quitting."
+      ],
+      "pets": [
+        "My cat after knocking the glass off the table.",
+        "My dog after eating my homework."
+      ],
+      "organizations": [
+        "Airline after losing your luggage.",
+        "Restaurant after everyone gets food poisoning.",
+        "Company after accidentally emailing every customer.",
+        "Social media platform after another major outage."
+      ],
+      "absurd": [
+        "The raccoon after stealing your garbage.",
+        "The printer after jamming for the fourth time today."
+      ],
+      "meta": [
+        "Every YouTuber apology since 2023.",
+        "Corporate apology, but make it musical.",
+        "PR team: 'Can you seem more genuine?'",
+        "The ukulele wasn't the problem."
+      ]
+    }
+  }
+}

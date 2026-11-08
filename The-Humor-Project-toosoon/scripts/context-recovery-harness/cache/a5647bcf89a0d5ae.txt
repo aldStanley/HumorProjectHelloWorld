@@ -1,0 +1,36 @@
+{
+  "figures": [
+    {
+      "figure": "front older man in striped shirt bent over and looking down toward the tracks",
+      "entity_guess": "me or my bestie",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "His bent-over, defeated-looking posture can read as dramatic emotional collapse after receiving a cold one-word reply, but the caption does not distinguish whether he is 'me' or 'my bestie'."
+    },
+    {
+      "figure": "rear man in light blue shirt bent over behind the front man",
+      "entity_guess": "me or my bestie",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "His matching bent-over posture fits the idea that the bestie is also devastated or reacting with the speaker, but the caption gives no way to tell which foreground man is which."
+    },
+    {
+      "figure": "distant person standing upright on the opposite platform",
+      "entity_guess": null,
+      "confident": false,
+      "pose_explained": false,
+      "pose_note": "The caption does not clearly cast this distant person as anyone, and their standing posture is not part of the joke."
+    }
+  ],
+  "unresolved": [
+    "which foreground figure is 'me'",
+    "which foreground figure is 'my bestie'",
+    "who 'he' is",
+    "what the paragraph said"
+  ],
+  "story_guess": "The joke is that the speaker and their best friend are both dramatically crushed after the guy responded to a long emotional paragraph with the dry, formal word 'Acknowledged.'",
+  "cast_clarity": 0.55,
+  "pose_clarity": 0.65,
+  "story_clarity": 0.85,
+  "verdict": "partly"
+}

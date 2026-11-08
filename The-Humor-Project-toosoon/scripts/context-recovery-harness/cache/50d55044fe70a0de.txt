@@ -1,0 +1,156 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "Me at 2 a.m. crafting a 'casual' reply to his 'hey'.",
+      "context": "Me at 2 a.m. drafting a 'casual' reply to his 'hey' text after me at 9 p.m. gave a 45-minute speech to my friends about how I was 'finally, actually, for real this time' done with him.",
+      "metaphor": "Facing the same overwhelming problem, but one person distracts themselves with a tiny detail while the other collapses under the weight of it.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities sit next to each other, one focused on a small detail while the other is collapsed.",
+          "secondary": "The scene is a staircase; the mood is tired, dejected, or exhausted."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "Me at 2 a.m. drafting a 'casual' reply",
+            "score": 0.8,
+            "reason": "The figure is male, but his tired, obsessive focus on a small object perfectly mirrors her intense focus on crafting a simple text."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "me at 9 p.m. who swore she was done",
+            "score": 1.0,
+            "reason": "The figure's posture of total collapse is a perfect visual metaphor for the defeat of her earlier, stronger self."
+          }
+        ],
+        "relation": "sits next to but does not interact with"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption sets up the acting entity's focus, leaving the image to show its collapsed counterpart, perfectly preserving the 'sits next to but does not interact with' dynamic of two separate states.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can fully reconstruct the internal struggle: the obsessive late-night self overthinking a low-effort text, while the part of her that wanted to be strong has completely given up.",
+      "element_allusions": [
+        {
+          "element": "the same overwhelming problem",
+          "played_by": "her cycle of breaking her own promises about the situationship",
+          "allusion": 0.7,
+          "reason": "The cycle is strongly implied by the clear conflict between the action in the caption (crafting a reply) and the defeated state shown in the image, but it is not explicitly recoverable."
+        },
+        {
+          "element": "one person who distracts themselves with a tiny detail",
+          "played_by": "Me at 2 a.m.",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'Me at 2 a.m.' and the tiny detail she is focused on ('crafting a 'casual' reply to his 'hey'')."
+        },
+        {
+          "element": "the other [person] who collapses under the weight of it",
+          "played_by": "me at 9 p.m.",
+          "allusion": 0.9,
+          "reason": "The image of the collapsed figure, representing the consequence of the caption's action, makes 'a defeated prior self' unmistakably clear, even if '9 p.m.' isn't specified."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me checking his tagged photos from 2021 to see if she's new.",
+      "context": "Me deep in his tagged photos from 2021 to confirm the 'new girl' in his story is just a recycled pic, while the last bit of my self-respect gives up and dies in the corner.",
+      "metaphor": "Stuck in the same ongoing struggle, where one person keeps searching for a way out while the other has completely surrendered to despair.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities sit next to each other, one focused on a small detail while the other is collapsed.",
+          "secondary": "The scene is a staircase; the mood is tired, dejected, or exhausted."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "Me checking his 2021 tagged photos",
+            "score": 0.8,
+            "reason": "The figure is male, but his posture of intense, tired focus on a small object is a strong analog for her obsessive investigation on a phone screen."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "the last bit of my self-respect",
+            "score": 1.0,
+            "reason": "The figure's posture of utter defeat and collapse is a literal, perfect representation of dying self-respect."
+          }
+        ],
+        "relation": "sits next to but does not interact with"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption establishes her obsessive searching, and the image delivers the collateral damage to her self-respect, holding them in the 'sits next to but does not interact with' arrangement.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The caption and image together tell a complete, highly specific story: she is engaged in obsessive online stalking, and the emotional cost of this behavior is total self-annihilation.",
+      "element_allusions": [
+        {
+          "element": "the same ongoing struggle",
+          "played_by": "her internal conflict over whether to trust him or her gut",
+          "allusion": 0.8,
+          "reason": "The specific act of 'checking tagged photos' to verify a new person's status makes the underlying internal conflict very clear to the target audience."
+        },
+        {
+          "element": "one person who keeps searching for a way out",
+          "played_by": "Me",
+          "allusion": 1.0,
+          "reason": "The caption explicitly states her action, 'Me checking his tagged photos,' which is a literal form of searching for information."
+        },
+        {
+          "element": "the other [person] who has completely surrendered to despair",
+          "played_by": "the last bit of my self-respect",
+          "allusion": 1.0,
+          "reason": "The image of a completely collapsed figure next to the person doing the self-destructive act is an unmistakable visual for 'surrendered self-respect'."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me replaying my story for the 15th time to see his name.",
+      "context": "Me replaying my own Instagram story just to watch his username appear in the viewer list after he left me on read for three days, as my resolve to finally block him completely evaporates.",
+      "metaphor": "Being right next to someone who is falling apart, but being completely absorbed in your own separate world.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities sit next to each other, one focused on a small detail while the other is collapsed.",
+          "secondary": "The scene is a staircase; the mood is tired, dejected, or exhausted."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "Me replaying my Instagram story",
+            "score": 0.8,
+            "reason": "While the figure is male, his dedicated focus on a small, contained item is a perfect match for her obsessively re-watching her phone screen for a name."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in a ball",
+            "played_by": "my resolve to finally block him",
+            "score": 1.0,
+            "reason": "The posture of complete collapse is a direct and powerful visual representation of an 'evaporated' or defeated resolve."
+          }
+        ],
+        "relation": "sits next to but does not interact with"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption specifies the active self's obsessive task, while the image shows the defeated resolve, preserving the unresolved 'sits next to but does not interact with' relation.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can perfectly reconstruct the moment: she's fixated on the tiny validation of a story view, a behavior that is causing the total collapse of her will to leave the situation.",
+      "element_allusions": [
+        {
+          "element": "someone who is falling apart",
+          "played_by": "my resolve to finally block him",
+          "allusion": 1.0,
+          "reason": "The image of the collapsed figure is a direct visual pun for 'falling apart,' making the connection to her 'evaporating resolve' immediate."
+        },
+        {
+          "element": "[being] completely absorbed in your own separate world",
+          "played_by": "Me",
+          "allusion": 1.0,
+          "reason": "The caption, 'Me replaying my story for the 15th time to see his name,' is a textbook definition of being absorbed in a separate, obsessive world."
+        }
+      ],
+      "match_overall": 1.0
+    }
+  ]
+}
+```

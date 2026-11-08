@@ -1,0 +1,14 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "Two men bent over at the waist"
+    }
+  ],
+  "secondary": [
+    {
+      "entity": "a mundane public setting"
+    }
+  ]
+}
+```

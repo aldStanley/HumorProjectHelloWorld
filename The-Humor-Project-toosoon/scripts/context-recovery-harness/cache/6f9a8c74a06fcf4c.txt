@@ -1,0 +1,99 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Me rereading our one good conversation from three weeks ago after he replied 'lol' to the long paragraph I just sent him about my bad day.",
+      "register": "internal",
+      "me_side": "me",
+      "force_side": "my delusion",
+      "metaphor": "Gently supporting someone through a deep personal sadness or failure.",
+      "element_map": [
+        {
+          "element": "someone going through sadness or failure",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "She is the direct recipient of the emotional dismissal, which constitutes a personal failure in her attempt to connect."
+        },
+        {
+          "element": "a gentle supporter",
+          "played_by": "my delusion",
+          "score": 0.9,
+          "reason": "The delusion manifests as the comforting act of rereading a past good memory to soothe the immediate pain of the present rejection."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The core is perfectly filled by 'my delusion' (one entity) supporting the distressed 'me' (a same-kind entity)."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The fit is excellent, with the weakest link being the slightly abstract role of the delusion as the 'gentle supporter'."
+      }
+    },
+    {
+      "context": "Me at 2am drafting a casual 'hey stranger' reply to the guy I dramatically announced I was done with forever in the group chat yesterday, after he sent me a single fire emoji reaction to my story.",
+      "register": "internal",
+      "me_side": "me at 2am",
+      "force_side": "me at 9pm who swore I was done",
+      "metaphor": "Your current, wiser self trying to comfort and integrate a younger, more wounded part of yourself.",
+      "element_map": [
+        {
+          "element": "a younger, more wounded part of yourself",
+          "played_by": "me at 2am",
+          "score": 1.0,
+          "reason": "This version of her is acting on the wound of loneliness and the need for validation, making her vulnerable."
+        },
+        {
+          "element": "your current, wiser self",
+          "played_by": "the delusion of being the chill girl",
+          "score": 0.7,
+          "reason": "This is an inverted fit; the comforting 'wiser' self is actually a delusion enabling a bad decision, not true wisdom."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The core is perfectly filled by one aspect of her (the 'chill girl' delusion) supporting another distressed aspect ('me at 2am')."
+      },
+      "overall": {
+        "score": 0.7,
+        "reason": "The weakest aspect is the inverted mapping of the 'wiser self' element, which is played by a self-deceiving impulse rather than genuine wisdom."
+      }
+    },
+    {
+      "context": "Me zooming in on the hand of the girl in his latest Instagram post to see if it's his ex, while my delusion calmly insists they're just friends catching up.",
+      "register": "internal",
+      "me_side": "me",
+      "force_side": "my delusion",
+      "metaphor": "Trying to gently introduce a difficult, world-altering truth to someone who isn't ready for it.",
+      "element_map": [
+        {
+          "element": "someone who isn't ready for a truth",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "She is actively investigating the painful truth while simultaneously being receptive to the comforting lie from her delusion."
+        },
+        {
+          "element": "the person gently introducing it",
+          "played_by": "my delusion",
+          "score": 0.6,
+          "reason": "This is an inverse mapping; the delusion's role is to gently introduce a comforting lie to shield her from the difficult truth."
+        },
+        {
+          "element": "a difficult, world-altering truth",
+          "played_by": "the confirmation that he's with another girl",
+          "score": 0.9,
+          "reason": "This potential discovery is the 'world-altering' truth that would shatter the fragile reality of the situationship."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The core is perfectly filled by 'my delusion' (one entity) physically supporting the distressed 'me' (a same-kind entity)."
+      },
+      "overall": {
+        "score": 0.6,
+        "reason": "The weakest aspect is the inverse fit of the delusion, which actively prevents the introduction of truth rather than delivering it."
+      }
+    }
+  ]
+}
+```

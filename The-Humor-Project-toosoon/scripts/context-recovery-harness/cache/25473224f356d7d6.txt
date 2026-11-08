@@ -1,0 +1,28 @@
+{
+  "figures": [
+    {
+      "figure": "seated person on the left wearing a backward blue cap, hunched over and looking down at something in their hands",
+      "entity_guess": "Me",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "Their hunched, focused posture fits the idea of intensely crafting a reply late at night."
+    },
+    {
+      "figure": "seated person on the right in a green shirt, bent forward with head down",
+      "entity_guess": null,
+      "confident": false,
+      "pose_explained": false,
+      "pose_note": "The caption does not give a separate role for this person or explain why they are slumped over."
+    }
+  ],
+  "unresolved": [
+    "his",
+    "his 'hey'",
+    "the actual 'casual' reply"
+  ],
+  "story_guess": "The joke is that the person is treating a simple late-night 'hey' text from a guy like a serious, stressful writing project while trying to seem casual.",
+  "cast_clarity": 0.5,
+  "pose_clarity": 0.5,
+  "story_clarity": 0.85,
+  "verdict": "partly"
+}

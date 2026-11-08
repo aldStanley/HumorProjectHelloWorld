@@ -1,0 +1,20 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "an alien figure with a caring and supportive demeanor"
+    },
+    {
+      "figure": "an alien with a slumped, downcast posture"
+    }
+  ],
+  "secondary": [
+    {
+      "entity": "a gentle, intimate interaction"
+    },
+    {
+      "entity": "a warm, natural setting"
+    }
+  ]
+}
+```

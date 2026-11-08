@@ -1,0 +1,105 @@
+```json
+{
+  "matches": [
+    {
+      "context": "His best friend and roommate sit in dead silence after he hangs up on me, having just listened to him spend twenty minutes on speakerphone explaining that I'm 'overreacting' to him liking his ex's bikini pics.",
+      "register": "watched_scene",
+      "metaphor": "The shared, silent moment between two people after witnessing an incredibly awkward or draining social interaction.",
+      "element_map": [
+        {
+          "element": "two people",
+          "played_by": "His best friend and roommate",
+          "score": 1.0,
+          "reason": "The moment is explicitly centered on these two individuals sharing the same space and reaction."
+        },
+        {
+          "element": "an incredibly awkward or draining social interaction",
+          "played_by": "The twenty-minute speakerphone argument with me",
+          "score": 1.0,
+          "reason": "This argument, which they were forced to overhear, is the clear, recent event that prompted their reaction."
+        },
+        {
+          "element": "the shared, silent moment",
+          "played_by": "Them sitting in dead silence",
+          "score": 1.0,
+          "reason": "This is a literal and direct fulfillment of the element, as their shared silence is the core action of the moment."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's `his best friend and roommate` (two peer entities) jointly express weary disappointment (`sitting in dead silence`) toward `the phone call they just overheard` (the unseen stimulus)."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect, literal mapping to every element of the metaphor and the core analog."
+      }
+    },
+    {
+      "context": "His best friend and his roommate just share a look as he spends ten minutes deleting and re-typing a 'hey stranger' text to me, the girl he swore to them he was blocking an hour ago.",
+      "register": "watched_scene",
+      "metaphor": "Watching a friend make the same, predictable bad decision for the tenth time and being too tired to intervene anymore.",
+      "element_map": [
+        {
+          "element": "a friend making the same, predictable bad decision",
+          "played_by": "him",
+          "score": 1.0,
+          "reason": "He is explicitly going back on his word to repeat a pattern of contacting me, which is the central bad decision."
+        },
+        {
+          "element": "the people watching",
+          "played_by": "His best friend and his roommate",
+          "score": 1.0,
+          "reason": "They are the two figures explicitly described as watching him, perfectly fitting the plural element."
+        },
+        {
+          "element": "being too tired to intervene",
+          "played_by": "Their shared, silent look",
+          "score": 0.9,
+          "reason": "Their non-verbal communication strongly implies they've given up trying to stop him, embodying the exhaustion without stating it literally."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's `his best friend and his roommate` (two peer entities) jointly express weary disappointment (`their shared look`) toward `his predictable act of texting me again` (the unseen stimulus)."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The fit is excellent, with the weakest link being the slight inference required to map their 'look' to the specific emotion of being 'too tired to intervene'."
+      }
+    },
+    {
+      "context": "His roommate and best friend just stare into the middle distance while he explains with a straight face that he has to go over to my place to get his hoodie back, a story he's used three times before to break no contact.",
+      "register": "watched_scene",
+      "metaphor": "Listening to someone's obviously exaggerated or fake story and trying not to call them out on it.",
+      "element_map": [
+        {
+          "element": "someone's obviously exaggerated or fake story",
+          "played_by": "His excuse about needing to get his hoodie back",
+          "score": 1.0,
+          "reason": "The story is explicitly framed as a repetitive and transparently false pretext for seeing me."
+        },
+        {
+          "element": "the people listening",
+          "played_by": "His roommate and best friend",
+          "score": 1.0,
+          "reason": "They are the direct audience for his fake story, and their passive reaction is the focus of the moment."
+        },
+        {
+          "element": "trying not to call them out on it",
+          "played_by": "Their act of staring into the middle distance",
+          "score": 0.9,
+          "reason": "This vacant, disengaged stare is a classic non-verbal sign of tolerance, representing the silent refusal to engage with the lie."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's `his roommate and best friend` (two peer entities) jointly express weary disappointment (`staring into the middle distance`) toward `his flimsy, repeated excuse` (the unseen stimulus)."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The fit is nearly perfect, only limited by the slight interpretation needed to connect their 'staring' to the specific effort of 'not calling him out'."
+      }
+    }
+  ]
+}
+```

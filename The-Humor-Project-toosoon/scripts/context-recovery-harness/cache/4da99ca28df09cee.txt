@@ -1,0 +1,64 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Me at 9pm who blocked his number watching me at 2am unblock it to see if his 'delivered' message turns blue after he posted a picture at the bar we were supposed to go to.",
+      "register": "internal",
+      "me_side": "me at 2am",
+      "force_side": "me at 9pm",
+      "metaphor": "Watching a friend make the same, predictable bad decision for the tenth time and being too tired to intervene anymore.",
+      "element_map": [
+        {
+          "element": "The watcher who is too tired to intervene",
+          "played_by": "me at 9pm",
+          "score": 1.0,
+          "reason": "This past self embodies the prior, exhausted resolve, now powerlessly observing the inevitable relapse."
+        },
+        {
+          "element": "A friend making a predictable bad decision",
+          "played_by": "me at 2am",
+          "score": 1.0,
+          "reason": "This current self is the actor succumbing to weakness, perfectly cast as the 'friend' you can't save from themself."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The two state-stamped selves ('me at 9pm' and 'me at 2am') are peer entities jointly expressing dejection and weary self-disapproval toward his provocative post."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "This moment is a perfect internal psychodrama that maps flawlessly to both the metaphor's roles and the core analog's structure."
+      }
+    },
+    {
+      "context": "Me and my last shred of dignity looking at each other after I laughed and said 'no worries at all!' when he cancelled our plans for the third time with a one-word 'raincheck' text.",
+      "register": "internal",
+      "me_side": "me",
+      "force_side": "my last shred of dignity",
+      "metaphor": "The shared, silent moment between two people after witnessing an incredibly awkward or draining social interaction.",
+      "element_map": [
+        {
+          "element": "The first person witnessing the event",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "She is the direct participant in the interaction, whose performance of nonchalance has just ended, leaving her in the silent aftermath."
+        },
+        {
+          "element": "The second person witnessing the event",
+          "played_by": "my last shred of dignity",
+          "score": 1.0,
+          "reason": "This personified force acts as the silent, disappointed co-witness, sharing the moment of weary dejection with her."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'Me' (SpongeBob's weary self-reproach) and 'my last shred of dignity' (Patrick's dejection) are two peer entities jointly expressing disappointment at the stimulus of the text exchange."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The personification of dignity creates a strong internal duo that perfectly fits the visual and metaphorical structure of shared, silent disappointment."
+      }
+    }
+  ]
+}
+```

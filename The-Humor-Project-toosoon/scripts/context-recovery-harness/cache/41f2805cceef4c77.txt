@@ -1,0 +1,1 @@
+{"cast_match":0.2,"pose_match":0.75,"story_match":0.8,"overall_recovered":0.72,"verdict":"partly","note":"They recovered the cringe rereading/needy late-night double-text joke, but did not map Patrick as me and SpongeBob as the bestie or catch the specific 'gn' non-reply context."}

@@ -1,0 +1,110 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "My bestie gently explaining his one-word text is a red flag, not a riddle.",
+      "context": "My bestie gently takes my phone away while explaining that him taking six hours to text back 'haha' after I sent a vulnerable paragraph isn't a sign he was busy, it's a sign he's avoidant, and I'm just nodding even though I've already re-read his text five times looking for a different meaning.",
+      "metaphor": "Gently introducing someone to a difficult truth that will change how they see things.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity gently supports another similar-kind, downcast entity.",
+          "secondary": "The interaction is intimate and caring; the setting is a warm, orange-hued field."
+        },
+        "cast": [
+          {
+            "image_party": "an alien with a slumped, downcast posture",
+            "played_by": "me",
+            "score": 1.0,
+            "reason": "The slumped, downcast alien is a perfect avatar for her receiving a difficult truth about her situationship."
+          },
+          {
+            "image_party": "an alien figure with a caring and supportive demeanor",
+            "played_by": "my bestie",
+            "score": 1.0,
+            "reason": "The supportive alien is a perfect avatar for a best friend gently delivering that truth."
+          }
+        ],
+        "relation": "gently holds the hands and cradles the head of"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption positions 'my bestie' as the supportive one and 'me' as the downcast recipient, perfectly embodying the relation where one figure 'gently holds the hands and cradles the head of' another.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can reconstruct the full story: the narrator is overthinking a guy's terse text, and her best friend is gently trying to make her see the reality of the situation.",
+      "element_allusions": [
+        {
+          "element": "The one introducing the truth",
+          "played_by": "my bestie",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'My bestie' in the role of explaining the truth."
+        },
+        {
+          "element": "The one receiving the truth",
+          "played_by": "me",
+          "allusion": 1.0,
+          "reason": "The caption's first-person possessive ('My bestie') and the image's comforted figure clearly establish 'me' as the recipient."
+        },
+        {
+          "element": "The difficult truth",
+          "played_by": "The fact that his texting behavior is a clear sign of avoidance, not a puzzle",
+          "allusion": 0.9,
+          "reason": "The phrase 'his one-word text is a red flag, not a riddle' perfectly alludes to the core truth about his avoidant behavior and her over-analysis."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "My bestie listening to my theory on why him liking his ex's old pic at 2am is a good sign.",
+      "context": "My bestie rubs my back while I quietly explain my theory for the ninth time that my situationship liking his ex's post from three weeks ago at 2 AM is actually a signal he's trying to make me jealous, not that he's still obsessed with her.",
+      "metaphor": "Comforting a friend whose problems are too weird for most people to understand.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity gently supports another similar-kind, downcast entity.",
+          "secondary": "The interaction is intimate and caring; the setting is a warm, orange-hued field."
+        },
+        "cast": [
+          {
+            "image_party": "an alien with a slumped, downcast posture",
+            "played_by": "me",
+            "score": 1.0,
+            "reason": "The slumped, downcast alien is a perfect avatar for her explaining a deeply delusional theory about her situationship."
+          },
+          {
+            "image_party": "an alien figure with a caring and supportive demeanor",
+            "played_by": "my bestie",
+            "score": 1.0,
+            "reason": "The supportive alien is a perfect avatar for a best friend patiently listening to that theory."
+          }
+        ],
+        "relation": "gently holds the hands and cradles the head of"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption has 'my bestie' in a supportive listening role while 'me' (the narrator) is deep in a spiral, perfectly matching the relation where one 'gently holds the hands and cradles the head of' another.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can reconstruct the entire specific scenario: the narrator has a delusional theory about her guy's social media activity, and her best friend is patiently supporting her through it.",
+      "element_allusions": [
+        {
+          "element": "The comforting friend",
+          "played_by": "my bestie",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'My bestie' in the comforting role."
+        },
+        {
+          "element": "The friend with weird problems",
+          "played_by": "me",
+          "allusion": 1.0,
+          "reason": "The caption's first-person perspective ('My bestie', 'my theory') and the extremely specific problem clearly identify 'me' as this character."
+        },
+        {
+          "element": "The weird problems",
+          "played_by": "My elaborate, self-serving theories about his 2 AM social media activity",
+          "allusion": 1.0,
+          "reason": "The phrase 'my theory on why him liking his ex's old pic at 2am is a good sign' is a perfect, unmistakable summary of this specific weird problem."
+        }
+      ],
+      "match_overall": 1.0
+    }
+  ]
+}
+```

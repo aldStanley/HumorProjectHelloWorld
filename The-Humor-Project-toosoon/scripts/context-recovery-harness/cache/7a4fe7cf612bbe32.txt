@@ -1,0 +1,102 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "My bestie and I on our 8th rewatch trying to decode the background of his story.",
+      "context": "My bestie and I rewatching his 15-second story of a beer for the eighth time, trying to decode the blurry background to see if he's at the bar he said he hated, all while laughing like we're just bored and not because I'm two seconds from a full spiral.",
+      "metaphor": "Two people collaboratively overthinking a problem that has no real solution.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "A reader can fully rebuild the metaphor: 'My bestie and I' are 'the two people collaboratively overthinking', and 'the background of his story' is the 'problem that has no real solution', made clear by the obsessive posture in the image.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities share an identical, focused posture while examining a common point of interest below them.",
+          "secondary": "The setting is a mundane, public space, and the mood is one of intense curiosity or concern."
+        },
+        "cast": [
+          {
+            "image_party": "Two men on an elevated subway platform are bent over at the waist",
+            "played_by": "me and my bestie",
+            "score": 0.9,
+            "reason": "The two men's identical, intensely focused posture of bending over to scrutinize something perfectly captures me and my best friend jointly analyzing every detail of his behavior."
+          }
+        ],
+        "relation": "bent over at the waist, simultaneously looking down"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption's 'My bestie and I... trying to decode' perfectly sets up the shared, focused action that the image delivers as being 'bent over at the waist, simultaneously looking down'.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "From the caption and image, a reader can fully reconstruct the story: two friends are obsessively and intensely analyzing a guy's social media story for hidden clues.",
+      "element_allusions": [
+        {
+          "element": "The two people overthinking",
+          "played_by": "My bestie and I",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'My bestie and I' as the agents."
+        },
+        {
+          "element": "The problem with no real solution",
+          "played_by": "His cryptic story with a blurry background",
+          "allusion": 1.0,
+          "reason": "The caption's phrase 'decode the background of his story' perfectly captures the futile analysis of a cryptic visual."
+        },
+        {
+          "element": "The collaborative effort",
+          "played_by": "Our joint rewatching and decoding",
+          "allusion": 1.0,
+          "reason": "The caption specifies the collaborative action with 'My bestie and I' and the shared goal 'trying to decode'."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "My bestie and I debating the subtext of the period in his 'okay.' text.",
+      "context": "My bestie and I, hunched over my phone for twenty minutes dissecting the single period he used in his 'okay.' text after I asked if we were still on for tonight, while I keep saying it's fine and I don't even care.",
+      "metaphor": "Peering into the messy, hidden workings of a system that's supposed to just 'work'.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "A reader can fully recover the metaphor: the image shows 'peering into' something, the caption names 'the subtext of the period' as the 'messy, hidden workings', and the triviality of an 'okay.' text signifies the 'system that's supposed to just work'.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities share an identical, focused posture while examining a common point of interest below them.",
+          "secondary": "The setting is a mundane, public space, and the mood is one of intense curiosity or concern."
+        },
+        "cast": [
+          {
+            "image_party": "Two men on an elevated subway platform are bent over at the waist",
+            "played_by": "me and my bestie",
+            "score": 0.9,
+            "reason": "The two men's identical, intensely focused posture of bending over to scrutinize something perfectly captures me and my best friend jointly analyzing every detail of his behavior."
+          }
+        ],
+        "relation": "bent over at the waist, simultaneously looking down"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption's 'My bestie and I debating' sets up the shared intellectual focus that the image physicalizes as being 'bent over at the waist, simultaneously looking down'.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The caption and image perfectly reconstruct the moment: two friends are applying absurdly intense analysis to an incredibly minimal and ambiguous text message.",
+      "element_allusions": [
+        {
+          "element": "The people peering in",
+          "played_by": "Me and my bestie",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'My bestie and I' as the two people involved."
+        },
+        {
+          "element": "The messy, hidden workings",
+          "played_by": "The subtext of his single-period text",
+          "allusion": 1.0,
+          "reason": "The caption identifies the object of scrutiny precisely as 'the subtext of the period in his 'okay.' text'."
+        },
+        {
+          "element": "The system that's supposed to just 'work'",
+          "played_by": "The basic expectation of clear communication",
+          "allusion": 0.9,
+          "reason": "This is strongly implied: the need to 'debate the subtext' of a simple word like 'okay.' highlights the failure of basic communication."
+        }
+      ],
+      "match_overall": 0.9
+    }
+  ]
+}
+```

@@ -1,0 +1,25 @@
+{
+  "figures": [
+    {
+      "anchor": "left figure in a red/orange jester outfit, facing away with hands raised and one leg lifted",
+      "candidates": [
+        "him",
+        "his new girl"
+      ]
+    },
+    {
+      "anchor": "right figure wearing a crown and purple/red dress, seated on a throne",
+      "candidates": [
+        "his new girl"
+      ]
+    }
+  ],
+  "entities_in_caption": [
+    "him",
+    "his new girl"
+  ],
+  "entities_expected_in_image": [
+    "him",
+    "his new girl"
+  ]
+}

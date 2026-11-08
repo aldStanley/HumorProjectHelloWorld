@@ -1,0 +1,1 @@
+{"cast_match":1,"pose_match":0.85,"story_match":0.8,"overall_recovered":0.85,"verdict":"got_it","note":"They correctly mapped the situationship as the performative jester pitching an unserious DJ plan to the new girl, though they missed the 401k/pragmatic-rejection and jealous-texting context."}

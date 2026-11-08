@@ -1,0 +1,1 @@
+{"cast_match":0.9,"pose_match":0.4,"story_match":0.55,"overall_recovered":0.6,"verdict":"partly","note":"They correctly mapped the two bent-over men to “me” and “my delusion,” but missed that the intended joke is obsessive calm sleuthing through old tagged photos rather than just dramatic despair."}

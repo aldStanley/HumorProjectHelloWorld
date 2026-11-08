@@ -1,0 +1,38 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "A jester actively dancing and gesturing",
+      "entity": "the urge to text him",
+      "fit": 1.0,
+      "reason": "The jester's frantic, attention-seeking performance perfectly embodies the chaotic energy of a compelling and irrational internal drive."
+    },
+    {
+      "figure": "a queen, who is sitting on a throne watching",
+      "entity": "me pretending I don't care",
+      "fit": 1.0,
+      "reason": "The queen's unimpressed, judgmental, and stationary pose is an exact visual match for the persona's adopted front of aloofness."
+    }
+  ],
+  "weakest_fit": 1.0,
+  "why": "This arrangement stages the internal conflict between her chaotic, desperate urges and her attempt to maintain a cool, unaffected exterior.",
+  "secondary_nominations": [
+    {
+      "entity": "a performance",
+      "possibilities": [
+        "the 8 drafts of the text I won't send",
+        "the scenarios I'm building in my head",
+        "the internal argument for why this time is different"
+      ]
+    },
+    {
+      "entity": "a pose of critical evaluation",
+      "possibilities": [
+        "my carefully crafted aura of indifference",
+        "the emotional wall I put up",
+        "my 'thriving' era"
+      ]
+    }
+  ]
+}
+```

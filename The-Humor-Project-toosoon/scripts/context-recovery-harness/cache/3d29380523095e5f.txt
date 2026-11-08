@@ -1,0 +1,1 @@
+{"cast_match":0.5,"pose_match":0.45,"story_match":0.6,"overall_recovered":0.58,"verdict":"partly","note":"The viewer nailed the basic overthinking-a-'hey' joke but missed that the second figure is the earlier version of her who had dramatically sworn she was done with him."}

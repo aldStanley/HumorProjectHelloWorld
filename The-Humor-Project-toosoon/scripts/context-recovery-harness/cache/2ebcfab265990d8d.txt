@@ -1,0 +1,32 @@
+{
+  "figures": [
+    {
+      "anchor": "foreground left, man in light striped shirt bending over near the platform edge",
+      "candidates": [
+        "me",
+        "my delusion"
+      ]
+    },
+    {
+      "anchor": "foreground right, man in light blue shirt bending over behind the other man near the platform edge",
+      "candidates": [
+        "me",
+        "my delusion"
+      ]
+    },
+    {
+      "anchor": "background across the tracks, person standing on the opposite platform",
+      "candidates": []
+    }
+  ],
+  "entities_in_caption": [
+    "me",
+    "my delusion",
+    "he",
+    "some girl"
+  ],
+  "entities_expected_in_image": [
+    "me",
+    "my delusion"
+  ]
+}

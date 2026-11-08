@@ -1,0 +1,275 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* "The Chiltrix" — Matrix green-on-black. Overrides the shared theme vars
+   within a scoped wrapper so every component recolors at once. */
+.chiltrix-theme {
+  --canvas: 0 8 2;
+  --ink: 60 255 120;
+  --muted: 0 175 75;
+  --accent: 90 255 150;
+  --accent-strong: 150 255 185;
+  --headline-accent: 90 255 150;
+  --headline-accent-strong: 170 255 195;
+  --headline-syrup: 0 210 95;
+  --panel: 2 16 7;
+  --shadow: 0 0 0;
+  --shadow-strong: 0 0 0;
+  --on-primary: 0 14 4;
+  --syrup: 0 210 95;
+  --syrup-deep: 0 150 65;
+  --primary: 0 205 85;
+  --primary-bright: 95 255 145;
+  --primary-deep: 0 125 48;
+  --gloss: 70 255 125;
+  --gloss-strong: 130 255 165;
+  --ambient-spot-1: 0 95 38;
+  --ambient-spot-2: 0 65 26;
+  --ambient-spot-3: 0 42 17;
+  --ambient-base-1: 0 6 2;
+  --ambient-base-2: 0 10 3;
+  --ambient-base-3: 0 14 5;
+  --ambient-orb-left-2: 0 130 52;
+  --ambient-orb-right-1: 0 165 62;
+  --ambient-orb-right-2: 0 95 38;
+  --ambient-orb-bottom-1: 0 145 58;
+  background-color: #000;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+@layer base {
+  :root {
+    color-scheme: light dark;
+    --canvas: 255 248 238;
+    --ink: 54 32 22;
+    --muted: 132 88 63;
+    --accent: 225 29 72;
+    --accent-strong: 190 18 60;
+    --headline-accent: var(--accent);
+    --headline-accent-strong: var(--accent-strong);
+    --headline-syrup: var(--syrup);
+    --panel: 255 254 250;
+    --shadow: 11 6 8;
+    --shadow-strong: 18 10 14;
+    --on-primary: 255 255 255;
+    --syrup: 244 63 94;
+    --syrup-deep: 159 18 57;
+    --primary: 245 158 11;
+    --primary-bright: 253 224 71;
+    --primary-deep: 217 119 6;
+    --gloss: 255 255 255;
+    --gloss-strong: 255 252 244;
+    --ambient-spot-1: 253 164 175;
+    --ambient-spot-2: 244 63 94;
+    --ambient-spot-3: 254 205 211;
+    --ambient-base-1: 255 236 240;
+    --ambient-base-2: 255 224 232;
+    --ambient-base-3: 251 113 133;
+    --ambient-orb-left-2: 244 114 182;
+    --ambient-orb-right-1: 251 113 133;
+    --ambient-orb-right-2: 244 63 94;
+    --ambient-orb-bottom-1: 254 205 211;
+  }
+
+  .dark {
+    --canvas: 8 6 8;
+    --ink: 255 248 240;
+    --muted: 228 196 170;
+    --accent: 251 113 133;
+    --accent-strong: 225 29 72;
+    --panel: 26 18 22;
+    --shadow: 0 0 0;
+    --shadow-strong: 8 6 8;
+    --on-primary: 255 255 255;
+    --syrup: 244 63 94;
+    --syrup-deep: 190 18 60;
+    --primary: 217 119 6;
+    --primary-bright: 245 158 11;
+    --primary-deep: 180 83 9;
+    --gloss: 60 52 52;
+    --gloss-strong: 46 40 40;
+    --ambient-spot-1: 244 63 94;
+    --ambient-spot-2: 190 18 60;
+    --ambient-spot-3: 6 4 6;
+    --ambient-base-1: 6 4 6;
+    --ambient-base-2: 10 6 9;
+    --ambient-base-3: 8 4 7;
+    --ambient-orb-left-2: 190 18 60;
+    --ambient-orb-right-1: 244 63 94;
+    --ambient-orb-right-2: 159 18 57;
+    --ambient-orb-bottom-1: 251 113 133;
+  }
+
+  :root[data-env='production'] {
+    --canvas: 236 244 255;
+    --ink: 15 23 42;
+    --muted: 100 116 139;
+    --accent: 249 115 22;
+    --accent-strong: 234 88 12;
+    --headline-accent: var(--primary);
+    --headline-accent-strong: var(--primary-deep);
+    --headline-syrup: var(--primary-bright);
+    --panel: 250 253 255;
+    --shadow: 15 23 42;
+    --shadow-strong: 15 23 42;
+    --on-primary: 255 255 255;
+    --syrup: 251 191 36;
+    --syrup-deep: 217 119 6;
+    --primary: 37 99 235;
+    --primary-bright: 96 165 250;
+    --primary-deep: 29 78 216;
+    --gloss: 255 255 255;
+    --gloss-strong: 232 240 250;
+    --ambient-spot-1: 147 197 253;
+    --ambient-spot-2: 59 130 246;
+    --ambient-spot-3: 191 219 254;
+    --ambient-base-1: 234 241 255;
+    --ambient-base-2: 213 231 255;
+    --ambient-base-3: 96 165 250;
+    --ambient-orb-left-2: 125 211 252;
+    --ambient-orb-right-1: 96 165 250;
+    --ambient-orb-right-2: 59 130 246;
+    --ambient-orb-bottom-1: 191 219 254;
+  }
+
+  :root[data-env='production'].dark {
+    --canvas: 4 8 18;
+    --ink: 242 247 255;
+    --muted: 186 200 222;
+    --accent: 251 146 60;
+    --accent-strong: 249 115 22;
+    --panel: 24 32 48;
+    --shadow: 4 8 18;
+    --shadow-strong: 5 10 22;
+    --on-primary: 255 255 255;
+    --syrup: 253 186 116;
+    --syrup-deep: 234 88 12;
+    --primary: 96 165 250;
+    --primary-bright: 147 197 253;
+    --primary-deep: 59 130 246;
+    --gloss: 32 46 72;
+    --gloss-strong: 22 34 56;
+    --ambient-spot-1: 56 189 248;
+    --ambient-spot-2: 37 99 235;
+    --ambient-spot-3: 5 10 22;
+    --ambient-base-1: 4 8 18;
+    --ambient-base-2: 6 12 24;
+    --ambient-base-3: 5 10 22;
+    --ambient-orb-left-2: 30 64 175;
+    --ambient-orb-right-1: 56 189 248;
+    --ambient-orb-right-2: 30 64 175;
+    --ambient-orb-bottom-1: 96 165 250;
+  }
+
+  html,
+  body {
+    min-height: 100%;
+  }
+
+  /* Global density knob: Tailwind text/spacing utilities are rem-based, so
+     shrinking the root font size compacts every font size, padding, margin,
+     and gap in the app proportionally. 87.5% = 14px base. */
+  html {
+    font-size: 87.5%;
+  }
+
+  body {
+    font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+    background-color: rgb(var(--canvas));
+    color: rgb(var(--ink));
+    line-height: 1.5;
+  }
+}
+
+@layer components {
+  .gloss-panel {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+  }
+
+  .gloss-panel::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: linear-gradient(
+      120deg,
+      rgb(var(--gloss) / 0.55),
+      rgb(var(--gloss) / 0) 52%,
+      rgb(var(--gloss) / 0.22)
+    );
+    mix-blend-mode: screen;
+    opacity: 0.9;
+    pointer-events: none;
+  }
+
+  .gloss-panel::after {
+    content: "";
+    position: absolute;
+    left: -15%;
+    right: -15%;
+    top: -55%;
+    height: 120%;
+    border-radius: inherit;
+    background: radial-gradient(
+      circle at 50% 60%,
+      rgb(var(--gloss-strong) / 0.4),
+      transparent 70%
+    );
+    opacity: 0.7;
+    pointer-events: none;
+  }
+
+  .gloss-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 16s ease-in-out infinite;
+  }
+
+  .animate-sway {
+    animation: sway 20s ease-in-out infinite;
+  }
+
+  .animate-drift {
+    animation: drift 28s linear infinite;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translate(-8px, -12px);
+  }
+  50% {
+    transform: translate(18px, 14px);
+  }
+}
+
+@keyframes sway {
+  0%,
+  100% {
+    transform: translate(-10px, 0);
+  }
+  50% {
+    transform: translate(16px, -18px);
+  }
+}
+
+@keyframes drift {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(18px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

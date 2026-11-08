@@ -1,0 +1,110 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "Me and my better judgment watching me type 'hey stranger' to my ghost from 3 months ago.",
+      "context": "Me drafting a casual 'hey stranger' text to the guy who ghosted me three months ago, while my better judgment just watches, too tired to even bring up the screenshots from last time.",
+      "metaphor": "Listening to a friend describe their latest terrible plan that you no longer have the energy to argue against.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two peer entities stand next to each other and observe something off-screen.",
+          "secondary": "One entity has a tired and dejected expression, while the other looks on with weary suspicion and disapproval."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "Me, drafting a text to the guy who ghosted me",
+            "score": 1.0,
+            "reason": "The figure's exhausted and defeated look perfectly embodies the state of someone knowingly making a bad decision."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "my better judgment",
+            "score": 1.0,
+            "reason": "The figure's expression of tired disapproval is an ideal personification for the part of the self that knows this is a mistake."
+          }
+        ],
+        "relation": "stand next to each other and observe"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption places 'Me' and 'my better judgment' side-by-side to 'stand next to each other and observe' the bad decision being typed out off-screen.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The caption's specificity ('hey stranger', 'ghost from 3 months ago') allows a reader to fully reconstruct the exact self-sabotaging scenario.",
+      "element_allusions": [
+        {
+          "element": "a friend",
+          "played_by": "Me (the part drafting the text)",
+          "allusion": 1.0,
+          "reason": "The caption's structure 'Me... watching me type' clearly separates the impulsive self from the observing self, recovering the entity."
+        },
+        {
+          "element": "their latest terrible plan",
+          "played_by": "Drafting a text to the guy who ghosted me",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names the plan: typing 'hey stranger' to a ghost from three months prior."
+        },
+        {
+          "element": "the listener who no longer has the energy to argue",
+          "played_by": "my better judgment",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'my better judgment', and the image's weary expression implies its lack of energy to argue."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me and my better judgment staring at the 'read' receipt under my 3am paragraph.",
+      "context": "Me and my better judgment staring at the single 'read' receipt under the paragraph I sent him at 3am after he posted a song we both liked.",
+      "metaphor": "The shared exhaustion of looking at the consequences of a poor decision made the night before.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two peer entities stand next to each other and observe something off-screen.",
+          "secondary": "One entity has a tired and dejected expression, while the other looks on with weary suspicion and disapproval."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "Me, staring at the read receipt",
+            "score": 1.0,
+            "reason": "The figure's dejected expression perfectly captures the feeling of regret and disappointment after sending an impulsive text."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "my better judgment",
+            "score": 1.0,
+            "reason": "The figure's tired 'I told you so' look is a flawless personification of one's better judgment witnessing the inevitable outcome."
+          }
+        ],
+        "relation": "stand next to each other and observe"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption has both 'Me' and 'my better judgment' positioned to 'stand next to each other and observe' the off-screen phone screen with the receipt.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The details 'read receipt' and '3am paragraph' are specific enough for any reader to immediately reconstruct the entire morning-after-regret scenario.",
+      "element_allusions": [
+        {
+          "element": "the consequences of a poor decision",
+          "played_by": "The single 'read' receipt with no reply",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'the 'read' receipt', which is the concrete consequence."
+        },
+        {
+          "element": "a poor decision made the night before",
+          "played_by": "Sending him a paragraph at 3am",
+          "allusion": 1.0,
+          "reason": "The caption's mention of 'my 3am paragraph' directly and unmistakably alludes to this poor decision."
+        },
+        {
+          "element": "The shared exhaustion",
+          "played_by": "Me and my better judgment",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names both 'Me' and 'my better judgment', while the image delivers their shared exhaustion."
+        }
+      ],
+      "match_overall": 1.0
+    }
+  ]
+}
+```

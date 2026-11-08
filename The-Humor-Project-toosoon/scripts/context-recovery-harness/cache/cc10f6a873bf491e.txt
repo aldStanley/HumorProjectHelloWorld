@@ -1,0 +1,1 @@
+{"cast_match":0.9,"pose_match":0.8,"story_match":0.88,"overall_recovered":0.87,"verdict":"got_it","note":"The viewer nailed that the two bent-over men are him and his friend obsessively checking whether the Hinge prompt is a shot at him, though they missed the situationship/screenshotting/reactivated-profile specifics."}

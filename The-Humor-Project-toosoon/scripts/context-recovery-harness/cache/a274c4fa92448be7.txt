@@ -1,0 +1,30 @@
+{
+  "figures": [
+    {
+      "figure": "Patrick on the left, half-lidded and unimpressed, looking toward SpongeBob",
+      "entity_guess": "my bestie",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "If Patrick is the bestie, his unimpressed stare fits judging 'me' for reacting to the text after swearing I was done, but the caption does not clearly anchor him."
+    },
+    {
+      "figure": "SpongeBob on the right, half-lidded and deadpan, looking toward Patrick",
+      "entity_guess": "Me",
+      "confident": false,
+      "pose_explained": false,
+      "pose_note": "He could be 'me' sheepishly showing or reading the text, but there is no phone or reading action visible, so the pose is only loosely explained."
+    }
+  ],
+  "unresolved": [
+    "which figure is definitely 'Me'",
+    "which figure is definitely 'my bestie'",
+    "his",
+    "'roommates aren't here' text",
+    "what 'I was done' specifically refers to"
+  ],
+  "story_guess": "The joke is that after claiming she was finished with a guy, she gets a tempting 'roommates aren't here' text and shows it to her bestie, who is unimpressed because she knows what is about to happen.",
+  "cast_clarity": 0.45,
+  "pose_clarity": 0.45,
+  "story_clarity": 0.8,
+  "verdict": "partly"
+}

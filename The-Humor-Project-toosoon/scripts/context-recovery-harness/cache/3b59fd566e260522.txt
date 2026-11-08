@@ -1,0 +1,31 @@
+{
+  "figures": [
+    {
+      "anchor": "foreground left, man in a light striped shirt bending over near the train tracks",
+      "candidates": [
+        "him",
+        "his friend"
+      ]
+    },
+    {
+      "anchor": "foreground right, man in a light blue shirt bending over near the train tracks",
+      "candidates": [
+        "him",
+        "his friend"
+      ]
+    },
+    {
+      "anchor": "background center, distant person standing on the opposite platform",
+      "candidates": []
+    }
+  ],
+  "entities_in_caption": [
+    "him",
+    "his friend",
+    "me"
+  ],
+  "entities_expected_in_image": [
+    "him",
+    "his friend"
+  ]
+}

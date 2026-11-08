@@ -1,0 +1,1 @@
+{"cast_match":0.55,"pose_match":0.7,"story_match":0.9,"overall_recovered":0.8,"verdict":"partly","note":"They recovered the core joke about texting a ghost despite better judgment, but did not map Patrick as the texting self and SpongeBob as the weary better judgment."}

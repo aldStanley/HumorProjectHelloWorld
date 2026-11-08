@@ -1,0 +1,38 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "A jester actively dancing and gesturing",
+      "entity": "me",
+      "fit": 1.0,
+      "reason": "The jester is a cartoon avatar whose energetic, performative-to-please posture perfectly represents the persona's self-aware feeling of acting like a fool in a situationship."
+    },
+    {
+      "figure": "a queen, who is sitting on a throne watching",
+      "entity": "my bestie",
+      "fit": 1.0,
+      "reason": "The queen is a cartoon avatar whose unimpressed, judgmental expression perfectly captures a best friend's reaction to watching the persona repeat her toxic patterns."
+    }
+  ],
+  "weakest_fit": 1.0,
+  "why": "This image provides a perfect two-part avatar dynamic for the persona's self-deprecating humor about her romantic life and her friends' weary reactions to it.",
+  "secondary_nominations": [
+    {
+      "entity": "a performance",
+      "possibilities": [
+        "explaining for the 10th time why I'm going back to him",
+        "crafting the perfect 'chill' text",
+        "trying to act unbothered when he finally texts back"
+      ]
+    },
+    {
+      "entity": "a pose of critical evaluation",
+      "possibilities": [
+        "the look I get when I say 'I know but...'",
+        "the silence in the group chat after I post screenshots",
+        "listening to me vent about the same thing again"
+      ]
+    }
+  ]
+}
+```

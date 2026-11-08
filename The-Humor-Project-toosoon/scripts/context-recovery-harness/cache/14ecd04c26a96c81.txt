@@ -1,0 +1,144 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "Me watching me from yesterday lecture me on why he's trash.",
+      "context": "Me at 2 AM, holding my phone over the 'block' button, while me from yesterday, who swore to all her friends this was the last time, loudly lists every single reason he's trash after he sent another 'you good?' text.",
+      "metaphor": "Putting on a whole show to sell an idea to an unimpressed authority figure.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity performs energetically for another, unimpressed entity.",
+          "secondary": "The performer is a subordinate figure (jester) and the watcher is a figure of authority (queen on a throne) holding a judgmental pose."
+        },
+        "cast": [
+          {
+            "image_party": "A jester actively dancing and gesturing",
+            "played_by": "me from yesterday",
+            "score": 1.0,
+            "reason": "A past self energetically listing flaws to influence a present action fits the jester's desperate performance perfectly."
+          },
+          {
+            "image_party": "a queen, who is sitting on a throne watching",
+            "played_by": "Me at 2 AM",
+            "score": 1.0,
+            "reason": "The present self, holding the power to act (or not), embodies the stationary, judgmental authority of the queen on the throne."
+          }
+        ],
+        "relation": "actively dancing and gesturing for"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption places 'me from yesterday' in the active role ('lecture me') and 'Me' in the watching role, perfectly preserving the 'actively dancing and gesturing for' relation.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can reconstruct the core internal conflict between past resolve and present weakness, though the specific trigger ('you good?' text) is lost.",
+      "element_allusions": [
+        {
+          "element": "The one putting on the show",
+          "played_by": "me from yesterday",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'me from yesterday' and its performative action ('lecture me')."
+        },
+        {
+          "element": "The unimpressed authority figure",
+          "played_by": "Me at 2 AM",
+          "allusion": 0.9,
+          "reason": "The caption's 'Me watching' clearly identifies this entity as the audience; the image provides the unimpressed stance, though the 'at 2 AM' detail is lost."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me watching my urge to text back workshop its SNL sketch.",
+      "context": "Me trying to look nonchalant while staring at my phone as the urge to text him back drafts an entire SNL sketch to send after he left my heartfelt paragraph on read for six hours.",
+      "metaphor": "Trying desperately to win the approval of someone who is indifferent or judgmental.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity performs energetically for another, unimpressed entity.",
+          "secondary": "The performer is a subordinate figure (jester) and the watcher is a figure of authority (queen on a throne) holding a judgmental pose."
+        },
+        "cast": [
+          {
+            "image_party": "A jester actively dancing and gesturing",
+            "played_by": "the urge to text him back",
+            "score": 1.0,
+            "reason": "The frantic, attention-seeking energy of an internal urge drafting a comedy sketch is a perfect match for the jester's animated performance."
+          },
+          {
+            "image_party": "a queen, who is sitting on a throne watching",
+            "played_by": "Me",
+            "score": 1.0,
+            "reason": "The conscious self trying to remain aloof and judgmental towards its own impulses is an exact fit for the unimpressed queen."
+          }
+        ],
+        "relation": "actively dancing and gesturing for"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption sets up 'my urge to text back' as the energetic performer ('workshop its SNL sketch') and 'Me' as the audience, maintaining the 'actively dancing and gesturing for' relation.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "The reader grasps the full internal conflict between a chaotic impulse and the desire for composure, even without knowing he left her on read for six hours.",
+      "element_allusions": [
+        {
+          "element": "Someone trying desperately to win approval",
+          "played_by": "the urge to text him back",
+          "allusion": 1.0,
+          "reason": "The caption names the entity ('my urge to text back') and its specific, approval-seeking performance ('workshop its SNL sketch')."
+        },
+        {
+          "element": "Someone who is indifferent or judgmental",
+          "played_by": "Me",
+          "allusion": 1.0,
+          "reason": "The phrase 'Me watching' casts her as the audience, and the image completes her role as the indifferent judge."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me listening to my delusion explain he's busy saving orphans.",
+      "context": "Me watching his new story go up after he's ignored my text for two days while my delusion explains how he's probably just busy saving orphans and definitely isn't ghosting me.",
+      "metaphor": "Explaining a fun, creative passion to someone who only sees it as frivolous and impractical.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity performs energetically for another, unimpressed entity.",
+          "secondary": "The performer is a subordinate figure (jester) and the watcher is a figure of authority (queen on a throne) holding a judgmental pose."
+        },
+        "cast": [
+          {
+            "image_party": "A jester actively dancing and gesturing",
+            "played_by": "my delusion",
+            "score": 1.0,
+            "reason": "Delusion, personified as a creative storyteller spinning an elaborate, energetic tale, is a perfect analog for the performing jester."
+          },
+          {
+            "image_party": "a queen, who is sitting on a throne watching",
+            "played_by": "Me",
+            "score": 1.0,
+            "reason": "The self, grounded in reality and wearily evaluating the delusion's performance, perfectly fits the role of the unimpressed, judging queen."
+          }
+        ],
+        "relation": "actively dancing and gesturing for"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption places 'my delusion' in the active, performative role ('explain') and 'Me' in the passive audience role ('listening to'), perfectly preserving the 'actively dancing and gesturing for' relation.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "From the caption and image, a reader can fully reconstruct the story: she's being ignored, and her coping mechanism is creating an absurd excuse which she is not buying.",
+      "element_allusions": [
+        {
+          "element": "Someone explaining a fun, creative passion",
+          "played_by": "my delusion",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'my delusion' and its creative, performative act ('explain he's busy saving orphans')."
+        },
+        {
+          "element": "Someone who only sees it as frivolous and impractical",
+          "played_by": "Me",
+          "allusion": 1.0,
+          "reason": "The phrase 'Me listening' and the image's judgmental expression clearly cast her as the unimpressed evaluator of the delusion's story."
+        }
+      ],
+      "match_overall": 0.9
+    }
+  ]
+}
+```

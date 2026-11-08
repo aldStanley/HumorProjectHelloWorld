@@ -1,0 +1,32 @@
+```json
+[
+  {
+    "situation": "Putting on a whole song and dance for someone who's already decided they're not interested.",
+    "resonance": 0.9,
+    "resonance_why": "The painful, common experience of one-sided effort in relationships and dating.",
+    "image_clarity": 1.0,
+    "clarity_why": "The dynamic is literal: an entertainer performing for an unimpressed royal."
+  },
+  {
+    "situation": "Enthusiastically presenting your best work to a skeptical, nitpicky authority figure.",
+    "resonance": 0.8,
+    "resonance_why": "A core anxiety for anyone who has ever had a tough boss, client, or teacher.",
+    "image_clarity": 0.9,
+    "clarity_why": "The queen's throne and crown strongly signify a boss/employee power imbalance."
+  },
+  {
+    "situation": "Sharing something you poured your heart into, only to face a cynical and dismissive audience.",
+    "resonance": 0.9,
+    "resonance_why": "Relatable to any creator, from professional artists to people just posting online.",
+    "image_clarity": 0.6,
+    "clarity_why": "The performance is clear, but the 'audience' is just one person, making it less obviously about public reception."
+  },
+  {
+    "situation": "Trying to be your goofy, authentic self while your own self-doubt judges your every move.",
+    "resonance": 1.0,
+    "resonance_why": "The internal battle with the 'inner critic' is a near-universal human struggle.",
+    "image_clarity": 0.2,
+    "clarity_why": "This is a purely abstract metaphor; nothing in the image explicitly points to an internal state."
+  }
+]
+```

@@ -1,0 +1,174 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "Me and my bestie after my three-hour 'I'm finally done with him' monologue.",
+      "context": "After a three-hour debrief where I swore this was the last time, I'm just staring at the condensation on my cup replaying his every word while my bestie is fully asleep next to me on the curb waiting for the Uber.",
+      "metaphor": "The silent, worn-out 'comedown' after an intense event, where there's nothing left to say or do.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "The viewer can fully recover the 'intense event' from \"three-hour...monologue\" and the 'silent, worn-out comedown' from the image, but the 'nothing left to say or do' part is only strongly implied by the image's stasis.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities are side-by-side; one is intently focused on something small while the other is completely withdrawn.",
+          "secondary": "The setting is a public staircase, and the mood is one of exhaustion and misery, suggesting a post-event comedown."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "me after a three-hour monologue",
+            "score": 1.0,
+            "reason": "This entity perfectly matches the register read's 'me' slot, with the context sharpening the specific state of post-monologue obsession that fits the focused posture."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "my bestie",
+            "score": 1.0,
+            "reason": "This entity perfectly matches the register read's 'my bestie' slot, embodying the total exhaustion that would follow a friend's dramatic speech."
+          }
+        ],
+        "relation": "sits side-by-side with, but emotionally disconnected from"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption places 'me' and 'my bestie' together in a post-event comedown, perfectly preserving the analog where two figures 'sit side-by-side with, but are emotionally disconnected from' each other.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A viewer can fully reconstruct that there was a long, dramatic speech about a guy and this is the exhausted aftermath, with the quote resolving perfectly; only the very specific detail of me replaying his words is lost.",
+      "element_allusions": [
+        {
+          "element": "an intense event",
+          "played_by": "the three-hour debrief about him",
+          "allusion": 1.0,
+          "reason": "The caption's phrase \"my three-hour 'I'm finally done with him' monologue\" is a direct and unmistakable reference to this event."
+        },
+        {
+          "element": "the silent, worn-out 'comedown'",
+          "played_by": "our current state on the curb",
+          "allusion": 1.0,
+          "reason": "The caption provides the setup ('after my...monologue'), making the image of the two exhausted figures the perfect, unstated delivery of the 'comedown'."
+        },
+        {
+          "element": "nothing left to say or do",
+          "played_by": "my internal spiraling and my bestie's unconsciousness",
+          "allusion": 0.8,
+          "reason": "The image clearly shows the bestie's state of having nothing left to do, but my internal spiraling is only implied by the focused-but-inactive posture."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "Me analyzing his new girl's 2018 taggeds while my bestie provides emotional support.",
+      "context": "My bestie is just silently dead to the world on the steps next to me while I obsessively scroll through his new girl's tagged photos from 2018, looking for clues after he texted me 'thinking of you' this morning.",
+      "metaphor": "When a shared crisis hits, one person tries to analyze the problem while the other completely shuts down.",
+      "metaphor_recovery": 0.8,
+      "metaphor_recovery_reason": "The viewer can recover the 'one person analyzes' (\"Me analyzing...\") and 'the other shuts down' (the ironic image of \"emotional support\"), but the 'shared crisis' is only weakly implied by the mention of a 'new girl'.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities are side-by-side; one is intently focused on something small while the other is completely withdrawn.",
+          "secondary": "The setting is a public staircase, and the mood is one of exhaustion and misery, suggesting a post-event comedown."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "me analyzing his new girl's taggeds",
+            "score": 1.0,
+            "reason": "This entity matches the register read's 'me' and captures the specific, obsessive investigation from the context, fitting the focused posture."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "my bestie providing 'emotional support'",
+            "score": 1.0,
+            "reason": "This entity matches the 'my bestie' slot, with the ironic framing of her exhaustion as 'support' making the total collapse a perfect fit."
+          }
+        ],
+        "relation": "sits side-by-side with, but emotionally disconnected from"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption positions 'me' and 'my bestie' next to each other, with me in an active-obsessive role and her in a passive-supportive one, perfectly preserving the analog where they 'sit side-by-side with, but are emotionally disconnected from' each other.",
+      "context_recovery": 0.8,
+      "context_recovery_reason": "The viewer understands the core story—obsessive scrolling over his new girl while a friend is passed out—but the triggering 'thinking of you' text is unrecoverable, leaving the 'why now?' slightly ambiguous.",
+      "element_allusions": [
+        {
+          "element": "a shared crisis",
+          "played_by": "him sending a breadcrumb text then soft-launching a new girl",
+          "allusion": 0.7,
+          "reason": "The caption's mention of 'his new girl' clearly alludes to the soft-launch, but the crucial breadcrumb text that makes the crisis so potent is not recovered."
+        },
+        {
+          "element": "one person [who] tries to analyze the problem",
+          "played_by": "me",
+          "allusion": 1.0,
+          "reason": "The phrase \"Me analyzing his new girl's 2018 taggeds\" is a direct and specific statement of this element."
+        },
+        {
+          "element": "the other [person who] completely shuts down",
+          "played_by": "my bestie",
+          "allusion": 1.0,
+          "reason": "The caption ironically frames her as providing 'emotional support,' which, when paired with the image of her total collapse, perfectly recovers the idea of her shutting down."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "Me explaining to my hungover bestie how his one-word 'k' text is a good sign.",
+      "context": "My bestie is just trying to quietly recover from the party on these steps while I re-read his one-word 'k' text for the twentieth time, telling myself his vagueness is mysterious and not just him being done with me.",
+      "metaphor": "Being physically together but emotionally worlds apart, each lost in their own private struggle.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "The viewer can fully recover 'physically together' from the setup, 'emotionally worlds apart' from the contrast between delusional analysis and being 'hungover', and 'each private struggle' from the specific 'k' text and the hangover state.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities are side-by-side; one is intently focused on something small while the other is completely withdrawn.",
+          "secondary": "The setting is a public staircase, and the mood is one of exhaustion and misery, suggesting a post-event comedown."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "me explaining the meaning of a 'k' text",
+            "score": 1.0,
+            "reason": "This entity fits the 'me' slot from the register read, and the act of obsessively explaining a text aligns perfectly with the figure's intense, focused posture."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "my hungover bestie",
+            "score": 1.0,
+            "reason": "This entity perfectly fits the 'my bestie' slot, and her 'hungover' state is an excellent match for the figure's completely collapsed and withdrawn posture."
+          }
+        ],
+        "relation": "sits side-by-side with, but emotionally disconnected from"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption establishes proximity ('explaining to my... bestie') and their different states, perfectly preserving the analog where two figures 'sit side-by-side with, but are emotionally disconnected from' each other.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The entire story is recoverable: two friends, one is hungover from a party, and the other is delusionally analyzing a one-word text from a guy, with the quote resolving perfectly.",
+      "element_allusions": [
+        {
+          "element": "being physically together",
+          "played_by": "me and my bestie on the steps",
+          "allusion": 1.0,
+          "reason": "The phrase 'Me explaining to my... bestie' necessitates physical proximity, which the image confirms."
+        },
+        {
+          "element": "being emotionally worlds apart",
+          "played_by": "my obsessive text-analysis vs. her social battery drain",
+          "allusion": 1.0,
+          "reason": "The caption perfectly captures this by contrasting my delusional analysis of a 'k' text with my bestie's physical state of being 'hungover'."
+        },
+        {
+          "element": "one's private struggle",
+          "played_by": "my delusion over his one-word text",
+          "allusion": 1.0,
+          "reason": "The caption's clause 'how his one-word 'k' text is a good sign' is a direct and perfect allusion to this private, delusional struggle."
+        },
+        {
+          "element": "the other's private struggle",
+          "played_by": "my bestie's quiet social burnout",
+          "allusion": 1.0,
+          "reason": "The caption's description 'my hungover bestie' is a concise and unmistakable allusion to her private struggle."
+        }
+      ],
+      "match_overall": 0.9
+    }
+  ]
+}
+```

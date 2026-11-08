@@ -1,0 +1,186 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "Me practicing how I'll defend his 'haha' reply while my self respect watches.",
+      "context": "Me pacing my room practicing the 'no, he's just like, going through a lot right now' speech for my friends after he finally responded to my story from last Tuesday with 'haha'.",
+      "metaphor": "Putting on a whole song and dance for someone who's already decided they're not interested.",
+      "metaphor_recovery": 0.7,
+      "metaphor_recovery_reason": "A reader can recover the 'song and dance' from \"Me practicing how I'll defend\" and the uninterested party from the dismissive \"'haha' reply\", but the performance is framed for her self-respect, not directly for the man.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity performs energetically for another entity, who watches with unimpressed judgment.",
+          "secondary": "The performing entity is a jester and the watching entity is a queen on a throne."
+        },
+        "cast": [
+          {
+            "image_party": "A jester actively dancing and gesturing",
+            "played_by": "me",
+            "caption_span": "Me",
+            "score": 1.0,
+            "reason": "The caption names 'Me' as the singular actor performing the absurd task, perfectly matching the single energetic jester."
+          },
+          {
+            "image_party": "a queen, who is sitting on a throne watching",
+            "played_by": "my self respect",
+            "caption_span": "my self respect",
+            "score": 1.0,
+            "reason": "The caption names 'my self respect' as the singular observer, a perfect fit for the single, judgmental queen."
+          }
+        ],
+        "relation": "actively dancing and gesturing for"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The pixels clearly show one figure (jester) performing for another (queen) who sits and watches with a judgmental expression.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption explicitly stages the relation: 'Me practicing' is the performance, and 'my self respect watches' is the judgmental observer.",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The fit is 1.0 because the caption's assertion ('Me practicing...while my self respect watches') perfectly preserves the core analog ('One entity performs energetically for another entity, who watches with unimpressed judgment').",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "No entities were dropped; the caption includes 'me' practicing a defense, the trigger ('haha' reply), and 'my self respect' observing.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can easily reconstruct the core story: she is putting absurd effort into defending a guy's low-effort text, and she feels foolish about it.",
+      "element_allusions": [
+        {
+          "element": "The one putting on the song and dance",
+          "played_by": "me",
+          "evidence": "caption",
+          "caption_span": "Me practicing how I'll defend his 'haha' reply",
+          "allusion": 1.0,
+          "reason": "The caption's description of her rehearsing a defense for a simple 'haha' is a perfect example of putting on a performance."
+        },
+        {
+          "element": "The one who's not interested",
+          "played_by": "him",
+          "evidence": "caption",
+          "caption_span": "his 'haha' reply",
+          "allusion": 0.9,
+          "reason": "The quoted one-word reply to an implied story is a very strong, specific signal of his disinterest."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me at 3am crawling back to his stories, watched by me at 9pm who said she was done.",
+      "context": "Me at 3am unmuting his Instagram stories because he posted a blurry gym selfie, betraying the me at 9pm who told all my friends I was 'finally done for real this time'.",
+      "metaphor": "Trying to be your goofy, authentic self while your own self-doubt judges your every move.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "A reader can easily recover the 'goofy self' from \"Me at 3am crawling back\" and the 'judging self-doubt' from \"me at 9pm who said she was done\", mapping perfectly onto the image.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity performs energetically for another entity, who watches with unimpressed judgment.",
+          "secondary": "The performing entity is a jester and the watching entity is a queen on a throne."
+        },
+        "cast": [
+          {
+            "image_party": "A jester actively dancing and gesturing",
+            "played_by": "me at 3am",
+            "caption_span": "Me at 3am",
+            "score": 1.0,
+            "reason": "The caption names 'Me at 3am' as the singular, impulsive actor, which fits the energetic jester."
+          },
+          {
+            "image_party": "a queen, who is sitting on a throne watching",
+            "played_by": "me at 9pm who told all my friends I was 'finally done for real this time'",
+            "caption_span": "me at 9pm who said she was done",
+            "score": 1.0,
+            "reason": "The caption names the state-stamped 'me at 9pm' as the judgmental observer, fitting the single queen."
+          }
+        ],
+        "relation": "actively dancing and gesturing for"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The pixels clearly show one figure (jester) performing for another (queen) who sits and watches with a judgmental expression.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption names both sides and the relation: 'Me at 3am crawling back' is the performance, which is being 'watched by me at 9pm'.",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The fit is 1.0 because the caption's assertion ('Me at 3am...watched by me at 9pm') perfectly preserves the core analog ('One entity performs energetically for another entity, who watches with unimpressed judgment').",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "No entities were dropped; the caption contains the impulsive 'me at 3am' and the betrayed 'me at 9pm'.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The caption and image perfectly convey the specific internal conflict of breaking a promise to oneself over a guy.",
+      "element_allusions": [
+        {
+          "element": "The goofy, authentic self",
+          "played_by": "me at 3am",
+          "evidence": "caption",
+          "caption_span": "Me at 3am crawling back to his stories",
+          "allusion": 1.0,
+          "reason": "This phrase perfectly captures the impulsive, desire-driven self acting out, which is a clear stand-in for this element."
+        },
+        {
+          "element": "The judging self-doubt",
+          "played_by": "me at 9pm who told all my friends I was 'finally done for real this time'",
+          "evidence": "caption",
+          "caption_span": "me at 9pm who said she was done",
+          "allusion": 1.0,
+          "reason": "This phrase explicitly names the judging past self, perfectly recovering the element's role."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me drafting 15 versions of a cool reply to his 'my bad' text as my self respect watches.",
+      "context": "Me workshopping a witty, unbothered one-word reply to the 'my bad' text he sent after ignoring my vulnerable paragraph for two full days.",
+      "metaphor": "Putting on a whole song and dance for someone who's already decided they're not interested.",
+      "metaphor_recovery": 0.8,
+      "metaphor_recovery_reason": "A reader can recover the 'song and dance' from \"drafting 15 versions of a cool reply\" and the uninterested party from the dismissive \"'my bad' text\", clearly rebuilding the metaphor's core.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity performs energetically for another entity, who watches with unimpressed judgment.",
+          "secondary": "The performing entity is a jester and the watching entity is a queen on a throne."
+        },
+        "cast": [
+          {
+            "image_party": "A jester actively dancing and gesturing",
+            "played_by": "me",
+            "caption_span": "Me",
+            "score": 1.0,
+            "reason": "The caption's 'Me' is the singular actor performing the high-effort task, matching the jester."
+          },
+          {
+            "image_party": "a queen, who is sitting on a throne watching",
+            "played_by": "my self respect",
+            "caption_span": "my self respect",
+            "score": 1.0,
+            "reason": "The caption names 'my self respect' as the singular, unimpressed audience, matching the queen."
+          }
+        ],
+        "relation": "actively dancing and gesturing for"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The pixels clearly show one figure (jester) performing for another (queen) who sits and watches with a judgmental expression.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption perfectly asserts the relation: 'Me drafting' is the energetic performance, and 'my self respect watches' is the unimpressed observer.",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The fit is 1.0 because the caption's assertion ('Me drafting...as my self respect watches') perfectly preserves the core analog ('One entity performs energetically for another entity, who watches with unimpressed judgment').",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "No entities were dropped; the caption includes 'me', the specific action ('drafting 15 versions'), the trigger ('my bad' text), and 'my self respect'.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can perfectly reconstruct the story of her overthinking a reply to a low-effort text while knowing she shouldn't care so much.",
+      "element_allusions": [
+        {
+          "element": "The one putting on the song and dance",
+          "played_by": "me",
+          "evidence": "caption",
+          "caption_span": "Me drafting 15 versions of a cool reply",
+          "allusion": 1.0,
+          "reason": "The hyper-specific act of drafting 15 versions is a clear and humorous depiction of putting on a performance."
+        },
+        {
+          "element": "The one who's not interested",
+          "played_by": "him",
+          "evidence": "caption",
+          "caption_span": "his 'my bad' text",
+          "allusion": 0.9,
+          "reason": "The quoted 'my bad' is a classic low-effort text that strongly implies his lack of interest or investment."
+        }
+      ],
+      "match_overall": 1.0
+    }
+  ]
+}
+```

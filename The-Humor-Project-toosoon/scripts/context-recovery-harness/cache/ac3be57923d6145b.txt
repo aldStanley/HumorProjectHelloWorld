@@ -1,0 +1,28 @@
+{
+  "figures": [
+    {
+      "figure": "left seated person in cap leaning down and holding/looking into a clear drink cup",
+      "entity_guess": "Me trying to see my future in my drink",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "Their head is bent toward the cup, which fits the idea of staring into the drink like it can reveal the future."
+    },
+    {
+      "figure": "right seated person in green shirt slumped forward with head down on arms",
+      "entity_guess": "my bestie accepts he's not texting back",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "Their curled-up, head-down posture reads as defeated or sad, matching acceptance that someone is not texting back."
+    }
+  ],
+  "unresolved": [
+    "my future in my drink",
+    "he's not texting back",
+    "he"
+  ],
+  "story_guess": "The joke is that one friend is dramatically trying to divine romantic fate from a drink while the other is visibly defeated after accepting that a guy will not reply.",
+  "cast_clarity": 1,
+  "pose_clarity": 0.9,
+  "story_clarity": 0.9,
+  "verdict": "got_it"
+}

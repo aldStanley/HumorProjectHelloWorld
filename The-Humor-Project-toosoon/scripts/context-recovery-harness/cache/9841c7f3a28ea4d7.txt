@@ -1,0 +1,111 @@
+```json
+{
+  "matches": [
+    {
+      "context": "His best friend and roommate listen to him complain that I'm being 'weird and distant' the morning after he left me on read when I asked if we were still on for tonight.",
+      "register": "watched_scene",
+      "metaphor": "The shared exhaustion of looking at the consequences of a poor decision made the night before.",
+      "element_map": [
+        {
+          "element": "the shared exhaustion",
+          "played_by": "the mutual weariness of his best friend and roommate",
+          "score": 1.0,
+          "reason": "Their dejected and suspicious expressions perfectly embody the shared emotional fatigue central to the metaphor."
+        },
+        {
+          "element": "the consequences",
+          "played_by": "his complaining about me being distant",
+          "score": 0.9,
+          "reason": "His complaining is the direct, observable, and irritating outcome of his own poor decision from the previous night."
+        },
+        {
+          "element": "a poor decision made the night before",
+          "played_by": "him leaving me on read",
+          "score": 1.0,
+          "reason": "This is the specific, recent action that created the current situation, perfectly matching the element's description."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "His best friend and his roommate are the 'two peer entities' expressing 'weary disappointment' toward the unseen stimulus of his self-pitying complaints."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The moment is a very strong fit, with its weakest point being the slight abstraction of mapping an action (his complaining) to a concept (the consequences)."
+      }
+    },
+    {
+      "context": "His best friend and roommate watch him spend twenty minutes drafting a 'that's crazy' text back to me after I finally told him how his mixed signals were making me feel.",
+      "register": "watched_scene",
+      "metaphor": "Listening to a friend describe their latest terrible plan that you no longer have the energy to argue against.",
+      "element_map": [
+        {
+          "element": "a friend",
+          "played_by": "him",
+          "score": 1.0,
+          "reason": "He is their friend, and his actions are the focus of their weary attention."
+        },
+        {
+          "element": "their latest terrible plan",
+          "played_by": "his plan to send a dismissive 'that's crazy' text",
+          "score": 0.9,
+          "reason": "His specific, ill-advised course of action is the 'plan' they are observing with silent, exhausted disapproval."
+        },
+        {
+          "element": "you (the listeners)",
+          "played_by": "his best friend and roommate",
+          "score": 1.0,
+          "reason": "They are the two peer entities observing the plan unfold, fulfilling the role of the weary audience."
+        },
+        {
+          "element": "the energy you no longer have",
+          "played_by": "their tired and dejected expressions",
+          "score": 0.9,
+          "reason": "Their visible weariness directly represents the emotional exhaustion and lack of energy to intervene described in the metaphor."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "His best friend and roommate are the 'two peer entities' jointly expressing weary disappointment toward the unseen stimulus of his texting behavior."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The overall fit is strong, limited only by the minor abstraction of mapping a specific action (sending a text) to a conceptual 'plan'."
+      }
+    },
+    {
+      "context": "His roommate and best friend zone out as he starts talking for the tenth time about how 'this time it's different' with his ex, completely ignoring the flowers I sent to his office yesterday.",
+      "register": "watched_scene",
+      "metaphor": "Two veterans watching an enthusiastic newcomer confidently suggest an idea that has failed repeatedly.",
+      "element_map": [
+        {
+          "element": "Two veterans",
+          "played_by": "his roommate and best friend",
+          "score": 1.0,
+          "reason": "Having seen this scenario play out before, their jaded expressions perfectly embody the role of experienced, weary veterans."
+        },
+        {
+          "element": "an enthusiastic newcomer",
+          "played_by": "him in his moment of deluded optimism",
+          "score": 0.8,
+          "reason": "He is not literally a newcomer, but he embodies the newcomer's naive confidence about a doomed plan, making it a strong figurative fit."
+        },
+        {
+          "element": "an idea that has failed repeatedly",
+          "played_by": "his suggestion of getting back together with his ex",
+          "score": 1.0,
+          "reason": "The context clearly implies this is a recurring and failed plan, directly mapping to the element."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "His roommate and his best friend are the 'two peer entities' expressing weary disappointment toward the unseen stimulus of his recurring bad idea about his ex."
+      },
+      "overall": {
+        "score": 0.8,
+        "reason": "The overall fit is good but is limited by the figurative, non-literal mapping of 'him' to the 'enthusiastic newcomer' role."
+      }
+    }
+  ]
+}
+```

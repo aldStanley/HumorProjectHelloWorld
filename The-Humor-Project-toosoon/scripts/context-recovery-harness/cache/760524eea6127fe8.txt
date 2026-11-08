@@ -1,0 +1,105 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Me at 2 a.m. drafting a 'casual' reply to his 'hey' text after me at 9 p.m. gave a 45-minute speech to my friends about how I was 'finally, actually, for real this time' done with him.",
+      "register": "internal",
+      "me_side": "Me at 2 a.m.",
+      "force_side": "me at 9 p.m.",
+      "metaphor": "Facing the same overwhelming problem, but one person distracts themselves with a tiny detail while the other collapses under the weight of it.",
+      "element_map": [
+        {
+          "element": "the same overwhelming problem",
+          "played_by": "her cycle of breaking her own promises about the situationship",
+          "score": 1.0,
+          "reason": "This is the central, unseen conflict that forces both versions of herself into their respective states of action and collapse."
+        },
+        {
+          "element": "one person who distracts themselves with a tiny detail",
+          "played_by": "Me at 2 a.m.",
+          "score": 1.0,
+          "reason": "Her focus on the micro-task of drafting a text is a classic avoidance tactic for the macro-problem of her broken resolution."
+        },
+        {
+          "element": "the other [person] who collapses under the weight of it",
+          "played_by": "me at 9 p.m.",
+          "score": 1.0,
+          "reason": "This past self, the avatar of her resolve, has been completely defeated by the present self's actions, perfectly embodying collapse."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's entities, 'Me at 2 a.m.' and 'me at 9 p.m.', are two same-kind entities (versions of her) that perfectly fill the roles of focused despair and total collapse, respectively."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect fit, with the me-vs-me dynamic mapping flawlessly onto both the metaphor and the core analog."
+      }
+    },
+    {
+      "context": "Me deep in his tagged photos from 2021 to confirm the 'new girl' in his story is just a recycled pic, while the last bit of my self-respect gives up and dies in the corner.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "the last bit of my self-respect",
+      "metaphor": "Stuck in the same ongoing struggle, where one person keeps searching for a way out while the other has completely surrendered to despair.",
+      "element_map": [
+        {
+          "element": "the same ongoing struggle",
+          "played_by": "her internal conflict over whether to trust him or her gut",
+          "score": 1.0,
+          "reason": "This struggle is the direct cause of her obsessive detective work and her self-respect's collapse."
+        },
+        {
+          "element": "one person who keeps searching for a way out",
+          "played_by": "Me",
+          "score": 1.0,
+          "reason": "She is literally searching for evidence that provides a 'way out' of having to confront the painful truth of the situation."
+        },
+        {
+          "element": "the other [person] who has completely surrendered to despair",
+          "played_by": "the last bit of my self-respect",
+          "score": 1.0,
+          "reason": "This personified force is explicitly described as having given up, making it a perfect stand-in for surrender."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'Me' fills the role of focused despair (investigating photos), while 'the last bit of my self-respect' perfectly embodies the state of total collapse."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment perfectly aligns a specific sad girl behavior with an internal collapse, fitting the metaphor and core structure without any weakness."
+      }
+    },
+    {
+      "context": "Me replaying my own Instagram story just to watch his username appear in the viewer list after he left me on read for three days, as my resolve to finally block him completely evaporates.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "my resolve to finally block him",
+      "metaphor": "Being right next to someone who is falling apart, but being completely absorbed in your own separate world.",
+      "element_map": [
+        {
+          "element": "someone who is falling apart",
+          "played_by": "my resolve to finally block him",
+          "score": 1.0,
+          "reason": "The force is explicitly described as 'evaporating,' which is a direct depiction of it falling apart."
+        },
+        {
+          "element": "[being] completely absorbed in your own separate world",
+          "played_by": "Me",
+          "score": 1.0,
+          "reason": "Her obsessive, repetitive action of replaying the story creates a micro-world of analysis that ignores the collapse of her own resolve."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The two entities, 'Me' (in a state of focused despair over the story view) and 'my resolve' (in a state of total collapse), perfectly match the core's roles."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "This moment provides a clear, high-fidelity mapping of its entities onto both the chosen metaphor and the physical analog."
+      }
+    }
+  ]
+}
+```

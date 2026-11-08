@@ -1,0 +1,110 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "Me rereading his 'lol' for the 10th time next to my bestie fresh off a text breakup.",
+      "context": "Rereading his single-word 'lol' text for the tenth time trying to decode the tone, completely oblivious as my bestie quietly falls apart next to me after her boyfriend of three years ended things over a text.",
+      "metaphor": "Being right next to someone who is falling apart, but being completely absorbed in your own separate world.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity is intensely focused on something small while another entity next to them is in a state of total collapse.",
+          "secondary": "The two are sitting together on a staircase in a shared state of dejection or exhaustion."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "me",
+            "score": 0.4,
+            "reason": "The figure reads as male, capping the score, but the focused posture perfectly matches the persona's obsessive analysis of a minor detail."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "my bestie",
+            "score": 0.4,
+            "reason": "The figure reads as male, capping the score, but the collapsed posture perfectly captures a friend's supportive exhaustion."
+          }
+        ],
+        "relation": "sitting close together but are not interacting"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption preserves the core analog: 'me' (intensely focused) and 'my bestie' (collapsed) are 'sitting close together but are not interacting'.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can fully reconstruct the scene: the speaker's obsessive rereading of a meaningless text is starkly contrasted with her best friend's genuine, fresh heartbreak.",
+      "element_allusions": [
+        {
+          "element": "someone who is falling apart",
+          "played_by": "my bestie",
+          "allusion": 1.0,
+          "reason": "The caption names 'my bestie' and states she is 'fresh off a text breakup,' which the image's collapsed posture confirms."
+        },
+        {
+          "element": "being right next to them",
+          "played_by": "me",
+          "allusion": 1.0,
+          "reason": "The caption begins with 'Me' and places her 'next to my bestie,' perfectly matching the visual of two people side-by-side."
+        },
+        {
+          "element": "being completely absorbed in your own separate world",
+          "played_by": "my focus on his text",
+          "allusion": 1.0,
+          "reason": "The specific action 'rereading his 'lol' for the 10th time' perfectly conveys the self-absorbed focus on the trivial text."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me trying to see my future in my drink while my bestie accepts he's not texting back.",
+      "context": "Trying to scry the future from the last drops of my drink after he viewed my story in under a minute but still hasn't replied to my text from Saturday, while my bestie just gives up on me and this situation entirely.",
+      "metaphor": "Facing the same overwhelming problem, but one person distracts themselves with a tiny detail while the other collapses under the weight of it.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity is intensely focused on something small while another entity next to them is in a state of total collapse.",
+          "secondary": "The two are sitting together on a staircase in a shared state of dejection or exhaustion."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "me",
+            "score": 0.4,
+            "reason": "The figure reads as male, capping the score, but the focused posture perfectly matches the persona's obsessive analysis of a minor detail."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "my bestie",
+            "score": 0.4,
+            "reason": "The figure reads as male, capping the score, but the collapsed posture perfectly captures a friend's supportive exhaustion."
+          }
+        ],
+        "relation": "sitting close together but are not interacting"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption perfectly preserves the core analog by depicting 'me' (intensely focused on the drink) and 'my bestie' (collapsed in acceptance) 'sitting close together but not interacting'.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The reader can easily reconstruct the story: she is engaging in magical thinking over a boy, while her friend gives up on the same recurring drama.",
+      "element_allusions": [
+        {
+          "element": "the same overwhelming problem",
+          "played_by": "the toxic situationship",
+          "allusion": 0.9,
+          "reason": "The phrase 'he's not texting back' clearly implies the ongoing situationship problem that is causing both her scrying and her bestie's despair."
+        },
+        {
+          "element": "the person who distracts themselves with a tiny detail",
+          "played_by": "me",
+          "allusion": 1.0,
+          "reason": "The caption explicitly states the tiny, detailed distraction: 'Me trying to see my future in my drink'."
+        },
+        {
+          "element": "the person who collapses under the weight of it",
+          "played_by": "my bestie",
+          "allusion": 1.0,
+          "reason": "The caption names 'my bestie' and her state of collapse is explained as her 'accepts he's not texting back'."
+        }
+      ],
+      "match_overall": 1.0
+    }
+  ]
+}
+```

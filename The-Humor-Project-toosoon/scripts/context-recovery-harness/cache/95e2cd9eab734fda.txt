@@ -1,0 +1,38 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "an alien figure with a caring and supportive demeanor",
+      "entity": "his best friend",
+      "fit": 0.4,
+      "reason": "The figure is visibly holding and supporting the other in a caring manner, but is a non-human creature and therefore cannot be a literal person."
+    },
+    {
+      "figure": "an alien with a slumped, downcast posture",
+      "entity": "my situationship",
+      "fit": 0.4,
+      "reason": "The figure's slumped, downcast posture suggests distress, but it is a non-human creature and therefore cannot be a literal person."
+    }
+  ],
+  "relationship": "His best friend is comforting my situationship about something that she is not privy to.",
+  "weakest_fit": 0.4,
+  "why": "The image's core dynamic of intimate support maps onto a coherent his-world story, but the fit is fundamentally limited because the figures are non-human aliens, not literal people.",
+  "secondary_nominations": [
+    {
+      "entity": "a gentle, intimate interaction",
+      "possibilities": [
+        "the conversation she isn't part of",
+        "him being vulnerable with someone else",
+        "the emotional intimacy he won't give her"
+      ]
+    },
+    {
+      "entity": "a warm, natural setting",
+      "possibilities": [
+        "their private world",
+        "a moment she's shut out of"
+      ]
+    }
+  ]
+}
+```

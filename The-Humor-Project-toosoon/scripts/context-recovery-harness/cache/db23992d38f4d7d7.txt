@@ -1,0 +1,186 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "Me and my better judgment watching his 'active now' dot after his 'crazy busy' text.",
+      "context": "Me rereading his 'sorry been crazy busy' text for the eighth time while my better judgment just stares at his active-now green dot on Instagram.",
+      "metaphor": "Listening to someone's obviously exaggerated or fake story and trying not to call them out on it.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "The viewer can recover the 'fake story' (his 'crazy busy' text), the listeners ('Me and my better judgment'), and the trying not to call it out (the image's weary observation), but not that the story is 'exaggerated' specifically.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities stand side-by-side observing the same off-screen stimulus, one dejected and one suspicious.",
+          "secondary": "The mood is one of low energy, weariness, and shared disappointment."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "Me",
+            "caption_span": "Me",
+            "score": 1.0,
+            "reason": "The caption names 'Me' as one of the two observers, fitting the role of the dejected party."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "my better judgment",
+            "caption_span": "my better judgment",
+            "score": 1.0,
+            "reason": "The caption names 'my better judgment' as the second observer, fitting the suspicious figure."
+          }
+        ],
+        "relation": "stand next to each other and observe"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The pixels clearly show two similar-kind entities (cartoon characters) standing side-by-side and observing something, with expressions matching dejection and suspicion.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption names two similar-kind entities ('Me and my better judgment') who are 'watching' something, perfectly asserting the core relation.",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption's assertion that 'Two similar-kind entities stand side-by-side observing the same off-screen stimulus' perfectly matches what the image shows.",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "No staged entities were dropped; the caption includes 'Me', 'my better judgment', the 'crazy busy' text, and the 'active now' dot.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can fully reconstruct the story: he claimed to be busy but is visibly online, and she and her internal judgment are observing this contradiction with weary resignation.",
+      "element_allusions": [
+        {
+          "element": "The person telling the lie",
+          "played_by": "him (the situationship)",
+          "evidence": "caption",
+          "caption_span": "his 'active now' dot after his 'crazy busy' text",
+          "allusion": 1.0,
+          "reason": "The caption clearly establishes his contradictory actions, which constitute the lie, without needing to name him directly."
+        },
+        {
+          "element": "The listeners trying not to react",
+          "played_by": "me and my better judgment",
+          "evidence": "caption",
+          "caption_span": "Me and my better judgment watching",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names both entities ('Me and my better judgment') as the passive observers."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me and my brain that held out for 3 days watching me unblock him for a thirst trap.",
+      "context": "Me, opening my settings to unblock him after he posts one thirst trap, while the part of my brain that held the line for three whole days just watches.",
+      "metaphor": "Watching a friend make the same, predictable bad decision for the tenth time and being too tired to intervene anymore.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "The viewer can fully recover the 'friend making the bad decision' ('me unblock him'), the 'weary observer' ('my brain that held out for 3 days'), and the observer being 'too tired to intervene' (the image's expressions).",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities stand side-by-side observing the same off-screen stimulus, one dejected and one suspicious.",
+          "secondary": "The mood is one of low energy, weariness, and shared disappointment."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "Me",
+            "caption_span": "Me",
+            "score": 1.0,
+            "reason": "The caption names 'Me' as the primary actor and observer, fitting the dejected figure."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "my brain that held out for 3 days",
+            "caption_span": "my brain that held out for 3 days",
+            "score": 1.0,
+            "reason": "The caption names 'my brain that held out for 3 days' as the second observer, a perfect match for the weary, disapproving figure."
+          }
+        ],
+        "relation": "stand next to each other and observe"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The pixels clearly show two similar-kind entities (cartoon characters) standing side-by-side and observing something, with expressions matching dejection and suspicion.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption names two similar-kind entities ('Me' and 'my brain') who are 'watching' something, perfectly asserting the core relation.",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption's assertion that 'Two similar-kind entities stand side-by-side observing the same off-screen stimulus' perfectly matches what the image shows.",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "No staged entities were dropped; the caption includes 'Me', the specific version of her brain, the act of unblocking, and the thirst trap trigger.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can fully reconstruct the story: she had him blocked, held out for three days, but caved and unblocked him after seeing one attractive photo.",
+      "element_allusions": [
+        {
+          "element": "The friend making the repeated bad decision",
+          "played_by": "me",
+          "evidence": "caption",
+          "caption_span": "Me ... watching me unblock him for a thirst trap",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'Me' as the one performing the action of unblocking him, which is clearly framed as a moment of weakness."
+        },
+        {
+          "element": "The weary observer",
+          "played_by": "the part of my brain that held the line for three whole days",
+          "evidence": "caption",
+          "caption_span": "my brain that held out for 3 days",
+          "allusion": 1.0,
+          "reason": "The caption names this entity with its defining, hyper-specific detail, making it fully recoverable."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me at 2am and me from 9pm watching my thumb delete a savage paragraph to reply 'hey :)'.",
+      "context": "Me at 2am and me from 9pm who swore I was done with him for good, both watching my thumb delete a savage paragraph to just reply 'hey :)' to his 'u up?' text.",
+      "metaphor": "The shared, silent moment between two people after witnessing an incredibly awkward or draining social interaction.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "The viewer can fully recover the 'two people' ('Me at 2am and me from 9pm'), the 'awkward social interaction' (deleting a strong text for a weak one), and the 'shared, silent moment' (delivered by the image).",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities stand side-by-side observing the same off-screen stimulus, one dejected and one suspicious.",
+          "secondary": "The mood is one of low energy, weariness, and shared disappointment."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "Me at 2am",
+            "caption_span": "Me at 2am",
+            "score": 1.0,
+            "reason": "The caption names 'Me at 2am' as one observer, fitting the dejected figure succumbing to late-night weakness."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "me from 9pm",
+            "caption_span": "me from 9pm",
+            "score": 1.0,
+            "reason": "The caption names 'me from 9pm' as the second observer, a perfect fit for the disapproving figure representing her earlier, stronger resolve."
+          }
+        ],
+        "relation": "stand next to each other and observe"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The pixels clearly show two similar-kind entities (cartoon characters) standing side-by-side and observing something, with expressions matching dejection and suspicion.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption names two similar-kind entities ('Me at 2am and me from 9pm') who are 'watching' something, perfectly asserting the core relation.",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption's assertion that 'Two similar-kind entities stand side-by-side observing the same off-screen stimulus' perfectly matches what the image shows.",
+      "context_to_caption": 0.9,
+      "context_to_caption_reason": "The caption dropped the 'u up?' text that triggered the response, but kept all other core entities.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can fully reconstruct the story: her 9pm self had strong resolve, but her 2am self caved, deleting a powerful text to send a weak, eager reply instead.",
+      "element_allusions": [
+        {
+          "element": "The two people sharing the moment",
+          "played_by": "me at 2am and me from 9pm",
+          "evidence": "caption",
+          "caption_span": "Me at 2am and me from 9pm",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names both state-stamped versions of herself, making the pair fully recoverable."
+        },
+        {
+          "element": "The awkward or draining social interaction",
+          "played_by": "the act of deleting a powerful response to send a weak one",
+          "evidence": "caption",
+          "caption_span": "delete a savage paragraph to reply 'hey :)'",
+          "allusion": 1.0,
+          "reason": "The caption describes the specific, self-sabotaging action in perfect detail, making it fully recoverable."
+        }
+      ],
+      "match_overall": 1.0
+    }
+  ]
+}
+```

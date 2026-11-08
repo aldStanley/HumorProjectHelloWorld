@@ -1,0 +1,20 @@
+[
+ {
+  "id": 3348,
+  "created_datetime_utc": "2026-08-04T15:02:32.548316+00:00",
+  "humor_flavor_id": 1545,
+  "llm_temperature": null,
+  "order_by": 1,
+  "llm_input_type_id": 1,
+  "llm_output_type_id": 1,
+  "llm_model_id": 13,
+  "humor_flavor_step_type_id": 3,
+  "llm_system_prompt": "You describe meme images plainly and honestly. No jokes, no community references, no speculation about intent beyond what faces and bodies visibly show.",
+  "llm_user_prompt": "Describe the dominant dynamic of this image in TWO sentences: what is happening between the figures, and what attitude each side's face and body visibly shows.\n\nKnown context about this image (may be empty; may identify the characters or how the meme is typically used):\n${celebrityRecognition}\n\nIf the characters are identified, use their known relationship (friends, rivals, teammates) to read the dynamic between them — do not treat characters who are known friends as strangers or opponents.",
+  "description": "Describe dominant dynamics (pixels only)",
+  "created_by_user_id": "42129dcc-250b-45c1-af3e-bde1fb144111",
+  "modified_by_user_id": "42129dcc-250b-45c1-af3e-bde1fb144111",
+  "modified_datetime_utc": "2026-08-04T15:02:32.548316+00:00",
+  "is_hidden": false
+ }
+]

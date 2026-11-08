@@ -1,0 +1,28 @@
+{
+  "figures": [
+    {
+      "figure": "left pink starfish-like figure looking sideways with a tired, unimpressed expression",
+      "entity_guess": "Me or my better judgment; cannot distinguish which one from the caption alone",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "The unimpressed look fits watching oneself make the bad decision to text someone who ghosted them."
+    },
+    {
+      "figure": "right yellow sponge-like figure looking sideways with a tired, unimpressed expression",
+      "entity_guess": "Me or my better judgment; cannot distinguish which one from the caption alone",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "The unimpressed look fits watching oneself make the bad decision to text someone who ghosted them."
+    }
+  ],
+  "unresolved": [
+    "the separate 'me' typing",
+    "'hey stranger'",
+    "my ghost from 3 months ago"
+  ],
+  "story_guess": "The joke is that the speaker and their better judgment are silently judging themselves for texting someone who ghosted them months ago.",
+  "cast_clarity": 0.5,
+  "pose_clarity": 0.8,
+  "story_clarity": 0.85,
+  "verdict": "partly"
+}

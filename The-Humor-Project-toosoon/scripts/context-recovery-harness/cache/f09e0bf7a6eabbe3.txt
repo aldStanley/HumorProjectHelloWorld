@@ -1,0 +1,72 @@
+```json
+{
+  "matches": [
+    {
+      "context": "My bestie gently takes my phone away while explaining that him taking six hours to text back 'haha' after I sent a vulnerable paragraph isn't a sign he was busy, it's a sign he's avoidant, and I'm just nodding even though I've already re-read his text five times looking for a different meaning.",
+      "register": "in_scene",
+      "metaphor": "Gently introducing someone to a difficult truth that will change how they see things.",
+      "element_map": [
+        {
+          "element": "The one introducing the truth",
+          "played_by": "my bestie",
+          "score": 1.0,
+          "reason": "My bestie is explicitly stating the difficult-to-accept truth about his avoidant behavior, acting as the gentle guide."
+        },
+        {
+          "element": "The one receiving the truth",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "I am the one being told this truth, and my action of re-reading the text shows my resistance to accepting her simpler, harsher reality."
+        },
+        {
+          "element": "The difficult truth",
+          "played_by": "The fact that his texting behavior is a clear sign of avoidance, not a puzzle",
+          "score": 1.0,
+          "reason": "This is the core insight that, if accepted, would fundamentally change my perspective on the entire situationship."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's entities, me (a distressed entity) and my bestie (a supportive entity of the same kind), perfectly fill the core's slots."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect instantiation of the metaphor and a high-fidelity match for the core analog's relational dynamic."
+      }
+    },
+    {
+      "context": "My bestie rubs my back while I quietly explain my theory for the ninth time that my situationship liking his ex's post from three weeks ago at 2 AM is actually a signal he's trying to make me jealous, not that he's still obsessed with her.",
+      "register": "in_scene",
+      "metaphor": "Comforting a friend whose problems are too weird for most people to understand.",
+      "element_map": [
+        {
+          "element": "The comforting friend",
+          "played_by": "my bestie",
+          "score": 1.0,
+          "reason": "My bestie is physically and emotionally supporting me by listening to my convoluted reasoning without judgment."
+        },
+        {
+          "element": "The friend with weird problems",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "I am the one with the hyper-specific, almost incomprehensible problem rooted in social media archaeology."
+        },
+        {
+          "element": "The weird problems",
+          "played_by": "My elaborate, self-serving theories about his 2 AM social media activity",
+          "score": 1.0,
+          "reason": "The specific, deluded nature of the social media detective work is the exact kind of 'weird problem' most people wouldn't have the patience for."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's entities, me (a distressed entity) and my bestie (a supportive entity of the same kind), perfectly fill the core's slots."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect instantiation of the metaphor, and its entities map directly and with high fidelity to the core analog."
+      }
+    }
+  ]
+}
+```

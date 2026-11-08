@@ -1,0 +1,1 @@
+{"cast_match":0.8,"pose_match":0.35,"story_match":0.5,"overall_recovered":0.5,"verdict":"partly","note":"They correctly got the two bent-over men as me and my bestie reacting to a cold reply, but missed that they are meant to be scrolling back through old Hinge messages to reassess red flags."}

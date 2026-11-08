@@ -1,0 +1,1 @@
+{"cast_match":0.95,"pose_match":0.9,"story_match":0.85,"overall_recovered":0.9,"verdict":"got_it","note":"The viewer nailed the self-reassurance dynamic and cousin rationalization, only missing the specific trigger that it came from seeing his new story with a girl."}

@@ -1,0 +1,6 @@
+```json
+{
+  "core": "One entity physically supports a distressed, same-kind entity.",
+  "secondary": "The interaction is gentle, intimate, and supportive, with one entity cradling the other, who is slumped in a downcast posture; the mood is somber and contemplative in a warm, natural setting."
+}
+```

@@ -1,0 +1,38 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "an alien with a slumped, downcast posture",
+      "entity": "me",
+      "fit": 1.0,
+      "reason": "The figure's slumped, defeated posture on an absurd, non-human form perfectly carries her state of sadness after a setback in the situationship."
+    },
+    {
+      "figure": "an alien figure with a caring and supportive demeanor",
+      "entity": "my delusion",
+      "fit": 1.0,
+      "reason": "The figure's action of gently comforting the sad one is a perfect physical metaphor for how her delusion props her up with false hope."
+    }
+  ],
+  "weakest_fit": 1.0,
+  "why": "My delusion gently comforts me when the reality of the situationship becomes too painful to face alone.",
+  "secondary_nominations": [
+    {
+      "entity": "a gentle, intimate interaction",
+      "possibilities": [
+        "convincing myself he's just busy",
+        "the 2am reread of our one good conversation",
+        "the little lie I tell myself to get through the night"
+      ]
+    },
+    {
+      "entity": "a warm, natural setting",
+      "possibilities": [
+        "the little world in my head where we're happy",
+        "the comfort of a familiar bad decision",
+        "the golden hour lighting of my own denial"
+      ]
+    }
+  ]
+}
+```

@@ -1,0 +1,99 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Muting his best friend's IG story after seeing them together, knowing he's probably getting a pep talk about how he 'did the right thing' by breaking up with me over a text he probably had his friend help him write.",
+      "register": "watched_scene",
+      "metaphor": "Gently supporting someone through a deep personal sadness or failure.",
+      "element_map": [
+        {
+          "element": "someone with a deep personal sadness or failure",
+          "played_by": "my situationship",
+          "score": 0.9,
+          "reason": "He is depicted as being sad or conflicted after the 'failure' of the relationship, which he initiated."
+        },
+        {
+          "element": "the gentle support",
+          "played_by": "his best friend",
+          "score": 1.0,
+          "reason": "His best friend is perfectly cast as the one providing comfort and validation ('pep talk') in a moment of distress."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's entities ('his best friend' supporting 'my situationship') perfectly fill the core slots of one same-kind entity supporting another distressed one."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The overall fit is very strong, limited only by the fact that his 'sadness' is an assumption made by the narrator."
+      }
+    },
+    {
+      "context": "Refreshing his location on Snap Maps to see he's still at his best friend's place, telling myself it's because his friend is finally trying to convince him to either commit to me or tell me about the other girl whose stories he's been liking.",
+      "register": "watched_scene",
+      "metaphor": "Trying to gently introduce a difficult, world-altering truth to someone who isn't ready for it.",
+      "element_map": [
+        {
+          "element": "the bearer of a difficult truth",
+          "played_by": "his best friend",
+          "score": 0.9,
+          "reason": "His friend is imagined as the one introducing the hard truth that his indecisiveness has consequences."
+        },
+        {
+          "element": "someone who isn't ready for it",
+          "played_by": "my situationship",
+          "score": 0.9,
+          "reason": "His avoidant behavior, which triggered the scenario, positions him as someone unready for the 'world-altering truth' of commitment or honesty."
+        },
+        {
+          "element": "the world-altering truth",
+          "played_by": "the need to either commit or come clean",
+          "score": 0.8,
+          "reason": "This is a strong conceptual fit for the difficult choice he has to make, which acts as a central force in the scene."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The core slots of one entity ('his best friend') supporting a distressed, same-kind entity ('my situationship') are perfectly filled."
+      },
+      "overall": {
+        "score": 0.8,
+        "reason": "The fit is strong, with the weakest element being the mapping of an abstract 'truth' to a role in the metaphor."
+      }
+    },
+    {
+      "context": "Picturing his best friend hyping him up for their guys' trip now that he's 'free' from me, while I'm quietly deleting the flight alert I had set for the city he told me he wanted to take me to for my birthday.",
+      "register": "watched_scene",
+      "metaphor": "Welcoming a newcomer into a reality that is completely foreign and overwhelming to them.",
+      "element_map": [
+        {
+          "element": "a newcomer",
+          "played_by": "my situationship",
+          "score": 0.8,
+          "reason": "He is newly single, making him a 'newcomer' to the reality of not being in the situationship anymore."
+        },
+        {
+          "element": "a foreign and overwhelming reality",
+          "played_by": "single life and being 'free'",
+          "score": 0.7,
+          "reason": "This abstract concept of 'freedom' is the new reality he is being welcomed into, which is a slightly metaphorical fit."
+        },
+        {
+          "element": "the welcomer/guide",
+          "played_by": "his best friend",
+          "score": 0.9,
+          "reason": "His friend acts as the guide, 'hyping him up' and welcoming him back into single life with their friends."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's entities—his best friend (supporter) and my situationship (distressed)—are a perfect match for the core's roles and kind."
+      },
+      "overall": {
+        "score": 0.7,
+        "reason": "The weakest aspect is mapping the abstract concept of 'single life' onto the metaphor's element of a 'foreign reality'."
+      }
+    }
+  ]
+}
+```

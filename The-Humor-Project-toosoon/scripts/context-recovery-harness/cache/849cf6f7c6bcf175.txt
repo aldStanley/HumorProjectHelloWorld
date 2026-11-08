@@ -1,0 +1,203 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "Me and my delusion looking for his name in my story views for the 10th time.",
+      "context": "Me and my delusion refreshing my Instagram story views for the tenth time after he soft-launched a new girl, looking for his name in the list as 'proof' he's still thinking of me.",
+      "metaphor": "A desperate, last-ditch effort to find something precious that's probably gone forever.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "The viewer can recover the \"desperate effort\" from the caption's \"Me and my delusion looking for... the 10th time\" plus the image's intense focus, and the \"precious thing that's gone\" is implied by the desperate search for \"his name.\"",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities assume an identical posture to observe a shared point of interest.",
+          "secondary": "The setting is public (a subway platform), and their focus is intense."
+        },
+        "cast": [
+          {
+            "image_party": "One of the two men bent over at the waist",
+            "played_by": "me",
+            "caption_span": "Me",
+            "score": 1.0,
+            "reason": "The caption explicitly names 'Me', a singular entity matching the single figure, fulfilling the register's assignment."
+          },
+          {
+            "image_party": "The other of the two men bent over at the waist",
+            "played_by": "my delusion",
+            "caption_span": "my delusion",
+            "score": 1.0,
+            "reason": "The caption explicitly names 'my delusion', a singular personified force that acts as a peer to 'me', matching the single figure and the register."
+          }
+        ],
+        "relation": "share an intense curiosity or concern about something they are observing"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The image shows two men bent over in an identical, parallel posture, both looking down intently at the same area on the tracks.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption asserts the core relation by naming two similar-kind entities ('Me and my delusion') engaged in a shared observation ('looking for his name in my story views').",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption perfectly preserves the core relation of 'Two similar-kind entities assume an identical posture to observe a shared point of interest', with both analog_to_image and analog_to_caption scoring 1.0.",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "Both entities staged in the context ('Me' and 'my delusion') are present in the caption.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can fully reconstruct the obsessive behavior of checking story views for his name; only the catalyst (he soft-launched a new girl) is missing, but it's not essential to the core joke.",
+      "element_allusions": [
+        {
+          "element": "the people making the desperate effort",
+          "played_by": [
+            "me",
+            "my delusion"
+          ],
+          "evidence": "caption",
+          "caption_span": "Me and my delusion",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names both entities involved in the effort."
+        },
+        {
+          "element": "the precious thing that's gone forever",
+          "played_by": "the 'proof' he's still thinking of me",
+          "evidence": "caption",
+          "caption_span": "his name in my story views",
+          "allusion": 0.9,
+          "reason": "The phrase 'looking for his name' perfectly implies the search for proof of his attention, and the context of the meme implies this attention is likely gone."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "Me and my delusion trying to decode his one-word 'interesting' reply.",
+      "context": "Me and my delusion staring at his one-word reply 'interesting.' to my three-paragraph text, trying to determine if it's the good kind of interesting or the 'I'm calling my friends to laugh at this' kind.",
+      "metaphor": "Two people collaboratively overthinking a problem that has no real solution.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "The viewer can perfectly recover the metaphor: the \"two people overthinking\" are \"Me and my delusion trying to decode\", and the \"problem with no real solution\" is \"his one-word 'interesting' reply.\"",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities assume an identical posture to observe a shared point of interest.",
+          "secondary": "The setting is public (a subway platform), and their focus is intense."
+        },
+        "cast": [
+          {
+            "image_party": "One of the two men bent over at the waist",
+            "played_by": "me",
+            "caption_span": "Me",
+            "score": 1.0,
+            "reason": "The caption explicitly names 'Me', a singular entity matching the single figure, fulfilling the register's assignment."
+          },
+          {
+            "image_party": "The other of the two men bent over at the waist",
+            "played_by": "my delusion",
+            "caption_span": "my delusion",
+            "score": 1.0,
+            "reason": "The caption explicitly names 'my delusion', a singular personified force that acts as a peer to 'me', matching the single figure and the register."
+          }
+        ],
+        "relation": "share an intense curiosity or concern about something they are observing"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The image shows two men bent over in an identical, parallel posture, both looking down intently at the same area on the tracks.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption asserts the core relation by naming two similar-kind entities ('Me and my delusion') engaged in a shared observation ('trying to decode his... reply').",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption perfectly preserves the core relation of 'Two similar-kind entities assume an identical posture to observe a shared point of interest', with both analog_to_image and analog_to_caption scoring 1.0.",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "Both entities staged in the context ('Me' and 'my delusion') are present in the caption.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can perfectly reconstruct the moment of over-analyzing a vague, one-word text; the only missing detail is the length of her own text, which is not critical.",
+      "element_allusions": [
+        {
+          "element": "the two people overthinking",
+          "played_by": [
+            "me",
+            "my delusion"
+          ],
+          "evidence": "caption",
+          "caption_span": "Me and my delusion",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names the two entities engaged in the overthinking."
+        },
+        {
+          "element": "the problem with no real solution",
+          "played_by": "the true meaning of his one-word reply",
+          "evidence": "caption",
+          "caption_span": "his one-word 'interesting' reply",
+          "allusion": 1.0,
+          "reason": "This phrase perfectly captures a classic, unsolvable problem in dating, as the true meaning is ambiguous and ultimately unknowable."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me and my delusion looking for the red flag in our 3-month Hinge chat.",
+      "context": "Me and my delusion scrolling back to the first 'hey' in our Hinge chat from three months ago, performing a full forensic audit to find the exact moment I should have known he'd leave me on read after our first date went well.",
+      "metaphor": "Peering into the messy, hidden workings of a system that's supposed to just 'work'.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "The viewer can recover \"peering into the messy workings\" from \"looking for the red flag\" in the \"3-month Hinge chat,\" which serves as the \"system that's supposed to just 'work'\" (dating).",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities assume an identical posture to observe a shared point of interest.",
+          "secondary": "The setting is public (a subway platform), and their focus is intense."
+        },
+        "cast": [
+          {
+            "image_party": "One of the two men bent over at the waist",
+            "played_by": "me",
+            "caption_span": "Me",
+            "score": 1.0,
+            "reason": "The caption explicitly names 'Me', a singular entity matching the single figure, fulfilling the register's assignment."
+          },
+          {
+            "image_party": "The other of the two men bent over at the waist",
+            "played_by": "my delusion",
+            "caption_span": "my delusion",
+            "score": 1.0,
+            "reason": "The caption explicitly names 'my delusion', a singular personified force that acts as a peer to 'me', matching the single figure and the register."
+          }
+        ],
+        "relation": "share an intense curiosity or concern about something they are observing"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The image shows two men bent over in an identical, parallel posture, both looking down intently at the same area on the tracks.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption asserts the core relation by naming two similar-kind entities ('Me and my delusion') engaged in a shared observation ('looking for the red flag in our... Hinge chat').",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption perfectly preserves the core relation of 'Two similar-kind entities assume an identical posture to observe a shared point of interest', with both analog_to_image and analog_to_caption scoring 1.0.",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "Both entities staged in the context ('Me' and 'my delusion') are present in the caption.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can easily reconstruct the core scenario of obsessively reviewing an old dating app chat for where things went wrong; the specific outcome (left on read) is implied by the search.",
+      "element_allusions": [
+        {
+          "element": "the people peering into the system",
+          "played_by": [
+            "me",
+            "my delusion"
+          ],
+          "evidence": "caption",
+          "caption_span": "Me and my delusion",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names the two entities performing the audit."
+        },
+        {
+          "element": "the system that's supposed to just 'work'",
+          "played_by": "the 'good date to second date' pipeline",
+          "evidence": "caption",
+          "caption_span": "our 3-month Hinge chat",
+          "allusion": 0.8,
+          "reason": "The 'Hinge chat' is not the system itself, but it's the direct output of it, strongly implying the failed dating-to-relationship system the viewer is familiar with."
+        },
+        {
+          "element": "the messy, hidden workings",
+          "played_by": "the three-month Hinge chat history",
+          "evidence": "caption",
+          "caption_span": "our 3-month Hinge chat",
+          "allusion": 1.0,
+          "reason": "The chat history is the literal, messy record they are peering into, perfectly representing the system's inner workings."
+        }
+      ],
+      "match_overall": 0.9
+    }
+  ]
+}
+```

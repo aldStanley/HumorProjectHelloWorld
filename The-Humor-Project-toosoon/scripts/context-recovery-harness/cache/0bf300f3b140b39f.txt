@@ -1,0 +1,162 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "His best friend consoling him after he sent the breakup text they workshopped.",
+      "context": "Muting his best friend's IG story after seeing them together, knowing he's probably getting a pep talk about how he 'did the right thing' by breaking up with me over a text he probably had his friend help him write.",
+      "metaphor": "Gently supporting someone through a deep personal sadness or failure.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "The viewer can fully recover the metaphor: the image shows the 'gentle support', and the caption names both the one being supported ('him') and the source of their 'sadness or failure' ('after he sent the breakup text').",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "one entity gently supports another distressed, same-kind entity.",
+          "secondary": "The interaction is caring and intimate, taking place in a warm, natural setting."
+        },
+        "cast": [
+          {
+            "image_party": "an alien figure with a caring and supportive demeanor",
+            "played_by": "his best friend",
+            "score": 0.4,
+            "reason": "The supportive demeanor fits, but the figure is a non-human alien, which limits the literal fit for a person."
+          },
+          {
+            "image_party": "an alien with a slumped, downcast posture",
+            "played_by": "my situationship",
+            "score": 0.4,
+            "reason": "The downcast posture fits a distressed person, but the figure is a non-human alien, limiting the literal fit."
+          }
+        ],
+        "relation": "gently holds the hands and cradles the head of another"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption perfectly preserves the core analog, as 'his best friend' is cast as the supporter who 'gently holds the hands and cradles the head of' the distressed 'him'.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "From the caption and image, a reader can fully reconstruct the story: he broke up with her via a text his friend helped write, and now the friend is comforting him about his supposed sadness.",
+      "element_allusions": [
+        {
+          "element": "someone with a deep personal sadness or failure",
+          "played_by": "my situationship",
+          "allusion": 1.0,
+          "reason": "The caption's reference to 'him' after sending a 'breakup text' clearly identifies him as the one experiencing the failure."
+        },
+        {
+          "element": "the gentle support",
+          "played_by": "his best friend",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'his best friend' and the act of 'consoling him,' which the image depicts."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "His best friend explaining he has to either commit or tell me about the other girl.",
+      "context": "Refreshing his location on Snap Maps to see he's still at his best friend's place, telling myself it's because his friend is finally trying to convince him to either commit to me or tell me about the other girl whose stories he's been liking.",
+      "metaphor": "Trying to gently introduce a difficult, world-altering truth to someone who isn't ready for it.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "The metaphor is fully recoverable: the caption names the 'bearer of a difficult truth' ('His best friend'), the 'truth' itself ('commit or tell me about the other girl'), and the image shows the 'gentle introduction' to the person who isn't ready.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "one entity gently supports another distressed, same-kind entity.",
+          "secondary": "The interaction is caring and intimate, taking place in a warm, natural setting."
+        },
+        "cast": [
+          {
+            "image_party": "an alien figure with a caring and supportive demeanor",
+            "played_by": "his best friend",
+            "score": 0.4,
+            "reason": "The supportive demeanor fits, but the figure is a non-human alien, which limits the literal fit for a person."
+          },
+          {
+            "image_party": "an alien with a slumped, downcast posture",
+            "played_by": "my situationship",
+            "score": 0.4,
+            "reason": "The downcast posture fits a distressed person, but the figure is a non-human alien, limiting the literal fit."
+          }
+        ],
+        "relation": "gently holds the hands and cradles the head of another"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption preserves the core analog by casting 'his best friend' as the supportive figure who 'gently holds the hands and cradles the head of' 'him' while delivering a hard truth.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The caption and image perfectly reconstruct the scenario: he is being confronted by his friend over his indecisiveness regarding the narrator and another woman.",
+      "element_allusions": [
+        {
+          "element": "the bearer of a difficult truth",
+          "played_by": "his best friend",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'his best friend' and casts him as the one 'explaining' the hard choice."
+        },
+        {
+          "element": "someone who isn't ready for it",
+          "played_by": "my situationship",
+          "allusion": 1.0,
+          "reason": "The caption identifies 'he' as the recipient of the ultimatum, and his downcast posture in the image shows he is not ready for it."
+        },
+        {
+          "element": "the world-altering truth",
+          "played_by": "the need to either commit or come clean",
+          "allusion": 1.0,
+          "reason": "The caption explicitly states the truth: 'he has to either commit or tell me about the other girl.'"
+        }
+      ],
+      "match_overall": 0.8
+    },
+    {
+      "caption": "His best friend welcoming him to the guys' trip now that he's finally 'free'.",
+      "context": "Picturing his best friend hyping him up for their guys' trip now that he's 'free' from me, while I'm quietly deleting the flight alert I had set for the city he told me he wanted to take me to for my birthday.",
+      "metaphor": "Welcoming a newcomer into a reality that is completely foreign and overwhelming to them.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "A viewer can recover the metaphor: the caption names the 'welcomer' ('His best friend'), the 'newcomer' ('him'), and the 'new reality' ('finally 'free''), while the image's somber tone delivers the 'overwhelming' nature of it.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "one entity gently supports another distressed, same-kind entity.",
+          "secondary": "The interaction is caring and intimate, taking place in a warm, natural setting."
+        },
+        "cast": [
+          {
+            "image_party": "an alien figure with a caring and supportive demeanor",
+            "played_by": "his best friend",
+            "score": 0.4,
+            "reason": "The supportive demeanor fits, but the figure is a non-human alien, which limits the literal fit for a person."
+          },
+          {
+            "image_party": "an alien with a slumped, downcast posture",
+            "played_by": "my situationship",
+            "score": 0.4,
+            "reason": "The downcast posture fits a distressed person, but the figure is a non-human alien, limiting the literal fit."
+          }
+        ],
+        "relation": "gently holds the hands and cradles the head of another"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption maintains the core analog, showing the supportive friend who 'gently holds the hands and cradles the head of' the newly single 'him' who is being welcomed.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can reconstruct that he's newly single and his friend is trying to cheer him up for a trip, but the full context of her deleting a shared travel plan is unrecoverable from the caption alone.",
+      "element_allusions": [
+        {
+          "element": "a newcomer",
+          "played_by": "my situationship",
+          "allusion": 1.0,
+          "reason": "The caption's 'him' being welcomed now that he's 'free' clearly marks him as a newcomer to single life."
+        },
+        {
+          "element": "a foreign and overwhelming reality",
+          "played_by": "single life and being 'free'",
+          "allusion": 1.0,
+          "reason": "The phrase 'finally 'free'' directly alludes to the new reality of single life, with the quotes adding ironic weight."
+        },
+        {
+          "element": "the welcomer/guide",
+          "played_by": "his best friend",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'his best friend' and the action of 'welcoming him'."
+        }
+      ],
+      "match_overall": 0.7
+    }
+  ]
+}
+```

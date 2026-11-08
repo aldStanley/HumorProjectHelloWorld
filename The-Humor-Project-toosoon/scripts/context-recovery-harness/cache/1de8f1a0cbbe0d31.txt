@@ -1,0 +1,1 @@
+{"cast_match":0.9,"pose_match":0.85,"story_match":0.85,"overall_recovered":0.87,"verdict":"got_it","note":"They correctly recovered that the two bent-over figures are me and my delusion obsessively comparing an old and new 'k,' though they missed the specific 'are we okay' trigger."}

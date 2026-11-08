@@ -1,0 +1,72 @@
+```json
+{
+  "matches": [
+    {
+      "context": "My bestie quietly talks me down after I showed up at her door crying because he left my 'happy birthday' text on read, even though I swore to the group chat I was 'thriving' and wouldn't even remember his birthday.",
+      "register": "in_scene",
+      "metaphor": "Gently supporting someone through a deep personal sadness or failure.",
+      "element_map": [
+        {
+          "element": "someone experiencing sadness or failure",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "I am embodying the personal failure of breaking my own promise not to care and the sadness of being ignored."
+        },
+        {
+          "element": "the supporter",
+          "played_by": "my bestie",
+          "score": 1.0,
+          "reason": "My bestie is the one providing direct, gentle emotional support in the immediate aftermath of the crisis."
+        },
+        {
+          "element": "the deep personal sadness or failure",
+          "played_by": "the humiliation of being left on read",
+          "score": 1.0,
+          "reason": "This specific, self-inflicted rejection after a public declaration of indifference is the core emotional wound."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "One entity ('me') is distressed and is being physically supported by a same-kind entity ('my bestie'), perfectly matching the core analog."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect fit, with the 'me' and 'my bestie' dynamic directly mapping to the core analog and all elements of the chosen metaphor."
+      }
+    },
+    {
+      "context": "My bestie gently explains for the tenth time that he isn't just 'bad at texting' after I spent an hour reading our entire text history out loud to find proof he still likes me, only to find he hasn't asked me a single question in three weeks.",
+      "register": "in_scene",
+      "metaphor": "Trying to gently introduce a difficult, world-altering truth to someone who isn't ready for it.",
+      "element_map": [
+        {
+          "element": "the difficult, world-altering truth",
+          "played_by": "the reality that he is not interested",
+          "score": 1.0,
+          "reason": "This is the paradigm-shifting idea that my delusion has been preventing me from accepting."
+        },
+        {
+          "element": "someone who isn't ready for it",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "I am actively resisting the truth by seeking contradictory evidence in the face of overwhelming proof."
+        },
+        {
+          "element": "the person gently introducing the truth",
+          "played_by": "my bestie",
+          "score": 1.0,
+          "reason": "My bestie is the one carefully delivering the painful but necessary reality check."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "One entity ('me') is distressed and being physically supported by a same-kind entity ('my bestie'), perfectly matching the core analog."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect fit, as the dynamic between me and my bestie directly embodies the metaphor's elements and the core physical analog."
+      }
+    }
+  ]
+}
+```

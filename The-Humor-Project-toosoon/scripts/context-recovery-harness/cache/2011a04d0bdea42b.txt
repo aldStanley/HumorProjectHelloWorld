@@ -1,0 +1,6 @@
+```json
+{
+  "core": "Two peer entities jointly express different flavors of weary disappointment toward an unseen stimulus.",
+  "secondary": "The entities are side-by-side, sharing a low-energy moment of mutual dejection and suspicion about a mundane situation."
+}
+```

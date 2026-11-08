@@ -1,0 +1,6 @@
+```json
+{
+  "core": "Two same-kind entities are proximate but non-interactive, with one in a state of focused despair and the other in a state of total collapse.",
+  "secondary": "The mood is one of quiet misery, exhaustion, or a post-event comedown, often set in a gritty, liminal public space like a staircase. The entities are slumped and withdrawn."
+}
+```

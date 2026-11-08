@@ -1,0 +1,14 @@
+{
+  "figures": [
+    {
+      "anchor": "left character, pink starfish standing and looking sideways",
+      "candidates": ["my bestie", "I", "his"]
+    },
+    {
+      "anchor": "right character, yellow sponge standing and looking sideways",
+      "candidates": ["my bestie", "I", "his"]
+    }
+  ],
+  "entities_in_caption": ["my bestie", "I", "his"],
+  "entities_expected_in_image": ["my bestie", "I", "his"]
+}

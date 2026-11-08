@@ -1,0 +1,144 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "Him and his friend decoding my paragraph after he replied with 'k'.",
+      "context": "He and his best friend are definitely in their group chat picking apart the long, vulnerable paragraph I sent him last night, all because he couldn't be bothered to type more than 'k' and now my feelings are public property.",
+      "register": "watched_scene",
+      "metaphor": "When two people get intensely focused on a problem that is technically not their business.",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities assume an identical, focused posture over a shared, unseen point of interest.",
+          "secondary": "The setting is a public transit platform, and their mood is one of intense curiosity or concern."
+        },
+        "cast": [
+          {
+            "image_party": "Two men bent over at the waist",
+            "played_by": "my situationship and his best friend",
+            "score": 0.9,
+            "reason": "The two men are bent over in a synchronized posture of intense, shared focus, which literally mirrors how he and his best friend would analyze her texts or social media activity together."
+          }
+        ],
+        "relation": "are bent over at the waist, simultaneously looking down"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption places 'Him and his friend' in the role of the two figures who 'are bent over at the waist, simultaneously looking down' as they decode the text.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can fully reconstruct the story: she sent a long, heartfelt text, he sent a dismissive 'k', and now he and his friend are over-analyzing her message.",
+      "element_allusions": [
+        {
+          "element": "two people",
+          "played_by": "my situationship and his best friend",
+          "allusion": 1.0,
+          "reason": "The caption's 'Him and his friend' is a direct and unmistakable reference to this element."
+        },
+        {
+          "element": "an intense focus",
+          "played_by": "the act of picking apart my paragraph",
+          "allusion": 1.0,
+          "reason": "The verb 'decoding' combined with the image's intense posture perfectly captures the act of picking apart the paragraph."
+        },
+        {
+          "element": "a problem that is technically not their business",
+          "played_by": "my vulnerable feelings and our private conflict",
+          "allusion": 0.9,
+          "reason": "The mention of 'my paragraph' vs his 'k' reply implies a private, emotional conflict that has now been opened up to his friend, making it his business."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "Him and his boy trying to see if my 'good communication' Hinge prompt is about him.",
+      "context": "My situationship and his best friend are currently screenshotting my Hinge profile that I re-activated two hours ago, trying to figure out if my new prompt about 'good communication' is a direct shot at him.",
+      "register": "watched_scene",
+      "metaphor": "Trying to diagnose a complex problem with no real expertise.",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities assume an identical, focused posture over a shared, unseen point of interest.",
+          "secondary": "The setting is a public transit platform, and their mood is one of of intense curiosity or concern."
+        },
+        "cast": [
+          {
+            "image_party": "Two men bent over at the waist",
+            "played_by": "my situationship and his best friend",
+            "score": 0.9,
+            "reason": "The two men are bent over in a synchronized posture of intense, shared focus, which literally mirrors how he and his best friend would analyze her texts or social media activity together."
+          }
+        ],
+        "relation": "are bent over at the waist, simultaneously looking down"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption sets up 'Him and his boy' in the role of the two men who 'are bent over at the waist, simultaneously looking down' to analyze the Hinge prompt.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The story is fully recoverable: she's back on a dating app with a pointed profile prompt, and he and his friend are now trying to decipher if it's a subtext about him.",
+      "element_allusions": [
+        {
+          "element": "a complex problem",
+          "played_by": "my motivation for re-activating Hinge and writing the new prompt",
+          "allusion": 1.0,
+          "reason": "The phrase 'trying to see if... is about him' frames her motivation as the central, complex problem they are trying to solve."
+        },
+        {
+          "element": "the people with no real expertise",
+          "played_by": "my situationship and his best friend",
+          "allusion": 1.0,
+          "reason": "The caption's 'Him and his boy' directly names these two figures."
+        },
+        {
+          "element": "the act of diagnosis",
+          "played_by": "screenshotting and analyzing the Hinge prompt",
+          "allusion": 0.9,
+          "reason": "The caption's 'trying to see if' clearly implies analysis, and the image's intense posture completes the allusion to a diagnostic effort."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "Him and his friend workshopping the 'was swamped' apology text after ghosting me.",
+      "context": "After ghosting our plans last night, he and his best friend are 100% workshopping the perfect 'hey, so sorry about last night, was swamped' text, a collaborative effort to win back the trust I'm already planning to give them.",
+      "register": "watched_scene",
+      "metaphor": "A desperate, shared search for something valuable that just fell out of reach.",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities assume an identical, focused posture over a shared, unseen point of interest.",
+          "secondary": "The setting is a public transit platform, and their mood is one of intense curiosity or concern."
+        },
+        "cast": [
+          {
+            "image_party": "Two men bent over at the waist",
+            "played_by": "my situationship and his best friend",
+            "score": 0.9,
+            "reason": "The two men are bent over in a synchronized posture of intense, shared focus, which literally mirrors how he and his best friend would analyze her texts or social media activity together."
+          }
+        ],
+        "relation": "are bent over at the waist, simultaneously looking down"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption perfectly holds the arrangement, with 'Him and his friend' cast as the two figures who 'are bent over at the waist, simultaneously looking down' as they workshop the text.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can easily reconstruct the entire scenario: he ghosted her and is now collaborating with a friend to craft a low-effort, cliché apology text.",
+      "element_allusions": [
+        {
+          "element": "a desperate, shared search",
+          "played_by": "workshopping the perfect apology text",
+          "allusion": 1.0,
+          "reason": "The caption's phrase 'workshopping the... apology text' is a direct statement of this collaborative effort."
+        },
+        {
+          "element": "something valuable",
+          "played_by": "my trust and forgiveness",
+          "allusion": 0.9,
+          "reason": "The need for an 'apology text' after 'ghosting me' strongly implies that her trust is the valuable thing they are trying to recover."
+        },
+        {
+          "element": "that just fell out of reach",
+          "played_by": "the act of him ghosting her",
+          "allusion": 1.0,
+          "reason": "The caption explicitly states the precipitating event with the phrase 'after ghosting me.'"
+        }
+      ],
+      "match_overall": 0.8
+    }
+  ]
+}
+```

@@ -1,0 +1,111 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Me at 3am rereading the vulnerable paragraph I sent him two hours ago, while me at 1am who thought it was a brave and powerful idea has fully passed away.",
+      "register": "internal",
+      "me_side": "Me at 3am",
+      "force_side": "me at 1am",
+      "metaphor": "The silent, worn-out 'comedown' after an intense event, where there's nothing left to say or do.",
+      "element_map": [
+        {
+          "element": "an intense event",
+          "played_by": "sending the vulnerable paragraph",
+          "score": 1.0,
+          "reason": "This is the high-stakes action that has just concluded, creating the current state of exhaustion and regret."
+        },
+        {
+          "element": "the silent, worn-out 'comedown'",
+          "played_by": "the two hours of waiting",
+          "score": 1.0,
+          "reason": "This period of quiet, post-action anxiety perfectly embodies the depleted energy of a comedown."
+        },
+        {
+          "element": "people who have nothing left to say or do",
+          "played_by": "Me at 3am and me at 1am",
+          "score": 0.9,
+          "reason": "One self is obsessively re-analyzing what's already done, and the other is 'dead,' perfectly representing a state of depleted inaction."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'Me at 3am' fills the slot of the entity in focused despair (rereading the text), while 'me at 1am' perfectly embodies the entity in total collapse ('passed away')."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The moment is an extremely strong fit, with its weakest aspect being the slightly abstract mapping of two internal states onto the plural 'people' element."
+      }
+    },
+    {
+      "context": "Me trying to craft the perfect nonchalant reply to his 'hey' after he ghosted for a week, as my resolve to not seem desperate completely short-circuits and dies.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "my resolve to not seem desperate",
+      "metaphor": "Being physically together but emotionally worlds apart, each lost in their own private struggle.",
+      "element_map": [
+        {
+          "element": "being physically together",
+          "played_by": "Me and my resolve",
+          "score": 0.9,
+          "reason": "As internal forces within one person, they are definitionally 'together' in the same space (her mind)."
+        },
+        {
+          "element": "one person lost in their private struggle",
+          "played_by": "Me",
+          "score": 1.0,
+          "reason": "Her struggle is active and analytical—trying to craft the perfect text while fighting her own feelings."
+        },
+        {
+          "element": "another person lost in their private struggle",
+          "played_by": "my resolve to not seem desperate",
+          "score": 1.0,
+          "reason": "Its struggle is a losing battle against her underlying feelings, resulting in total collapse."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'Me' fills the slot of the entity in focused despair (crafting the text), while 'my resolve' perfectly fills the slot of the entity in total collapse."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The moment is a very strong fit, only slightly weakened by the abstraction of mapping 'physical togetherness' to internal mental states."
+      }
+    },
+    {
+      "context": "Me zooming in on his Hinge profile's new voice prompt to see if I can hear the girl he's obviously on a date with, while my last shred of self-respect just quietly expires.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "my last shred of self-respect",
+      "metaphor": "When a shared crisis hits, one person tries to analyze the problem while the other completely shuts down.",
+      "element_map": [
+        {
+          "element": "a shared crisis",
+          "played_by": "his new voice prompt",
+          "score": 1.0,
+          "reason": "This update is the external event that triggers the internal conflict and downward spiral."
+        },
+        {
+          "element": "one person [who] tries to analyze the problem",
+          "played_by": "Me",
+          "score": 1.0,
+          "reason": "Her action of zooming in and listening closely is a literal, focused analysis of the 'evidence'."
+        },
+        {
+          "element": "the other [person who] completely shuts down",
+          "played_by": "my last shred of self-respect",
+          "score": 1.0,
+          "reason": "This internal force is described as 'quietly expiring,' a perfect match for the state of total collapse and defeat."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'Me' fills the slot of the entity in focused despair (analyzing the prompt), and 'my last shred of self-respect' fills the slot of the entity in total collapse."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect instantiation of the metaphor and a one-to-one fit for the core analog and register's read."
+      }
+    }
+  ]
+}
+```

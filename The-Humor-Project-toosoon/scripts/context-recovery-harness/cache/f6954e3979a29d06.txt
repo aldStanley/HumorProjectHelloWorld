@@ -1,0 +1,111 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Me, five minutes after blocking him 'for good' this time, sitting in defeated silence while my delusion is already trying to figure out if his Venmo transactions to his friend for '🍕' are a secret message to me.",
+      "register": "internal",
+      "me_side": "me",
+      "force_side": "my delusion",
+      "metaphor": "Being physically together but emotionally worlds apart, each lost in their own private struggle.",
+      "element_map": [
+        {
+          "element": "the two people physically together",
+          "played_by": "me and my delusion",
+          "score": 1.0,
+          "reason": "The moment explicitly stages two parts of her consciousness in the same mental space, operating independently."
+        },
+        {
+          "element": "the first person's private struggle",
+          "played_by": "my delusion's desperate hunt for a sign",
+          "score": 1.0,
+          "reason": "The delusion is on an active, focused mission to find hope, which is a classic internal struggle against reality."
+        },
+        {
+          "element": "the second person's private struggle",
+          "played_by": "me's defeat at breaking my own promise",
+          "score": 1.0,
+          "reason": "Her collapse comes from the internal conflict of knowing what's right but being unable to stop herself."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The core slots are perfectly filled by 'my delusion' in a state of focused despair (analyzing Venmo) and 'me' in a state of total collapse (defeated silence)."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect instantiation of the metaphor and fits the core analog and assigned cast flawlessly."
+      }
+    },
+    {
+      "context": "The silent comedown after he finally texted 'we're good' at 3am to end a 12-hour fight—my delusion re-reading those two words like they're a marriage proposal, while me just puts my head down, completely empty.",
+      "register": "internal",
+      "me_side": "me",
+      "force_side": "my delusion",
+      "metaphor": "The silent, worn-out 'comedown' after an intense event, where there's nothing left to say or do.",
+      "element_map": [
+        {
+          "element": "the intense event",
+          "played_by": "the emotional exhaustion from the 12-hour fight",
+          "score": 1.0,
+          "reason": "The fight is the clear high-energy preceding event that has led to this state of total depletion."
+        },
+        {
+          "element": "the worn-out participants",
+          "played_by": "me and my delusion",
+          "score": 1.0,
+          "reason": "Both parts of her psyche are present and depicted as completely exhausted by the emotional rollercoaster."
+        },
+        {
+          "element": "the silence/nothing left to say",
+          "played_by": "the emotional void after his minimal reassurance",
+          "score": 1.0,
+          "reason": "His low-effort text didn't resolve anything, leaving a vacuum of feeling where relief should be."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'My delusion' fills the focused despair slot by obsessing over the text, while 'me' fills the total collapse slot with physical and emotional emptiness."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "This is a textbook depiction of a post-conflict emotional crash that maps perfectly onto the metaphor, core, and cast."
+      }
+    },
+    {
+      "context": "My delusion carefully examining his one-word 'busy' text for hidden meaning, while me, after he cancelled our date ten minutes before I was supposed to leave, just slides down the door in my going-out top.",
+      "register": "internal",
+      "me_side": "me",
+      "force_side": "my delusion",
+      "metaphor": "When a shared crisis hits, one person tries to analyze the problem while the other completely shuts down.",
+      "element_map": [
+        {
+          "element": "the shared crisis",
+          "played_by": "the sudden disappointment of him cancelling",
+          "score": 1.0,
+          "reason": "The last-minute cancellation is a sharp, specific crisis that triggers two different internal responses."
+        },
+        {
+          "element": "the person who tries to analyze the problem",
+          "played_by": "my delusion",
+          "score": 1.0,
+          "reason": "The delusion's immediate response is to treat the low-effort text as a complex puzzle to be solved for reassurance."
+        },
+        {
+          "element": "the person who completely shuts down",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "Her physical action of sliding down the door is a classic filmable behavior for total emotional and physical collapse."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The core is filled by 'my delusion' in focused despair over the text and 'me' in total collapse from the cancellation."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment precisely captures the 'fixer vs avoider' dynamic of the metaphor using the assigned cast and core structure."
+      }
+    }
+  ]
+}
+```

@@ -1,0 +1,1 @@
+{"cast_match":0.9,"pose_match":0.75,"story_match":0.72,"overall_recovered":0.78,"verdict":"partly","note":"The viewer correctly identified the situationship as the one staring into the glass and the best friend as the one collapsed, but missed the specific joke that the new girlfriend is already mad at him and the friend has simply given up."}

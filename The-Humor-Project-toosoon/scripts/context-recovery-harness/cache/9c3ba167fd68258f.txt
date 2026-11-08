@@ -1,0 +1,111 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Me and my delusion calmly clicking through a stranger's tagged photos from 2018 to find a picture of them together, all because he just left a single fire emoji on her new profile pic.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "my delusion",
+      "metaphor": "When two people get intensely focused on a problem that is technically not their business.",
+      "element_map": [
+        {
+          "element": "Two people",
+          "played_by": "Me and my delusion",
+          "score": 1.0,
+          "reason": "The moment explicitly names two collaborating entities that perfectly match the plural element."
+        },
+        {
+          "element": "A problem that is not their business",
+          "played_by": "His interaction with another girl",
+          "score": 1.0,
+          "reason": "His social media activity is a classic situationship problem that is, by definition, not her official business."
+        },
+        {
+          "element": "The intense focus",
+          "played_by": "The act of deep-diving her old tagged photos",
+          "score": 1.0,
+          "reason": "This obsessive, detailed investigation perfectly embodies an intense, disproportionate focus."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The two same-kind entities, 'me' and 'my delusion', perfectly assume an identical, focused posture to observe a shared point below them: the phone screen showing the other girl's profile."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect one-to-one mapping of the chosen metaphor and the core analog, with all elements clearly represented."
+      }
+    },
+    {
+      "context": "Me and my delusion scrolling back three months in our chat history to see if his new 'k' has a different emotional weight than his old 'k's' after I asked if we were okay.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "my delusion",
+      "metaphor": "Trying to diagnose a complex problem with no real expertise.",
+      "element_map": [
+        {
+          "element": "The people trying to diagnose it",
+          "played_by": "Me and my delusion",
+          "score": 1.0,
+          "reason": "The moment names two entities working in perfect unison on a diagnostic task, matching the plural element."
+        },
+        {
+          "element": "A complex problem",
+          "played_by": "The emotional weight of his one-letter text",
+          "score": 0.9,
+          "reason": "A one-letter text is framed as a disproportionately complex problem, which is the entire basis of the joke and the scenario."
+        },
+        {
+          "element": "The lack of real expertise",
+          "played_by": "Our collective inability to know his true intent",
+          "score": 1.0,
+          "reason": "The act of analyzing text message subtext is the very definition of diagnosing a situation with zero actual expertise or information."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The two same-kind entities are 'me' and 'my delusion', who assume an identical, focused posture to observe a shared point below them: the chat history on the phone screen."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The weakest aspect is mapping 'a complex problem' onto a deliberately simple trigger, though this conceptual tension is central to the moment's success."
+      }
+    },
+    {
+      "context": "Me and my delusion desperately searching his Venmo feed for any transaction that proves he wasn't with another girl last night, even though I'd told my friends I was 'so done' with him yesterday.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "my delusion",
+      "metaphor": "A desperate, shared search for something valuable that just fell out of reach.",
+      "element_map": [
+        {
+          "element": "The searchers",
+          "played_by": "Me and my delusion",
+          "score": 1.0,
+          "reason": "The moment's two entities are explicitly engaged in a shared search, matching the plural element perfectly."
+        },
+        {
+          "element": "Something valuable",
+          "played_by": "Proof of his innocence or loyalty",
+          "score": 1.0,
+          "reason": "In this context, proof that she isn't being played is the most valuable thing she could find."
+        },
+        {
+          "element": "That just fell out of reach",
+          "played_by": "His accountability and transparency",
+          "score": 0.9,
+          "reason": "His accountability is 'out of reach' because she has to resort to stalking a payment app for clues instead of just asking him."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'Me' and 'my delusion' are the two same-kind entities assuming an identical, focused posture to observe the shared point below them, which is his Venmo feed on the phone."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The weakest fit is mapping the abstract concept of 'his accountability' to an element, though the desperate search for it is perfectly captured."
+      }
+    }
+  ]
+}
+```

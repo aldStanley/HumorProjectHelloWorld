@@ -1,0 +1,114 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "Me zooming in on his story to see if that's his ex's watch.",
+      "context": "My bestie is totally passed out while I spend our 4am Uber ride zooming in on the screenshot of his 'boys night' story, trying to decide if the watch on the girl's wrist is the one his ex tagged him in two years ago.",
+      "metaphor": "When a shared crisis hits, one person tries to analyze the problem while the other completely shuts down.",
+      "metaphor_recovery": 0.8,
+      "metaphor_recovery_reason": "The caption's \"Me zooming in\" clearly establishes one person analyzing a problem, and the image of the collapsed friend shows the other shutting down, but the \"shared crisis\" part is only implied by the intensity of the scene.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "one entity is intensely focused on something while another similar-kind entity beside them is completely shut down.",
+          "secondary": "they are on a staircase, the mood is tired, dejected, and exhausted."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "me",
+            "score": 0.9,
+            "reason": "The figure's posture of being slumped over while intensely focused on the glass is a perfect representation of obsessively analyzing a screen, fitting the 'me' entity despite the male read."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "my bestie",
+            "score": 0.9,
+            "reason": "This figure's posture of total collapse and exhaustion perfectly captures a friend providing drained, silent support after a long night of situationship drama, fitting the 'my bestie' entity despite the male read."
+          }
+        ],
+        "relation": "sits beside, in a separate state of misery"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption's setup of \"Me zooming in\" perfectly maps my focused action onto the first figure, while the image delivers the result for my bestie, who \"sits beside, in a separate state of misery\".",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A viewer can easily reconstruct the core story: she's obsessively analyzing a guy's social media for signs of an ex, while her friend is completely drained by the secondhand drama.",
+      "element_allusions": [
+        {
+          "element": "a shared crisis",
+          "played_by": "my situationship potentially soft-launching another girl",
+          "allusion": 0.9,
+          "reason": "The combination of \"his story\" and the hunt for \"his ex's watch\" on what is implied to be another girl strongly alludes to a romantic crisis."
+        },
+        {
+          "element": "the person who tries to analyze the problem",
+          "played_by": "me",
+          "allusion": 1.0,
+          "reason": "The caption opens with \"Me zooming in,\" making this role completely explicit."
+        },
+        {
+          "element": "the person who completely shuts down",
+          "played_by": "my bestie",
+          "allusion": 1.0,
+          "reason": "The caption establishes my action, making the collapsed figure in the image unmistakably my bestie who has shut down from the drama."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "Me re-reading our fight texts to find where I could have been 'less intense'.",
+      "context": "My bestie is asleep on the steps after he finally left at 3am, and I'm just sitting here re-reading our fight texts from before he came over, trying to find where I could have been 'less intense'.",
+      "metaphor": "The silent, worn-out 'comedown' after an intense event, where there's nothing left to say or do.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "The caption's \"re-reading our fight texts\" establishes the aftermath of an \"intense event,\" while the visual of two \"worn-out people\" and the quiet internal action of self-blame perfectly captures the \"silent comedown.\"",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "one entity is intensely focused on something while another similar-kind entity beside them is completely shut down.",
+          "secondary": "they are on a staircase, the mood is tired, dejected, and exhausted."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "me",
+            "score": 0.9,
+            "reason": "The figure's posture of being slumped over while intensely focused on the glass is a perfect representation of obsessively analyzing a screen, fitting the 'me' entity despite the male read."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "my bestie",
+            "score": 0.9,
+            "reason": "This figure's posture of total collapse and exhaustion perfectly captures a friend providing drained, silent support after a long night of situationship drama, fitting the 'my bestie' entity despite the male read."
+          }
+        ],
+        "relation": "sits beside, in a separate state of misery"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption (\"Me re-reading our fight texts\") perfectly assigns my analytical self-blame to the focused figure, while the image shows my bestie as the collapsed one who \"sits beside, in a separate state of misery\".",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The specific quote \"'less intense'\" combined with \"fight texts\" allows a viewer to perfectly reconstruct the entire scenario of post-argument self-blame while a friend is passed out.",
+      "element_allusions": [
+        {
+          "element": "the intense event",
+          "played_by": "the fight with my situationship that preceded him coming over",
+          "allusion": 1.0,
+          "reason": "The phrase \"our fight texts\" makes the preceding intense event completely explicit."
+        },
+        {
+          "element": "the worn-out people",
+          "played_by": "me and my bestie",
+          "allusion": 1.0,
+          "reason": "The caption names \"Me\", and the image shows a second person in a state of exhaustion, who is clearly the bestie in this shared scene."
+        },
+        {
+          "element": "the silent comedown",
+          "played_by": "my obsessive text analysis and her exhausted sleep",
+          "allusion": 1.0,
+          "reason": "My action of \"re-reading\" texts is a silent, internal process, and her visible state in the image is one of total exhaustion, perfectly embodying the comedown."
+        }
+      ],
+      "match_overall": 0.9
+    }
+  ]
+}
+```

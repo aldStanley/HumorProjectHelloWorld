@@ -1,0 +1,34 @@
+{
+  "figures": [
+    {
+      "anchor": "left side, Patrick standing and looking sideways",
+      "candidates": [
+        "me",
+        "him",
+        "my bestie",
+        "his roommates"
+      ]
+    },
+    {
+      "anchor": "right side, SpongeBob standing and looking sideways",
+      "candidates": [
+        "me",
+        "him",
+        "my bestie",
+        "his roommates"
+      ]
+    }
+  ],
+  "entities_in_caption": [
+    "me",
+    "him",
+    "his roommates",
+    "my bestie"
+  ],
+  "entities_expected_in_image": [
+    "me",
+    "him",
+    "his roommates",
+    "my bestie"
+  ]
+}

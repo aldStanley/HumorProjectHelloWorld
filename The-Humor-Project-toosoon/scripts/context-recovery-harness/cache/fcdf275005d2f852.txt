@@ -1,0 +1,111 @@
+```json
+{
+  "matches": [
+    {
+      "context": "After a three-hour debrief where I swore this was the last time, I'm just staring at the condensation on my cup replaying his every word while my bestie is fully asleep next to me on the curb waiting for the Uber.",
+      "register": "in_scene",
+      "metaphor": "The silent, worn-out 'comedown' after an intense event, where there's nothing left to say or do.",
+      "element_map": [
+        {
+          "element": "an intense event",
+          "played_by": "the three-hour debrief about him",
+          "score": 1.0,
+          "reason": "A multi-hour emotional dissection of a situationship is the quintessential 'intense event' in this persona's world."
+        },
+        {
+          "element": "the silent, worn-out 'comedown'",
+          "played_by": "our current state on the curb",
+          "score": 1.0,
+          "reason": "My quiet, obsessive replay and her total exhaustion perfectly embody the physical and emotional depletion of a comedown."
+        },
+        {
+          "element": "nothing left to say or do",
+          "played_by": "my internal spiraling and my bestie's unconsciousness",
+          "score": 0.9,
+          "reason": "This abstract state is well-represented by the complete cessation of external action and conversation, as one person is asleep and the other is lost in thought."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "Me staring and replaying his words is a perfect match for 'focused despair,' while my bestie being fully asleep perfectly fills the 'total collapse' slot."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The weakest link is the mapping of 'nothing left to say or do,' which is slightly more abstract than the other elements but still very strongly implied."
+      }
+    },
+    {
+      "context": "My bestie is just silently dead to the world on the steps next to me while I obsessively scroll through his new girl's tagged photos from 2018, looking for clues after he texted me 'thinking of you' this morning.",
+      "register": "in_scene",
+      "metaphor": "When a shared crisis hits, one person tries to analyze the problem while the other completely shuts down.",
+      "element_map": [
+        {
+          "element": "a shared crisis",
+          "played_by": "him sending a breadcrumb text then soft-launching a new girl",
+          "score": 0.9,
+          "reason": "This event is a direct crisis for me, and becomes a shared one by proxy as my bestie must endure the emotional fallout."
+        },
+        {
+          "element": "one person [who] tries to analyze the problem",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "My behavior of scrolling through years-old tagged photos is the literal definition of obsessively analyzing the problem."
+        },
+        {
+          "element": "the other [person who] completely shuts down",
+          "played_by": "my bestie",
+          "score": 1.0,
+          "reason": "Her being 'silently dead to the world' is a perfect physical manifestation of shutting down from empathetic exhaustion."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "Me obsessively scrolling for clues fills the 'focused despair' slot, and my bestie being 'silently dead to the world' fills the 'total collapse' slot."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The weakest aspect is the 'shared crisis' element, as the crisis is primarily mine, making her involvement supportive rather than direct."
+      }
+    },
+    {
+      "context": "My bestie is just trying to quietly recover from the party on these steps while I re-read his one-word 'k' text for the twentieth time, telling myself his vagueness is mysterious and not just him being done with me.",
+      "register": "in_scene",
+      "metaphor": "Being physically together but emotionally worlds apart, each lost in their own private struggle.",
+      "element_map": [
+        {
+          "element": "being physically together",
+          "played_by": "me and my bestie on the steps",
+          "score": 1.0,
+          "reason": "They are literally sitting next to each other, perfectly satisfying the element of physical proximity."
+        },
+        {
+          "element": "being emotionally worlds apart",
+          "played_by": "my obsessive text-analysis vs. her social battery drain",
+          "score": 1.0,
+          "reason": "The two internal states are completely separate and non-interactive, representing a stark emotional distance."
+        },
+        {
+          "element": "one's private struggle",
+          "played_by": "my delusion over his one-word text",
+          "score": 1.0,
+          "reason": "The internal battle between reality and the desired narrative is a deeply private and well-defined struggle."
+        },
+        {
+          "element": "the other's private struggle",
+          "played_by": "my bestie's quiet social burnout",
+          "score": 0.9,
+          "reason": "Her need to 'quietly recover' is a clear internal struggle, though it is more passive than my active spiraling."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "My repetitive text analysis perfectly fills the 'focused despair' slot, and my bestie's quiet recovery from the party fills the 'total collapse' slot."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The weakest element is the 'private struggle' of the bestie, which is slightly less defined and active compared to the protagonist's, but still very fitting."
+      }
+    }
+  ]
+}
+```

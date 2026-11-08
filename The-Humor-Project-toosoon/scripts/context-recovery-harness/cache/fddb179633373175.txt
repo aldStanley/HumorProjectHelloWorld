@@ -1,0 +1,105 @@
+```json
+{
+  "matches": [
+    {
+      "context": "He and his best friend are definitely in their group chat picking apart the long, vulnerable paragraph I sent him last night, all because he couldn't be bothered to type more than 'k' and now my feelings are public property.",
+      "register": "watched_scene",
+      "metaphor": "When two people get intensely focused on a problem that is technically not their business.",
+      "element_map": [
+        {
+          "element": "two people",
+          "played_by": "my situationship and his best friend",
+          "score": 1.0,
+          "reason": "The moment explicitly names two people, my situationship and his best friend, who are engaged in the central action together."
+        },
+        {
+          "element": "an intense focus",
+          "played_by": "the act of picking apart my paragraph",
+          "score": 0.9,
+          "reason": "The phrase 'picking apart' implies a detailed, concentrated analysis that perfectly matches the intensity of the men's posture in the image."
+        },
+        {
+          "element": "a problem that is technically not their business",
+          "played_by": "my vulnerable feelings and our private conflict",
+          "score": 1.0,
+          "reason": "The persona's private, vulnerable feelings shared with one person are being scrutinized by a third party (the best friend), for whom it is not his business."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The core is perfectly filled by 'my situationship and his best friend' (two same-kind entities) who are assuming an 'identical, focused posture' by analyzing my paragraph (a shared, unseen point)."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The fit is very strong, limited only slightly by the 'intense focus' being an inferred action rather than a directly stated one."
+      }
+    },
+    {
+      "context": "My situationship and his best friend are currently screenshotting my Hinge profile that I re-activated two hours ago, trying to figure out if my new prompt about 'good communication' is a direct shot at him.",
+      "register": "watched_scene",
+      "metaphor": "Trying to diagnose a complex problem with no real expertise.",
+      "element_map": [
+        {
+          "element": "a complex problem",
+          "played_by": "my motivation for re-activating Hinge and writing the new prompt",
+          "score": 1.0,
+          "reason": "The persona's internal state and motivations are presented as a complex issue for the two men to solve."
+        },
+        {
+          "element": "the people with no real expertise",
+          "played_by": "my situationship and his best friend",
+          "score": 0.9,
+          "reason": "They are attempting to interpret her actions from the outside instead of communicating, demonstrating a lack of the actual expertise needed."
+        },
+        {
+          "element": "the act of diagnosis",
+          "played_by": "screenshotting and analyzing the Hinge prompt",
+          "score": 1.0,
+          "reason": "The specific, filmable behavior of screenshotting and analyzing a profile is a direct analog for a diagnostic process."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'My situationship and his best friend' (two same-kind entities) are focused on screenshotting and analyzing (an identical, focused posture) my Hinge profile (a shared, unseen point)."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The overall fit is excellent, with the weakest link being the slight assumption that they lack expertise, though this is heavily implied by the scenario."
+      }
+    },
+    {
+      "context": "After ghosting our plans last night, he and his best friend are 100% workshopping the perfect 'hey, so sorry about last night, was swamped' text, a collaborative effort to win back the trust I'm already planning to give them.",
+      "register": "watched_scene",
+      "metaphor": "A desperate, shared search for something valuable that just fell out of reach.",
+      "element_map": [
+        {
+          "element": "a desperate, shared search",
+          "played_by": "workshopping the perfect apology text",
+          "score": 0.8,
+          "reason": "The collaboration is clear, but 'desperate' might be slightly too strong for a low-effort situationship apology, weakening the fit."
+        },
+        {
+          "element": "something valuable",
+          "played_by": "my trust and forgiveness",
+          "score": 1.0,
+          "reason": "The persona's trust is framed as the valuable object they are trying to retrieve through their efforts."
+        },
+        {
+          "element": "that just fell out of reach",
+          "played_by": "the act of him ghosting her",
+          "score": 1.0,
+          "reason": "His action of ghosting is the specific event that caused him to lose her trust, making it 'fall out of reach'."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The core is met by 'he and his best friend' (two same-kind entities) who are 'workshopping a text' (assuming an identical, focused posture) to look at the draft (a shared, unseen point)."
+      },
+      "overall": {
+        "score": 0.8,
+        "reason": "The fit is strong but limited by the element 'a desperate, shared search,' as the 'desperation' level of their text workshopping is debatable."
+      }
+    }
+  ]
+}
+```

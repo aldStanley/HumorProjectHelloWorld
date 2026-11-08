@@ -1,0 +1,1 @@
+{"cast_match":1,"pose_match":0.9,"story_match":0.7,"overall_recovered":0.78,"verdict":"partly","note":"They correctly mapped yesterday-me as the lecturing jester and current-me as the watching queen, but missed the 2 AM temptation/block-button/'you good?' relapse context."}

@@ -1,0 +1,72 @@
+```json
+{
+  "matches": [
+    {
+      "context": "I find myself refreshing my situationship's muted profile to watch all five parts of his 'perfect date' Instagram story with his new girl, who just posted a blurry pic of him captioned 'he tried lol'.",
+      "register": "watched_scene",
+      "metaphor": "Putting on a whole song and dance for someone who's already decided they're not interested.",
+      "element_map": [
+        {
+          "element": "the one putting on the song and dance",
+          "played_by": "my situationship",
+          "score": 1.0,
+          "reason": "His five-part Instagram story is a perfect modern equivalent of an elaborate performance designed to impress."
+        },
+        {
+          "element": "the uninterested person",
+          "played_by": "his new girl",
+          "score": 1.0,
+          "reason": "Her blurry photo with the caption 'he tried lol' is a clear and cutting signal of being unimpressed by his grand gesture."
+        },
+        {
+          "element": "the one-sided effort",
+          "played_by": "the gap between his multi-part story and her dismissive, low-effort post",
+          "score": 0.9,
+          "reason": "This force is the core of the metaphor, perfectly embodied by the stark contrast in their social media outputs."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The situationship's energetic effort (the five-part story) fills the first slot, while his new girl's dismissive judgment ('he tried lol') perfectly fills the second."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The fit is excellent, with the weakest score being the mapping of a dynamic ('one-sided effort') rather than a single entity."
+      }
+    },
+    {
+      "context": "Two hours into the 'five minutes' I unblocked him for, I'm just staring at his new girl's comment 'plating could be better' under the video of my situationship spending all day making her some fancy dinner.",
+      "register": "watched_scene",
+      "metaphor": "Enthusiastically presenting your best work to a skeptical, nitpicky authority figure.",
+      "element_map": [
+        {
+          "element": "the enthusiastic presenter",
+          "played_by": "my situationship",
+          "score": 1.0,
+          "reason": "He is enthusiastically presenting his 'work' by making a whole video about the dinner he spent all day on."
+        },
+        {
+          "element": "the skeptical, nitpicky authority figure",
+          "played_by": "his new girl",
+          "score": 1.0,
+          "reason": "Her public comment 'plating could be better' is the absolute definition of a nitpicky critique from someone in a position of power in their dynamic."
+        },
+        {
+          "element": "the best work",
+          "played_by": "the fancy dinner",
+          "score": 0.7,
+          "reason": "The dinner is an inanimate object, but it functions perfectly as the 'work' being presented for judgment."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The situationship's energetic effort (cooking all day for her) is met with the dismissive judgment of his new girl (the critical comment), perfectly matching the core."
+      },
+      "overall": {
+        "score": 0.7,
+        "reason": "The overall fit is strong, limited only by the conceptual leap of casting an inanimate object (the dinner) as the 'best work'."
+      }
+    }
+  ]
+}
+```

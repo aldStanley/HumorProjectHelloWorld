@@ -1,0 +1,1 @@
+{"cast_match":1,"pose_match":0.9,"story_match":0.8,"overall_recovered":0.85,"verdict":"got_it","note":"They correctly mapped the comforting best friend and downcast situationship and got the core joke, though they missed the author's extra fantasy/checking-blocked-messages context."}

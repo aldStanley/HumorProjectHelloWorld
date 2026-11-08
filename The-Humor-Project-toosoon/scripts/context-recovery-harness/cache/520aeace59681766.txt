@@ -1,0 +1,36 @@
+{
+  "figures": [
+    {
+      "figure": "foreground man in striped shirt bent over near the platform edge, head lowered toward the tracks",
+      "entity_guess": "me or my delusion",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "The caption frames the bent-over posture as a dramatic reaction of despair/jealousy after seeing him put a fire emoji on another girl's profile picture, but it does not distinguish whether this man is 'me' or 'my delusion'."
+    },
+    {
+      "figure": "foreground man in light blue shirt bent over behind the striped-shirt man, also leaning toward the tracks",
+      "entity_guess": "me or my delusion",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "The caption makes his bent-over posture read as the same devastated reaction, but it does not give a clear anchor for whether he is 'me' or 'my delusion'."
+    },
+    {
+      "figure": "distant person standing upright on the opposite platform",
+      "entity_guess": null,
+      "confident": false,
+      "pose_explained": false,
+      "pose_note": "The caption gives no role or reason for this background person standing there."
+    }
+  ],
+  "unresolved": [
+    "which foreground man is 'me' versus 'my delusion'",
+    "he",
+    "some girl's new profile pic",
+    "the 🔥 reaction"
+  ],
+  "story_guess": "The joke is that both the narrator and her delusional belief that he likes her are dramatically crushed after he reacts with a fire emoji to another girl's new profile picture.",
+  "cast_clarity": 0.55,
+  "pose_clarity": 0.65,
+  "story_clarity": 0.8,
+  "verdict": "partly"
+}

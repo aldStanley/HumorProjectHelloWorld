@@ -1,0 +1,210 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "My delusion decoding his Venmo pizza emoji while I sit here five minutes post-block.",
+      "context": "Me, five minutes after blocking him 'for good' this time, sitting in defeated silence while my delusion is already trying to figure out if his Venmo transactions to his friend for '🍕' are a secret message to me.",
+      "metaphor": "Being physically together but emotionally worlds apart, each lost in their own private struggle.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "The caption names the two parties who are 'physically together' (\"My delusion\" and \"I\") and explicitly states each one's separate 'private struggle' (\"decoding his Venmo pizza emoji\" vs. \"five minutes post-block\").",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "one entity focuses intently on a small detail while a similar-kind entity collapses beside it.",
+          "secondary": "The focused entity has a tired posture, the collapsed entity is completely withdrawn, and they are on a staircase."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "my delusion",
+            "caption_span": "My delusion",
+            "score": 1.0,
+            "reason": "The caption names 'My delusion', a singular personified force, matching the single figure and fitting its role as the focused party."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "me",
+            "caption_span": "I",
+            "score": 1.0,
+            "reason": "The caption names 'I' (me), a singular person, matching the single figure and fitting its role as the collapsed party."
+          }
+        ],
+        "relation": "sits close together on a staircase but are not interacting"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The image perfectly shows one figure hunched over focusing on a small object while another figure sits beside them, collapsed with their head in their arms.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption asserts the core relation by naming the focusing entity ('My delusion decoding') and the collapsing one ('I sit here... post-block') in the same unresolved moment.",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption preserves the core relation 'one entity focuses intently on a small detail while a similar-kind entity collapses beside it,' with both analog_to_image and analog_to_caption scoring 1.0.",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "No staged entities were dropped; both 'me' and 'my delusion' are present in the caption.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can fully reconstruct the story from the caption and image: she just blocked him, and while she's defeated, her delusion is already searching for clues in his Venmo.",
+      "element_allusions": [
+        {
+          "element": "the two people physically together",
+          "played_by": "me and my delusion",
+          "evidence": "caption",
+          "caption_span": "My delusion ... while I",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names both 'My delusion' and 'I' as co-present actors in the scene."
+        },
+        {
+          "element": "the first person's private struggle",
+          "played_by": "my delusion's desperate hunt for a sign",
+          "evidence": "caption",
+          "caption_span": "decoding his Venmo pizza emoji",
+          "allusion": 1.0,
+          "reason": "The phrase 'decoding his Venmo pizza emoji' is a perfect, specific example of a desperate hunt for a sign."
+        },
+        {
+          "element": "the second person's private struggle",
+          "played_by": "me's defeat at breaking my own promise",
+          "evidence": "caption",
+          "caption_span": "five minutes post-block",
+          "allusion": 0.9,
+          "reason": "The caption's 'five minutes post-block,' combined with the collapsed posture in the image, clearly communicates her defeat after breaking her own resolve."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me and my delusion after he finally texted 'we're good' at 3am to end our fight.",
+      "context": "The silent comedown after he finally texted 'we're good' at 3am to end a 12-hour fight—my delusion re-reading those two words like they're a marriage proposal, while me just puts my head down, completely empty.",
+      "metaphor": "The silent, worn-out 'comedown' after an intense event, where there's nothing left to say or do.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "The caption establishes the 'intense event' ('end our fight') and the 'comedown' ('after'), and names the 'worn-out participants' ('Me and my delusion'), but the feeling of 'nothing left to say' is delivered entirely by the image.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "one entity focuses intently on a small detail while a similar-kind entity collapses beside it.",
+          "secondary": "The focused entity has a tired posture, the collapsed entity is completely withdrawn, and they are on a staircase."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "my delusion",
+            "caption_span": "my delusion",
+            "score": 1.0,
+            "reason": "The caption names 'my delusion', a singular personified force, matching the single figure and fitting its role as the focused party."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "me",
+            "caption_span": "Me",
+            "score": 1.0,
+            "reason": "The caption names 'Me', a singular person, matching the single figure and fitting its role as the collapsed party."
+          }
+        ],
+        "relation": "sits close together on a staircase but are not interacting"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The image perfectly shows one figure hunched over focusing on a small object while another figure sits beside them, collapsed with their head in their arms.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption asserts the core relation by naming 'Me and my delusion' as a pair experiencing the same event, which the image then splits into focusing and collapsing.",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption preserves the core relation 'one entity focuses intently on a small detail while a similar-kind entity collapses beside it,' with both analog_to_image and analog_to_caption scoring 1.0.",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "No staged entities were dropped; both 'me' and 'my delusion' are present in the caption.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can reconstruct the core story: an exhausting fight was ended by a low-effort text, leading to this split reaction; only the extreme duration of the fight is lost.",
+      "element_allusions": [
+        {
+          "element": "the intense event",
+          "played_by": "the emotional exhaustion from the 12-hour fight",
+          "evidence": "caption",
+          "caption_span": "end our fight",
+          "allusion": 0.8,
+          "reason": "The caption clearly establishes a fight, but the full '12-hour' exhaustion that defines the event in the context is not specified."
+        },
+        {
+          "element": "the worn-out participants",
+          "played_by": "me and my delusion",
+          "evidence": "caption",
+          "caption_span": "Me and my delusion",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names both participants."
+        },
+        {
+          "element": "the silence/nothing left to say",
+          "played_by": "the emotional void after his minimal reassurance",
+          "evidence": "image",
+          "caption_span": "",
+          "allusion": 1.0,
+          "reason": "The image's depiction of two people in a state of silent, non-interactive exhaustion perfectly delivers the emotional void after a minimal text like 'we're good'."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "My delusion looking for clues in his 'busy' text while I'm in my going-out top.",
+      "context": "My delusion carefully examining his one-word 'busy' text for hidden meaning, while me, after he cancelled our date ten minutes before I was supposed to leave, just slides down the door in my going-out top.",
+      "metaphor": "When a shared crisis hits, one person tries to analyze the problem while the other completely shuts down.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "The caption identifies the analyzer ('My delusion looking for clues'), the one shutting down (me, implied by the state the image shows), and the shared crisis (the 'busy' text received while dressed to go out).",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "one entity focuses intently on a small detail while a similar-kind entity collapses beside it.",
+          "secondary": "The focused entity has a tired posture, the collapsed entity is completely withdrawn, and they are on a staircase."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "my delusion",
+            "caption_span": "My delusion",
+            "score": 1.0,
+            "reason": "The caption names 'My delusion', a singular personified force, matching the single figure and fitting its role as the focused party."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "me",
+            "caption_span": "I'm",
+            "score": 1.0,
+            "reason": "The caption names 'I'm' (me), a singular person, matching the single figure and fitting its role as the collapsed party."
+          }
+        ],
+        "relation": "sits close together on a staircase but are not interacting"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The image perfectly shows one figure hunched over focusing on a small object while another figure sits beside them, collapsed with their head in their arms.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption asserts the core relation by naming the focusing entity ('My delusion looking for clues') and the collapsing one ('I'm') in the same unresolved moment.",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption preserves the core relation 'one entity focuses intently on a small detail while a similar-kind entity collapses beside it,' with both analog_to_image and analog_to_caption scoring 1.0.",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "No staged entities were dropped; both 'me' and 'my delusion' are present in the caption, along with the key details.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can perfectly reconstruct the story: she got ready for a date, he cancelled with a one-word text, and this is the devastating aftermath.",
+      "element_allusions": [
+        {
+          "element": "the shared crisis",
+          "played_by": "the sudden disappointment of him cancelling",
+          "evidence": "caption",
+          "caption_span": "'busy' text while I'm in my going-out top",
+          "allusion": 1.0,
+          "reason": "The combination of receiving a 'busy' text while already dressed to go out unmistakably signals a last-minute date cancellation."
+        },
+        {
+          "element": "the person who tries to analyze the problem",
+          "played_by": "my delusion",
+          "evidence": "caption",
+          "caption_span": "My delusion looking for clues in his 'busy' text",
+          "allusion": 1.0,
+          "reason": "The caption perfectly and explicitly describes the analytical action of the delusion."
+        },
+        {
+          "element": "the person who completely shuts down",
+          "played_by": "me",
+          "evidence": "image",
+          "caption_span": "",
+          "allusion": 1.0,
+          "reason": "The image's depiction of total physical collapse, cued by the caption's mention of being dressed up with nowhere to go, perfectly delivers her shutdown."
+        }
+      ],
+      "match_overall": 1.0
+    }
+  ]
+}
+```

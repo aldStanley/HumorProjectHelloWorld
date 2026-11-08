@@ -1,0 +1,1 @@
+{"cast_match":1,"pose_match":0.85,"story_match":0.88,"overall_recovered":0.9,"verdict":"got_it","note":"They nailed the core joke and cast—overanalyzing a dismissive one-word reply while the bestie gently calls it a red flag—though they missed the specific vulnerable-paragraph/six-hour-'haha' context."}

@@ -1,0 +1,24 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "Two men bent over at the waist",
+      "entity": "me and my bestie",
+      "fit": 0.3,
+      "reason": "The fit is low because the figures are visibly men, but their identical, intensely focused posture perfectly captures the dynamic of over-analyzing a text or social media post together."
+    }
+  ],
+  "weakest_fit": 0.3,
+  "why": "The central action is a strong metaphor for the persona's world, but the visual identity of the figures as two men is a major mismatch for an in-scene read.",
+  "secondary_nominations": [
+    {
+      "entity": "a mundane public setting",
+      "possibilities": [
+        "the group chat",
+        "his venmo feed",
+        "my camera roll full of screenshots"
+      ]
+    }
+  ]
+}
+```

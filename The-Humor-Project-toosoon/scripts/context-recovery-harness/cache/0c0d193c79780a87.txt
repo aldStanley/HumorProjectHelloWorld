@@ -1,0 +1,20 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "Patrick, with a tired and dejected expression"
+    },
+    {
+      "figure": "SpongeBob, squinting with a look of weary suspicion and disapproval"
+    }
+  ],
+  "secondary": [
+    {
+      "entity": "a low-energy moment"
+    },
+    {
+      "entity": "a mundane situation"
+    }
+  ]
+}
+```

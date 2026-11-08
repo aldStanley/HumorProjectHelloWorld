@@ -1,0 +1,105 @@
+```json
+{
+  "matches": [
+    {
+      "context": "My bestie and I spend twenty minutes zooming in on the reflection in his sunglasses on his new story trying to identify the girl with him, even though I told her five minutes ago I was 'so over it' and didn't even want to look.",
+      "register": "in_scene",
+      "metaphor": "When two people get intensely focused on a problem that is technically not their business.",
+      "element_map": [
+        {
+          "element": "The two focused people",
+          "played_by": "me and my bestie",
+          "score": 1.0,
+          "reason": "This is a perfect mapping of two entities engaged in a shared, intense focus."
+        },
+        {
+          "element": "The problem that is not their business",
+          "played_by": "the identity of the girl with him",
+          "score": 1.0,
+          "reason": "His social life is the central mystery that is both deeply compelling to the persona and entirely outside her purview."
+        },
+        {
+          "element": "The force of it not being their business",
+          "played_by": "my own declaration of being 'so over it'",
+          "score": 0.8,
+          "reason": "My stated indifference creates the explicit boundary that makes our intense focus a transgression and a contradiction."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'Me and my bestie' are the 'Two same-kind entities' assuming an 'identical, focused posture' to observe the 'shared, unseen point' of the tiny reflection on a phone screen."
+      },
+      "overall": {
+        "score": 0.8,
+        "reason": "The overall fit is limited by the abstract mapping of the 'force of it not being their business' onto my own contradictory statement."
+      }
+    },
+    {
+      "context": "After he replied 'Acknowledged.' to my paragraph about my feelings, my bestie and I are scrolling all the way back to our first Hinge messages from six months ago to see if the red flags were actually 'more of an orange'.",
+      "register": "in_scene",
+      "metaphor": "The collective, morbid curiosity about a system's messy or dangerous foundation.",
+      "element_map": [
+        {
+          "element": "The collective with morbid curiosity",
+          "played_by": "me and my bestie",
+          "score": 1.0,
+          "reason": "This is a perfect cardinality match for a group of two examining something they know might be painful."
+        },
+        {
+          "element": "The system",
+          "played_by": "our six-month situationship",
+          "score": 0.9,
+          "reason": "The text history is the complete, examinable record of the relationship, serving as a perfect proxy for the system itself."
+        },
+        {
+          "element": "The messy or dangerous foundation",
+          "played_by": "the potential 'red flags' in our first Hinge messages",
+          "score": 1.0,
+          "reason": "The early messages are the literal foundation of the situationship, which they are examining for foundational flaws."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'Me and my bestie' are the 'Two same-kind entities' with an 'identical, focused posture' over a phone, observing the 'shared, unseen point' of the old messages."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The overall fit is excellent, limited only slightly by the situationship itself playing the 'system' via the proxy of its text log."
+      }
+    },
+    {
+      "context": "Me and my bestie are on our hands and knees looking for the napkin with his number on it that I dramatically threw towards the trash can ten minutes ago while announcing 'I'm finally done with him'.",
+      "register": "in_scene",
+      "metaphor": "A desperate, shared search for something valuable that just fell out of reach.",
+      "element_map": [
+        {
+          "element": "The desperate searchers",
+          "played_by": "me and my bestie",
+          "score": 1.0,
+          "reason": "The role and number of searchers perfectly match the moment's entities."
+        },
+        {
+          "element": "The valuable thing",
+          "played_by": "the napkin with his number on it",
+          "score": 1.0,
+          "reason": "The napkin's value is purely emotional and situational, making the desperate search for it a perfect fit."
+        },
+        {
+          "element": "The state of being 'out of reach'",
+          "played_by": "my dramatic act of throwing it away",
+          "score": 0.9,
+          "reason": "My own self-sabotaging action is the direct force that made the 'valuable' object inaccessible."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'Me and my bestie' are the 'Two same-kind entities' in an 'identical, focused posture' looking for the 'shared, unseen point' where the napkin landed."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The fit is very strong, limited only by the 'state of being out of reach' being represented by a past action rather than a continuous force."
+      }
+    }
+  ]
+}
+```

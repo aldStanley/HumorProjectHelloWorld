@@ -1,0 +1,28 @@
+{
+  "figures": [
+    {
+      "figure": "small hooded alien on the left, looking down with a hand on its face",
+      "entity_guess": "me",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "They look distressed or embarrassed, which fits being the person overthinking a one-word text and needing reassurance or correction."
+    },
+    {
+      "figure": "taller alien on the right, leaning in and holding the other figure's hand",
+      "entity_guess": "my bestie",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "The gentle hand-holding and leaning in fit the bestie calmly explaining that the text should be treated as a red flag, not something to decode."
+    }
+  ],
+  "unresolved": [
+    "his one-word text",
+    "his",
+    "what the one-word text actually says"
+  ],
+  "story_guess": "The joke is that I am overanalyzing a guy's short text like it has hidden meaning, while my best friend gently tells me it is simply a bad sign.",
+  "cast_clarity": 0.9,
+  "pose_clarity": 0.85,
+  "story_clarity": 0.9,
+  "verdict": "got_it"
+}

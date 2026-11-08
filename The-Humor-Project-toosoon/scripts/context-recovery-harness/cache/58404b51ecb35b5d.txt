@@ -1,0 +1,1 @@
+{"cast_match":0.1,"pose_match":0.25,"story_match":0.9,"overall_recovered":0.7,"verdict":"partly","note":"They nailed the situationship relapse joke, but reversed the intended roles of Patrick as me and SpongeBob as the disapproving bestie."}

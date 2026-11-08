@@ -1,0 +1,110 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "His best friend gently explaining to him that I actually blocked him this time.",
+      "context": "Picturing his best friend gently explaining that he's going to lose me after I finally deleted his number, a fantasy that has me checking my blocked messages folder just in case he actually listened.",
+      "metaphor": "Gently introducing someone to a difficult truth that will change how they see things.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity provides comfort and support to another same-kind entity who is visibly distressed.",
+          "secondary": "The interaction is gentle and intimate, set in a warm, orange-hued field."
+        },
+        "cast": [
+          {
+            "image_party": "an alien figure with a caring and supportive demeanor",
+            "played_by": "his best friend",
+            "score": 0.4,
+            "reason": "The figure's supportive posture fits the role, but its non-human appearance makes it a weak literal match for a person."
+          },
+          {
+            "image_party": "an alien with a slumped, downcast posture",
+            "played_by": "my situationship",
+            "score": 0.4,
+            "reason": "The figure's distressed posture fits the role, but its non-human appearance makes it a weak literal match for a person."
+          }
+        ],
+        "relation": "gently holds the hands and cradles the head of"
+      },
+      "physical_fit": 0.4,
+      "physical_fit_reason": "The caption preserves the core analog of one entity comforting another, but the fit is capped by the low score of the cast entities.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can reconstruct that he's being consoled by his friend because she blocked him, and the phrase 'this time' implies a history of conflict.",
+      "element_allusions": [
+        {
+          "element": "the one gently introducing a truth",
+          "played_by": "his best friend",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'his best friend' in the role of 'gently explaining'."
+        },
+        {
+          "element": "a difficult truth",
+          "played_by": "the fact that he's going to lose me",
+          "allusion": 0.9,
+          "reason": "The caption's phrase 'I actually blocked him' serves as a concrete and unmistakable stand-in for the difficult truth that he might lose her."
+        },
+        {
+          "element": "the someone whose view will change",
+          "played_by": "my situationship",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'him' as the recipient of the explanation, and the image shows him in the posture of someone processing it."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "His best friend telling him it's okay after he said he 'can't give me what I want'.",
+      "context": "Imagining his best friend telling him it's okay to not be ready for a relationship after he told me he 'can't give me what I want,' which costs me another night of sleep trying to be the cool girl who understands.",
+      "metaphor": "Comforting a friend whose problems are too weird for most people to understand.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity provides comfort and support to another same-kind entity who is visibly distressed.",
+          "secondary": "The interaction is gentle and intimate, set in a warm, orange-hued field."
+        },
+        "cast": [
+          {
+            "image_party": "an alien figure with a caring and supportive demeanor",
+            "played_by": "his best friend",
+            "score": 0.4,
+            "reason": "The figure's supportive posture fits the role, but its non-human appearance makes it a weak literal match for a person."
+          },
+          {
+            "image_party": "an alien with a slumped, downcast posture",
+            "played_by": "my situationship",
+            "score": 0.4,
+            "reason": "The figure's distressed posture fits the role, but its non-human appearance makes it a weak literal match for a person."
+          }
+        ],
+        "relation": "gently holds the hands and cradles the head of"
+      },
+      "physical_fit": 0.4,
+      "physical_fit_reason": "The caption preserves the core analog of one entity comforting another, but the fit is capped by the low score of the cast entities.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "From the caption's quote and the image of consolation, a reader can perfectly reconstruct the scenario: he ended things with her and is now being validated by his friend.",
+      "element_allusions": [
+        {
+          "element": "a friend whose problems are too weird",
+          "played_by": "my situationship",
+          "allusion": 0.8,
+          "reason": "The caption identifies 'him' needing comfort for saying he 'can't give me what I want', strongly implying he has a complex 'problem' that requires this level of support."
+        },
+        {
+          "element": "most people",
+          "played_by": "me",
+          "allusion": 0.3,
+          "reason": "The caption only mentions 'me' as the recipient of his statement, which doesn't recover the element's concept of being an outsider among 'most people'."
+        },
+        {
+          "element": "the comforting friend",
+          "played_by": "his best friend",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'his best friend' and the image shows him in the act of comforting."
+        }
+      ],
+      "match_overall": 0.4
+    }
+  ]
+}
+```

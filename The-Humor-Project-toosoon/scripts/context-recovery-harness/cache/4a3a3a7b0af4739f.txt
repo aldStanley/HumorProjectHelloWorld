@@ -1,0 +1,29 @@
+{
+  "figures": [
+    {
+      "figure": "pink starfish on the left with half-lidded eyes and a flat, unimpressed expression",
+      "entity_guess": null,
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "The caption can explain the deadpan look as reacting to an embarrassing late-night double text, but it does not say whether this figure is 'me' or 'my bestie.'"
+    },
+    {
+      "figure": "yellow sponge on the right with half-lidded eyes and a flat, unimpressed expression",
+      "entity_guess": null,
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "The caption can explain the tired/deadpan expression as rereading a cringe 3 a.m. text, but it does not identify this figure specifically as 'me' or 'my bestie.'"
+    }
+  ],
+  "unresolved": [
+    "which figure is 'me' versus 'my bestie'",
+    "the 3 a.m. text",
+    "the double text",
+    "rereading"
+  ],
+  "story_guess": "The joke is that the speaker and their best friend are silently judging or cringing at the speaker's needy 3 a.m. double text asking, 'did you have fun with me??'",
+  "cast_clarity": 0.5,
+  "pose_clarity": 0.7,
+  "story_clarity": 0.8,
+  "verdict": "partly"
+}

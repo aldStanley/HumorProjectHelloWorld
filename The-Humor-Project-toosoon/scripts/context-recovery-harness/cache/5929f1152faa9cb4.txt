@@ -1,0 +1,20 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "a person slumped over looking down into a glass"
+    },
+    {
+      "figure": "a person completely hunched over with their head buried in their arms"
+    }
+  ],
+  "secondary": [
+    {
+      "entity": "a post-event comedown"
+    },
+    {
+      "entity": "a gritty public staircase"
+    }
+  ]
+}
+```

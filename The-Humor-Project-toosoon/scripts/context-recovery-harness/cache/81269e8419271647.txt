@@ -1,0 +1,28 @@
+{
+  "figures": [
+    {
+      "figure": "left seated man in backward cap, hunched over and holding a clear cup",
+      "entity_guess": "Him",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "He is the only person holding a cup and looking down toward it, which fits the caption's idea that he tried reading his future in a cup."
+    },
+    {
+      "figure": "right seated person in green shirt, hunched forward with head down",
+      "entity_guess": "his friend",
+      "confident": true,
+      "pose_explained": false,
+      "pose_note": "The caption identifies a friend, but does not clearly explain why the friend is also slumped or head-down beyond being there 'after' the cup-reading/texting situation."
+    }
+  ],
+  "unresolved": [
+    "his future in a cup",
+    "texting me at 4am",
+    "me"
+  ],
+  "story_guess": "A guy looks so desperate or drunk before sending a 4am text that he is jokingly imagined as consulting a cup to predict whether texting the speaker is a good idea, while his friend sits there exhausted or defeated.",
+  "cast_clarity": 0.85,
+  "pose_clarity": 0.55,
+  "story_clarity": 0.7,
+  "verdict": "partly"
+}

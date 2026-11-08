@@ -1,0 +1,114 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "My situationship with his five-part 'perfect date' Instagram story.",
+      "context": "I find myself refreshing my situationship's muted profile to watch all five parts of his 'perfect date' Instagram story with his new girl, who just posted a blurry pic of him captioned 'he tried lol'.",
+      "metaphor": "Putting on a whole song and dance for someone who's already decided they're not interested.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "The caption's 'five-part story' establishes the 'song and dance', and the image of the unimpressed queen clearly represents the 'uninterested person', allowing the metaphor to be easily rebuilt.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity performs energetically for another, who watches with judgment.",
+          "secondary": "The performer is a jester and the watcher is a queen on a throne, establishing a clear power dynamic."
+        },
+        "cast": [
+          {
+            "image_party": "A jester actively dancing and gesturing",
+            "played_by": "my situationship",
+            "score": 0.4,
+            "reason": "The figure is a cartoon jester, not a literal person, but its energetic dancing and gesturing maps to him performing to impress someone else."
+          },
+          {
+            "image_party": "a queen, who is sitting on a throne watching the performance",
+            "played_by": "his new girl",
+            "score": 0.4,
+            "reason": "The figure is a cartoon queen, not a literal person, but her unimpressed and judgmental pose while watching the performance maps to her evaluating him."
+          }
+        ],
+        "relation": "is actively dancing and gesturing for"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption places 'my situationship' in the role of the performer, perfectly embodying the relation where one party 'is actively dancing and gesturing for' the other, who is supplied by the image.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can fully reconstruct the core dynamic: he put on a huge, public social media performance ('five-part story') for a girl whose reaction, as shown by the image, is completely unimpressed.",
+      "element_allusions": [
+        {
+          "element": "the one putting on the song and dance",
+          "played_by": "my situationship",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'my situationship' and his performative action."
+        },
+        {
+          "element": "the uninterested person",
+          "played_by": "his new girl",
+          "allusion": 1.0,
+          "reason": "The image of the unimpressed queen, positioned as the audience to the jester's performance, makes it unmistakable that she is his new, uninterested girl."
+        },
+        {
+          "element": "the one-sided effort",
+          "played_by": "the gap between his multi-part story and her dismissive, low-effort post",
+          "allusion": 0.8,
+          "reason": "The caption establishes his high effort ('five-part story'), and the image embodies her dismissive reaction, making the gap between the two the central joke."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "My situationship after spending all day making her a fancy dinner.",
+      "context": "Two hours into the 'five minutes' I unblocked him for, I'm just staring at his new girl's comment 'plating could be better' under the video of my situationship spending all day making her some fancy dinner.",
+      "metaphor": "Enthusiastically presenting your best work to a skeptical, nitpicky authority figure.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "The caption establishes the 'enthusiastic presenter' and his 'best work' (the dinner), while the image's unimpressed queen perfectly embodies the 'skeptical, nitpicky authority figure'.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity performs energetically for another, who watches with judgment.",
+          "secondary": "The performer is a jester and the watcher is a queen on a throne, establishing a clear power dynamic."
+        },
+        "cast": [
+          {
+            "image_party": "A jester actively dancing and gesturing",
+            "played_by": "my situationship",
+            "score": 0.4,
+            "reason": "The figure is a cartoon jester, not a literal person, but its energetic dancing and gesturing maps to him performing to impress someone else."
+          },
+          {
+            "image_party": "a queen, who is sitting on a throne watching the performance",
+            "played_by": "his new girl",
+            "score": 0.4,
+            "reason": "The figure is a cartoon queen, not a literal person, but her unimpressed and judgmental pose while watching the performance maps to her evaluating him."
+          }
+        ],
+        "relation": "is actively dancing and gesturing for"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption sets up 'my situationship' as the performer, whose high effort 'is actively dancing and gesturing for' his new girl, whose judgmental reaction is delivered by the image.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "The caption and image perfectly convey the story: he put in a huge amount of effort ('spending all day making...dinner') for a girl whose reaction is critical and unimpressed.",
+      "element_allusions": [
+        {
+          "element": "the enthusiastic presenter",
+          "played_by": "my situationship",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'my situationship' and describes his enthusiastic effort."
+        },
+        {
+          "element": "the skeptical, nitpicky authority figure",
+          "played_by": "his new girl",
+          "allusion": 1.0,
+          "reason": "The image of the judging queen, as the audience for his efforts, makes it clear she is the new girl in the authority position."
+        },
+        {
+          "element": "the best work",
+          "played_by": "the fancy dinner",
+          "allusion": 0.9,
+          "reason": "The caption's mention of the 'fancy dinner' he 'spent all day making' clearly identifies it as the 'best work' being presented for judgment."
+        }
+      ],
+      "match_overall": 0.7
+    }
+  ]
+}
+```

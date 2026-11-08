@@ -1,0 +1,8 @@
+{
+  "cast_match": 1,
+  "pose_match": 0.95,
+  "story_match": 0.8,
+  "overall_recovered": 0.88,
+  "verdict": "got_it",
+  "note": "The viewer nailed the jester-as-urge and queen-as-me setup, though they missed the specific context of him leaving a heartfelt paragraph on read for six hours."
+}

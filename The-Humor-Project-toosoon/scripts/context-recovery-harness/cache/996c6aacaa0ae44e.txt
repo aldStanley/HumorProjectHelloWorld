@@ -1,0 +1,8 @@
+{
+  "cast_match": 0.6,
+  "pose_match": 0.7,
+  "story_match": 0.35,
+  "overall_recovered": 0.45,
+  "verdict": "partly",
+  "note": "They got that the friend and roommate are reacting skeptically to his complaint, but missed the key reversal that he left the speaker on read, not the other way around."
+}

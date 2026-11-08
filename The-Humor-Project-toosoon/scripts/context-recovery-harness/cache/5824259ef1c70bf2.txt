@@ -1,0 +1,162 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "Me and my delusion after he puts a 🔥 on some girl's new profile pic.",
+      "context": "Me and my delusion calmly clicking through a stranger's tagged photos from 2018 to find a picture of them together, all because he just left a single fire emoji on her new profile pic.",
+      "metaphor": "When two people get intensely focused on a problem that is technically not their business.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities share an intense, synchronized focus on the same point below them.",
+          "secondary": "They are on an elevated subway platform, bent over at the waist."
+        },
+        "cast": [
+          {
+            "image_party": "One of the two men bent over at the waist",
+            "played_by": "me",
+            "score": 0.8,
+            "reason": "His intense, hyper-focused posture of looking down for something perfectly embodies her state when obsessively analyzing a text or situation."
+          },
+          {
+            "image_party": "The other of the two men bent over at the waist",
+            "played_by": "my delusion",
+            "score": 1.0,
+            "reason": "His identical, synchronized posture shows him acting as an inseparable partner to 'me', helping her search for evidence to support a desired narrative."
+          }
+        ],
+        "relation": "bent over at the waist, simultaneously looking down onto the train tracks below"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption places 'Me' and 'my delusion' as the two entities who are 'bent over at the waist, simultaneously looking down' in a shared, unresolved act of scrutiny.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "From the caption and image, a reader can fully reconstruct the story: he interacted with another girl on social media, prompting her and her delusion to begin an absurdly intense investigation.",
+      "element_allusions": [
+        {
+          "element": "Two people",
+          "played_by": "Me and my delusion",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names both 'Me' and 'my delusion'."
+        },
+        {
+          "element": "A problem that is not their business",
+          "played_by": "His interaction with another girl",
+          "allusion": 1.0,
+          "reason": "The caption specifies the exact interaction: 'he puts a 🔥 on some girl's new profile pic'."
+        },
+        {
+          "element": "The intense focus",
+          "played_by": "The act of deep-diving her old tagged photos",
+          "allusion": 1.0,
+          "reason": "The caption provides the trigger for the intense focus, and the image of them bent over looking intently delivers the obsessive deep-dive itself."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me and my delusion comparing his new 'k' to one he sent three months ago.",
+      "context": "Me and my delusion scrolling back three months in our chat history to see if his new 'k' has a different emotional weight than his old 'k's' after I asked if we were okay.",
+      "metaphor": "Trying to diagnose a complex problem with no real expertise.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities share an intense, synchronized focus on the same point below them.",
+          "secondary": "They are on an elevated subway platform, bent over at the waist."
+        },
+        "cast": [
+          {
+            "image_party": "One of the two men bent over at the waist",
+            "played_by": "me",
+            "score": 0.8,
+            "reason": "His intense, hyper-focused posture of looking down for something perfectly embodies her state when obsessively analyzing a text or situation."
+          },
+          {
+            "image_party": "The other of the two men bent over at the waist",
+            "played_by": "my delusion",
+            "score": 1.0,
+            "reason": "His identical, synchronized posture shows him acting as an inseparable partner to 'me', helping her search for evidence to support a desired narrative."
+          }
+        ],
+        "relation": "bent over at the waist, simultaneously looking down onto the train tracks below"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption perfectly places 'Me' and 'my delusion' as the two figures who are 'bent over at the waist, simultaneously looking down' to compare texts.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can fully reconstruct the obsessive analysis of a one-word text; only the specific trigger ('after I asked if we were okay') is missing, but the core scenario is clear.",
+      "element_allusions": [
+        {
+          "element": "The people trying to diagnose it",
+          "played_by": "Me and my delusion",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names both 'Me' and 'my delusion' as the actors."
+        },
+        {
+          "element": "A complex problem",
+          "played_by": "The emotional weight of his one-letter text",
+          "allusion": 1.0,
+          "reason": "The caption's act of 'comparing his new 'k' to one he sent three months ago' perfectly frames the one-letter text as a complex problem requiring analysis."
+        },
+        {
+          "element": "The lack of real expertise",
+          "played_by": "Our collective inability to know his true intent",
+          "allusion": 1.0,
+          "reason": "This is delivered entirely by the absurd contrast between the mundane task (analyzing a 'k') and the intense focus depicted in the image, implying their lack of expertise."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "Me and my delusion checking his Venmo for clues after I told everyone I'm done.",
+      "context": "Me and my delusion desperately searching his Venmo feed for any transaction that proves he wasn't with another girl last night, even though I'd told my friends I was 'so done' with him yesterday.",
+      "metaphor": "A desperate, shared search for something valuable that just fell out of reach.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities share an intense, synchronized focus on the same point below them.",
+          "secondary": "They are on an elevated subway platform, bent over at the waist."
+        },
+        "cast": [
+          {
+            "image_party": "One of the two men bent over at the waist",
+            "played_by": "me",
+            "score": 0.8,
+            "reason": "His intense, hyper-focused posture of looking down for something perfectly embodies her state when obsessively analyzing a text or situation."
+          },
+          {
+            "image_party": "The other of the two men bent over at the waist",
+            "played_by": "my delusion",
+            "score": 1.0,
+            "reason": "His identical, synchronized posture shows him acting as an inseparable partner to 'me', helping her search for evidence to support a desired narrative."
+          }
+        ],
+        "relation": "bent over at the waist, simultaneously looking down onto the train tracks below"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption correctly stages 'Me' and 'my delusion' as the two figures who are 'bent over at the waist, simultaneously looking down' into his Venmo feed.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can perfectly reconstruct the entire story: she declared she was done with him but is now secretly and obsessively checking his Venmo for evidence of his activities.",
+      "element_allusions": [
+        {
+          "element": "The searchers",
+          "played_by": "Me and my delusion",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'Me and my delusion' as the agents."
+        },
+        {
+          "element": "Something valuable",
+          "played_by": "Proof of his innocence or loyalty",
+          "allusion": 1.0,
+          "reason": "The phrase 'checking... for clues' combined with the image's intense focus strongly implies they are searching for something valuable and important, like proof."
+        },
+        {
+          "element": "That just fell out of reach",
+          "played_by": "His accountability and transparency",
+          "allusion": 1.0,
+          "reason": "The very act of having to 'check his Venmo for clues' instead of just knowing the truth directly implies that his accountability is out of reach."
+        }
+      ],
+      "match_overall": 0.9
+    }
+  ]
+}
+```

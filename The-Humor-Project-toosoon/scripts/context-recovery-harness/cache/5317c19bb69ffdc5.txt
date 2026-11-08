@@ -1,0 +1,38 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "Patrick, with a tired and dejected expression",
+      "entity": "me, knowing I'm too tired for this",
+      "fit": 1.0,
+      "reason": "Patrick's slumped posture and heavy-lidded, dejected expression perfectly embody the persona's bone-deep exhaustion with her own romantic cycle."
+    },
+    {
+      "figure": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+      "entity": "me, about to do it anyway",
+      "fit": 1.0,
+      "reason": "SpongeBob's squint and weary, judgmental side-eye capture the self-aware part of her that critically observes her own bad decisions as she's about to make them."
+    }
+  ],
+  "weakest_fit": 1.0,
+  "why": "This arrangement stages the internal standoff between her exhaustion with a toxic situation and her weary, self-critical resignation to repeating it.",
+  "secondary_nominations": [
+    {
+      "entity": "a low-energy moment",
+      "possibilities": [
+        "the silence after he leaves you on read",
+        "rereading the texts for the 10th time",
+        "the 2am 'u up?' notification"
+      ]
+    },
+    {
+      "entity": "a mundane situation",
+      "possibilities": [
+        "him viewing my story but not replying",
+        "a one-word text after 12 hours",
+        "seeing he's active online"
+      ]
+    }
+  ]
+}
+```

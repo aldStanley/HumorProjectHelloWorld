@@ -1,0 +1,8 @@
+{
+  "cast_match": 0.9,
+  "pose_match": 0.85,
+  "story_match": 0.85,
+  "overall_recovered": 0.86,
+  "verdict": "got_it",
+  "note": "The viewer nailed the core joke that 'me' and 'my delusion' are obsessively Venmo-stalking him after claiming to be done, though they missed the specific fear that he was with another girl last night."
+}

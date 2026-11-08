@@ -1,0 +1,114 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "My bestie showing me his active Hinge profile as I say 'it's probably just old'.",
+      "context": "My friend gently takes my phone to show me his active Hinge profile while I say 'it's probably an old account' with my head in my hands, after I just told her he was finally getting serious with me.",
+      "metaphor": "Trying to gently introduce a difficult, world-altering truth to someone who isn't ready for it.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "A viewer can fully rebuild the metaphor: 'My bestie' is 'the person introducing the truth', 'his active Hinge profile' is 'the difficult truth', and 'I say \"it's probably just old\"' clearly marks me as 'the person who isn't ready for it'.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "one entity gently holds and comforts another similar-kind entity who is slumped and downcast.",
+          "secondary": "the interaction is caring and supportive, set in a warm, orange-hued field."
+        },
+        "cast": [
+          {
+            "image_party": "an alien with a slumped, downcast posture",
+            "played_by": "me saying 'it's probably just old'",
+            "score": 1.0,
+            "reason": "The register's 'me' is correctly cast, and the slumped posture perfectly matches the feeling of being confronted with a truth you're denying."
+          },
+          {
+            "image_party": "an alien figure with a caring and supportive demeanor",
+            "played_by": "my bestie showing me his active Hinge profile",
+            "score": 1.0,
+            "reason": "The register's 'my bestie' is correctly cast, and the gentle, supportive pose maps onto a friend gently breaking bad news."
+          }
+        ],
+        "relation": "gently holds the hands and cradles the head of"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption preserves the arrangement where 'my bestie' (the caring figure) 'gently holds the hands and cradles the head of' 'me' (the downcast figure).",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The entire scenario is reconstructible: my friend is showing me proof he's on a dating app, and my specific, quoted denial reveals my contrary belief.",
+      "element_allusions": [
+        {
+          "element": "the person introducing the truth",
+          "played_by": "my friend",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'My bestie' in the role of showing me the profile."
+        },
+        {
+          "element": "the difficult, world-altering truth",
+          "played_by": "his active Hinge profile",
+          "allusion": 1.0,
+          "reason": "The caption makes this element fully explicit by stating 'his active Hinge profile'."
+        },
+        {
+          "element": "the person who isn't ready for it",
+          "played_by": "me",
+          "allusion": 1.0,
+          "reason": "My role is perfectly recovered through the first-person framing and my quoted denial, \"'it's probably just old'.\""
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "My bestie comforting me as I delete his number, which I have memorized.",
+      "context": "My best friend strokes my hair and says 'we're done with him for real this time' as I nod and delete his number for the tenth time, knowing I have it memorized anyway.",
+      "metaphor": "Gently supporting someone through a deep personal sadness or failure.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "The metaphor is fully recovered: 'My bestie comforting me' is the gentle support, and 'delet[ing] his number, which I have memorized' clearly frames the deep personal failure.",
+      "register": "in_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "one entity gently holds and comforts another similar-kind entity who is slumped and downcast.",
+          "secondary": "the interaction is caring and supportive, set in a warm, orange-hued field."
+        },
+        "cast": [
+          {
+            "image_party": "an alien with a slumped, downcast posture",
+            "played_by": "me deleting his number which I have memorized",
+            "score": 1.0,
+            "reason": "The register's 'me' is correctly cast, and the slumped posture represents the sadness and futility of performing a breakup ritual that won't stick."
+          },
+          {
+            "image_party": "an alien figure with a caring and supportive demeanor",
+            "played_by": "my bestie comforting me",
+            "score": 1.0,
+            "reason": "The register's 'my bestie' is correctly cast, and the supporting demeanor perfectly aligns with the act of 'comforting me'."
+          }
+        ],
+        "relation": "gently holds the hands and cradles the head of"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption maintains the core relationship where 'my bestie' (the comforter) 'gently holds the hands and cradles the head of' 'me' (the comforted).",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A viewer can fully reconstruct the story: I am performing the act of deleting a number, my friend is supporting me, but the punchline reveals my inability to truly let go.",
+      "element_allusions": [
+        {
+          "element": "someone with deep personal sadness or failure",
+          "played_by": "me",
+          "allusion": 1.0,
+          "reason": "The caption's 'me' and the self-defeating action ('delete his number, which I have memorized') perfectly capture my role as the person failing."
+        },
+        {
+          "element": "the gentle support",
+          "played_by": "my best friend",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names 'My bestie comforting me', making the support element fully clear."
+        },
+        {
+          "element": "the deep personal sadness or failure",
+          "played_by": "the recurring failure to cut him off",
+          "allusion": 0.9,
+          "reason": "The phrase 'which I have memorized' strongly implies the recurring nature of the failure, as it makes the act of deleting his number pointless."
+        }
+      ],
+      "match_overall": 1.0
+    }
+  ]
+}
+```

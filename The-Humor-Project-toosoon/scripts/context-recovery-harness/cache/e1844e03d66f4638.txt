@@ -1,0 +1,29 @@
+{
+  "figures": [
+    {
+      "figure": "seated person in blue cap leaning forward and looking down at a phone",
+      "entity_guess": "Me",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "Their hunched, focused posture fits someone intensely checking tagged photos on a phone."
+    },
+    {
+      "figure": "seated person in green shirt with head down on arms",
+      "entity_guess": null,
+      "confident": false,
+      "pose_explained": false,
+      "pose_note": "The caption does not give a clear role or reason for this person's slumped posture."
+    }
+  ],
+  "unresolved": [
+    "his",
+    "she",
+    "tagged photos from 2021",
+    "if she's new"
+  ],
+  "story_guess": "The joke is that 'me' is doing obsessive social-media investigating through a man's old tagged photos to figure out whether a woman has been around before.",
+  "cast_clarity": 0.5,
+  "pose_clarity": 0.5,
+  "story_clarity": 0.8,
+  "verdict": "partly"
+}

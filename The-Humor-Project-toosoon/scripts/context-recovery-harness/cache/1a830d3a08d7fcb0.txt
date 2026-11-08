@@ -1,0 +1,30 @@
+{
+  "figures": [
+    {
+      "figure": "left pink starfish looking sideways with a bored/skeptical expression",
+      "entity_guess": "one of his boys",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "The unimpressed side-eye fits friends reacting skeptically to him claiming his ex situation is different this time."
+    },
+    {
+      "figure": "right yellow sponge looking sideways with a bored/skeptical expression",
+      "entity_guess": "one of his boys",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "The deadpan look fits another friend being unconvinced by the same claim about the ex."
+    }
+  ],
+  "unresolved": [
+    "he",
+    "his ex",
+    "my flowers",
+    "ignoring my flowers",
+    "this time it's different"
+  ],
+  "story_guess": "His male friends look unimpressed when he claims getting involved with his ex will be different this time, while some separate detail about the narrator's flowers is unclear.",
+  "cast_clarity": 0.7,
+  "pose_clarity": 0.8,
+  "story_clarity": 0.55,
+  "verdict": "partly"
+}

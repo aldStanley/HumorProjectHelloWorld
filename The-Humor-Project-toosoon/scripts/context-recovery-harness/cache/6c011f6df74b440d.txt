@@ -1,0 +1,72 @@
+```json
+{
+  "matches": [
+    {
+      "context": "My bestie and I rewatching his 15-second story of a beer for the eighth time, trying to decode the blurry background to see if he's at the bar he said he hated, all while laughing like we're just bored and not because I'm two seconds from a full spiral.",
+      "register": "in_scene",
+      "metaphor": "Two people collaboratively overthinking a problem that has no real solution.",
+      "element_map": [
+        {
+          "element": "The two people overthinking",
+          "played_by": "My bestie and I",
+          "score": 1.0,
+          "reason": "The moment explicitly casts two people engaged in a joint act of intense over-analysis."
+        },
+        {
+          "element": "The problem with no real solution",
+          "played_by": "His cryptic story with a blurry background",
+          "score": 1.0,
+          "reason": "The visual obscurity of the story is a perfect stand-in for an un-knowable situation that invites endless, fruitless speculation."
+        },
+        {
+          "element": "The collaborative effort",
+          "played_by": "Our joint rewatching and decoding",
+          "score": 1.0,
+          "reason": "The specified action is inherently collaborative, with both parties contributing to the same futile goal."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's 'My bestie and I' (two same-kind entities) are 'rewatching his story' (assuming an identical, focused posture) to examine 'the blurry background' (a shared, unseen point below them)."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect literal and emotional embodiment of the chosen metaphor, and its entities map flawlessly to the core analog."
+      }
+    },
+    {
+      "context": "My bestie and I, hunched over my phone for twenty minutes dissecting the single period he used in his 'okay.' text after I asked if we were still on for tonight, while I keep saying it's fine and I don't even care.",
+      "register": "in_scene",
+      "metaphor": "Peering into the messy, hidden workings of a system that's supposed to just 'work'.",
+      "element_map": [
+        {
+          "element": "The people peering in",
+          "played_by": "Me and my bestie",
+          "score": 1.0,
+          "reason": "The two of us are explicitly cast as the investigators looking into the situation, fulfilling the element with correct cardinality."
+        },
+        {
+          "element": "The messy, hidden workings",
+          "played_by": "The subtext of his single-period text",
+          "score": 0.9,
+          "reason": "The ambiguous punctuation serves as a powerful symbol for the complicated, unstated emotional mechanics of the situationship."
+        },
+        {
+          "element": "The system that's supposed to just 'work'",
+          "played_by": "The basic expectation of clear communication",
+          "score": 0.9,
+          "reason": "The failure of a simple text message to convey a clear meaning perfectly represents the breakdown of the relationship's fundamental system."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'Me and my bestie' (two same-kind entities) are 'hunched over my phone' (assuming an identical, focused posture) to analyze 'the single period' (a shared, unseen point below them)."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The overall fit is exceptionally strong, limited only by the slightly symbolic, though highly effective, mapping of the situationship's dynamics to the system elements."
+      }
+    }
+  ]
+}
+```

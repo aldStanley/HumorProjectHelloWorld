@@ -1,0 +1,1 @@
+{"figures":[{"anchor":"left jester figure standing with raised hands facing the seated figure","candidates":["me","my delusion"]},{"anchor":"right crowned princess/queen figure seated on a chair facing the jester","candidates":["me"]}],"entities_in_caption":["me","my delusion","orphans"],"entities_expected_in_image":["me","my delusion"]}

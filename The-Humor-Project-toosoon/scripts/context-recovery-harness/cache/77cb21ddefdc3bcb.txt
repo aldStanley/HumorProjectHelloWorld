@@ -1,0 +1,66 @@
+```json
+{
+  "matches": [
+    {
+      "context": "My bestie and I are leaning over my phone, meticulously comparing the 2:17 AM timestamp of his 'hey' text to the 2:23 AM one from last week, as if finding a six-minute difference will somehow reveal whether he's thinking of me or just horny.",
+      "register": "in_scene",
+      "metaphor": "Two people collaboratively overthinking a problem that has no real solution.",
+      "element_map": [
+        {
+          "element": "The two people overthinking",
+          "played_by": "me and my bestie",
+          "score": 1.0,
+          "reason": "The moment explicitly casts me and my bestie as the two people engaged in the collaborative overthinking."
+        },
+        {
+          "element": "The problem with no real solution",
+          "played_by": "the true intention behind his one-word text",
+          "score": 1.0,
+          "reason": "The sentence frames the meaning of a low-effort 'hey' as an un-solvable mystery they are attempting to solve with irrelevant data."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The 'two same-kind entities' are 'me and my bestie', who assume the 'identical posture' of 'leaning over my phone' to 'observe a shared point' on the screen."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect instantiation of the metaphor, and its entities map flawlessly onto the core analog."
+      }
+    },
+    {
+      "context": "Saying 'I'm so over it' as my best friend and I hold my phone inches from our faces, trying to un-blur the reflection of the new girl's face in the spoon from his Instagram story after he told me he 'wasn't ready for anything serious' last week.",
+      "register": "in_scene",
+      "metaphor": "A desperate, last-ditch effort to find something precious that's probably gone forever.",
+      "element_map": [
+        {
+          "element": "The searchers",
+          "played_by": "me and my best friend",
+          "score": 1.0,
+          "reason": "The sentence clearly identifies two people, me and my friend, as the ones conducting the search."
+        },
+        {
+          "element": "The precious thing that's gone forever",
+          "played_by": "the hope of exclusivity (or the truth)",
+          "score": 0.9,
+          "reason": "The hope for the situationship, shattered by the new girl's appearance, is the intangible 'precious thing' they are trying to confirm the loss of."
+        },
+        {
+          "element": "The desperate, last-ditch effort",
+          "played_by": "trying to identify a face from a spoon's reflection",
+          "score": 1.0,
+          "reason": "This specific, hyper-focused, and ultimately futile action is a perfect example of a desperate last-ditch effort."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'Me and my best friend' are the 'two same-kind entities' assuming the 'identical posture' of holding the phone close to their faces to 'observe a shared point', the tiny reflection."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The overall fit is excellent but is limited by the slightly abstract mapping of 'the hope of exclusivity' to the 'precious thing' element."
+      }
+    }
+  ]
+}
+```

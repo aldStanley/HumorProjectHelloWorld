@@ -1,0 +1,1 @@
+{"cast_match":0.9,"pose_match":0.85,"story_match":0.9,"overall_recovered":0.9,"verdict":"got_it","note":"They correctly recovered that the two bent-over men are the guy and his best friend collaboratively drafting the 'was swamped' apology after ghosting, with only minor uncertainty about which man is which."}

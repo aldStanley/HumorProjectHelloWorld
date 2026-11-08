@@ -1,0 +1,14 @@
+{
+  "figures": [
+    {
+      "anchor": "left alien-like character, head bowed with one hand on its face",
+      "candidates": ["his best friend", "him"]
+    },
+    {
+      "anchor": "right alien-like character, leaning toward the left figure and holding its hand",
+      "candidates": ["his best friend", "him"]
+    }
+  ],
+  "entities_in_caption": ["his best friend", "him", "I"],
+  "entities_expected_in_image": ["his best friend", "him"]
+}

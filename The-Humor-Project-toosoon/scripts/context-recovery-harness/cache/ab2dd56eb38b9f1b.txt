@@ -1,0 +1,30 @@
+{
+  "figures": [
+    {
+      "figure": "person on left sitting on stairs, cap backward, head bowed, holding a phone or clear object",
+      "entity_guess": null,
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "The caption suggests one of the two is emotionally drained or ashamed after discussing how he lost the narrator, but it does not identify whether this person is the ex or the best friend."
+    },
+    {
+      "figure": "person on right in green shirt sitting on stairs, folded forward with head down on arms",
+      "entity_guess": null,
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "The caption makes the slumped posture read as exhaustion or secondhand despair after hours of hearing the story, but it does not identify whether this person is the ex or the best friend."
+    }
+  ],
+  "unresolved": [
+    "which visible person is 'my ex'",
+    "which visible person is 'his best friend'",
+    "he",
+    "me",
+    "how he 'fumbled' me"
+  ],
+  "story_guess": "The joke is that the ex and his best friend are both left miserable and exhausted after the ex spends hours explaining how badly he messed up by losing the narrator.",
+  "cast_clarity": 0.4,
+  "pose_clarity": 0.8,
+  "story_clarity": 0.75,
+  "verdict": "partly"
+}

@@ -1,0 +1,34 @@
+{
+  "figures": [
+    {
+      "figure": "front man in striped shirt bent over at the platform edge looking down toward the tracks",
+      "entity_guess": "him",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "His bent-over, searching posture fits the idea of intensely trying to inspect or figure something out, but the caption does not clearly distinguish him from 'his boy.'"
+    },
+    {
+      "figure": "rear man in blue shirt bent over behind the front man looking down toward the tracks",
+      "entity_guess": "his boy",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "His matching bent-over posture fits the idea of helping investigate whether the prompt is about the guy, but which man is 'him' versus 'his boy' is not clear."
+    },
+    {
+      "figure": "distant person standing upright on the opposite platform",
+      "entity_guess": null,
+      "confident": false,
+      "pose_explained": false,
+      "pose_note": "The caption does not mention this person or explain why they are standing there."
+    }
+  ],
+  "unresolved": [
+    "my 'good communication' Hinge prompt",
+    "whether the prompt is actually about him"
+  ],
+  "story_guess": "The joke is that a guy and his friend are obsessively investigating the narrator's Hinge prompt about 'good communication' to see if it secretly refers to him.",
+  "cast_clarity": 0.6,
+  "pose_clarity": 0.7,
+  "story_clarity": 0.8,
+  "verdict": "partly"
+}

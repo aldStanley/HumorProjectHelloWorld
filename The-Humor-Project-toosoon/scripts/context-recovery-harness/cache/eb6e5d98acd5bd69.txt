@@ -1,0 +1,93 @@
+```json
+{
+  "matches": [
+    {
+      "context": "It costs me my entire morning rewatching my situationship's Instagram story of him leading a full-restaurant 'Happy Birthday' singalong for his new girl, who just blankly sips her wine until it's over.",
+      "register": "watched_scene",
+      "metaphor": "Putting on a whole song and dance for someone who's already decided they're not interested.",
+      "element_map": [
+        {
+          "element": "Someone putting on a whole song and dance",
+          "played_by": "my situationship leading a full-restaurant 'Happy Birthday' singalong",
+          "score": 1.0,
+          "reason": "This is a literal and public 'song and dance,' representing a maximum, performative effort to please."
+        },
+        {
+          "element": "Someone who's already decided they're not interested",
+          "played_by": "his new girl, who just blankly sips her wine",
+          "score": 0.9,
+          "reason": "Her passive, unimpressed reaction during a public display of affection is a powerful visual for being uninterested and judgmental."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "His energetic singalong is a perfect 'energetic effort to please,' and her blank, wine-sipping response is a perfect 'dismissive judgment.'"
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The overall fit is excellent, with the only slight weakness being the inference of the new girl's internal state from her external behavior."
+      }
+    },
+    {
+      "context": "My situationship making his Hinge profile picture the blurry concert photo she took of him means I lose my lunch break scrolling through his new girl's pristine, him-free feed to confirm she still hasn't posted him once.",
+      "register": "watched_scene",
+      "metaphor": "Enthusiastically presenting your best work to a skeptical, nitpicky authority figure.",
+      "element_map": [
+        {
+          "element": "The enthusiastic presentation",
+          "played_by": "my situationship making his Hinge profile picture the blurry concert photo",
+          "score": 1.0,
+          "reason": "Changing a dating app profile picture to one taken by a new partner is a very public and enthusiastic act of commitment."
+        },
+        {
+          "element": "Your best work",
+          "played_by": "the blurry concert photo she took of him",
+          "score": 0.8,
+          "reason": "The photo acts as a symbol for his devotion and the relationship itself, which he is presenting for her approval."
+        },
+        {
+          "element": "A skeptical, nitpicky authority figure",
+          "played_by": "his new girl with her pristine, him-free feed",
+          "score": 0.9,
+          "reason": "Her refusal to post him on her own curated social media acts as a silent, authoritative rejection of his public gesture."
+        }
+      ],
+      "core_fit": {
+        "score": 0.9,
+        "reason": "His profile picture change is a clear 'energetic effort to please,' while her lack of reciprocation on her own feed is a potent, modern form of 'dismissive judgment.'"
+      },
+      "overall": {
+        "score": 0.8,
+        "reason": "The weakest link is mapping the photo itself to 'best work,' as it's a symbolic stand-in rather than a literal piece of work."
+      }
+    },
+    {
+      "context": "Reading the five-paragraph emotional dissertation my situationship left on his new girl's post of a salad, only for her to reply '❤️', costs me the last of my self-respect as I mute them both for the third time this month.",
+      "register": "watched_scene",
+      "metaphor": "Sharing something you poured your heart into, only to face a cynical and dismissive audience.",
+      "element_map": [
+        {
+          "element": "Something you poured your heart into",
+          "played_by": "the five-paragraph emotional dissertation my situationship left",
+          "score": 1.0,
+          "reason": "A 'five-paragraph dissertation' on a social media post is a perfect modern representation of pouring one's heart out with high effort."
+        },
+        {
+          "element": "A cynical and dismissive audience",
+          "played_by": "his new girl who replied '❤️'",
+          "score": 0.4,
+          "reason": "Her single-emoji response is the essence of dismissiveness, but the score is mechanically capped because the plural element 'audience' is played by a single person."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "His massive comment is an archetypal 'energetic effort to please,' and her minimal, low-effort reply is an equally archetypal 'dismissive judgment.'"
+      },
+      "overall": {
+        "score": 0.4,
+        "reason": "The overall score is limited by the strict cardinality mismatch between the metaphor's plural element 'audience' and the moment's singular entity 'his new girl.'"
+      }
+    }
+  ]
+}
+```

@@ -1,0 +1,34 @@
+{
+  "figures": [
+    {
+      "figure": "front man in light striped shirt bent over and looking down toward the subway tracks",
+      "entity_guess": "me or my bestie",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "He appears to be searching down by the tracks, which fits the idea that they regret throwing away the number and are trying to find it."
+    },
+    {
+      "figure": "rear man in light blue shirt bent over behind the front man, also looking down toward the tracks",
+      "entity_guess": "me or my bestie",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "He is also bent over as if helping search for the discarded number, matching the caption's 'me and my bestie' setup."
+    },
+    {
+      "figure": "distant person standing upright on the opposite platform",
+      "entity_guess": null,
+      "confident": false,
+      "pose_explained": false,
+      "pose_note": "The caption does not account for this person or explain why they are standing there."
+    }
+  ],
+  "unresolved": [
+    "his number",
+    "his"
+  ],
+  "story_guess": "The joke is that after dramatically throwing away a guy's number, the speaker immediately regrets it and recruits their best friend to help search for it.",
+  "cast_clarity": 0.55,
+  "pose_clarity": 0.7,
+  "story_clarity": 0.85,
+  "verdict": "partly"
+}

@@ -1,0 +1,1 @@
+{"figures":[{"anchor":"left seated person in a backward blue cap leaning over and holding a clear plastic cup","candidates":["me"]},{"anchor":"right foreground seated person in a green shirt hunched forward with head down on arms","candidates":["my bestie"]}],"entities_in_caption":["me","my future","my drink","my bestie","he"],"entities_expected_in_image":["me","my bestie"]}

@@ -1,0 +1,1 @@
+{"cast_match":0.85,"pose_match":0.85,"story_match":0.9,"overall_recovered":0.88,"verdict":"got_it","note":"The viewer correctly recovered that both main figures are me and my bestie searching for the discarded number shortly after the dramatic rejection, missing only minor specifics like the napkin/trash-can context."}

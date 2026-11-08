@@ -1,0 +1,28 @@
+{
+  "figures": [
+    {
+      "figure": "standing jester on the left with hands raised, facing the seated woman",
+      "entity_guess": "my delusion",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "The raised hands and animated stance fit the delusion 'explaining' an excuse."
+    },
+    {
+      "figure": "seated crowned woman on the right looking toward the jester",
+      "entity_guess": "Me",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "Her seated, attentive but skeptical-looking pose fits 'me listening' to the explanation."
+    }
+  ],
+  "unresolved": [
+    "he",
+    "busy saving orphans",
+    "orphans"
+  ],
+  "story_guess": "The joke is that the speaker's delusion is inventing an absurd noble excuse for why some guy is unavailable, and the speaker is listening to it.",
+  "cast_clarity": 1,
+  "pose_clarity": 0.9,
+  "story_clarity": 0.85,
+  "verdict": "got_it"
+}

@@ -1,0 +1,29 @@
+{
+  "figures": [
+    {
+      "figure": "left jester-like figure standing with hands raised, appearing to talk animatedly",
+      "entity_guess": "Me",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "The raised hands and animated stance fit someone passionately explaining or justifying something."
+    },
+    {
+      "figure": "right princess/queen seated on a throne, looking toward the jester with a skeptical or unimpressed expression",
+      "entity_guess": "my best friend",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "Her seated listening pose fits the best friend being told the explanation; her skeptical look fits reacting to a dubious claim that answering a late-night text was a power move."
+    }
+  ],
+  "unresolved": [
+    "his",
+    "his 'u up?' text",
+    "answering his 'u up?' text",
+    "power move"
+  ],
+  "story_guess": "The joke is that the speaker is dramatically trying to convince their best friend that replying to a late-night hookup-style text was actually strategic, while the friend appears skeptical.",
+  "cast_clarity": 1,
+  "pose_clarity": 0.85,
+  "story_clarity": 0.9,
+  "verdict": "got_it"
+}

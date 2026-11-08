@@ -1,0 +1,38 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "A jester actively dancing and gesturing",
+      "entity": "me",
+      "fit": 1.0,
+      "reason": "This cartoon jester's desperate, performative energy is a perfect avatar for the persona's efforts in her situationship."
+    },
+    {
+      "figure": "a queen, who is sitting on a throne watching",
+      "entity": "my bestie",
+      "fit": 1.0,
+      "reason": "This cartoon queen's unimpressed, judgmental expression perfectly represents a friend who has heard this all before and is watching it happen again."
+    }
+  ],
+  "weakest_fit": 1.0,
+  "why": "The lens fits perfectly, as the dynamic between the desperate performer and the unimpressed judge strongly maps onto the persona explaining her choices to her friends.",
+  "secondary_nominations": [
+    {
+      "entity": "a performance",
+      "possibilities": [
+        "me explaining why I'm going back to him",
+        "me trying to act like I don't care that he viewed my story",
+        "me sending the 8 paragraph text I spent all night writing"
+      ]
+    },
+    {
+      "entity": "a pose of critical evaluation",
+      "possibilities": [
+        "the look I get when I say 'it's different this time'",
+        "the group chat watching me type",
+        "my friends trying to decide if it's worth intervening"
+      ]
+    }
+  ]
+}
+```

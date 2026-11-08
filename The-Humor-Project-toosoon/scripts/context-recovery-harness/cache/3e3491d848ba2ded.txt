@@ -1,0 +1,72 @@
+```json
+{
+  "matches": [
+    {
+      "context": "My friend gently takes my phone to show me his active Hinge profile while I say 'it's probably an old account' with my head in my hands, after I just told her he was finally getting serious with me.",
+      "register": "in_scene",
+      "metaphor": "Trying to gently introduce a difficult, world-altering truth to someone who isn't ready for it.",
+      "element_map": [
+        {
+          "element": "the person introducing the truth",
+          "played_by": "my friend",
+          "score": 1.0,
+          "reason": "She is the one gently but directly presenting the undeniable, difficult evidence on the phone."
+        },
+        {
+          "element": "the difficult, world-altering truth",
+          "played_by": "his active Hinge profile",
+          "score": 1.0,
+          "reason": "The profile is concrete proof that shatters the persona's entire narrative about the relationship's seriousness."
+        },
+        {
+          "element": "the person who isn't ready for it",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "Her immediate denial and defense of him, despite her physically devastated posture, shows she cannot accept the reality presented."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment perfectly fills the core slots, with one entity ('my friend') providing support to a distressed, same-kind entity ('me')."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect instantiation of the metaphor and a perfect fit for the core analog and specified read."
+      }
+    },
+    {
+      "context": "My best friend strokes my hair and says 'we're done with him for real this time' as I nod and delete his number for the tenth time, knowing I have it memorized anyway.",
+      "register": "in_scene",
+      "metaphor": "Gently supporting someone through a deep personal sadness or failure.",
+      "element_map": [
+        {
+          "element": "someone with deep personal sadness or failure",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "Her sadness is a direct result of her own repeated failure to break the toxic cycle, which is a deep personal struggle."
+        },
+        {
+          "element": "the gentle support",
+          "played_by": "my best friend",
+          "score": 1.0,
+          "reason": "She offers both physical comfort (stroking hair) and verbal solidarity ('we're done'), guiding her through the ritual of letting go."
+        },
+        {
+          "element": "the deep personal sadness or failure",
+          "played_by": "the recurring failure to cut him off",
+          "score": 1.0,
+          "reason": "This is the specific, named failure she is being comforted for, which defines the central conflict of her situationship."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's entities map perfectly, with one entity ('my best friend') physically supporting a distressed, same-kind entity ('me')."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect fit for the metaphor, core analog, and the 'in_scene' read, capturing a classic sad girl experience."
+      }
+    }
+  ]
+}
+```

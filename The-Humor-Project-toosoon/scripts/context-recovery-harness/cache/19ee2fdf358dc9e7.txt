@@ -1,0 +1,93 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Me rereading his 'sorry been crazy busy' text for the eighth time while my better judgment just stares at his active-now green dot on Instagram.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "my better judgment",
+      "metaphor": "Listening to someone's obviously exaggerated or fake story and trying not to call them out on it.",
+      "element_map": [
+        {
+          "element": "The person telling the lie",
+          "played_by": "him (the situationship)",
+          "score": 1.0,
+          "reason": "He is the direct source of the low-effort, transparently false text message that serves as the scene's trigger."
+        },
+        {
+          "element": "The listeners trying not to react",
+          "played_by": "me and my better judgment",
+          "score": 1.0,
+          "reason": "Both entities are observing the obvious lie without confrontation, perfectly embodying the weary, non-responsive audience depicted in the image."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'Me' (Patrick) and 'my better judgment' (SpongeBob) are two peer entities perfectly expressing dejection and suspicion toward the unseen stimulus of his blatant lie."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect literal and emotional match for the chosen metaphor and the core analog, with no weak elements."
+      }
+    },
+    {
+      "context": "Me, opening my settings to unblock him after he posts one thirst trap, while the part of my brain that held the line for three whole days just watches.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "the part of my brain that held the line for three whole days",
+      "metaphor": "Watching a friend make the same, predictable bad decision for the tenth time and being too tired to intervene anymore.",
+      "element_map": [
+        {
+          "element": "The friend making the repeated bad decision",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "Me, the one caving and unblocking him, is the actor succumbing to a known bad pattern over a minimal trigger."
+        },
+        {
+          "element": "The weary observer",
+          "played_by": "the part of my brain that held the line for three whole days",
+          "score": 1.0,
+          "reason": "This personified internal entity perfectly embodies the exhausted witness to its own self-sabotage, too drained to protest anymore."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'Me' (Patrick) and 'the part of my brain that held the line' (SpongeBob) are two peer entities expressing dejection and weary disapproval toward the decision to unblock him."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The internal dynamic of caving versus exhausted self-awareness is a flawless fit for the image and the chosen metaphor."
+      }
+    },
+    {
+      "context": "Me at 2am and me from 9pm who swore I was done with him for good, both watching my thumb delete a savage paragraph to just reply 'hey :)' to his 'u up?' text.",
+      "register": "internal",
+      "me_side": "Me at 2am",
+      "force_side": "me from 9pm who swore I was done with him for good",
+      "metaphor": "The shared, silent moment between two people after witnessing an incredibly awkward or draining social interaction.",
+      "element_map": [
+        {
+          "element": "The two people sharing the moment",
+          "played_by": "me at 2am and me from 9pm",
+          "score": 1.0,
+          "reason": "These two state-stamped versions of myself represent the perfect pair of bonded witnesses to the act of self-betrayal."
+        },
+        {
+          "element": "The awkward or draining social interaction",
+          "played_by": "the act of deleting a powerful response to send a weak one",
+          "score": 1.0,
+          "reason": "The visible self-sabotage on the phone screen is the central, cringeworthy event that unites both entities in shared disappointment."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'Me at 2am' (Patrick) and 'me from 9pm' (SpongeBob) are two peer entities expressing dejection and disapproval toward the unseen act of capitulation on the phone."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment perfectly captures a shared, internal sense of disappointment, making it an ideal fit for the metaphor and core analog."
+      }
+    }
+  ]
+}
+```

@@ -1,0 +1,108 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Me and my delusion refreshing my Instagram story views for the tenth time after he soft-launched a new girl, looking for his name in the list as 'proof' he's still thinking of me.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "my delusion",
+      "metaphor": "A desperate, last-ditch effort to find something precious that's probably gone forever.",
+      "element_map": [
+        {
+          "element": "the people making the desperate effort",
+          "played_by": [
+            "me",
+            "my delusion"
+          ],
+          "score": 1.0,
+          "reason": "The two entities are perfectly cast as a unified team engaged in a single, focused, and desperate search."
+        },
+        {
+          "element": "the precious thing that's gone forever",
+          "played_by": "the 'proof' he's still thinking of me",
+          "score": 0.9,
+          "reason": "This captures the intangible but deeply precious nature of his attention, which his action strongly implies is now gone."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The 'two same-kind entities' ('me' and 'my delusion') assume an identical posture (refreshing and searching) to observe a shared point (the story viewer list)."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The fit is excellent, limited only slightly by the precious 'thing' being an abstract concept rather than a concrete object."
+      }
+    },
+    {
+      "context": "Me and my delusion staring at his one-word reply 'interesting.' to my three-paragraph text, trying to determine if it's the good kind of interesting or the 'I'm calling my friends to laugh at this' kind.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "my delusion",
+      "metaphor": "Two people collaboratively overthinking a problem that has no real solution.",
+      "element_map": [
+        {
+          "element": "the two people overthinking",
+          "played_by": [
+            "me",
+            "my delusion"
+          ],
+          "score": 1.0,
+          "reason": "The moment explicitly stages a collaborative analysis between her and a part of her own psyche, a perfect embodiment of overthinking."
+        },
+        {
+          "element": "the problem with no real solution",
+          "played_by": "the true meaning of his one-word reply",
+          "score": 1.0,
+          "reason": "The ambiguity of his low-effort text is a classic unsolvable problem, as its true intent is unknowable and likely nonexistent."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'Me' and 'my delusion' are the two same-kind entities, their 'staring' is the identical posture, and his text is the shared point of observation."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "This is a perfect mapping, as every element of the metaphor and the core analog is filled precisely and vividly by the moment's entities."
+      }
+    },
+    {
+      "context": "Me and my delusion scrolling back to the first 'hey' in our Hinge chat from three months ago, performing a full forensic audit to find the exact moment I should have known he'd leave me on read after our first date went well.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "my delusion",
+      "metaphor": "Peering into the messy, hidden workings of a system that's supposed to just 'work'.",
+      "element_map": [
+        {
+          "element": "the people peering into the system",
+          "played_by": [
+            "me",
+            "my delusion"
+          ],
+          "score": 1.0,
+          "reason": "These two entities are perfectly cast as a diagnostic team trying to troubleshoot a past failure."
+        },
+        {
+          "element": "the system that's supposed to just 'work'",
+          "played_by": "the 'good date to second date' pipeline",
+          "score": 0.9,
+          "reason": "This is a universally understood social system with expected inputs and outputs that has clearly malfunctioned in her case."
+        },
+        {
+          "element": "the messy, hidden workings",
+          "played_by": "the three-month Hinge chat history",
+          "score": 1.0,
+          "reason": "The chat log is the literal, verifiable record of the system's 'workings' that they are combing through for errors."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The two same-kind entities ('me' and 'my delusion') perform an identical action (scrolling and auditing) to observe a shared point (the chat history)."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The moment is an extremely strong fit, weakened only by casting an abstract social convention as the 'system'."
+      }
+    }
+  ]
+}
+```

@@ -1,0 +1,21 @@
+{
+  "content": [
+    {
+      "name": "Dog Riding Roller Coaster",
+      "type": "reaction image",
+      "confidence": 0.88,
+      "description": "An image of a dog riding a roller coaster with its front paws raised. The image is commonly shared online as a humorous reaction image representing excitement, embracing chaos, or simply going along for the ride."
+    }
+  ],
+  "scene_context": "A humorous reaction image depicting a dog enjoying a roller coaster. It is often used to convey feelings of excitement, chaos, or accepting an unpredictable situation.",
+  "meme": {
+    "is_meme": true,
+    "template_name": null,
+    "template_type": "reaction image",
+    "meaning": "Represents being caught up in an exciting, chaotic, or unexpected situation while simply enjoying or enduring the ride.",
+    "how_a_caption_should_use_it": "Captions usually describe a situation where someone unexpectedly finds themselves committed to a rapidly unfolding or chaotic experience, with the image serving as the reaction. Examples: 'Me after agreeing to plans without asking for details.' 'When production deploys on Friday and there's no rollback.' 'My brain during finals week.'",
+    "image_is_punchline": true,
+    "image_delivers": "being along for the ride despite uncertainty or chaos",
+    "confidence": 0.84
+  }
+}

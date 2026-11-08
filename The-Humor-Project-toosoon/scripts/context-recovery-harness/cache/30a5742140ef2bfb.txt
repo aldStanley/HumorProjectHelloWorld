@@ -1,0 +1,30 @@
+{
+  "figures": [
+    {
+      "figure": "pink starfish on the left with half-lidded unimpressed eyes",
+      "entity_guess": "one of his roommate/best friend",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "The deadpan look fits someone watching an unimpressive dismissive reply being drafted, but the caption does not say whether this figure is the roommate or the best friend."
+    },
+    {
+      "figure": "yellow sponge on the right with half-lidded unimpressed eyes",
+      "entity_guess": "one of his roommate/best friend",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "The bored/unimpressed look fits watching him write a bland 'that's crazy' response to an emotional message, but the exact role is not distinguishable from the caption alone."
+    }
+  ],
+  "unresolved": [
+    "which figure is his roommate",
+    "which figure is his best friend",
+    "him",
+    "draft a 'that's crazy' text",
+    "my feelings dump"
+  ],
+  "story_guess": "The joke is that a guy is responding to someone's emotional confession with a dismissive 'that's crazy,' while his roommate and best friend silently watch with unimpressed deadpan faces.",
+  "cast_clarity": 0.5,
+  "pose_clarity": 0.75,
+  "story_clarity": 0.8,
+  "verdict": "partly"
+}

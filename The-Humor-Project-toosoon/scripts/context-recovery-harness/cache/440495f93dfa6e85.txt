@@ -1,0 +1,27 @@
+{
+  "figures": [
+    {
+      "figure": "jester-like figure standing on the left with hands raised, facing the seated woman",
+      "entity_guess": "my situationship",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "His animated raised hands and facing posture fit someone enthusiastically explaining a plan."
+    },
+    {
+      "figure": "crowned woman seated on a throne on the right, looking toward the jester",
+      "entity_guess": "his new girl",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "She appears to be the person listening to the explanation, though her skeptical or detached expression is only loosely explained by the caption."
+    }
+  ],
+  "unresolved": [
+    "my",
+    "five-year plan to be a DJ"
+  ],
+  "story_guess": "The joke is that the speaker's unserious situationship is now dramatically pitching his unrealistic DJ dreams to another woman.",
+  "cast_clarity": 1,
+  "pose_clarity": 0.8,
+  "story_clarity": 0.85,
+  "verdict": "got_it"
+}

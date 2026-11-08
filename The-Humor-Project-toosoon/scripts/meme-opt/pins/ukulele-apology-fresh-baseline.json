@@ -1,0 +1,25 @@
+{
+  "content": [
+    {
+      "name": "Colleen Ballinger (Miranda Sings apology video)",
+      "type": "celebrity",
+      "confidence": 90,
+      "description": "Colleen Ballinger, known for her character Miranda Sings, in the viral ukulele apology video. This image became widely recognized online as part of a controversial apology video."
+    }
+  ],
+  "scene_context": "This image is from Colleen Ballinger's infamous ukulele apology video, which became a viral meme and reaction image in 2023. The video was widely mocked and remixed online for its tone and delivery.",
+  "meme": {
+    "is_meme": true,
+    "template_name": "Ukulele Apology Video / Colleen Ballinger Apology",
+    "meaning": "Used to mock insincere or performative apologies, or to sarcastically express regret for trivial matters. The image is often captioned to highlight awkward, tone-deaf, or self-serving apologies.",
+    "how_a_caption_should_use_it": "A caption should set up a scenario where someone is making an over-the-top or obviously fake apology, with the image delivering the punchline of an awkward or performative apology.",
+    "image_is_punchline": true,
+    "image_delivers": "awkward, performative apology",
+    "confidence": 0.98,
+    "example_captions": [
+      "When you get caught eating your roommate's snacks and try to apologize.",
+      "Me after saying 'no offense' and immediately offending someone.",
+      "When your teacher asks who didn't do the homework and you try to look sorry."
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "His roommate and best friend after that 20-min speakerphone call about his ex's pics.",
+      "context": "His best friend and roommate sit in dead silence after he hangs up on me, having just listened to him spend twenty minutes on speakerphone explaining that I'm 'overreacting' to him liking his ex's bikini pics.",
+      "metaphor": "The shared, silent moment between two people after witnessing an incredibly awkward or draining social interaction.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "A viewer can fully rebuild the metaphor: 'two people' are \"His roommate and best friend,\" the 'draining social interaction' is \"that 20-min speakerphone call,\" and the 'shared, silent moment' is their expression in the image.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar entities stand together sharing a look of mutual exhaustion and disapproval.",
+          "secondary": "One figure looks tired and dejected, while the other looks on with weary suspicion."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "his best friend",
+            "score": 0.4,
+            "reason": "This is a cartoon figure, but his visibly tired and dejected expression aligns well with a friend who is emotionally exhausted by the ongoing situationship drama."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "his roommate",
+            "score": 0.4,
+            "reason": "This is a cartoon figure, but his weary and suspicious squint maps onto a roommate who has witnessed this pattern of behavior before and disapproves."
+          }
+        ],
+        "relation": "share a look of mutual exhaustion and disapproval"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption places the two friends as observers of an event, perfectly setting up the image to deliver their reaction where they \"share a look of mutual exhaustion and disapproval.\"",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can reconstruct that his friends are exhausted after a long, draining phone call he had about his ex, but the detail that the call was with 'me' is inferred from genre, not explicit.",
+      "element_allusions": [
+        {
+          "element": "two people",
+          "played_by": "His best friend and roommate",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names \"His roommate and best friend.\""
+        },
+        {
+          "element": "an incredibly awkward or draining social interaction",
+          "played_by": "The twenty-minute speakerphone argument with me",
+          "allusion": 0.9,
+          "reason": "The phrase \"that 20-min speakerphone call about his ex's pics\" strongly alludes to the specific draining interaction."
+        },
+        {
+          "element": "the shared, silent moment",
+          "played_by": "Them sitting in dead silence",
+          "allusion": 1.0,
+          "reason": "This element is the punchline delivered entirely by the image, which the caption sets up, making it fully recoverable."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "His roommate and best friend watching him unblock me to type 'hey stranger'.",
+      "context": "His best friend and his roommate just share a look as he spends ten minutes deleting and re-typing a 'hey stranger' text to me, the girl he swore to them he was blocking an hour ago.",
+      "register": "watched_scene",
+      "metaphor": "Watching a friend make the same, predictable bad decision for the tenth time and being too tired to intervene anymore.",
+      "metaphor_recovery": 0.9,
+      "metaphor_recovery_reason": "A viewer recovers 'people watching' (\"His roommate and best friend\") a 'friend making a bad decision' (\"unblock me to type 'hey stranger'\"), and the 'being too tired to intervene' is strongly implied by the image's expressions.",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar entities stand together sharing a look of mutual exhaustion and disapproval.",
+          "secondary": "One figure looks tired and dejected, while the other looks on with weary suspicion."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "his best friend",
+            "score": 0.4,
+            "reason": "This is a cartoon figure, but his visibly tired and dejected expression aligns well with a friend who is emotionally exhausted by the ongoing situationship drama."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "his roommate",
+            "score": 0.4,
+            "reason": "This is a cartoon figure, but his weary and suspicious squint maps onto a roommate who has witnessed this pattern of behavior before and disapproves."
+          }
+        ],
+        "relation": "share a look of mutual exhaustion and disapproval"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption establishes the two friends as witnesses to his action, allowing the image to show them as they \"share a look of mutual exhaustion and disapproval.\"",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The caption's phrase \"unblock me to type 'hey stranger'\" perfectly reconstructs the entire story: he was supposed to have her blocked and is now pathetically going back on it.",
+      "element_allusions": [
+        {
+          "element": "a friend making the same, predictable bad decision",
+          "played_by": "him",
+          "allusion": 1.0,
+          "reason": "The action \"unblock me to type 'hey stranger'\" perfectly conveys him making a predictable bad decision regarding the speaker."
+        },
+        {
+          "element": "the people watching",
+          "played_by": "His best friend and his roommate",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names \"His roommate and best friend.\""
+        },
+        {
+          "element": "being too tired to intervene",
+          "played_by": "Their shared, silent look",
+          "allusion": 1.0,
+          "reason": "The tired, judgmental expressions in the image deliver this element completely once the caption provides the setup."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "His best friend and roommate listening to the 'need my hoodie back' excuse for the 3rd time.",
+      "context": "His roommate and best friend just stare into the middle distance while he explains with a straight face that he has to go over to my place to get his hoodie back, a story he's used three times before to break no contact.",
+      "register": "watched_scene",
+      "metaphor": "Listening to someone's obviously exaggerated or fake story and trying not to call them out on it.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "The pattern is fully recoverable: 'the people listening' are \"His best friend and roommate,\" 'someone's fake story' is \"the 'need my hoodie back' excuse for the 3rd time,\" and 'trying not to call them out' is perfectly embodied by the image's expressions.",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar entities stand together sharing a look of mutual exhaustion and disapproval.",
+          "secondary": "One figure looks tired and dejected, while the other looks on with weary suspicion."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "his best friend",
+            "score": 0.4,
+            "reason": "This is a cartoon figure, but his visibly tired and dejected expression aligns well with a friend who is emotionally exhausted by the ongoing situationship drama."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "his roommate",
+            "score": 0.4,
+            "reason": "This is a cartoon figure, but his weary and suspicious squint maps onto a roommate who has witnessed this pattern of behavior before and disapproves."
+          }
+        ],
+        "relation": "share a look of mutual exhaustion and disapproval"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption places the friends as the audience for his excuse, allowing the image to deliver their reaction as they \"share a look of mutual exhaustion and disapproval.\"",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can fully reconstruct the situation: he's using a flimsy, repeated excuse to see her, and his friends have heard it all before and are sick of it.",
+      "element_allusions": [
+        {
+          "element": "someone's obviously exaggerated or fake story",
+          "played_by": "His excuse about needing to get his hoodie back",
+          "allusion": 1.0,
+          "reason": "The caption names \"the 'need my hoodie back' excuse for the 3rd time,\" which perfectly captures the fake and repetitive nature of the story."
+        },
+        {
+          "element": "the people listening",
+          "played_by": "His roommate and best friend",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names \"His best friend and roommate.\""
+        },
+        {
+          "element": "trying not to call them out on it",
+          "played_by": "Their act of staring into the middle distance",
+          "allusion": 1.0,
+          "reason": "This element is delivered by the image itself; the exhausted, non-confrontational stares are the visual punchline to the caption's setup."
+        }
+      ],
+      "match_overall": 0.9
+    }
+  ]
+}
+```

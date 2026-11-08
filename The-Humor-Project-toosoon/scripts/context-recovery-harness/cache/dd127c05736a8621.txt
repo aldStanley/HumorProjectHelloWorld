@@ -1,0 +1,1 @@
+{"cast_match":0.5,"pose_match":0.4,"story_match":0.75,"overall_recovered":0.62,"verdict":"partly","note":"They got the main obsessive tagged-photos investigation, but missed that the second slumped figure represents the last bit of self-respect giving up."}

@@ -1,0 +1,28 @@
+{
+  "figures": [
+    {
+      "figure": "jester-like figure standing on the left with hands raised, facing the seated figure",
+      "entity_guess": "me from yesterday",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "The raised hands and animated stance fit someone lecturing."
+    },
+    {
+      "figure": "princess/queen seated on the right in a throne, looking at the jester",
+      "entity_guess": "Me watching / me being lectured",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "Her seated, watching posture fits being the current 'me' listening to yesterday's self."
+    }
+  ],
+  "unresolved": [
+    "he",
+    "why he's trash",
+    "me from yesterday"
+  ],
+  "story_guess": "Current me is watching yesterday's version of me passionately explain why some guy is trash.",
+  "cast_clarity": 0.85,
+  "pose_clarity": 0.8,
+  "story_clarity": 0.75,
+  "verdict": "partly"
+}

@@ -1,0 +1,186 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "The urge to send a 12-part essay to his 'lol' and me pretending this is fine.",
+      "context": "The urge to send him a 12-part follow-up essay frantically explaining my last text while me, after getting back just 'lol,' slowly puts my phone face down on the table.",
+      "metaphor": "Putting on a whole song and dance for someone who's already decided they're not interested.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "A reader can fully recover the metaphor: the 'song and dance' is the 'urge to send a 12-part essay', and the uninterested audience is 'me pretending this is fine'.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity performs energetically for another, who watches with dismissive judgment.",
+          "secondary": "The performer is animated and attention-seeking, while the watcher is stationary, unimpressed, and seated on a throne."
+        },
+        "cast": [
+          {
+            "image_party": "A jester actively dancing and gesturing",
+            "played_by": "The urge to send him a 12-part follow-up essay",
+            "caption_span": "The urge to send a 12-part essay",
+            "score": 1.0,
+            "reason": "The caption names this singular, personified urge, which perfectly fits the frantic energy of the single jester figure."
+          },
+          {
+            "image_party": "a queen, who is sitting on a throne watching",
+            "played_by": "me, after getting back just 'lol,'",
+            "caption_span": "me pretending this is fine",
+            "score": 1.0,
+            "reason": "The caption names the singular 'me', whose feigned composure is an exact match for the single, unimpressed queen figure."
+          }
+        ],
+        "relation": "actively dancing and gesturing for"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The image clearly shows one figure (jester) performing energetically for another figure (queen) who watches with dismissive judgment.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption asserts the core relation by naming both sides: the performing entity ('The urge to send a 12-part essay') and the watching one ('me pretending this is fine').",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The physical fit is bound by the perfect 1.0 scores of both analog_to_image and analog_to_caption for the core relation: 'One entity performs energetically for another, who watches with dismissive judgment.'",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "Both entities staged in the context ('The urge to send him a 12-part follow-up essay' and 'me') survive into the caption.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "A reader can fully reconstruct the moment's story: he sent a dismissive 'lol', and she is now fighting the urge to over-explain while trying to maintain composure.",
+      "element_allusions": [
+        {
+          "element": "Someone putting on a whole song and dance",
+          "played_by": "The urge to send him a 12-part follow-up essay",
+          "evidence": "caption",
+          "caption_span": "The urge to send a 12-part essay",
+          "allusion": 1.0,
+          "reason": "The caption's specific mention of a '12-part essay' perfectly conveys the over-the-top, effortful performance."
+        },
+        {
+          "element": "Someone who's already decided they're not interested",
+          "played_by": "me, after getting back just 'lol,'",
+          "evidence": "caption",
+          "caption_span": "me pretending this is fine",
+          "allusion": 0.9,
+          "reason": "The phrase 'pretending this is fine' combined with the dismissive 'lol' strongly implies her attempt to adopt a posture of disinterest and judgment."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me reapplying my lip gloss, ignoring the urge to text 'whose hand is that??' on his story.",
+      "context": "Me calmly re-applying my lip gloss in the reflection of my phone screen while the urge to text him 'whose hand is that???' goes absolutely feral after seeing his new story.",
+      "metaphor": "Putting on a whole song and dance for someone who's already decided they're not interested.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "A reader can fully recover the metaphor: the 'song and dance' is the 'urge to text 'whose hand is that??'', and the uninterested audience is 'Me reapplying my lip gloss, ignoring' it.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity performs energetically for another, who watches with dismissive judgment.",
+          "secondary": "The performer is animated and attention-seeking, while the watcher is stationary, unimpressed, and seated on a throne."
+        },
+        "cast": [
+          {
+            "image_party": "A jester actively dancing and gesturing",
+            "played_by": "the urge to text him 'whose hand is that???'",
+            "caption_span": "the urge to text 'whose hand is that??'",
+            "score": 1.0,
+            "reason": "The caption names this specific, singular urge, which is a perfect stand-in for the single, attention-seeking jester."
+          },
+          {
+            "image_party": "a queen, who is sitting on a throne watching",
+            "played_by": "Me calmly re-applying my lip gloss",
+            "caption_span": "Me reapplying my lip gloss",
+            "score": 1.0,
+            "reason": "The caption names the singular 'Me', whose calm, self-focused action is an exact match for the single, unimpressed queen."
+          }
+        ],
+        "relation": "actively dancing and gesturing for"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The image clearly shows one figure (jester) performing energetically for another figure (queen) who watches with dismissive judgment.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption asserts the core relation by explicitly naming the watching side ('Me') and the performing side she is 'ignoring' ('the urge to text').",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The physical fit is bound by the perfect 1.0 scores of both analog_to_image and analog_to_caption for the core relation: 'One entity performs energetically for another, who watches with dismissive judgment.'",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "Both entities staged in the context ('Me calmly re-applying my lip gloss' and 'the urge to text') survive into the caption.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can perfectly reconstruct the story from the caption: she saw something suspicious on his story and is performing calmness to suppress a chaotic urge.",
+      "element_allusions": [
+        {
+          "element": "Someone putting on a whole song and dance",
+          "played_by": "the urge to text him 'whose hand is that???'",
+          "evidence": "caption",
+          "caption_span": "the urge to text 'whose hand is that??'",
+          "allusion": 1.0,
+          "reason": "The specific, frantic question 'whose hand is that??' perfectly captures the desperate energy of the jester's performance."
+        },
+        {
+          "element": "Someone who's already decided they're not interested",
+          "played_by": "Me calmly re-applying my lip gloss",
+          "evidence": "caption",
+          "caption_span": "Me reapplying my lip gloss, ignoring the urge",
+          "allusion": 1.0,
+          "reason": "The caption's explicit statement of 'ignoring the urge' while performing a calm action ('reapplying my lip gloss') is a direct allusion to the uninterested queen."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "The urge celebrating his 2am 'you up?' text and me who told the group chat I was done.",
+      "context": "The urge to text him back celebrating his 2am 'you up?' like it's a marriage proposal, while me, who just told my friends I was 'so over him,' stares blankly at the screen.",
+      "metaphor": "Putting on a whole song and dance for someone who's already decided they're not interested.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "A reader can fully recover the metaphor: the 'song and dance' is the 'urge celebrating his 2am 'you up?' text', and the uninterested audience is 'me who told the group chat I was done'.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "One entity performs energetically for another, who watches with dismissive judgment.",
+          "secondary": "The performer is animated and attention-seeking, while the watcher is stationary, unimpressed, and seated on a throne."
+        },
+        "cast": [
+          {
+            "image_party": "A jester actively dancing and gesturing",
+            "played_by": "The urge to text him back",
+            "caption_span": "The urge celebrating his 2am 'you up?' text",
+            "score": 1.0,
+            "reason": "The caption names this singular, personified urge, whose pathetic celebration is a perfect fit for the single jester's desperate performance."
+          },
+          {
+            "image_party": "a queen, who is sitting on a throne watching",
+            "played_by": "me, who just told my friends I was 'so over him,'",
+            "caption_span": "me who told the group chat I was done",
+            "score": 1.0,
+            "reason": "The caption names the singular 'me', whose self-aware, judgmental position perfectly matches the single, unimpressed queen figure."
+          }
+        ],
+        "relation": "actively dancing and gesturing for"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The image clearly shows one figure (jester) performing energetically for another figure (queen) who watches with dismissive judgment.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption asserts the core relation by naming both the performing side ('The urge celebrating...') and the judging side ('and me who...').",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The physical fit is bound by the perfect 1.0 scores of both analog_to_image and analog_to_caption for the core relation: 'One entity performs energetically for another, who watches with dismissive judgment.'",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "Both entities staged in the context ('The urge to text him back' and 'me, who just told my friends I was 'so over him'') are perfectly represented in the caption.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can perfectly reconstruct the story: she received a low-effort late-night text after telling her friends she was over him, creating this internal conflict.",
+      "element_allusions": [
+        {
+          "element": "Someone putting on a whole song and dance",
+          "played_by": "The urge to text him back",
+          "evidence": "caption",
+          "caption_span": "The urge celebrating his 2am 'you up?' text",
+          "allusion": 1.0,
+          "reason": "The specific action of 'celebrating' a low-effort 'you up?' text perfectly conveys the over-the-top, undeserved performance of the jester."
+        },
+        {
+          "element": "Someone who's already decided they're not interested",
+          "played_by": "me, who just told my friends I was 'so over him,'",
+          "evidence": "caption",
+          "caption_span": "me who told the group chat I was done",
+          "allusion": 1.0,
+          "reason": "The detail 'told the group chat I was done' establishes a firm, declared position of disinterest, making her the perfect unimpressed audience for the urge's performance."
+        }
+      ],
+      "match_overall": 0.9
+    }
+  ]
+}
+```

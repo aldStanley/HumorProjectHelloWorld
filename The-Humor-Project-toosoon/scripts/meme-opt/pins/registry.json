@@ -1,0 +1,11 @@
+{
+  "templates": [
+    { "file": "henry-danger-laptop.json", "imageId": "4412749e-be7e-4e37-9839-ee41b695b788" },
+    { "file": "bugs-bunny-no.json", "imageId": "5f3499de-17f3-410d-b6d5-539fdcf58a71" },
+    { "file": "smiling-cat.json", "imageId": "50189558-2437-48c3-acc5-f9e4a7950b12" },
+    { "file": "greyhound-coat.json", "imageId": "fad53736-477c-4102-a5b8-178898eb3a8c" },
+    { "file": "dog-rollercoaster.json", "imageId": "2e1d3653-1f48-4f77-8cc4-4d90a55d4131" },
+    { "file": "ukulele-apology-GOOD.json", "imageId": "1ab58a04-36ac-4fda-9e21-4c4b9ee52002" },
+    { "file": "ukulele-apology-fresh-baseline.json", "imageId": "1ab58a04-36ac-4fda-9e21-4c4b9ee52002" }
+  ]
+}

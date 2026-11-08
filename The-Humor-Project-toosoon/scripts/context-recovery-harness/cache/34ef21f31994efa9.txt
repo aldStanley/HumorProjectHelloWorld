@@ -1,0 +1,28 @@
+{
+  "figures": [
+    {
+      "figure": "left small alien in a red hood, eyes closed, one hand against its face, holding the other alien's hand",
+      "entity_guess": "me at 1 AM",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "The caption implies this version of 'me' is being anxiously reassured or convinced about someone being 'definitely his cousin,' which fits the closed eyes and hand-to-face worried pose."
+    },
+    {
+      "figure": "right gray alien leaning forward, holding the left alien's hand and gesturing downward",
+      "entity_guess": "Me at 1:01 AM",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "The leaning posture, hand-holding, and gesture fit the idea of urgently explaining or reassuring the earlier version of 'me.'"
+    }
+  ],
+  "unresolved": [
+    "she",
+    "his",
+    "his cousin"
+  ],
+  "story_guess": "The joke is that within one minute, the speaker has spiraled into rationalizing a suspicious woman connected to a guy by telling herself that the woman is definitely just his cousin.",
+  "cast_clarity": 0.85,
+  "pose_clarity": 0.8,
+  "story_clarity": 0.75,
+  "verdict": "got_it"
+}

@@ -1,0 +1,39 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "A jester actively dancing and gesturing",
+      "entity": "my situationship",
+      "fit": 0.4,
+      "reason": "The figure is a cartoon jester, not a literal person, but its energetic dancing and gesturing maps to him performing to impress someone else."
+    },
+    {
+      "figure": "a queen, who is sitting on a throne watching",
+      "entity": "his new girl",
+      "fit": 0.4,
+      "reason": "The figure is a cartoon queen, not a literal person, but her unimpressed and judgmental pose while watching the performance maps to her evaluating him."
+    }
+  ],
+  "relationship": "My situationship is putting on a performance for his new girl, who is critically evaluating his efforts.",
+  "weakest_fit": 0.4,
+  "why": "The lens fits the dynamic of performative effort meeting dismissive judgment well, but the fit is mechanically capped because the figures are cartoons, not literal people.",
+  "secondary_nominations": [
+    {
+      "entity": "a performance",
+      "possibilities": [
+        "the show he puts on for his new girl",
+        "his big romantic gesture for someone else",
+        "him trying way too hard"
+      ]
+    },
+    {
+      "entity": "a pose of critical evaluation",
+      "possibilities": [
+        "her deciding if he's worth her time",
+        "the new girl's unimpressed vibe",
+        "her analyzing his every move"
+      ]
+    }
+  ]
+}
+```

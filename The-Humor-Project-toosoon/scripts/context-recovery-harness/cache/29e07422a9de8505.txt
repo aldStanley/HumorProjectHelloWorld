@@ -1,0 +1,186 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "Me & my better judgment watching his active dot after he said he was 'busy'.",
+      "context": "Me rereading his 'sorry been crazy busy' text for the eighth time while my better judgment just stares at his active-now green dot on Instagram.",
+      "metaphor": "Listening to someone's obviously exaggerated or fake story and trying not to call them out on it.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "The caption and image perfectly recover the metaphor: the 'fake story' is \"he said he was 'busy'\", the obvious contradiction is \"his active dot\", and the 'listeners trying not to react' are \"Me & my better judgment\" whose non-reaction is delivered by the image.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities stand together and observe something with shared exhaustion and disapproval.",
+          "secondary": "One entity's expression is dejected, while the other's is one of weary suspicion."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "Me",
+            "caption_span": "Me",
+            "score": 1.0,
+            "reason": "The caption names 'Me' as the first entity, a singular persona whose dejection fits the figure's expression perfectly."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "my better judgment",
+            "caption_span": "my better judgment",
+            "score": 1.0,
+            "reason": "The caption names 'my better judgment' as the second entity, a singular personified force whose suspicious nature fits the figure's expression."
+          }
+        ],
+        "relation": "stand next to each other and observe"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The image shows two peer entities standing together observing something with shared weariness, which perfectly matches the core analog.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption names both 'Me' and 'my better judgment' and places them in a shared state of observing ('watching') something together.",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The physical fit is 1.0 because the caption perfectly asserts the core relation ('Two similar-kind entities stand together and observe something') that the image shows.",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "No entities were dropped; both 'Me' and 'my better judgment' from the context are present in the caption.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can fully reconstruct the story: he gave a common excuse ('busy'), but she can see evidence to the contrary ('active dot'), and the image shows her and her judgment's shared reaction.",
+      "element_allusions": [
+        {
+          "element": "The person telling the lie",
+          "played_by": "him (the situationship)",
+          "evidence": "caption",
+          "caption_span": "he said he was 'busy'",
+          "allusion": 1.0,
+          "reason": "The caption directly quotes his lie, making the 'person telling the lie' and the lie itself perfectly recoverable."
+        },
+        {
+          "element": "The listeners trying not to react",
+          "played_by": "me and my better judgment",
+          "evidence": "caption",
+          "caption_span": "Me & my better judgment",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names both entities, making the 'listeners' fully recoverable."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me and my 3 days of willpower watching me open settings to unblock him.",
+      "context": "Me, opening my settings to unblock him after he posts one thirst trap, while the part of my brain that held the line for three whole days just watches.",
+      "metaphor": "Watching a friend make the same, predictable bad decision for the tenth time and being too tired to intervene anymore.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "The metaphor is fully recovered: the 'friend making the bad decision' is 'Me... watching me open settings to unblock him', the 'weary observer' is 'my 3 days of willpower', and the feeling of being 'too tired to intervene' is delivered by the image's exhausted expressions.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities stand together and observe something with shared exhaustion and disapproval.",
+          "secondary": "One entity's expression is dejected, while the other's is one of weary suspicion."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "Me",
+            "caption_span": "Me",
+            "score": 1.0,
+            "reason": "The caption names 'Me' as the first entity, a singular persona making a dejecting choice that fits the figure's expression."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "the part of my brain that held the line for three whole days",
+            "caption_span": "my 3 days of willpower",
+            "score": 1.0,
+            "reason": "The caption names 'my 3 days of willpower' as the second entity, a sharp personification of her internal resistance that fits the figure's disapproving look."
+          }
+        ],
+        "relation": "stand next to each other and observe"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The image shows two peer entities standing together observing something with shared weariness, which perfectly matches the core analog.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption names both 'Me' and 'my 3 days of willpower' and places them in a shared state of observing ('watching') an action together.",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The physical fit is 1.0 because the caption perfectly asserts the core relation ('Two similar-kind entities stand together and observe something') that the image shows.",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "No entities were dropped; 'Me' and a distilled version of her willpower ('my 3 days of willpower') are both present in the caption.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The reader can easily reconstruct the specific moment: after holding out for three days, she is caving and unblocking him, and her resolve is just watching it happen.",
+      "element_allusions": [
+        {
+          "element": "The friend making the repeated bad decision",
+          "played_by": "me",
+          "evidence": "caption",
+          "caption_span": "Me",
+          "allusion": 1.0,
+          "reason": "The caption clearly identifies 'Me' as the one performing the action of caving."
+        },
+        {
+          "element": "The weary observer",
+          "played_by": "the part of my brain that held the line for three whole days",
+          "evidence": "caption",
+          "caption_span": "my 3 days of willpower",
+          "allusion": 1.0,
+          "reason": "The caption's phrase 'my 3 days of willpower' is a perfect and clear distillation of this entity, making it fully recoverable."
+        }
+      ],
+      "match_overall": 1.0
+    },
+    {
+      "caption": "Me at 2am and the me who swore I was done, watching that paragraph become 'hey'.",
+      "context": "Me at 2am and me from 9pm who swore I was done with him for good, both watching my thumb delete a savage paragraph to just reply 'hey :)' to his 'u up?' text.",
+      "metaphor": "The shared, silent moment between two people after witnessing an incredibly awkward or draining social interaction.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "The caption and image recover the metaphor: 'the two people' are 'Me at 2am and the me who swore I was done', 'the awkward or draining social interaction' is 'watching that paragraph become 'hey'', and 'the shared, silent moment' is delivered by the image.",
+      "register": "internal",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities stand together and observe something with shared exhaustion and disapproval.",
+          "secondary": "One entity's expression is dejected, while the other's is one of weary suspicion."
+        },
+        "cast": [
+          {
+            "image_party": "Patrick, with a tired and dejected expression",
+            "played_by": "Me at 2am",
+            "caption_span": "Me at 2am",
+            "score": 1.0,
+            "reason": "The caption names 'Me at 2am' as the first entity, a singular state-stamped self whose weak-willed actions fit the figure's dejected look."
+          },
+          {
+            "image_party": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+            "played_by": "me from 9pm who swore I was done with him for good",
+            "caption_span": "the me who swore I was done",
+            "score": 1.0,
+            "reason": "The caption names 'the me who swore I was done' as the second entity, a personified past self whose disapproval fits the figure's expression."
+          }
+        ],
+        "relation": "stand next to each other and observe"
+      },
+      "analog_to_image": 1.0,
+      "analog_to_image_reason": "The image shows two peer entities standing together observing something with shared weariness, which perfectly matches the core analog.",
+      "analog_to_caption": 1.0,
+      "analog_to_caption_reason": "The caption names both 'Me at 2am' and 'the me who swore I was done' and places them in a shared state of observing ('watching') something together.",
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The physical fit is 1.0 because the caption perfectly asserts the core relation ('Two similar-kind entities stand together and observe something') that the image shows.",
+      "context_to_caption": 1.0,
+      "context_to_caption_reason": "No entities were dropped; both state-stamped versions of herself from the context are present in the caption.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can fully reconstruct the story of internal conflict: her weak, late-night self is overruling her earlier, stronger resolve by replacing a thought-out message with a simple, capitulating 'hey'.",
+      "element_allusions": [
+        {
+          "element": "The two people sharing the moment",
+          "played_by": "me at 2am and me from 9pm",
+          "evidence": "caption",
+          "caption_span": "Me at 2am and the me who swore I was done",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names both entities, making the pair of witnesses perfectly recoverable."
+        },
+        {
+          "element": "The awkward or draining social interaction",
+          "played_by": "the act of deleting a powerful response to send a weak one",
+          "evidence": "caption",
+          "caption_span": "watching that paragraph become 'hey'",
+          "allusion": 1.0,
+          "reason": "The caption vividly describes the specific act of self-sabotage, making the 'draining interaction' fully recoverable."
+        }
+      ],
+      "match_overall": 1.0
+    }
+  ]
+}
+```

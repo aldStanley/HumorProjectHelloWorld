@@ -1,0 +1,99 @@
+```json
+{
+  "matches": [
+    {
+      "context": "My situationship and his best friend staring at a phone after he sent me $1 on Venmo for 'thinking of u' because I blocked his number, desperately waiting for a sign that I've seen it and their last-ditch effort to get a reaction from me isn't completely pathetic.",
+      "register": "watched_scene",
+      "metaphor": "A desperate, last-ditch effort to find something precious that's probably gone forever.",
+      "element_map": [
+        {
+          "element": "the desperate people",
+          "played_by": "my situationship and his best friend",
+          "score": 1.0,
+          "reason": "Their synchronized focus on the phone after making a comically low-stakes move perfectly embodies a shared, collaborative desperation."
+        },
+        {
+          "element": "the precious thing that's gone",
+          "played_by": "my attention and access to me",
+          "score": 0.9,
+          "reason": "Since I've blocked him, my attention has become a scarce and valuable resource that they are trying to recover through an unconventional channel."
+        },
+        {
+          "element": "the last-ditch effort",
+          "played_by": "the $1 Venmo payment",
+          "score": 1.0,
+          "reason": "This is a perfect modern example of a final, desperate gambit when all normal lines of communication have been severed."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's 'my situationship and his best friend' perfectly fill the slot for two same-kind entities, and their 'staring at a phone' matches the identical, focused posture."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The weakest aspect is mapping the intangible concept of 'my attention' to the 'precious thing', which is a very strong but not perfectly concrete fit."
+      }
+    },
+    {
+      "context": "Knowing my situationship and his best friend are hunched over a phone analyzing my long paragraph about my feelings, just to come up with the perfect three-word reply that says absolutely nothing and leaves me on read for another six hours.",
+      "register": "watched_scene",
+      "metaphor": "Peering into the messy, hidden workings of a system that's supposed to just 'work'.",
+      "element_map": [
+        {
+          "element": "the people peering in",
+          "played_by": "my situationship and his best friend",
+          "score": 1.0,
+          "reason": "They are literally the two figures performing the act of intense, collaborative inspection of a problem they don't understand."
+        },
+        {
+          "element": "a system that's supposed to just 'work'",
+          "played_by": "our basic communication",
+          "score": 1.0,
+          "reason": "A direct, vulnerable text is a form of communication that is supposed to function simply, but for them, it has broken down and requires forensic analysis."
+        },
+        {
+          "element": "the messy, hidden workings",
+          "played_by": "my earnest and vulnerable feelings",
+          "score": 0.9,
+          "reason": "My feelings are treated not as a simple message to be received but as a complex, broken mechanism that they must diagnose and troubleshoot."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'My situationship and his best friend' are two same-kind entities, and their 'hunching over a phone' is a direct behavioral match for the core's identical, focused posture."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The overall fit is excellent, with the weakest link being the slightly abstract but highly resonant mapping of 'my feelings' to the system's 'messy workings'."
+      }
+    },
+    {
+      "context": "Imagining my situationship and his best friend replaying my BeReal from last night twenty times because I looked happy, trying to figure out if it means I’m moving on or if it’s a calculated performance to make him jealous after he ghosted me last weekend.",
+      "register": "watched_scene",
+      "metaphor": "Being completely captivated by someone else's drama or misfortune.",
+      "element_map": [
+        {
+          "element": "the captivated people",
+          "played_by": "my situationship and his best friend",
+          "score": 1.0,
+          "reason": "They are the two observers whose shared, intense focus is completely held by my social media post."
+        },
+        {
+          "element": "someone else's drama or misfortune",
+          "played_by": "my simple act of looking happy on BeReal",
+          "score": 0.8,
+          "reason": "My neutral act of happiness is being interpreted and consumed by them *as* drama, which is a perfect fit for the persona's experience of being over-analyzed."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'My situationship and his best friend' perfectly match the 'two same-kind entities', and their shared act of 'replaying my BeReal' is a direct analog for the focused, synchronized observation."
+      },
+      "overall": {
+        "score": 0.8,
+        "reason": "The weakest aspect is the mapping of 'my happiness' to 'drama,' which relies entirely on their skewed interpretation to complete the metaphor."
+      }
+    }
+  ]
+}
+```

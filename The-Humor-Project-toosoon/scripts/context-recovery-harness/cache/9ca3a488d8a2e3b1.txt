@@ -1,0 +1,28 @@
+{
+  "figures": [
+    {
+      "figure": "jester-like figure standing on the left with hands raised, facing the seated woman",
+      "entity_guess": "Me",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "The raised hands and animated stance fit someone enthusiastically explaining or justifying something."
+    },
+    {
+      "figure": "princess/queen seated on the right in a chair, looking toward the jester",
+      "entity_guess": "my bestie",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "Her seated, listening, slightly skeptical or unimpressed look fits the bestie being told an over-optimistic interpretation."
+    }
+  ],
+  "unresolved": [
+    "his",
+    "his 'hey' after 5 days",
+    "real emotional progress"
+  ],
+  "story_guess": "The joke is that the speaker is overanalyzing a minimal late text from a guy and trying to convince their best friend it counts as meaningful emotional growth.",
+  "cast_clarity": 1,
+  "pose_clarity": 0.85,
+  "story_clarity": 0.9,
+  "verdict": "got_it"
+}

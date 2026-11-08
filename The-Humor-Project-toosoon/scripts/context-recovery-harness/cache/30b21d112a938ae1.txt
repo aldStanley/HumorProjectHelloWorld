@@ -1,0 +1,117 @@
+```json
+{
+  "matches": [
+    {
+      "context": "My bestie sits in silence and just watches me type 'omw!' to my situationship after he texted 'you up?' at 1am for the fourth time this month, thirty seconds after I swore I was finally blocking him.",
+      "register": "in_scene",
+      "metaphor": "Watching a friend make the same, predictable bad decision for the tenth time and being too tired to intervene anymore.",
+      "element_map": [
+        {
+          "element": "a friend making the bad decision",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "I am explicitly the friend making the bad decision, and Patrick's dejected expression captures my simultaneous resignation and self-betrayal."
+        },
+        {
+          "element": "the one watching",
+          "played_by": "my bestie",
+          "score": 1.0,
+          "reason": "My bestie is the sole observer, and SpongeBob's weary, suspicious look is the perfect embodiment of a friend who has seen this exact scene before."
+        },
+        {
+          "element": "the same, predictable bad decision",
+          "played_by": "my immediately caving and agreeing to go over",
+          "score": 1.0,
+          "reason": "The context establishes this as a recurring, self-destructive pattern ('fourth time this month') that I'm knowingly repeating."
+        },
+        {
+          "element": "the feeling of being too tired to intervene",
+          "played_by": "my bestie's silence",
+          "score": 0.9,
+          "reason": "Her silence is the classic behavioral sign of having given the same advice too many times and now being reduced to exhausted observation."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "Me (Patrick) and my bestie (SpongeBob) are the 'two peer entities' expressing weary disappointment at the 'unseen stimulus' of my decision to text him back."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The weakest aspect is mapping the internal 'feeling of being too tired to intervene' to the external behavior of silence, though it is a very strong and clear implication."
+      }
+    },
+    {
+      "context": "Me and my bestie staring at my phone as I read aloud his paragraph explaining he couldn't text because he 'had a family emergency,' right after his friend's story showed him in the background of a party.",
+      "register": "in_scene",
+      "metaphor": "Listening to someone's obviously exaggerated or fake story and trying not to call them out on it.",
+      "element_map": [
+        {
+          "element": "someone's obviously exaggerated or fake story",
+          "played_by": "his text about a 'family emergency'",
+          "score": 1.0,
+          "reason": "The lie is the central stimulus of the moment, made obvious by the conflicting social media evidence."
+        },
+        {
+          "element": "the people listening",
+          "played_by": "me and my bestie",
+          "score": 1.0,
+          "reason": "We are the two entities receiving the lie, and the player count perfectly matches the element's cardinality."
+        },
+        {
+          "element": "the social tightrope of not calling them out",
+          "played_by": "our shared, silent staring at the phone",
+          "score": 0.9,
+          "reason": "The lack of immediate action or outrage, replaced by weary observation, perfectly captures the feeling of being too tired to even start the fight."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "Me (Patrick) and my bestie (SpongeBob) are the 'two peer entities' expressing weary disappointment toward the 'unseen stimulus' of his transparently false text."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The weakest aspect is the 'social tightrope' element, which is powerfully implied by the shared, silent staring but is not an explicit action itself."
+      }
+    },
+    {
+      "context": "My bestie and I looking across the street at my situationship on a date with a Hinge girl he swore he'd deleted the app for, as I check my own reflection in my black phone screen.",
+      "register": "in_scene",
+      "metaphor": "The shared, silent moment between two people after witnessing an incredibly awkward or draining social interaction.",
+      "element_map": [
+        {
+          "element": "two people",
+          "played_by": "my bestie and I",
+          "score": 1.0,
+          "reason": "The moment is explicitly about the two of us, matching the element's number and role perfectly."
+        },
+        {
+          "element": "the awkward or draining social interaction",
+          "played_by": "him being on a date after lying about it",
+          "score": 1.0,
+          "reason": "Witnessing this public betrayal is the explicit, high-stakes draining event that triggers the entire scene."
+        },
+        {
+          "element": "the shared, silent moment",
+          "played_by": "us looking across the street",
+          "score": 1.0,
+          "reason": "The physical action described in the sentence is the very definition of a shared, silent moment of observation."
+        },
+        {
+          "element": "the non-verbal 'did you just see that?' check-in",
+          "played_by": "our shared gaze and proximity",
+          "score": 0.9,
+          "reason": "The image of two friends standing together looking at the same thing with these expressions is the physical manifestation of this non-verbal check-in."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "Me (Patrick) and my bestie (SpongeBob) are the 'two peer entities' expressing weary disappointment at the 'unseen stimulus' of him on the date across the street."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The weakest aspect is the 'non-verbal check-in,' which is an interpretation of the shared gaze rather than a distinct, separate action in the scene."
+      }
+    }
+  ]
+}
+```

@@ -1,0 +1,99 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Animatedly explaining to my bestie over FaceTime how his one-word 'hey' text after a week of silence is actually a sign of deep emotional growth while she just silently sips her wine.",
+      "register": "in_scene",
+      "metaphor": "Enthusiastically presenting your best work to a skeptical, nitpicky authority figure.",
+      "element_map": [
+        {
+          "element": "The one presenting enthusiastically",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "I am 'animatedly explaining' my delusional theory, which is a perfect depiction of misplaced enthusiasm."
+        },
+        {
+          "element": "The best work",
+          "played_by": "my theory that his 'hey' text is a sign of growth",
+          "score": 1.0,
+          "reason": "This flimsy rationalization is the 'work' I have produced and am now presenting as a masterpiece of insight."
+        },
+        {
+          "element": "The skeptical, nitpicky authority figure",
+          "played_by": "my bestie",
+          "score": 1.0,
+          "reason": "Her silent, judgmental wine-sipping establishes her as the unimpressed authority on my repeating patterns."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "My 'animatedly explaining' fills the energetic effort slot, while my bestie's 'silent sipping' perfectly fills the dismissive judgment slot."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect instantiation of the metaphor and core analog, with every element mapping cleanly."
+      }
+    },
+    {
+      "context": "Putting on a whole stand-up comedy routine for my bestie about how I 'dodged a bullet' after my situationship soft-launched a new girl, while she just stares at the tear stain on my sweatshirt.",
+      "register": "in_scene",
+      "metaphor": "Putting on a whole song and dance for someone who's already decided they're not interested.",
+      "element_map": [
+        {
+          "element": "The one putting on the song and dance",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "I am literally performing a 'stand-up comedy routine', a classic 'song and dance' of deflection."
+        },
+        {
+          "element": "The one who's already decided they're not interested",
+          "played_by": "my bestie",
+          "score": 1.0,
+          "reason": "Her focus on the tear stain instead of my performance shows she is completely uninterested in my false narrative."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "My 'whole stand-up comedy routine' is the energetic effort, and my bestie's 'stare at the tear stain' is the dismissive judgment."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment's entities and actions are a direct, high-fidelity mapping onto both the metaphor's elements and the core analog."
+      }
+    },
+    {
+      "context": "Pacing around my room acting out the pros and cons of my 15 drafted 'lol k' text variations for my bestie after my situationship replied to my paragraph about my feelings with 'that's crazy'.",
+      "register": "in_scene",
+      "metaphor": "Sharing something you poured your heart into, only to face a cynical and dismissive audience.",
+      "element_map": [
+        {
+          "element": "The one sharing something",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "I am actively performing and sharing my over-analysis, which is the 'something' in this scenario."
+        },
+        {
+          "element": "The thing you poured your heart into",
+          "played_by": "my 15 drafted texts",
+          "score": 1.0,
+          "reason": "The sheer number of drafts represents the massive, unseen emotional effort I've poured into appearing effortless."
+        },
+        {
+          "element": "The cynical and dismissive audience",
+          "played_by": "my bestie",
+          "score": 0.4,
+          "reason": "As a single person, she is a weak fit for a plural 'audience', capping the score due to the cardinality mismatch."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "My physical act of 'pacing and acting out' text variations is the energetic effort, met by my bestie's implied dismissive judgment as she watches."
+      },
+      "overall": {
+        "score": 0.4,
+        "reason": "The overall fit is limited by the cardinality mismatch of mapping a singular 'bestie' to the plural element 'audience' in the metaphor."
+      }
+    }
+  ]
+}
+```

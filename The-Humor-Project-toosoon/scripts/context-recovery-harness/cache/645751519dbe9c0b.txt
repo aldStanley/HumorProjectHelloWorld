@@ -1,0 +1,35 @@
+{
+  "figures": [
+    {
+      "figure": "foreground man in striped shirt bent over closest to the tracks",
+      "entity_guess": "him or his friend; the caption does not distinguish which one",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "His bent-over, intensely looking-down posture fits the idea of trying to decode or inspect a complicated paragraph."
+    },
+    {
+      "figure": "foreground man in light blue shirt bent over behind the first man",
+      "entity_guess": "him or his friend; the caption does not distinguish which one",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "His bent-over posture also fits the joke that both are carefully decoding the paragraph."
+    },
+    {
+      "figure": "distant person standing upright on the opposite platform",
+      "entity_guess": null,
+      "confident": false,
+      "pose_explained": false,
+      "pose_note": "The caption does not account for this person or their standing pose."
+    }
+  ],
+  "unresolved": [
+    "which foreground man is 'him' and which is 'his friend'",
+    "my paragraph",
+    "he replied with 'k'"
+  ],
+  "story_guess": "After a guy gives a dismissive one-letter reply, he and his friend are imagined as intensely analyzing the long paragraph sent back to him.",
+  "cast_clarity": 0.55,
+  "pose_clarity": 0.67,
+  "story_clarity": 0.85,
+  "verdict": "partly"
+}

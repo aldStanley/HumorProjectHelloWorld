@@ -1,0 +1,1 @@
+{"cast_match":1,"pose_match":0.95,"story_match":0.8,"overall_recovered":0.85,"verdict":"got_it","note":"They nailed the delusion-as-jester and me-as-queen setup and the absurd excuse, though they missed the specific trigger of him posting a story after ignoring texts."}

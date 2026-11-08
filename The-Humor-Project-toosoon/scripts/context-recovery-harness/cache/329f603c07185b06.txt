@@ -1,0 +1,1 @@
+{"cast_match":0.0,"pose_match":0.45,"story_match":0.9,"overall_recovered":0.75,"verdict":"partly","note":"They nailed the situationship breadcrumb-text joke, but swapped Patrick and SpongeBob relative to the author's intended cast."}

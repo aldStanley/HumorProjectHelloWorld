@@ -1,0 +1,99 @@
+```json
+{
+  "matches": [
+    {
+      "context": "My bestie and I stare silently at my phone as I type out a casual 'lol' in response to his one-word text from last night, telling her 'see, I'm not even mad' for the fourth time this week.",
+      "register": "in_scene",
+      "metaphor": "Watching a friend make the same, predictable bad decision for the tenth time and being too tired to intervene anymore.",
+      "element_map": [
+        {
+          "element": "a friend making the same bad decision",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "I am the friend, predictably making the bad decision to reward his low-effort communication with a faux-casual reply."
+        },
+        {
+          "element": "the watcher who is too tired to intervene",
+          "played_by": "my bestie",
+          "score": 1.0,
+          "reason": "My bestie's silent, weary presence embodies the exhaustion of someone who has seen this exact scenario play out countless times before."
+        },
+        {
+          "element": "the predictable bad decision",
+          "played_by": "my decision to reply to his breadcrumb text",
+          "score": 1.0,
+          "reason": "Engaging with his minimal effort while pretending it doesn't bother me is the classic, repeated mistake in this dynamic."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "\"Me\" and \"my bestie\" are the two peer entities, and our shared focus on the phone (the unseen stimulus) perfectly captures the joint expression of weary disappointment."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "All elements of the metaphor and core are perfectly filled by the moment's entities with no weak points."
+      }
+    },
+    {
+      "context": "My bestie and I wordlessly watch his Instagram story of him looking hot at the gym with a sad caption for the third time, after he's left me on delivered for eight hours.",
+      "register": "in_scene",
+      "metaphor": "The shared, silent moment between two people after witnessing an incredibly awkward or draining social interaction.",
+      "element_map": [
+        {
+          "element": "two people",
+          "played_by": "me and my bestie",
+          "score": 1.0,
+          "reason": "The moment is explicitly about the two of us sharing this experience together."
+        },
+        {
+          "element": "the shared, silent moment",
+          "played_by": "our wordless rewatching of his story",
+          "score": 1.0,
+          "reason": "The silent, repeated viewing of the content is the core bonding action of the scene, full of unspoken understanding."
+        },
+        {
+          "element": "the incredibly awkward or draining social interaction",
+          "played_by": "his confusing Instagram story",
+          "score": 1.0,
+          "reason": "His post is a classic form of passive, draining, and awkward digital communication designed to elicit a reaction without direct contact."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "\"Me\" and \"my bestie\" are the two peer entities, and the act of watching his story on a phone serves as the unseen stimulus causing their joint weary disappointment."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment perfectly embodies the metaphor and core structure, with every component mapping cleanly."
+      }
+    },
+    {
+      "context": "My bestie gives me the side-eye as I say 'I'm literally so over him' while immediately muting our conversation to listen to the 3-second voice note he just sent after ignoring me all day.",
+      "register": "in_scene",
+      "metaphor": "Listening to someone's obviously exaggerated or fake story and trying not to call them out on it.",
+      "element_map": [
+        {
+          "element": "someone's obviously exaggerated or fake story",
+          "played_by": "my claim that 'I'm literally so over him'",
+          "score": 1.0,
+          "reason": "My statement is the fake story, immediately contradicted by my desperate action to hear his voice note."
+        },
+        {
+          "element": "the listener trying not to call them out",
+          "played_by": "my bestie",
+          "score": 1.0,
+          "reason": "Her side-eye is the perfect non-verbal expression of weary skepticism, showing she knows I'm lying but is too tired to argue."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "\"Me\" (dejected) and \"my bestie\" (suspicious) are the two peer entities, jointly reacting with weary disappointment to the unseen stimulus of his notification."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect fit for the metaphor and core, capturing the dynamic between the persona and her friend flawlessly."
+      }
+    }
+  ]
+}
+```

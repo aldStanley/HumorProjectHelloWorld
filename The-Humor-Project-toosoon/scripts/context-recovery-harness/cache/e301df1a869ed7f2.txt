@@ -1,0 +1,105 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Realizing I'm going to get another 4 a.m. 'i miss you' text after seeing him trying to read his future in the bottom of a cup while his best friend just accepts defeat, both of them stuck on the same step they've been on for months.",
+      "register": "watched_scene",
+      "metaphor": "Stuck in the same ongoing struggle, where one person keeps searching for a way out while the other has completely surrendered to despair.",
+      "element_map": [
+        {
+          "element": "the same ongoing struggle",
+          "played_by": "his self-destructive cycle",
+          "score": 1.0,
+          "reason": "This cycle is the invisible, recurring force that has entrapped both him and his friend, leading to the exhausted scene she is witnessing."
+        },
+        {
+          "element": "one person [who] keeps searching for a way out",
+          "played_by": "my situationship",
+          "score": 0.9,
+          "reason": "He is performing a futile, symbolic act of searching (reading a cup) which represents his ineffective attempts to find a solution or escape his own patterns."
+        },
+        {
+          "element": "the other [who] has completely surrendered to despair",
+          "played_by": "his best friend",
+          "score": 1.0,
+          "reason": "His friend's posture of total collapse is a perfect visual representation of having surrendered to the hopelessness of the recurring situation."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment casts 'my situationship' as the entity in focused despair (searching for an answer) and 'his best friend' as the entity in a state of total collapse, fulfilling the core analog."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The weakest aspect is the slightly symbolic interpretation of him 'searching for a way out' by looking into a cup, though it fits the metaphor's theme strongly."
+      }
+    },
+    {
+      "context": "Seeing my situationship stare into an empty glass like it holds the answers for why his new girl is already mad at him, while his best friend just gives up and sleeps on the stairs, leaving me to wonder why I'm still paying attention to his self-made dramas.",
+      "register": "watched_scene",
+      "metaphor": "Being right next to someone who is falling apart, but being completely absorbed in your own separate world.",
+      "element_map": [
+        {
+          "element": "someone who is falling apart",
+          "played_by": "my situationship",
+          "score": 0.9,
+          "reason": "He is depicted in a state of quiet crisis over his new relationship, clearly not handling the consequences of his actions well."
+        },
+        {
+          "element": "[being] right next to someone",
+          "played_by": "his best friend",
+          "score": 1.0,
+          "reason": "His best friend is physically proximate to him on the staircase, sharing the same space during his friend's crisis."
+        },
+        {
+          "element": "[being] completely absorbed in your own separate world",
+          "played_by": "his best friend",
+          "score": 0.9,
+          "reason": "By being asleep or completely withdrawn, he has checked out of his friend's drama and retreated into his own world of exhaustion."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment perfectly casts 'my situationship' as the entity in focused despair and 'his best friend' as the entity in a state of total collapse, both proximate and non-interactive."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The fit is extremely strong, with the weakest aspect being the slight inference required to see his quiet focus as 'falling apart'."
+      }
+    },
+    {
+      "context": "Watching my situationship meticulously count the beer logos left on his glass while his best friend literally passes out from boredom after he spent the whole night explaining how he 'fumbled' by ending things with me last week.",
+      "register": "watched_scene",
+      "metaphor": "Facing the same overwhelming problem, but one person distracts themselves with a tiny detail while the other collapses under the weight of it.",
+      "element_map": [
+        {
+          "element": "the same overwhelming problem",
+          "played_by": "the fallout from him ending things",
+          "score": 0.9,
+          "reason": "This recent event is the central, invisible force affecting both figures in the scene, making one ruminate and the other exhausted by proxy."
+        },
+        {
+          "element": "one person [who] distracts themselves with a tiny detail",
+          "played_by": "my situationship",
+          "score": 1.0,
+          "reason": "He is literally fixated on a tiny detail (logos on a glass) as a way of processing or avoiding the larger emotional problem he created."
+        },
+        {
+          "element": "the other [who] collapses under the weight of it",
+          "played_by": "his best friend",
+          "score": 0.8,
+          "reason": "His friend is physically collapsed, not from the weight of the problem itself, but from the exhaustion of dealing with the person who has the problem."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's entities, 'my situationship' (focused despair) and 'his best friend' (total collapse), perfectly fill the core's slots in kind and cardinality."
+      },
+      "overall": {
+        "score": 0.8,
+        "reason": "The weakest link is that his best friend is collapsing under the weight of his friend's complaining, not the problem itself, which is a slight variation on the metaphor."
+      }
+    }
+  ]
+}
+```

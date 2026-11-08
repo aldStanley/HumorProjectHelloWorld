@@ -1,0 +1,14 @@
+{
+  "figures": [
+    {
+      "anchor": "left person sitting on steps, wearing a blue cap and looking down at a phone",
+      "candidates": ["me", "my inner force"]
+    },
+    {
+      "anchor": "right person sitting on steps in a green shirt, hunched forward with head down",
+      "candidates": ["me", "my inner force"]
+    }
+  ],
+  "entities_in_caption": ["me", "my story", "his name"],
+  "entities_expected_in_image": ["me", "my inner force"]
+}

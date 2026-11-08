@@ -1,0 +1,1 @@
+{"cast_match":0.5,"pose_match":0.45,"story_match":0.75,"overall_recovered":0.65,"verdict":"partly","note":"They nailed the core Instagram-story viewer-list obsession, but missed that the second slumped figure represents the narrator’s resolve to block him evaporating."}

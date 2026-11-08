@@ -1,0 +1,1 @@
+{"cast_match":0.75,"pose_match":0.8,"story_match":0.6,"overall_recovered":0.68,"verdict":"partly","note":"The viewer got the core weary-friends-reacting-to-his-ex-claim joke, but missed the specific roommate/best-friend roles and the flowers-at-his-office context."}

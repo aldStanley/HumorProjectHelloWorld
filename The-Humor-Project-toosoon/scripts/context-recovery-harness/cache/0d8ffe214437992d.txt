@@ -1,0 +1,28 @@
+{
+  "figures": [
+    {
+      "anchor": "left person seated on steps, wearing a backwards blue cap and looking down at a phone",
+      "candidates": [
+        "my situationship",
+        "his best friend"
+      ]
+    },
+    {
+      "anchor": "right person seated on steps in a green shirt, head down on arms",
+      "candidates": [
+        "my situationship",
+        "his best friend"
+      ]
+    }
+  ],
+  "entities_in_caption": [
+    "me",
+    "my situationship",
+    "his best friend",
+    "his new relationship"
+  ],
+  "entities_expected_in_image": [
+    "my situationship",
+    "his best friend"
+  ]
+}

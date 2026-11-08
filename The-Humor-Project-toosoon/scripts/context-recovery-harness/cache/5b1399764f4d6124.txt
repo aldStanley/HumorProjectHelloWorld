@@ -1,0 +1,28 @@
+{
+  "figures": [
+    {
+      "figure": "jester-like figure standing with hands raised and one leg lifted, facing the seated woman",
+      "entity_guess": "Him",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "His exaggerated performing pose fits the idea of him showing off with a cringe guitar solo, though no guitar is visible."
+    },
+    {
+      "figure": "seated crowned woman in a throne-like chair, looking at the jester with a skeptical or unimpressed expression",
+      "entity_guess": "his new girl",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "Her unimpressed look fits reacting to the cringe performance/post, but the caption does not explicitly say she is watching or judging it."
+    }
+  ],
+  "unresolved": [
+    "that cringe guitar solo",
+    "posting",
+    "following his new girl"
+  ],
+  "story_guess": "A guy follows a new girl online and immediately posts a cringe guitar solo to impress her, like a jester performing awkwardly for a queen.",
+  "cast_clarity": 0.75,
+  "pose_clarity": 0.6,
+  "story_clarity": 0.8,
+  "verdict": "partly"
+}

@@ -1,0 +1,37 @@
+{
+  "figures": [
+    {
+      "figure": "front bent-over man in striped shirt looking down toward the tracks",
+      "entity_guess": "me or my bestie; one of the two people investigating, but the caption does not distinguish which",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "His bent-over, searching posture fits the idea of trying to identify something in a reflection."
+    },
+    {
+      "figure": "rear bent-over man in light blue shirt leaning over behind the first man",
+      "entity_guess": "me or my bestie; one of the two people investigating, but the caption does not distinguish which",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "His bent-over, searching posture also fits the caption's idea of jointly inspecting a reflection."
+    },
+    {
+      "figure": "distant person standing upright on the opposite platform",
+      "entity_guess": null,
+      "confident": false,
+      "pose_explained": false,
+      "pose_note": "The caption does not mention a third bystander or explain their standing pose."
+    }
+  ],
+  "unresolved": [
+    "which bent figure is 'me' and which is 'my bestie'",
+    "his reflection",
+    "who 'his' refers to",
+    "the girl in his reflection",
+    "what 'I said I was done' specifically refers to"
+  ],
+  "story_guess": "The joke is that even after claiming to be done with a guy, the speaker and her best friend are still obsessively investigating him closely enough to identify another girl from his reflection.",
+  "cast_clarity": 0.45,
+  "pose_clarity": 0.65,
+  "story_clarity": 0.7,
+  "verdict": "partly"
+}

@@ -1,0 +1,36 @@
+{
+  "figures": [
+    {
+      "figure": "front foreground man in light striped shirt bent over looking down toward the train tracks",
+      "entity_guess": "me or my delusion",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "The bent-over searching posture fits the idea of obsessively 'checking his Venmo for clues,' but the caption does not say whether this specific bent man is 'me' or 'my delusion.'"
+    },
+    {
+      "figure": "rear foreground man in blue shirt bent over behind the first man looking down toward the train tracks",
+      "entity_guess": "me or my delusion",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "His matching bent-over searching posture also fits the Venmo-stalking/clue-hunting joke, but he cannot be distinctly assigned as either 'me' or 'my delusion' from the caption alone."
+    },
+    {
+      "figure": "distant person standing upright on the opposite platform",
+      "entity_guess": null,
+      "confident": false,
+      "pose_explained": false,
+      "pose_note": "The caption gives no role or reason for this distant standing person."
+    }
+  ],
+  "unresolved": [
+    "his",
+    "his Venmo",
+    "clues",
+    "everyone"
+  ],
+  "story_guess": "The joke is that even after claiming to be done with a guy, the speaker and their delusional side are still obsessively investigating his Venmo for signs about his life or relationships.",
+  "cast_clarity": 0.55,
+  "pose_clarity": 0.7,
+  "story_clarity": 0.85,
+  "verdict": "partly"
+}

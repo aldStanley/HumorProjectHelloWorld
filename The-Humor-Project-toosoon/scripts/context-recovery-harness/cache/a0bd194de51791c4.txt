@@ -1,0 +1,30 @@
+{
+  "figures": [
+    {
+      "figure": "left small hooded alien with eyes closed, hand on face, holding the other alien's hand",
+      "entity_guess": "me",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "The closed eyes and hand-to-face pose fit someone emotionally invested or delusionally rationalizing a romantic situation while presenting a theory."
+    },
+    {
+      "figure": "right pale alien leaning in, holding the left alien's hand and looking down toward them",
+      "entity_guess": "my bestie",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "The leaning-in, hand-holding posture fits a best friend patiently listening and offering support during the narrator's questionable theory."
+    }
+  ],
+  "unresolved": [
+    "him",
+    "his ex",
+    "his ex's old pic",
+    "2am",
+    "a good sign"
+  ],
+  "story_guess": "The joke is that the narrator is overanalyzing a bad romantic signal as something positive, while their best friend patiently listens like emotional support.",
+  "cast_clarity": 0.85,
+  "pose_clarity": 0.8,
+  "story_clarity": 0.9,
+  "verdict": "got_it"
+}

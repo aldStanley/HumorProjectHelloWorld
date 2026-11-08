@@ -1,0 +1,18 @@
+{
+  "content": [],
+  "scene_context": "",
+  "meme": {
+    "is_meme": true,
+    "template_name": "Greyhound in a coat looking awkward/cold",
+    "meaning": "This image is commonly used as a reaction meme to express feelings of discomfort, awkwardness, being unprepared, or being out of place, especially in situations where someone feels exposed or vulnerable.",
+    "how_a_caption_should_use_it": "The caption should set up a scenario where someone feels awkward, out of place, or unprepared, and the image delivers the punchline by visually representing that feeling.",
+    "image_is_punchline": true,
+    "image_delivers": "awkwardness, discomfort, or being unprepared",
+    "confidence": 0.95,
+    "example_captions": [
+      "When you show up to the party and realize it's formal but you wore pajamas.",
+      "Me waiting outside the classroom after arriving way too early.",
+      "When you try to blend in but you know you stand out."
+    ]
+  }
+}

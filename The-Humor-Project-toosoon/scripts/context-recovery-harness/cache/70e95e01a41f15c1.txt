@@ -1,0 +1,8 @@
+```json
+[
+  "The shared exhaustion of looking at the consequences of a poor decision made the night before.",
+  "Two veterans watching an enthusiastic newcomer confidently suggest an idea that has failed repeatedly.",
+  "Listening to a friend describe their latest terrible plan that you no longer have the energy to argue against.",
+  "When you and a coworker have to endure a meeting full of corporate jargon that is completely detached from reality."
+]
+```

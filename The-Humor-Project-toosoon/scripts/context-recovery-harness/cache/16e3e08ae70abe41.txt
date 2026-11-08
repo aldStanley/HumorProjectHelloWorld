@@ -1,0 +1,27 @@
+{
+  "figures": [
+    {
+      "anchor": "left jester-like character standing with raised hands facing the seated figure",
+      "candidates": [
+        "me",
+        "me from yesterday"
+      ]
+    },
+    {
+      "anchor": "right crowned princess/queen-like character sitting in a chair facing the jester",
+      "candidates": [
+        "me",
+        "me from yesterday"
+      ]
+    }
+  ],
+  "entities_in_caption": [
+    "me",
+    "me from yesterday",
+    "he"
+  ],
+  "entities_expected_in_image": [
+    "me",
+    "me from yesterday"
+  ]
+}

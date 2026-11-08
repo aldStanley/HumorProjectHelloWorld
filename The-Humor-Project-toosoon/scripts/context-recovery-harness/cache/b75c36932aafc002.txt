@@ -1,0 +1,34 @@
+{
+  "figures": [
+    {
+      "anchor": "foreground lower center-left, person in light striped shirt bent over looking toward the tracks",
+      "candidates": [
+        "me",
+        "my bestie"
+      ]
+    },
+    {
+      "anchor": "foreground lower center-right, person in light blue shirt bent over behind the other foreground person looking toward the tracks",
+      "candidates": [
+        "me",
+        "my bestie"
+      ]
+    },
+    {
+      "anchor": "background across the tracks on the opposite platform, small standing person",
+      "candidates": [
+        "the girl"
+      ]
+    }
+  ],
+  "entities_in_caption": [
+    "me",
+    "my bestie",
+    "the girl"
+  ],
+  "entities_expected_in_image": [
+    "me",
+    "my bestie",
+    "the girl"
+  ]
+}

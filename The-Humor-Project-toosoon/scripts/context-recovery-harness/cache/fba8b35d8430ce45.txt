@@ -1,0 +1,93 @@
+```json
+{
+  "matches": [
+    {
+      "context": "The urge to send him a 12-part follow-up essay frantically explaining my last text while me, after getting back just 'lol,' slowly puts my phone face down on the table.",
+      "register": "internal",
+      "me_side": "me, after getting back just 'lol,'",
+      "force_side": "The urge to send him a 12-part follow-up essay",
+      "metaphor": "Putting on a whole song and dance for someone who's already decided they're not interested.",
+      "element_map": [
+        {
+          "element": "Someone putting on a whole song and dance",
+          "played_by": "The urge to send him a 12-part follow-up essay",
+          "score": 1.0,
+          "reason": "The frantic, desperate energy of wanting to over-explain and perform more emotional labor perfectly matches the jester's attention-seeking performance."
+        },
+        {
+          "element": "Someone who's already decided they're not interested",
+          "played_by": "me, after getting back just 'lol,'",
+          "score": 1.0,
+          "reason": "My physical act of putting the phone down is a definitive, silent judgment and dismissal of the internal urge to keep trying."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The 'energetic effort' is filled by the frantic urge to explain, while the 'dismissive judgment' is filled by my own cold, quiet action of giving up."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "All elements map perfectly, and the moment's entities precisely fill the core analog's slots with the correct dynamic of performance versus dismissal."
+      }
+    },
+    {
+      "context": "Me calmly re-applying my lip gloss in the reflection of my phone screen while the urge to text him 'whose hand is that???' goes absolutely feral after seeing his new story.",
+      "register": "internal",
+      "me_side": "Me calmly re-applying my lip gloss",
+      "force_side": "the urge to text him 'whose hand is that???'",
+      "metaphor": "Putting on a whole song and dance for someone who's already decided they're not interested.",
+      "element_map": [
+        {
+          "element": "Someone putting on a whole song and dance",
+          "played_by": "the urge to text him 'whose hand is that???'",
+          "score": 1.0,
+          "reason": "The 'feral' chaos of the urge is a direct embodiment of the jester's frantic, uncontrolled, and desperate dance to get a reaction."
+        },
+        {
+          "element": "Someone who's already decided they're not interested",
+          "played_by": "Me calmly re-applying my lip gloss",
+          "score": 1.0,
+          "reason": "My calculated, self-focused, and outwardly calm behavior is the ultimate performance of disinterest and royal judgment over the internal panic."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The 'energetic effort' to provoke a reaction is filled by the feral urge, while the 'dismissive judgment' is filled by me performing a detached routine."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "This moment perfectly stages the internal conflict, using a specific, filmable action to represent the queen's unimpressed judgment of the jester's chaos."
+      }
+    },
+    {
+      "context": "The urge to text him back celebrating his 2am 'you up?' like it's a marriage proposal, while me, who just told my friends I was 'so over him,' stares blankly at the screen.",
+      "register": "internal",
+      "me_side": "me, who just told my friends I was 'so over him,'",
+      "force_side": "The urge to text him back",
+      "metaphor": "Putting on a whole song and dance for someone who's already decided they're not interested.",
+      "element_map": [
+        {
+          "element": "Someone putting on a whole song and dance",
+          "played_by": "The urge to text him back",
+          "score": 1.0,
+          "reason": "The urge's deluded celebration of a low-effort text is a perfect match for the jester's over-the-top performance for minimal reward."
+        },
+        {
+          "element": "Someone who's already decided they're not interested",
+          "played_by": "me, who just told my friends I was 'so over him,'",
+          "score": 0.9,
+          "reason": "My blank stare embodies the queen's unimpressed attitude, though the very existence of the conflict means I am not fully 'decided' and am vulnerable to the urge's performance."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The 'energetic effort to please' is filled by the desperate urge celebrating a scrap of attention, while the 'dismissive judgment' is filled by my own self-aware, blank reaction."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The fit is excellent, with the weakest aspect being the mapping for 'someone who's already decided,' as my persona's internal conflict means I am judging the urge but not entirely immune to it."
+      }
+    }
+  ]
+}
+```

@@ -1,0 +1,1 @@
+{"cast_match":0.95,"pose_match":0.7,"story_match":0.9,"overall_recovered":0.88,"verdict":"got_it","note":"They correctly recovered the cast and core joke, though they slightly over-read the left figure as looking at a text rather than down into a glass."}

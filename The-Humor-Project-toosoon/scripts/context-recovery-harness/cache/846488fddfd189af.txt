@@ -1,0 +1,27 @@
+{
+  "figures": [
+    {
+      "figure": "pink starfish on the left with half-lidded eyes and a flat expression",
+      "entity_guess": "Me",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "The deadpan stare fits someone looking at a read receipt after sending an emotional 3am message, but assigning this figure as 'Me' is only based on caption order."
+    },
+    {
+      "figure": "yellow sponge on the right with half-lidded eyes and a flat expression",
+      "entity_guess": "my better judgment",
+      "confident": false,
+      "pose_explained": true,
+      "pose_note": "The unimpressed stare fits 'better judgment' silently witnessing the bad decision, but which figure is 'better judgment' is not visually specified."
+    }
+  ],
+  "unresolved": [
+    "the 'read' receipt",
+    "my 3am paragraph"
+  ],
+  "story_guess": "The joke is that after sending an emotional late-night paragraph, the speaker and their ignored better judgment are both staring regretfully at the read receipt.",
+  "cast_clarity": 0.6,
+  "pose_clarity": 0.8,
+  "story_clarity": 0.9,
+  "verdict": "partly"
+}

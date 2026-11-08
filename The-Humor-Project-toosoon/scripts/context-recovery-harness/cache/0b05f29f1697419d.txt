@@ -1,0 +1,1 @@
+{"cast_match":0.7,"pose_match":0.8,"story_match":0.85,"overall_recovered":0.82,"verdict":"got_it","note":"They recovered the core joke of the dismissive 'that's crazy' reply being watched by his roommate and best friend, though they did not identify which character was which or the mixed-signals context."}

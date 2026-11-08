@@ -1,0 +1,20 @@
+{
+  "content": [
+    {
+      "name": "Bugs Bunny",
+      "type": "cartoon_character",
+      "confidence": 100,
+      "description": "Bugs Bunny, a classic character from the Looney Tunes animated series, shown here with an unimpressed expression and the word 'NO' in bold letters."
+    }
+  ],
+  "scene_context": "This image is a popular reaction meme featuring Bugs Bunny from Looney Tunes, used to emphatically reject or dismiss something with a simple 'NO.'",
+  "meme": {
+    "is_meme": true,
+    "template_name": "Bugs Bunny NO reaction",
+    "meaning": "Used as a reaction image to bluntly and humorously reject a suggestion, request, or statement.",
+    "how_a_caption_should_use_it": "Caption should set up a scenario or request that is being rejected; the image delivers the emphatic 'NO.'",
+    "image_is_punchline": true,
+    "image_delivers": "an emphatic NO",
+    "confidence": 1.0
+  }
+}

@@ -1,0 +1,32 @@
+```json
+[
+  {
+    "situation": "Being physically together but emotionally worlds apart, each lost in their own private struggle.",
+    "resonance": 0.9,
+    "resonance_why": "A deeply common and painful feeling of loneliness that can occur within any close partnership or friendship.",
+    "image_clarity": 0.8,
+    "clarity_why": "Their close proximity contrasts sharply with their total lack of interaction and completely inward-facing postures."
+  },
+  {
+    "situation": "The silent, worn-out 'comedown' after an intense event, where there's nothing left to say or do.",
+    "resonance": 0.8,
+    "resonance_why": "A highly relatable feeling of shared physical and social burnout after a period of high energy.",
+    "image_clarity": 0.9,
+    "clarity_why": "The setting, the glass, and the poses of utter depletion are a classic tableau of post-party collapse."
+  },
+  {
+    "situation": "When a shared crisis hits, one person tries to analyze the problem while the other completely shuts down.",
+    "resonance": 0.9,
+    "resonance_why": "This 'fixer vs avoider' or 'anxious vs withdrawn' response is a classic relationship pattern under stress.",
+    "image_clarity": 0.7,
+    "clarity_why": "The 'shut down' posture is unmistakable; the focused gaze into the glass strongly implies an attempt to 'figure it out'."
+  },
+  {
+    "situation": "Two people completely defeated by the daily grind, sharing a moment of quiet burnout.",
+    "resonance": 0.8,
+    "resonance_why": "Burnout from work, commuting, or systemic pressures is a widespread and frequently discussed modern experience.",
+    "image_clarity": 0.5,
+    "clarity_why": "While the exhaustion is clear, attributing it to 'the grind' requires interpreting the generic setting as a symbol for a larger system."
+  }
+]
+```

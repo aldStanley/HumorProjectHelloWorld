@@ -1,0 +1,70 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Me at 1 AM, who just saw his new story with a girl, being gently calmed down by me at 1:01 AM, who has decided she's definitely just his cousin from out of town.",
+      "register": "internal",
+      "me_side": "Me at 1 AM, who just saw his new story with a girl",
+      "force_side": "me at 1:01 AM, who has decided she's definitely just his cousin from out of town",
+      "metaphor": "My higher self trying to get my anxious self to just calm down for a second.",
+      "element_map": [
+        {
+          "element": "My higher self",
+          "played_by": "me at 1:01 AM, who has decided she's his cousin",
+          "score": 1.0,
+          "reason": "This state-stamped version of herself is the active, comforting force, acting as a twisted 'higher self' dedicated to self-preservation through immediate, protective delusion."
+        },
+        {
+          "element": "my anxious self",
+          "played_by": "Me at 1 AM, who just saw his new story",
+          "score": 1.0,
+          "reason": "This is the raw, spiraling, and vulnerable version of her reacting in real-time to the emotional trigger, perfectly embodying the anxious self in need of soothing."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment perfectly casts two same-kind entities, with 'me at 1:01 AM' playing the supportive role for the distressed 'me at 1 AM'."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect fit, with the me-vs-me dynamic flawlessly mapping to the metaphor pattern and the physical core of the image."
+      }
+    },
+    {
+      "context": "Me letting my delusion present our one 'good morning beautiful' text from three weeks ago as evidence he's just busy, not ignoring the question I asked him six hours ago.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "my delusion",
+      "metaphor": "Comforting a friend whose problems are too weird for most people to understand.",
+      "element_map": [
+        {
+          "element": "a friend being comforted",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "She is the distressed party, passively accepting comfort for a pain that follows a logic invisible to anyone outside the situationship."
+        },
+        {
+          "element": "the comforting friend",
+          "played_by": "my delusion",
+          "score": 1.0,
+          "reason": "The delusion acts as the only 'friend' who intimately understands the specific, illogical comfort needed to survive this particular brand of emotional neglect."
+        },
+        {
+          "element": "problems too weird for most people to understand",
+          "played_by": "the need to justify being ignored for six hours with a three-week-old text",
+          "score": 0.9,
+          "reason": "While not an entity, this specific, nonsensical emotional calculus is the core 'weird problem' that makes the interaction both necessary and isolating."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'My delusion' fills the role of the supportive entity, and 'me' is the distressed, same-kind entity, as the delusion is an extension of her own mind."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The fit is very strong, but the weakest aspect is mapping the 'weird problems' element to a situational logic rather than a distinct entity."
+      }
+    }
+  ]
+}
+```

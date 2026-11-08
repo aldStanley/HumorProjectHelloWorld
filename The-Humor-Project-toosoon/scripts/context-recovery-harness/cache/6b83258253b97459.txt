@@ -1,0 +1,38 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "Patrick, with a tired and dejected expression",
+      "entity": "me",
+      "fit": 1.0,
+      "reason": "As an avatar, Patrick's utterly exhausted and dejected expression perfectly embodies the persona's feeling of being emotionally drained by her situationship."
+    },
+    {
+      "figure": "SpongeBob, squinting with a look of weary suspicion and disapproval",
+      "entity": "my bestie",
+      "fit": 1.0,
+      "reason": "As an avatar, SpongeBob's squint of weary suspicion and disapproval is an ideal representation of a best friend who has heard it all before and is judging the toxic situation."
+    }
+  ],
+  "weakest_fit": 1.0,
+  "why": "This image is a perfect avatar for the persona and her best friend sharing a moment of mutual exhaustion and disapproval over a recurring toxic situation.",
+  "secondary_nominations": [
+    {
+      "entity": "a low-energy moment",
+      "possibilities": [
+        "the silence before I decide to text him back",
+        "us rereading his texts for the fifth time",
+        "debriefing the night before"
+      ]
+    },
+    {
+      "entity": "a mundane situation",
+      "possibilities": [
+        "him posting on his story but not replying",
+        "getting another one-word text",
+        "seeing he's active online"
+      ]
+    }
+  ]
+}
+```

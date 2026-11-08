@@ -1,0 +1,28 @@
+{
+  "figures": [
+    {
+      "figure": "person on the left wearing a backward cap, hunched over and looking down at something in their hands",
+      "entity_guess": "me",
+      "confident": true,
+      "pose_explained": true,
+      "pose_note": "They appear to be staring down at a phone or object, which fits the idea of repeatedly checking/replaying a story to look for someone's name."
+    },
+    {
+      "figure": "person on the right in a green shirt, sitting on the stairs with head down on their arms",
+      "entity_guess": null,
+      "confident": false,
+      "pose_explained": false,
+      "pose_note": "The caption only names 'me' and gives no second role; their slumped posture could suggest exhaustion or despair, but the caption does not clearly assign or explain them."
+    }
+  ],
+  "unresolved": [
+    "my story",
+    "his name",
+    "who 'his' refers to"
+  ],
+  "story_guess": "The joke is that 'me' is obsessively checking/replaying a social media story over and over hoping to see a particular guy's name in the viewers, looking drained or desperate.",
+  "cast_clarity": 0.5,
+  "pose_clarity": 0.5,
+  "story_clarity": 0.75,
+  "verdict": "partly"
+}

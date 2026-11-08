@@ -1,0 +1,8 @@
+```json
+[
+  "Trying desperately to win the approval of someone who is indifferent or judgmental.",
+  "Putting on a whole show to sell an idea to an unimpressed authority figure.",
+  "Explaining a fun, creative passion to someone who only sees it as frivolous and impractical.",
+  "Showing off flashy but non-essential features to someone who just wants the basic function."
+]
+```

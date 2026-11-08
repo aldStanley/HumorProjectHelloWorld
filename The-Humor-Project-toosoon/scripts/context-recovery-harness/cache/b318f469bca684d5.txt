@@ -1,0 +1,99 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Me, after getting left on read for four days, letting my delusion convince me his 'you up?' text is a real attempt to reconnect, not just a low-effort booty call.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "my delusion",
+      "metaphor": "Gently supporting someone through a deep personal sadness or failure.",
+      "element_map": [
+        {
+          "element": "Someone experiencing deep personal sadness or failure",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "Her sadness from being ignored and her failure to maintain her own boundaries are the central emotional crisis of the moment."
+        },
+        {
+          "element": "The gentle supporter",
+          "played_by": "my delusion",
+          "score": 1.0,
+          "reason": "The delusion provides a comforting, alternative narrative that soothes the immediate pain of rejection and allows her to engage."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The core is perfectly filled by 'my delusion' (one supportive entity) holding and comforting 'me' (a distressed, same-kind entity)."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect thematic and structural fit for the metaphor and the core physical analog."
+      }
+    },
+    {
+      "context": "Me telling my friends 'he is literally dead to me' in the group chat while my delusion gently changes his contact name back to 'my man ❤️' after he texted a non-apology like 'my bad been crazy busy'.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "my delusion",
+      "metaphor": "Trying to gently introduce a difficult, world-altering truth to someone who isn't ready for it.",
+      "element_map": [
+        {
+          "element": "The one introducing a truth",
+          "played_by": "my delusion",
+          "score": 1.0,
+          "reason": "The delusion is introducing the false 'truth' that he cares and the relationship is viable, which is the comforting lie she needs."
+        },
+        {
+          "element": "Someone who isn't ready for it",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "She is not ready for the real, harsh truth of the situationship, so she willingly accepts the delusion's gentle, fabricated reality."
+        },
+        {
+          "element": "The difficult, world-altering truth",
+          "played_by": "The idea that this time is different",
+          "score": 0.9,
+          "reason": "This is the core concept being introduced; it's an intangible force that, if accepted, completely alters her emotional world."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The core is perfectly filled by 'my delusion' (one supportive entity) holding and comforting 'me' (a distressed, same-kind entity)."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The fit is excellent, limited only slightly by the metaphor's 'truth' element being played by an abstract concept rather than a feeling entity."
+      }
+    },
+    {
+      "context": "Me staring at the one good photo of us after seeing his Instagram story with a new girl, letting my delusion insist that our five months of chaos meant more than her one weekend trip.",
+      "register": "internal",
+      "me_side": "Me",
+      "force_side": "my delusion",
+      "metaphor": "Your current, wiser self trying to comfort and integrate a younger, more wounded part of yourself.",
+      "element_map": [
+        {
+          "element": "The current, wiser self",
+          "played_by": "my delusion",
+          "score": 0.8,
+          "reason": "Delusion takes on the *role* of a wiser, comforting entity by providing a soothing, albeit false, long-term perspective to manage immediate pain."
+        },
+        {
+          "element": "The younger, more wounded part of yourself",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "She is actively and freshly wounded by the new information, making her emotionally equivalent to a younger, more vulnerable self."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The core is perfectly filled by 'my delusion' (one supportive entity) holding and comforting 'me' (a distressed, same-kind entity)."
+      },
+      "overall": {
+        "score": 0.8,
+        "reason": "The overall fit is strong, limited only by the imperfect mapping of 'my delusion' to the 'wiser self' element in the metaphor."
+      }
+    }
+  ]
+}
+```

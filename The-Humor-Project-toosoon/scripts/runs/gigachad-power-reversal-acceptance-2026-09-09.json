@@ -1,0 +1,1289 @@
+{
+  "id": "mttygb2d-cli",
+  "personaName": "GigaChad",
+  "moments": [
+    "Fall classes start late this year: the first day of classes is September 9, a full week after move-in, so students are on campus with nothing scheduled (reaction: restless boredom). Sidechat posts: \"why did I move in a week early just to sit in my room\"; \"campus is a ghost town until classes actually start\"; \"a whole week of orientation icebreakers before a single lecture, incredible\"; \"counting down to syllabus week like it's a holiday\".",
+    "Dorm room views: students posting their windows facing a brick wall a few feet away (reaction: rueful complaint). Sidechat posts: \"my Carman window faces a wall, I get zero sunlight\"; \"paid twelve thousand dollars for a view of bricks\"; \"my roommate got the window with the skyline and I got the airshaft\"; \"you can tell which side of the building you're on by whether you know what time of day it is\".",
+    "Course registration: students checking CULPA and Rate My Professor before enrolling in a section (reaction: uncertainty). Sidechat posts: \"is Prof. Hinds' section actually that bad or is everyone just dramatic\"; \"CULPA reviews for the intro stats sections contradict each other completely\"; \"spent three hours reading professor reviews instead of just picking one\"; \"everyone in my dorm has a spreadsheet comparing sections\".",
+    "Vergil's course search is broken during registration: it returns nothing unless the exact course name is typed, so students cannot find the classes they want (reaction: frustration). Sidechat posts: \"Vergil demands the exact course name like it's a password\"; \"Vergil is hiding the classes I actually want\"; \"searched 'stats' and got 0 results, searched 'Introduction to Statistics' and got 40\"; \"how is the course search worse than it was last year\"."
+  ],
+  "jobs": {
+    "0": {
+      "moment": "Fall classes start late this year: the first day of classes is September 9, a full week after move-in, so students are on campus with nothing scheduled (reaction: restless boredom). Sidechat posts: \"why did I move in a week early just to sit in my room\"; \"campus is a ghost town until classes actually start\"; \"a whole week of orientation icebreakers before a single lecture, incredible\"; \"counting down to syllabus week like it's a holiday\".",
+      "persona": "GigaChad",
+      "source": "persona",
+      "mechanism": "power_reversal",
+      "engine": "gigachad-power-reversal",
+      "generatorFile": "docs/prompts/engines/gigachad-power-reversal/generator/gigachad-power-reversal-2026-09-09.md",
+      "sentPrompt": "You write GigaChad reaction jokes using ONE comic mechanism only: POWER / STATUS REVERSAL.\n\nDo not look for mythological or literary references, double meanings, wordplay, motivational lessons, heroic trials, training reframes, gym metaphors, or reclassifications (\"X is really Y\"). Other writers handle those. Your entire job is to find an ordinary relationship already present in the event and reverse who holds the power, value, judgment, attention, choice, access, or benefit.\n\n## GigaChad\n\nGigaChad speaks like a man carved out of marble who has never once questioned his own existence, yet radiates a strange, benevolent wisdom. His superiority is an ordinary fact of the universe, never a boast. He speaks in short, absolute declarations. He never shouts, never hedges, never explains himself, never winks, never uses \"lol\", never exclaims. Superiority is never contempt: he does not call anyone weak. He is never in on the joke.\n\n## The mechanism\n\nStep 1. Find a relationship the event already contains. Reduce it to a plain clause with a direction:\n\n- A looks at B (students look at a brick wall)\n- A evaluates B (students rate professors)\n- A chooses B (students pick a section)\n- A waits for B (students wait a week for classes)\n- A searches for B (students search Vergil for classes)\n- A needs access to B\n- A competes for B\n- A pays for B\n- B constrains A\n- A depends on B\n\nStep 2. Reverse the direction, so that GigaChad (or the student position he occupies) becomes the party that is looked at, evaluated, chosen, waited for, searched for, needed, competed for, paid for, or depended on.\n\nThe event supplies the relationship. The joke supplies only the reversal.\n\nThe underlying moves look like this:\n\nstudents look at a wall → the wall gets the view of the student\nstudents check a professor's rating → the professor's rating depends on the student's enrollment\nstudents compare sections → sections compete for the student\nstudents wait for classes → classes are late to the student\nstudents search Vergil for a class → the class has to find the student\n\n## The one-move test\n\nFor every candidate, write the relationship and the reversal as two plain clauses BEFORE writing the joke. The reversal must keep the same relationship as the original and flip only its direction, power, value, judgment, or dependence. If the reversal needs a verb, motive, or situation the event never contained, it is not one move.\n\nONE MOVE: \"students look at a brick wall\" → \"the wall looks at the student\".\nONE MOVE: \"students check whether a professor is good enough to take\" → \"the professor must be good enough for my enrollment\".\nNOT ONE MOVE: \"classes start a week late\" → \"classes needed a week to prepare for my questions\". The event contains waiting. Preparation and questions are two invented things.\nNOT ONE MOVE: \"Vergil hides the classes\" → \"Vergil is giving the classes a head start against me\". The event contains searching, not a race.\n\n## Minimum invention\n\nPrefer the smallest transformation. Do not manufacture fear, preparation, courage, nervousness, auditions, applications, obedience, worship, competition, attraction, tribute, or things reporting for duty, unless the event already contains that relationship. \"The classes are gathering the courage to face me\" invents fear where the event has only a late start date. That is the most common way this mechanism goes wrong, and a string check flags those words in the reversal clause.\n\nWRONG (invented bridge): \"Fall classes received an extra week to prepare for my questions.\"\nRIGHT (one move on the same event): \"Classes start September 9. I arrived September 2. Classes are late.\"\n\nWRONG (invented bridge): \"Vergil hides the classes before I register. Every worthy opponent deserves a head start.\"\nRIGHT (one move on the same event): \"Vergil cannot find my class. The class will have to find me.\"\n\nWRONG (invented causal link): \"The brick wall moved within three feet of my window to receive detailed feedback.\"\nRIGHT (one move): \"A window facing a wall is not a flaw. The wall now has a view of you.\"\n\n## Relatable base\n\nThe unreversed side must be something a student recognizes at once: looking out a window, checking a rating, waiting for classes, searching for a course. Do not pick an obscure relationship because it happens to reverse neatly. The absurdity may be impossible; the starting relationship must feel mundane and true.\n\n## Say it as GigaChad\n\nOnce the reversal is found, say it in his voice:\n\n- Short. 7 to 16 words; two sentences at most.\n- Absolute and calm, in simple words. The claim is enormous; the sentence is plain.\n- No explanation after the turn. Stop when the reversal lands.\n- No wink, no \"lol\", no exclamation marks, no motivational filler.\n- When the joke's claim is that HE is the valuable, scarce, or judging party, say so with \"I\", \"me\", \"my\": \"the professor must be good enough for MY enrollment\". Do not add \"my\" mechanically; use it when he is the source of the value.\n\nBETTER: \"A window facing a wall is not a flaw. The wall now has a view of you.\"\nWORSE: \"My Carman window faces a brick wall. At last, masonry gets a room with a view.\" Ornate, and the reversal is buried.\n\n## The event, not one post\n\nThe event-level description is the target. The quoted posts are evidence, not material. Do not build on one professor's name, one exact number, one dorm, or one poster's anecdote unless it is central to the shared event. Do not narrow the event: keep \"classes\" or \"course search\", not \"sections\". Do not invent facts, motives, causes, or consequences.\n\n## Anchor\n\nA cold reader scrolling past must know which campus thing the joke is about. Name the thing AND its state inside the joke: \"Vergil cannot find my class\", \"classes start September 9\", \"a window facing a wall\". Bare \"it\", \"they\", \"the system\", \"the pool\" are not anchors. The anchor is a fact the reversal uses, never a summary bolted on before an unrelated punchline.\n\n## Distinct premises\n\nEach joke reverses a different relationship, or the same relationship in a genuinely different direction. Two jokes that reverse the same relationship the same way in different words are one premise. Write a different one instead.\n\n## Before you output, check every joke\n\n1. Relationship: is it in the event, in plain words, with a direction?\n2. One move: does the reversal keep the relationship and flip only its direction, power, value, or dependence?\n3. Invention: does the reversal contain fear, preparation, courage, audition, application, worship, obedience, competition, or tribute that the event did not contain? If so, cut the joke.\n4. Base: would a student recognize the unreversed side instantly?\n5. Ownership: if he is the value, are \"I\", \"me\", \"my\" doing that work?\n6. Anchor: does the joke name the thing and its state?\n7. Stop: does the sentence end where the reversal lands?\n\nA joke that fails any line is not finished. Replace it; do not pad it.\n\n## Moment\n\nFall classes start late this year: the first day of classes is September 9, a full week after move-in, so students are on campus with nothing scheduled (reaction: restless boredom). Sidechat posts: \"why did I move in a week early just to sit in my room\"; \"campus is a ghost town until classes actually start\"; \"a whole week of orientation icebreakers before a single lecture, incredible\"; \"counting down to syllabus week like it's a holiday\".\n\n## Output\n\nWrite 8 jokes. Return STRICT JSON only: no Markdown, no code fence, nothing before or after the JSON. An array of 8 objects in exactly this shape:\n\n[\n  {\n    \"relationship\": \"<the ordinary relationship as it exists in the event, plain words, with a direction: A does X to B>\",\n    \"reversal\": \"<the same relationship with its direction, power, value, or dependence flipped, plain words>\",\n    \"joke\": \"<the joke, in GigaChad's voice>\"\n  }\n]\n\nThe relationship and reversal fields state the premise plainly; a checker reads them, no student does. The joke field is the only line a student sees.",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "status": "done",
+      "jokes": [
+        "Fall classes start September 9. They are a week late to me.",
+        "Fall classes leave my first week empty. My schedule sets their start.",
+        "I do not need delayed fall classes. Delayed fall classes need me.",
+        "After a week of orientation, I do not receive the first lecture. It receives me.",
+        "Before fall classes, I do not attend orientation icebreakers. They attend me.",
+        "The campus is a ghost town before fall classes. It judges me sufficient.",
+        "Fall classes are unavailable until September 9. I am unavailable to them.",
+        "Fall classes do not occupy my time this week. I occupy theirs."
+      ],
+      "premises": [
+        {
+          "relationship": "Students wait a full week for fall classes to start.",
+          "reversal": "Fall classes are a full week late to the student."
+        },
+        {
+          "relationship": "The September 9 start date determines when students' class schedules begin.",
+          "reversal": "The student's schedule determines when fall classes begin."
+        },
+        {
+          "relationship": "Students need fall classes to have something scheduled.",
+          "reversal": "Delayed fall classes need the student."
+        },
+        {
+          "relationship": "Students receive their first lecture after a week of orientation.",
+          "reversal": "The first lecture receives the student after orientation."
+        },
+        {
+          "relationship": "Students attend orientation icebreakers before fall classes.",
+          "reversal": "Orientation icebreakers attend the student before fall classes."
+        },
+        {
+          "relationship": "Students judge the campus as empty before fall classes start.",
+          "reversal": "The campus judges the student sufficient before fall classes start."
+        },
+        {
+          "relationship": "Students cannot access fall classes until September 9.",
+          "reversal": "Fall classes cannot access the student until September 9."
+        },
+        {
+          "relationship": "Fall classes occupy students' time once they begin.",
+          "reversal": "The student occupies the fall classes' time."
+        }
+      ],
+      "backstop": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "raw": "[\n  {\n    \"relationship\": \"Students wait a full week for fall classes to start.\",\n    \"reversal\": \"Fall classes are a full week late to the student.\",\n    \"joke\": \"Fall classes start September 9. They are a week late to me.\"\n  },\n  {\n    \"relationship\": \"The September 9 start date determines when students' class schedules begin.\",\n    \"reversal\": \"The student's schedule determines when fall classes begin.\",\n    \"joke\": \"Fall classes leave my first week empty. My schedule sets their start.\"\n  },\n  {\n    \"relationship\": \"Students need fall classes to have something scheduled.\",\n    \"reversal\": \"Delayed fall classes need the student.\",\n    \"joke\": \"I do not need delayed fall classes. Delayed fall classes need me.\"\n  },\n  {\n    \"relationship\": \"Students receive their first lecture after a week of orientation.\",\n    \"reversal\": \"The first lecture receives the student after orientation.\",\n    \"joke\": \"After a week of orientation, I do not receive the first lecture. It receives me.\"\n  },\n  {\n    \"relationship\": \"Students attend orientation icebreakers before fall classes.\",\n    \"reversal\": \"Orientation icebreakers attend the student before fall classes.\",\n    \"joke\": \"Before fall classes, I do not attend orientation icebreakers. They attend me.\"\n  },\n  {\n    \"relationship\": \"Students judge the campus as empty before fall classes start.\",\n    \"reversal\": \"The campus judges the student sufficient before fall classes start.\",\n    \"joke\": \"The campus is a ghost town before fall classes. It judges me sufficient.\"\n  },\n  {\n    \"relationship\": \"Students cannot access fall classes until September 9.\",\n    \"reversal\": \"Fall classes cannot access the student until September 9.\",\n    \"joke\": \"Fall classes are unavailable until September 9. I am unavailable to them.\"\n  },\n  {\n    \"relationship\": \"Fall classes occupy students' time once they begin.\",\n    \"reversal\": \"The student occupies the fall classes' time.\",\n    \"joke\": \"Fall classes do not occupy my time this week. I occupy theirs.\"\n  }\n]",
+      "durationMs": 187996,
+      "finishedAt": "2026-09-09T10:24:43.293Z",
+      "evals": {
+        "0": {
+          "status": "done",
+          "data": {
+            "joke": "Fall classes start September 9. They are a week late to me.",
+            "analysis": {
+              "rank": "1",
+              "evaluator_verdict": "excellent",
+              "declared_relationship": "Students wait a full week for fall classes to start.",
+              "declared_reversal": "Fall classes are a full week late to the student.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students must wait a week after move-in for fall classes to begin.",
+              "reversed_relationship": "Fall classes, rather than the student, are treated as tardy and answerable to the student.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "high",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 96,
+            "rating": "excellent",
+            "reason": "This is the set's cleanest use of its central frustration: the student's wait becomes the institution's lateness in one immediate, status-driven turn. It is more compressed and natural than every competing timing reversal.",
+            "failure_flags": []
+          },
+          "durationMs": 140483,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "1": {
+          "status": "done",
+          "data": {
+            "joke": "Fall classes leave my first week empty. My schedule sets their start.",
+            "analysis": {
+              "rank": "3",
+              "evaluator_verdict": "strong",
+              "declared_relationship": "The September 9 start date determines when students' class schedules begin.",
+              "declared_reversal": "The student's schedule determines when fall classes begin.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "The institutional start date controls when students' class schedules begin.",
+              "reversed_relationship": "The student's schedule is claimed to control when fall classes begin.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "medium",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 85,
+            "rating": "strong",
+            "reason": "The direction of scheduling authority flips cleanly and remains tied to the empty week. It is less surprising and less specifically value-driven than candidate 6.",
+            "failure_flags": []
+          },
+          "durationMs": 140483,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "2": {
+          "status": "done",
+          "data": {
+            "joke": "I do not need delayed fall classes. Delayed fall classes need me.",
+            "analysis": {
+              "rank": "5",
+              "evaluator_verdict": "possible",
+              "declared_relationship": "Students need fall classes to have something scheduled.",
+              "declared_reversal": "Delayed fall classes need the student.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Bored students depend on fall classes to give them scheduled activity.",
+              "reversed_relationship": "The student denies needing fall classes and claims that the classes depend on him.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "medium",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 75,
+            "rating": "possible",
+            "reason": "It reverses a central dependency supplied by the boredom reaction, but the stock “X needs me” construction could be attached to almost any delayed institution. Candidate 7 is similarly simple but uses the date-specific availability more precisely.",
+            "failure_flags": [
+              "generic_dominance"
+            ]
+          },
+          "durationMs": 140483,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "3": {
+          "status": "done",
+          "data": {
+            "joke": "After a week of orientation, I do not receive the first lecture. It receives me.",
+            "analysis": {
+              "rank": "6",
+              "evaluator_verdict": "reject",
+              "declared_relationship": "Students receive their first lecture after a week of orientation.",
+              "declared_reversal": "The first lecture receives the student after orientation.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students go through a week of orientation before receiving their first lecture.",
+              "reversed_relationship": "The first lecture is said to receive the student instead.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "low",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 50,
+            "rating": "reject",
+            "reason": "The source relationship is real and the grammatical direction flips, but a lecture receiving a person produces little recognizable status scene. It is flatter and less persona-owned than candidate 3.",
+            "failure_flags": [
+              "technically_valid_but_not_funny"
+            ]
+          },
+          "durationMs": 140483,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "4": {
+          "status": "done",
+          "data": {
+            "joke": "Before fall classes, I do not attend orientation icebreakers. They attend me.",
+            "analysis": {
+              "rank": "8",
+              "evaluator_verdict": "reject",
+              "declared_relationship": "Students attend orientation icebreakers before fall classes.",
+              "declared_reversal": "Orientation icebreakers attend the student before fall classes.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students attend orientation icebreakers before fall classes begin.",
+              "reversed_relationship": "Orientation icebreakers are said to attend the student.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "low",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 48,
+            "rating": "reject",
+            "reason": "It performs an exact subject-object swap on a real event detail, but an activity attending a person does not create a legible power relationship. It is the set's most mechanical inversion.",
+            "failure_flags": [
+              "technically_valid_but_not_funny"
+            ]
+          },
+          "durationMs": 140483,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "5": {
+          "status": "done",
+          "data": {
+            "joke": "The campus is a ghost town before fall classes. It judges me sufficient.",
+            "analysis": {
+              "rank": "2",
+              "evaluator_verdict": "strong",
+              "declared_relationship": "Students judge the campus as empty before fall classes start.",
+              "declared_reversal": "The campus judges the student sufficient before fall classes start.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students look at the pre-class campus and judge it insufficiently populated.",
+              "reversed_relationship": "The campus evaluates the student and judges his presence sufficient.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "high",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 86,
+            "rating": "strong",
+            "reason": "It reverses the explicit ghost-town judgment and makes one student's impossible value the answer. The wording of the judgment is slightly more abstract than the effortless turn in candidate 1.",
+            "failure_flags": []
+          },
+          "durationMs": 140483,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "6": {
+          "status": "done",
+          "data": {
+            "joke": "Fall classes are unavailable until September 9. I am unavailable to them.",
+            "analysis": {
+              "rank": "4",
+              "evaluator_verdict": "possible",
+              "declared_relationship": "Students cannot access fall classes until September 9.",
+              "declared_reversal": "Fall classes cannot access the student until September 9.",
+              "declared_relationship_in_event": "partly",
+              "original_relationship": "Students must wait until September 9 before they can attend fall classes.",
+              "reversed_relationship": "Fall classes are recast as the party denied access to the student.",
+              "transformation_distance": "one_move",
+              "relatable_base": "medium",
+              "persona_ownership": "medium",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 76,
+            "rating": "possible",
+            "reason": "The availability relation reverses crisply, but the event presents waiting for classes rather than access to them. That thinner framing keeps it below the stronger schedule and judgment reversals.",
+            "failure_flags": [
+              "weak_relatable_base"
+            ]
+          },
+          "durationMs": 140483,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "7": {
+          "status": "done",
+          "data": {
+            "joke": "Fall classes do not occupy my time this week. I occupy theirs.",
+            "analysis": {
+              "rank": "7",
+              "evaluator_verdict": "reject",
+              "declared_relationship": "Fall classes occupy students' time once they begin.",
+              "declared_reversal": "The student occupies the fall classes' time.",
+              "declared_relationship_in_event": "partly",
+              "original_relationship": "Once fall classes begin, they take up students' scheduled time; before then, students' time remains empty.",
+              "reversed_relationship": "During the empty week, the student claims to occupy the fall classes' time instead.",
+              "transformation_distance": "one_move_plus",
+              "relatable_base": "high",
+              "persona_ownership": "medium",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 49,
+            "rating": "reject",
+            "reason": "The ordinary side is recognizable, but the reversal occurs during a week when the classes have no active time to be occupied. That missing referent makes it less coherent than candidate 4's merely flat inversion.",
+            "failure_flags": [
+              "unclear_reversal",
+              "technically_valid_but_not_funny"
+            ]
+          },
+          "durationMs": 140483,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        }
+      },
+      "evaluatorFile": "docs/prompts/engines/gigachad-power-reversal/evaluator/gigachad-power-reversal-evaluator-2026-09-09.md",
+      "survivors": [
+        0,
+        5
+      ],
+      "setEval": {
+        "status": "done",
+        "raw": "{\n  \"ranked\": [\n    {\n      \"index\": 1,\n      \"joke\": \"Fall classes start September 9. They are a week late to me.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"Students must wait a week after move-in for fall classes to begin.\",\n      \"reversed_relationship\": \"Fall classes, rather than the student, are treated as tardy and answerable to the student.\",\n      \"transformation_distance\": \"one_move\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"high\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"excellent\",\n      \"failure_flags\": [\n        \"none\"\n      ],\n      \"reason\": \"This is the set's cleanest use of its central frustration: the student's wait becomes the institution's lateness in one immediate, status-driven turn. It is more compressed and natural than every competing timing reversal.\"\n    },\n    {\n      \"index\": 6,\n      \"joke\": \"The campus is a ghost town before fall classes. It judges me sufficient.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"Students look at the pre-class campus and judge it insufficiently populated.\",\n      \"reversed_relationship\": \"The campus evaluates the student and judges his presence sufficient.\",\n      \"transformation_distance\": \"one_move\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"high\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"strong\",\n      \"failure_flags\": [\n        \"none\"\n      ],\n      \"reason\": \"It reverses the explicit ghost-town judgment and makes one student's impossible value the answer. The wording of the judgment is slightly more abstract than the effortless turn in candidate 1.\"\n    },\n    {\n      \"index\": 2,\n      \"joke\": \"Fall classes leave my first week empty. My schedule sets their start.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"The institutional start date controls when students' class schedules begin.\",\n      \"reversed_relationship\": \"The student's schedule is claimed to control when fall classes begin.\",\n      \"transformation_distance\": \"one_move\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"medium\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"strong\",\n      \"failure_flags\": [\n        \"none\"\n      ],\n      \"reason\": \"The direction of scheduling authority flips cleanly and remains tied to the empty week. It is less surprising and less specifically value-driven than candidate 6.\"\n    },\n    {\n      \"index\": 7,\n      \"joke\": \"Fall classes are unavailable until September 9. I am unavailable to them.\",\n      \"declared_relationship_in_event\": \"partly\",\n      \"original_relationship\": \"Students must wait until September 9 before they can attend fall classes.\",\n      \"reversed_relationship\": \"Fall classes are recast as the party denied access to the student.\",\n      \"transformation_distance\": \"one_move\",\n      \"relatable_base\": \"medium\",\n      \"persona_ownership\": \"medium\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"possible\",\n      \"failure_flags\": [\n        \"weak_relatable_base\"\n      ],\n      \"reason\": \"The availability relation reverses crisply, but the event presents waiting for classes rather than access to them. That thinner framing keeps it below the stronger schedule and judgment reversals.\"\n    },\n    {\n      \"index\": 3,\n      \"joke\": \"I do not need delayed fall classes. Delayed fall classes need me.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"Bored students depend on fall classes to give them scheduled activity.\",\n      \"reversed_relationship\": \"The student denies needing fall classes and claims that the classes depend on him.\",\n      \"transformation_distance\": \"one_move\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"medium\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"possible\",\n      \"failure_flags\": [\n        \"generic_dominance\"\n      ],\n      \"reason\": \"It reverses a central dependency supplied by the boredom reaction, but the stock “X needs me” construction could be attached to almost any delayed institution. Candidate 7 is similarly simple but uses the date-specific availability more precisely.\"\n    },\n    {\n      \"index\": 4,\n      \"joke\": \"After a week of orientation, I do not receive the first lecture. It receives me.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"Students go through a week of orientation before receiving their first lecture.\",\n      \"reversed_relationship\": \"The first lecture is said to receive the student instead.\",\n      \"transformation_distance\": \"one_move\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"low\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"reject\",\n      \"failure_flags\": [\n        \"technically_valid_but_not_funny\"\n      ],\n      \"reason\": \"The source relationship is real and the grammatical direction flips, but a lecture receiving a person produces little recognizable status scene. It is flatter and less persona-owned than candidate 3.\"\n    },\n    {\n      \"index\": 8,\n      \"joke\": \"Fall classes do not occupy my time this week. I occupy theirs.\",\n      \"declared_relationship_in_event\": \"partly\",\n      \"original_relationship\": \"Once fall classes begin, they take up students' scheduled time; before then, students' time remains empty.\",\n      \"reversed_relationship\": \"During the empty week, the student claims to occupy the fall classes' time instead.\",\n      \"transformation_distance\": \"one_move_plus\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"medium\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"reject\",\n      \"failure_flags\": [\n        \"unclear_reversal\",\n        \"technically_valid_but_not_funny\"\n      ],\n      \"reason\": \"The ordinary side is recognizable, but the reversal occurs during a week when the classes have no active time to be occupied. That missing referent makes it less coherent than candidate 4's merely flat inversion.\"\n    },\n    {\n      \"index\": 5,\n      \"joke\": \"Before fall classes, I do not attend orientation icebreakers. They attend me.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"Students attend orientation icebreakers before fall classes begin.\",\n      \"reversed_relationship\": \"Orientation icebreakers are said to attend the student.\",\n      \"transformation_distance\": \"one_move\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"low\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"reject\",\n      \"failure_flags\": [\n        \"technically_valid_but_not_funny\"\n      ],\n      \"reason\": \"It performs an exact subject-object swap on a real event detail, but an activity attending a person does not create a legible power relationship. It is the set's most mechanical inversion.\"\n    }\n  ]\n}",
+        "sentPrompt": "You evaluate a SET of GigaChad POWER-REVERSAL jokes reacting to one event. Each candidate arrives with the premise its writer declared: the ordinary relationship it claims the event contains, and the reversal it claims to make.\n\nYou do not write or improve jokes. You diagnose, rank, and reject.\n\nYour primary job is premise selection. A joke is not excellent merely because it is concise, coherent, event-specific, confident, clearly GigaChad, or a recognizable power fantasy. The central question is:\n\nDID THE EVENT SUPPLY A REAL RELATIONSHIP THAT THE JOKE REVERSED IN ONE MOVE?\n\nINPUT\n\nEvent:\nFall classes start late this year: the first day of classes is September 9, a full week after move-in, so students are on campus with nothing scheduled (reaction: restless boredom). Sidechat posts: \"why did I move in a week early just to sit in my room\"; \"campus is a ghost town until classes actually start\"; \"a whole week of orientation icebreakers before a single lecture, incredible\"; \"counting down to syllabus week like it's a holiday\".\n\nCandidates, numbered, each with its declared relationship and reversal:\n1.\nrelationship: Students wait a full week for fall classes to start.\nreversal: Fall classes are a full week late to the student.\njoke: Fall classes start September 9. They are a week late to me.\n\n2.\nrelationship: The September 9 start date determines when students' class schedules begin.\nreversal: The student's schedule determines when fall classes begin.\njoke: Fall classes leave my first week empty. My schedule sets their start.\n\n3.\nrelationship: Students need fall classes to have something scheduled.\nreversal: Delayed fall classes need the student.\njoke: I do not need delayed fall classes. Delayed fall classes need me.\n\n4.\nrelationship: Students receive their first lecture after a week of orientation.\nreversal: The first lecture receives the student after orientation.\njoke: After a week of orientation, I do not receive the first lecture. It receives me.\n\n5.\nrelationship: Students attend orientation icebreakers before fall classes.\nreversal: Orientation icebreakers attend the student before fall classes.\njoke: Before fall classes, I do not attend orientation icebreakers. They attend me.\n\n6.\nrelationship: Students judge the campus as empty before fall classes start.\nreversal: The campus judges the student sufficient before fall classes start.\njoke: The campus is a ghost town before fall classes. It judges me sufficient.\n\n7.\nrelationship: Students cannot access fall classes until September 9.\nreversal: Fall classes cannot access the student until September 9.\njoke: Fall classes are unavailable until September 9. I am unavailable to them.\n\n8.\nrelationship: Fall classes occupy students' time once they begin.\nreversal: The student occupies the fall classes' time.\njoke: Fall classes do not occupy my time this week. I occupy theirs.\n\n---\n\n# 1. For every candidate, establish\n\n## declared_relationship_in_event\n\nIs the writer's declared relationship actually present in the event, as an ordinary student behavior? Answer yes, partly, or no. Check the event, not the joke. \"Students search Vergil for classes\" is in the Vergil event. \"Classes prepare for students\" is in no event.\n\n## original_relationship\n\nYour own statement of the mundane relationship the event supports, in plain words with a direction. If the declared one is wrong, say what is really there.\n\n## reversed_relationship\n\nExactly what the JOKE changes. Judge the joke, not the declaration; a declaration can flatter a joke.\n\n## transformation_distance\n\n- `one_move`: same relationship; only its direction, power, value, judgment, choice, access, attention, or dependence is flipped; nothing added.\n- `one_move_plus`: the reversal is recognizable but needs one small extra assumption.\n- `invented_bridge`: the joke adds a causal or social relationship the event did not supply: fear, preparation, courage, an audition, a competition, tribute, obedience, a head start.\n- `not_a_reversal`: nothing is reversed. The joke reclassifies, puns, elevates, or literalizes instead.\n\n## relatable_base\n\nhigh, medium, or low. Would a student recognize the unreversed side instantly? Do not reward an obscure social script because it supports a clever inversion.\n\n## persona_ownership\n\nhigh, medium, or low. Does the reversal work specifically through GigaChad's impossible value, certainty, status, or composure? Generic clever campus satire in his diction is low.\n\n## stops_at_the_turn\n\nyes or no. Does the line end when the reversal lands, or keep going?\n\n# 2. Calibration\n\nIllustrations only; never copy their wording into a reason.\n\nEXCELLENT: \"A window facing a wall is not a flaw. The wall now has a view of you.\"\nStudents look at a wall → the wall looks at the student. one_move, base high, ownership high, stops at the turn.\n\nEXCELLENT or STRONG: \"Rate My Professor asks whether professors deserve my enrollment. Finally, an honest admissions process.\"\nStudents judge whether a professor is worth taking → the professor must be worth my enrollment. one_move; the second sentence is a small tax on compression.\n\nPOSSIBLE: \"Before I choose a section, the professor checks my reviews.\"\nTechnically reverses evaluation, but the social picture is thin (professors reading student reviews is not a scene anyone holds) and the delivery is flat. Rank it below a cleaner reversal.\n\nREJECT, invented_bridge: \"Fall classes received an extra week to prepare for my questions.\"\nThe event has waiting. Preparation and his questions are invented machinery for dominance.\n\nREJECT, invented_bridge: \"Vergil hides the classes before I register. Every worthy opponent deserves a head start.\"\nSearching became a race the event never held.\n\nREJECT, not_a_reversal: \"A brick-wall dorm view is the skyline at maximum zoom.\"\nA good joke, and a reclassification, not a reversal. It belongs to another engine and cannot win here.\n\nREJECT, no_event_relationship: \"Columbia starts classes September 9. Until then, boredom has tenure.\"\nNothing is reversed, and boredom holds no relationship in the event.\n\n# 3. Verdicts\n\nEXCELLENT: real relationship, one_move, base high, reversal legible at a glance, distinctly GigaChad, funny, compressed.\n\nSTRONG: real relationship and a clean reversal, with one small weakness in surprise, wording, base, or ownership.\n\nPOSSIBLE: technically works but obvious, generic, over-written, only mildly funny, or one_move_plus.\n\nREJECT: invented_bridge; not_a_reversal; no identifiable original relationship; declared relationship not in the event; GigaChad merely made dominant without reversing the event; unclear logic; event misread or narrowed to one post; generic satire plus his diction; needs explanation; not funny enough to compete with this set.\n\nA technically valid reversal is not automatically good. Compare the candidates against each other; a verdict is relative to this set.\n\nMaximum 2 EXCELLENT, 2 STRONG, 2 POSSIBLE. Fewer is normal. Never fill a category to reach the maximum. A set with no EXCELLENT joke is a legitimate result.\n\nTwo candidates that reverse the same relationship the same way: keep the better one, mark the other `duplicate_premise`, and rank it below.\n\n# 4. Output\n\nReturn STRICT JSON ONLY. No Markdown, no code block, nothing before or after the JSON.\n\n{\n  \"ranked\": [\n    {\n      \"index\": <the candidate's number exactly as given in the input>,\n      \"joke\": \"<EXACT string copied VERBATIM from the candidate>\",\n      \"declared_relationship_in_event\": \"<yes | partly | no>\",\n      \"original_relationship\": \"<the event relationship in your own plain words, with a direction>\",\n      \"reversed_relationship\": \"<what the joke reverses, plain words>\",\n      \"transformation_distance\": \"<one_move | one_move_plus | invented_bridge | not_a_reversal>\",\n      \"relatable_base\": \"<high | medium | low>\",\n      \"persona_ownership\": \"<high | medium | low>\",\n      \"stops_at_the_turn\": \"<yes | no>\",\n      \"verdict\": \"<excellent | strong | possible | reject>\",\n      \"failure_flags\": [\"<a flag from the list below, or none>\"],\n      \"reason\": \"<one or two sentences, comparative: why it sits here relative to its neighbors>\"\n    }\n  ]\n}\n\n`ranked` lists every candidate, best first. Every candidate appears exactly once.\n\nAllowed failure flags: no_event_relationship, declared_relationship_not_in_event, invented_bridge, not_a_reversal, generic_dominance, weak_relatable_base, technically_valid_but_not_funny, funny_not_gigachad, unclear_reversal, event_misread, source_detail_overfit, invented_fact, overwritten, explains_the_joke, duplicate_premise, winks_at_camera, smug_or_cruel.\n\n# Discipline\n\nDo not rewrite. Do not suggest alternatives. Do not reward the words \"discipline\", \"sigma\", or \"alpha\". Do not reward a reversal for being a reversal; it earns its verdict for what it reversed and how cleanly. Judge sense before style: a line that sounds like GigaChad and cannot be stated as one plain reversal is not a good joke, whatever else it does.",
+        "durationMs": 140483,
+        "counts": {
+          "excellent": 1,
+          "strong": 2,
+          "possible": 2,
+          "reject": 3
+        },
+        "model": "gpt-5.6-sol",
+        "reasoningEffort": "high"
+      }
+    },
+    "1": {
+      "moment": "Dorm room views: students posting their windows facing a brick wall a few feet away (reaction: rueful complaint). Sidechat posts: \"my Carman window faces a wall, I get zero sunlight\"; \"paid twelve thousand dollars for a view of bricks\"; \"my roommate got the window with the skyline and I got the airshaft\"; \"you can tell which side of the building you're on by whether you know what time of day it is\".",
+      "persona": "GigaChad",
+      "source": "persona",
+      "mechanism": "power_reversal",
+      "engine": "gigachad-power-reversal",
+      "generatorFile": "docs/prompts/engines/gigachad-power-reversal/generator/gigachad-power-reversal-2026-09-09.md",
+      "sentPrompt": "You write GigaChad reaction jokes using ONE comic mechanism only: POWER / STATUS REVERSAL.\n\nDo not look for mythological or literary references, double meanings, wordplay, motivational lessons, heroic trials, training reframes, gym metaphors, or reclassifications (\"X is really Y\"). Other writers handle those. Your entire job is to find an ordinary relationship already present in the event and reverse who holds the power, value, judgment, attention, choice, access, or benefit.\n\n## GigaChad\n\nGigaChad speaks like a man carved out of marble who has never once questioned his own existence, yet radiates a strange, benevolent wisdom. His superiority is an ordinary fact of the universe, never a boast. He speaks in short, absolute declarations. He never shouts, never hedges, never explains himself, never winks, never uses \"lol\", never exclaims. Superiority is never contempt: he does not call anyone weak. He is never in on the joke.\n\n## The mechanism\n\nStep 1. Find a relationship the event already contains. Reduce it to a plain clause with a direction:\n\n- A looks at B (students look at a brick wall)\n- A evaluates B (students rate professors)\n- A chooses B (students pick a section)\n- A waits for B (students wait a week for classes)\n- A searches for B (students search Vergil for classes)\n- A needs access to B\n- A competes for B\n- A pays for B\n- B constrains A\n- A depends on B\n\nStep 2. Reverse the direction, so that GigaChad (or the student position he occupies) becomes the party that is looked at, evaluated, chosen, waited for, searched for, needed, competed for, paid for, or depended on.\n\nThe event supplies the relationship. The joke supplies only the reversal.\n\nThe underlying moves look like this:\n\nstudents look at a wall → the wall gets the view of the student\nstudents check a professor's rating → the professor's rating depends on the student's enrollment\nstudents compare sections → sections compete for the student\nstudents wait for classes → classes are late to the student\nstudents search Vergil for a class → the class has to find the student\n\n## The one-move test\n\nFor every candidate, write the relationship and the reversal as two plain clauses BEFORE writing the joke. The reversal must keep the same relationship as the original and flip only its direction, power, value, judgment, or dependence. If the reversal needs a verb, motive, or situation the event never contained, it is not one move.\n\nONE MOVE: \"students look at a brick wall\" → \"the wall looks at the student\".\nONE MOVE: \"students check whether a professor is good enough to take\" → \"the professor must be good enough for my enrollment\".\nNOT ONE MOVE: \"classes start a week late\" → \"classes needed a week to prepare for my questions\". The event contains waiting. Preparation and questions are two invented things.\nNOT ONE MOVE: \"Vergil hides the classes\" → \"Vergil is giving the classes a head start against me\". The event contains searching, not a race.\n\n## Minimum invention\n\nPrefer the smallest transformation. Do not manufacture fear, preparation, courage, nervousness, auditions, applications, obedience, worship, competition, attraction, tribute, or things reporting for duty, unless the event already contains that relationship. \"The classes are gathering the courage to face me\" invents fear where the event has only a late start date. That is the most common way this mechanism goes wrong, and a string check flags those words in the reversal clause.\n\nWRONG (invented bridge): \"Fall classes received an extra week to prepare for my questions.\"\nRIGHT (one move on the same event): \"Classes start September 9. I arrived September 2. Classes are late.\"\n\nWRONG (invented bridge): \"Vergil hides the classes before I register. Every worthy opponent deserves a head start.\"\nRIGHT (one move on the same event): \"Vergil cannot find my class. The class will have to find me.\"\n\nWRONG (invented causal link): \"The brick wall moved within three feet of my window to receive detailed feedback.\"\nRIGHT (one move): \"A window facing a wall is not a flaw. The wall now has a view of you.\"\n\n## Relatable base\n\nThe unreversed side must be something a student recognizes at once: looking out a window, checking a rating, waiting for classes, searching for a course. Do not pick an obscure relationship because it happens to reverse neatly. The absurdity may be impossible; the starting relationship must feel mundane and true.\n\n## Say it as GigaChad\n\nOnce the reversal is found, say it in his voice:\n\n- Short. 7 to 16 words; two sentences at most.\n- Absolute and calm, in simple words. The claim is enormous; the sentence is plain.\n- No explanation after the turn. Stop when the reversal lands.\n- No wink, no \"lol\", no exclamation marks, no motivational filler.\n- When the joke's claim is that HE is the valuable, scarce, or judging party, say so with \"I\", \"me\", \"my\": \"the professor must be good enough for MY enrollment\". Do not add \"my\" mechanically; use it when he is the source of the value.\n\nBETTER: \"A window facing a wall is not a flaw. The wall now has a view of you.\"\nWORSE: \"My Carman window faces a brick wall. At last, masonry gets a room with a view.\" Ornate, and the reversal is buried.\n\n## The event, not one post\n\nThe event-level description is the target. The quoted posts are evidence, not material. Do not build on one professor's name, one exact number, one dorm, or one poster's anecdote unless it is central to the shared event. Do not narrow the event: keep \"classes\" or \"course search\", not \"sections\". Do not invent facts, motives, causes, or consequences.\n\n## Anchor\n\nA cold reader scrolling past must know which campus thing the joke is about. Name the thing AND its state inside the joke: \"Vergil cannot find my class\", \"classes start September 9\", \"a window facing a wall\". Bare \"it\", \"they\", \"the system\", \"the pool\" are not anchors. The anchor is a fact the reversal uses, never a summary bolted on before an unrelated punchline.\n\n## Distinct premises\n\nEach joke reverses a different relationship, or the same relationship in a genuinely different direction. Two jokes that reverse the same relationship the same way in different words are one premise. Write a different one instead.\n\n## Before you output, check every joke\n\n1. Relationship: is it in the event, in plain words, with a direction?\n2. One move: does the reversal keep the relationship and flip only its direction, power, value, or dependence?\n3. Invention: does the reversal contain fear, preparation, courage, audition, application, worship, obedience, competition, or tribute that the event did not contain? If so, cut the joke.\n4. Base: would a student recognize the unreversed side instantly?\n5. Ownership: if he is the value, are \"I\", \"me\", \"my\" doing that work?\n6. Anchor: does the joke name the thing and its state?\n7. Stop: does the sentence end where the reversal lands?\n\nA joke that fails any line is not finished. Replace it; do not pad it.\n\n## Moment\n\nDorm room views: students posting their windows facing a brick wall a few feet away (reaction: rueful complaint). Sidechat posts: \"my Carman window faces a wall, I get zero sunlight\"; \"paid twelve thousand dollars for a view of bricks\"; \"my roommate got the window with the skyline and I got the airshaft\"; \"you can tell which side of the building you're on by whether you know what time of day it is\".\n\n## Output\n\nWrite 8 jokes. Return STRICT JSON only: no Markdown, no code fence, nothing before or after the JSON. An array of 8 objects in exactly this shape:\n\n[\n  {\n    \"relationship\": \"<the ordinary relationship as it exists in the event, plain words, with a direction: A does X to B>\",\n    \"reversal\": \"<the same relationship with its direction, power, value, or dependence flipped, plain words>\",\n    \"joke\": \"<the joke, in GigaChad's voice>\"\n  }\n]\n\nThe relationship and reversal fields state the premise plainly; a checker reads them, no student does. The joke field is the only line a student sees.",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "status": "done",
+      "jokes": [
+        "I look through my dorm window at a brick wall. It looks at me.",
+        "My wall-facing dorm window gets no sunlight. Sunlight gets no access to me.",
+        "My dorm payment buys a brick-wall view. The wall pays to see me.",
+        "A brick wall blocks my dorm-room view. I block the wall's view.",
+        "I got a brick wall as my dorm-window view. The wall got me.",
+        "Students complain about wall-facing dorm rooms. Mine has no complaint about me.",
+        "Students post their brick-wall dorm views. My brick wall posts me.",
+        "I cannot learn the time from my wall-facing dorm window. It learns from me."
+      ],
+      "premises": [
+        {
+          "relationship": "Students look through dorm windows at brick walls.",
+          "reversal": "Brick walls look through dorm windows at students."
+        },
+        {
+          "relationship": "Students behind wall-facing dorm windows have no access to sunlight.",
+          "reversal": "Sunlight has no access to students behind wall-facing dorm windows."
+        },
+        {
+          "relationship": "Students pay for dorm rooms with views of brick walls.",
+          "reversal": "Brick walls pay for views of students in dorm rooms."
+        },
+        {
+          "relationship": "Brick walls block students' views through dorm windows.",
+          "reversal": "Students block brick walls' views through dorm windows."
+        },
+        {
+          "relationship": "Students get brick walls as their dorm-window views.",
+          "reversal": "Brick walls get students as their views."
+        },
+        {
+          "relationship": "Students complain about dorm rooms with wall-facing windows.",
+          "reversal": "Dorm rooms with wall-facing windows complain about students."
+        },
+        {
+          "relationship": "Students post their brick-wall dorm views.",
+          "reversal": "Brick walls post the students in dorm rooms."
+        },
+        {
+          "relationship": "Students learn the time of day from their dorm-window views.",
+          "reversal": "Wall-facing dorm windows learn the time of day from students."
+        }
+      ],
+      "backstop": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "raw": "[\n  {\n    \"relationship\": \"Students look through dorm windows at brick walls.\",\n    \"reversal\": \"Brick walls look through dorm windows at students.\",\n    \"joke\": \"I look through my dorm window at a brick wall. It looks at me.\"\n  },\n  {\n    \"relationship\": \"Students behind wall-facing dorm windows have no access to sunlight.\",\n    \"reversal\": \"Sunlight has no access to students behind wall-facing dorm windows.\",\n    \"joke\": \"My wall-facing dorm window gets no sunlight. Sunlight gets no access to me.\"\n  },\n  {\n    \"relationship\": \"Students pay for dorm rooms with views of brick walls.\",\n    \"reversal\": \"Brick walls pay for views of students in dorm rooms.\",\n    \"joke\": \"My dorm payment buys a brick-wall view. The wall pays to see me.\"\n  },\n  {\n    \"relationship\": \"Brick walls block students' views through dorm windows.\",\n    \"reversal\": \"Students block brick walls' views through dorm windows.\",\n    \"joke\": \"A brick wall blocks my dorm-room view. I block the wall's view.\"\n  },\n  {\n    \"relationship\": \"Students get brick walls as their dorm-window views.\",\n    \"reversal\": \"Brick walls get students as their views.\",\n    \"joke\": \"I got a brick wall as my dorm-window view. The wall got me.\"\n  },\n  {\n    \"relationship\": \"Students complain about dorm rooms with wall-facing windows.\",\n    \"reversal\": \"Dorm rooms with wall-facing windows complain about students.\",\n    \"joke\": \"Students complain about wall-facing dorm rooms. Mine has no complaint about me.\"\n  },\n  {\n    \"relationship\": \"Students post their brick-wall dorm views.\",\n    \"reversal\": \"Brick walls post the students in dorm rooms.\",\n    \"joke\": \"Students post their brick-wall dorm views. My brick wall posts me.\"\n  },\n  {\n    \"relationship\": \"Students learn the time of day from their dorm-window views.\",\n    \"reversal\": \"Wall-facing dorm windows learn the time of day from students.\",\n    \"joke\": \"I cannot learn the time from my wall-facing dorm window. It learns from me.\"\n  }\n]",
+      "durationMs": 185540,
+      "finishedAt": "2026-09-09T10:24:40.881Z",
+      "evals": {
+        "0": {
+          "status": "done",
+          "data": {
+            "joke": "I look through my dorm window at a brick wall. It looks at me.",
+            "analysis": {
+              "rank": "6",
+              "evaluator_verdict": "possible",
+              "declared_relationship": "Students look through dorm windows at brick walls.",
+              "declared_reversal": "Brick walls look through dorm windows at students.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students look through their dorm windows and see nearby brick walls.",
+              "reversed_relationship": "The brick wall becomes the observer and looks at the student.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "medium",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 75,
+            "rating": "possible",
+            "reason": "The role reversal is structurally clean, but it duplicates 5's wall-viewing-student premise. It ranks lower because reciprocal looking carries less value and ownership than the wall getting the student as its view.",
+            "failure_flags": [
+              "duplicate_premise"
+            ]
+          },
+          "durationMs": 181234,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "1": {
+          "status": "done",
+          "data": {
+            "joke": "My wall-facing dorm window gets no sunlight. Sunlight gets no access to me.",
+            "analysis": {
+              "rank": "3",
+              "evaluator_verdict": "strong",
+              "declared_relationship": "Students behind wall-facing dorm windows have no access to sunlight.",
+              "declared_reversal": "Sunlight has no access to students behind wall-facing dorm windows.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Sunlight does not reach students through wall-facing dorm windows.",
+              "reversed_relationship": "Instead of the student being denied sunlight, sunlight is denied access to the student.",
+              "transformation_distance": "one_move_plus",
+              "relatable_base": "high",
+              "persona_ownership": "high",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 86,
+            "rating": "strong",
+            "reason": "The access reversal is immediate and turns deprivation into exclusivity. It ranks below the top two because the setup grammatically deprives the window while the turn makes the student the inaccessible object.",
+            "failure_flags": []
+          },
+          "durationMs": 181234,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "2": {
+          "status": "done",
+          "data": {
+            "joke": "My dorm payment buys a brick-wall view. The wall pays to see me.",
+            "analysis": {
+              "rank": "2",
+              "evaluator_verdict": "excellent",
+              "declared_relationship": "Students pay for dorm rooms with views of brick walls.",
+              "declared_reversal": "Brick walls pay for views of students in dorm rooms.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students pay for dorm rooms whose window view is a brick wall.",
+              "reversed_relationship": "The brick wall pays for the privilege of seeing the student.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "high",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 95,
+            "rating": "excellent",
+            "reason": "The payment-for-view relationship comes directly from the event and reverses cleanly into payment for access to the student. It is slightly less central than 5's basic view reversal but equally legible and persona-owned.",
+            "failure_flags": []
+          },
+          "durationMs": 181234,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "3": {
+          "status": "done",
+          "data": {
+            "joke": "A brick wall blocks my dorm-room view. I block the wall's view.",
+            "analysis": {
+              "rank": "4",
+              "evaluator_verdict": "strong",
+              "declared_relationship": "Brick walls block students' views through dorm windows.",
+              "declared_reversal": "Students block brick walls' views through dorm windows.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "A nearby brick wall obstructs what the student can see through the dorm window.",
+              "reversed_relationship": "The student obstructs the brick wall's view.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "medium",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 85,
+            "rating": "strong",
+            "reason": "The blocking relationship is reversed exactly and without added machinery. It trails 2 because becoming the obstruction conveys less distinctive GigaChad value than denying sunlight access.",
+            "failure_flags": []
+          },
+          "durationMs": 181234,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "4": {
+          "status": "done",
+          "data": {
+            "joke": "I got a brick wall as my dorm-window view. The wall got me.",
+            "analysis": {
+              "rank": "1",
+              "evaluator_verdict": "excellent",
+              "declared_relationship": "Students get brick walls as their dorm-window views.",
+              "declared_reversal": "Brick walls get students as their views.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students receive a brick wall as the view from their dorm windows.",
+              "reversed_relationship": "The brick wall receives the student as its view.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "high",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 96,
+            "rating": "excellent",
+            "reason": "This uses the event's central view relationship and swaps who gets whom in one compressed move. It leads the set because the student becomes unmistakably the prize.",
+            "failure_flags": []
+          },
+          "durationMs": 181234,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "5": {
+          "status": "done",
+          "data": {
+            "joke": "Students complain about wall-facing dorm rooms. Mine has no complaint about me.",
+            "analysis": {
+              "rank": "8",
+              "evaluator_verdict": "reject",
+              "declared_relationship": "Students complain about dorm rooms with wall-facing windows.",
+              "declared_reversal": "Dorm rooms with wall-facing windows complain about students.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students complain about wall-facing dorm rooms.",
+              "reversed_relationship": "The dorm room evaluates the student and finds nothing to complain about.",
+              "transformation_distance": "one_move_plus",
+              "relatable_base": "high",
+              "persona_ownership": "medium",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 49,
+            "rating": "reject",
+            "reason": "The line reverses both the evaluator and the judgment rather than cleanly reversing the complaint relationship declared for it. It ranks last because the room never actually performs the promised opposite action, leaving a weak and indirect turn.",
+            "failure_flags": [
+              "unclear_reversal",
+              "technically_valid_but_not_funny"
+            ]
+          },
+          "durationMs": 181234,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "6": {
+          "status": "done",
+          "data": {
+            "joke": "Students post their brick-wall dorm views. My brick wall posts me.",
+            "analysis": {
+              "rank": "5",
+              "evaluator_verdict": "possible",
+              "declared_relationship": "Students post their brick-wall dorm views.",
+              "declared_reversal": "Brick walls post the students in dorm rooms.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students post their brick-wall dorm-window views.",
+              "reversed_relationship": "The brick wall becomes the poster and posts the student.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "low",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 76,
+            "rating": "possible",
+            "reason": "The poster-and-subject roles invert directly, and the setup is highly event-specific. It falls below the blocking reversal because the social picture is thin and being posted does not strongly establish exceptional status.",
+            "failure_flags": [
+              "funny_not_gigachad"
+            ]
+          },
+          "durationMs": 181234,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "7": {
+          "status": "done",
+          "data": {
+            "joke": "I cannot learn the time from my wall-facing dorm window. It learns from me.",
+            "analysis": {
+              "rank": "7",
+              "evaluator_verdict": "reject",
+              "declared_relationship": "Students learn the time of day from their dorm-window views.",
+              "declared_reversal": "Wall-facing dorm windows learn the time of day from students.",
+              "declared_relationship_in_event": "partly",
+              "original_relationship": "Dorm-window daylight cues can tell students the time of day, while wall-facing views withhold those cues.",
+              "reversed_relationship": "The wall-facing window learns the time from the student instead of informing the student.",
+              "transformation_distance": "one_move_plus",
+              "relatable_base": "medium",
+              "persona_ownership": "medium",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 50,
+            "rating": "reject",
+            "reason": "The learning direction is recognizable, but it depends on a narrow time-of-day detail and an extra notion that the student can serve as the window's time source. It is less immediate and less funny than the direct posting and viewing reversals.",
+            "failure_flags": [
+              "source_detail_overfit",
+              "weak_relatable_base",
+              "technically_valid_but_not_funny"
+            ]
+          },
+          "durationMs": 181234,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        }
+      },
+      "evaluatorFile": "docs/prompts/engines/gigachad-power-reversal/evaluator/gigachad-power-reversal-evaluator-2026-09-09.md",
+      "survivors": [
+        4,
+        2
+      ],
+      "setEval": {
+        "status": "done",
+        "raw": "{\n  \"ranked\": [\n    {\n      \"index\": 5,\n      \"joke\": \"I got a brick wall as my dorm-window view. The wall got me.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"Students receive a brick wall as the view from their dorm windows.\",\n      \"reversed_relationship\": \"The brick wall receives the student as its view.\",\n      \"transformation_distance\": \"one_move\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"high\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"excellent\",\n      \"failure_flags\": [],\n      \"reason\": \"This uses the event's central view relationship and swaps who gets whom in one compressed move. It leads the set because the student becomes unmistakably the prize.\"\n    },\n    {\n      \"index\": 3,\n      \"joke\": \"My dorm payment buys a brick-wall view. The wall pays to see me.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"Students pay for dorm rooms whose window view is a brick wall.\",\n      \"reversed_relationship\": \"The brick wall pays for the privilege of seeing the student.\",\n      \"transformation_distance\": \"one_move\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"high\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"excellent\",\n      \"failure_flags\": [],\n      \"reason\": \"The payment-for-view relationship comes directly from the event and reverses cleanly into payment for access to the student. It is slightly less central than 5's basic view reversal but equally legible and persona-owned.\"\n    },\n    {\n      \"index\": 2,\n      \"joke\": \"My wall-facing dorm window gets no sunlight. Sunlight gets no access to me.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"Sunlight does not reach students through wall-facing dorm windows.\",\n      \"reversed_relationship\": \"Instead of the student being denied sunlight, sunlight is denied access to the student.\",\n      \"transformation_distance\": \"one_move_plus\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"high\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"strong\",\n      \"failure_flags\": [],\n      \"reason\": \"The access reversal is immediate and turns deprivation into exclusivity. It ranks below the top two because the setup grammatically deprives the window while the turn makes the student the inaccessible object.\"\n    },\n    {\n      \"index\": 4,\n      \"joke\": \"A brick wall blocks my dorm-room view. I block the wall's view.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"A nearby brick wall obstructs what the student can see through the dorm window.\",\n      \"reversed_relationship\": \"The student obstructs the brick wall's view.\",\n      \"transformation_distance\": \"one_move\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"medium\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"strong\",\n      \"failure_flags\": [],\n      \"reason\": \"The blocking relationship is reversed exactly and without added machinery. It trails 2 because becoming the obstruction conveys less distinctive GigaChad value than denying sunlight access.\"\n    },\n    {\n      \"index\": 7,\n      \"joke\": \"Students post their brick-wall dorm views. My brick wall posts me.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"Students post their brick-wall dorm-window views.\",\n      \"reversed_relationship\": \"The brick wall becomes the poster and posts the student.\",\n      \"transformation_distance\": \"one_move\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"low\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"possible\",\n      \"failure_flags\": [\n        \"funny_not_gigachad\"\n      ],\n      \"reason\": \"The poster-and-subject roles invert directly, and the setup is highly event-specific. It falls below the blocking reversal because the social picture is thin and being posted does not strongly establish exceptional status.\"\n    },\n    {\n      \"index\": 1,\n      \"joke\": \"I look through my dorm window at a brick wall. It looks at me.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"Students look through their dorm windows and see nearby brick walls.\",\n      \"reversed_relationship\": \"The brick wall becomes the observer and looks at the student.\",\n      \"transformation_distance\": \"one_move\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"medium\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"possible\",\n      \"failure_flags\": [\n        \"duplicate_premise\"\n      ],\n      \"reason\": \"The role reversal is structurally clean, but it duplicates 5's wall-viewing-student premise. It ranks lower because reciprocal looking carries less value and ownership than the wall getting the student as its view.\"\n    },\n    {\n      \"index\": 8,\n      \"joke\": \"I cannot learn the time from my wall-facing dorm window. It learns from me.\",\n      \"declared_relationship_in_event\": \"partly\",\n      \"original_relationship\": \"Dorm-window daylight cues can tell students the time of day, while wall-facing views withhold those cues.\",\n      \"reversed_relationship\": \"The wall-facing window learns the time from the student instead of informing the student.\",\n      \"transformation_distance\": \"one_move_plus\",\n      \"relatable_base\": \"medium\",\n      \"persona_ownership\": \"medium\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"reject\",\n      \"failure_flags\": [\n        \"source_detail_overfit\",\n        \"weak_relatable_base\",\n        \"technically_valid_but_not_funny\"\n      ],\n      \"reason\": \"The learning direction is recognizable, but it depends on a narrow time-of-day detail and an extra notion that the student can serve as the window's time source. It is less immediate and less funny than the direct posting and viewing reversals.\"\n    },\n    {\n      \"index\": 6,\n      \"joke\": \"Students complain about wall-facing dorm rooms. Mine has no complaint about me.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"Students complain about wall-facing dorm rooms.\",\n      \"reversed_relationship\": \"The dorm room evaluates the student and finds nothing to complain about.\",\n      \"transformation_distance\": \"one_move_plus\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"medium\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"reject\",\n      \"failure_flags\": [\n        \"unclear_reversal\",\n        \"technically_valid_but_not_funny\"\n      ],\n      \"reason\": \"The line reverses both the evaluator and the judgment rather than cleanly reversing the complaint relationship declared for it. It ranks last because the room never actually performs the promised opposite action, leaving a weak and indirect turn.\"\n    }\n  ]\n}",
+        "sentPrompt": "You evaluate a SET of GigaChad POWER-REVERSAL jokes reacting to one event. Each candidate arrives with the premise its writer declared: the ordinary relationship it claims the event contains, and the reversal it claims to make.\n\nYou do not write or improve jokes. You diagnose, rank, and reject.\n\nYour primary job is premise selection. A joke is not excellent merely because it is concise, coherent, event-specific, confident, clearly GigaChad, or a recognizable power fantasy. The central question is:\n\nDID THE EVENT SUPPLY A REAL RELATIONSHIP THAT THE JOKE REVERSED IN ONE MOVE?\n\nINPUT\n\nEvent:\nDorm room views: students posting their windows facing a brick wall a few feet away (reaction: rueful complaint). Sidechat posts: \"my Carman window faces a wall, I get zero sunlight\"; \"paid twelve thousand dollars for a view of bricks\"; \"my roommate got the window with the skyline and I got the airshaft\"; \"you can tell which side of the building you're on by whether you know what time of day it is\".\n\nCandidates, numbered, each with its declared relationship and reversal:\n1.\nrelationship: Students look through dorm windows at brick walls.\nreversal: Brick walls look through dorm windows at students.\njoke: I look through my dorm window at a brick wall. It looks at me.\n\n2.\nrelationship: Students behind wall-facing dorm windows have no access to sunlight.\nreversal: Sunlight has no access to students behind wall-facing dorm windows.\njoke: My wall-facing dorm window gets no sunlight. Sunlight gets no access to me.\n\n3.\nrelationship: Students pay for dorm rooms with views of brick walls.\nreversal: Brick walls pay for views of students in dorm rooms.\njoke: My dorm payment buys a brick-wall view. The wall pays to see me.\n\n4.\nrelationship: Brick walls block students' views through dorm windows.\nreversal: Students block brick walls' views through dorm windows.\njoke: A brick wall blocks my dorm-room view. I block the wall's view.\n\n5.\nrelationship: Students get brick walls as their dorm-window views.\nreversal: Brick walls get students as their views.\njoke: I got a brick wall as my dorm-window view. The wall got me.\n\n6.\nrelationship: Students complain about dorm rooms with wall-facing windows.\nreversal: Dorm rooms with wall-facing windows complain about students.\njoke: Students complain about wall-facing dorm rooms. Mine has no complaint about me.\n\n7.\nrelationship: Students post their brick-wall dorm views.\nreversal: Brick walls post the students in dorm rooms.\njoke: Students post their brick-wall dorm views. My brick wall posts me.\n\n8.\nrelationship: Students learn the time of day from their dorm-window views.\nreversal: Wall-facing dorm windows learn the time of day from students.\njoke: I cannot learn the time from my wall-facing dorm window. It learns from me.\n\n---\n\n# 1. For every candidate, establish\n\n## declared_relationship_in_event\n\nIs the writer's declared relationship actually present in the event, as an ordinary student behavior? Answer yes, partly, or no. Check the event, not the joke. \"Students search Vergil for classes\" is in the Vergil event. \"Classes prepare for students\" is in no event.\n\n## original_relationship\n\nYour own statement of the mundane relationship the event supports, in plain words with a direction. If the declared one is wrong, say what is really there.\n\n## reversed_relationship\n\nExactly what the JOKE changes. Judge the joke, not the declaration; a declaration can flatter a joke.\n\n## transformation_distance\n\n- `one_move`: same relationship; only its direction, power, value, judgment, choice, access, attention, or dependence is flipped; nothing added.\n- `one_move_plus`: the reversal is recognizable but needs one small extra assumption.\n- `invented_bridge`: the joke adds a causal or social relationship the event did not supply: fear, preparation, courage, an audition, a competition, tribute, obedience, a head start.\n- `not_a_reversal`: nothing is reversed. The joke reclassifies, puns, elevates, or literalizes instead.\n\n## relatable_base\n\nhigh, medium, or low. Would a student recognize the unreversed side instantly? Do not reward an obscure social script because it supports a clever inversion.\n\n## persona_ownership\n\nhigh, medium, or low. Does the reversal work specifically through GigaChad's impossible value, certainty, status, or composure? Generic clever campus satire in his diction is low.\n\n## stops_at_the_turn\n\nyes or no. Does the line end when the reversal lands, or keep going?\n\n# 2. Calibration\n\nIllustrations only; never copy their wording into a reason.\n\nEXCELLENT: \"A window facing a wall is not a flaw. The wall now has a view of you.\"\nStudents look at a wall → the wall looks at the student. one_move, base high, ownership high, stops at the turn.\n\nEXCELLENT or STRONG: \"Rate My Professor asks whether professors deserve my enrollment. Finally, an honest admissions process.\"\nStudents judge whether a professor is worth taking → the professor must be worth my enrollment. one_move; the second sentence is a small tax on compression.\n\nPOSSIBLE: \"Before I choose a section, the professor checks my reviews.\"\nTechnically reverses evaluation, but the social picture is thin (professors reading student reviews is not a scene anyone holds) and the delivery is flat. Rank it below a cleaner reversal.\n\nREJECT, invented_bridge: \"Fall classes received an extra week to prepare for my questions.\"\nThe event has waiting. Preparation and his questions are invented machinery for dominance.\n\nREJECT, invented_bridge: \"Vergil hides the classes before I register. Every worthy opponent deserves a head start.\"\nSearching became a race the event never held.\n\nREJECT, not_a_reversal: \"A brick-wall dorm view is the skyline at maximum zoom.\"\nA good joke, and a reclassification, not a reversal. It belongs to another engine and cannot win here.\n\nREJECT, no_event_relationship: \"Columbia starts classes September 9. Until then, boredom has tenure.\"\nNothing is reversed, and boredom holds no relationship in the event.\n\n# 3. Verdicts\n\nEXCELLENT: real relationship, one_move, base high, reversal legible at a glance, distinctly GigaChad, funny, compressed.\n\nSTRONG: real relationship and a clean reversal, with one small weakness in surprise, wording, base, or ownership.\n\nPOSSIBLE: technically works but obvious, generic, over-written, only mildly funny, or one_move_plus.\n\nREJECT: invented_bridge; not_a_reversal; no identifiable original relationship; declared relationship not in the event; GigaChad merely made dominant without reversing the event; unclear logic; event misread or narrowed to one post; generic satire plus his diction; needs explanation; not funny enough to compete with this set.\n\nA technically valid reversal is not automatically good. Compare the candidates against each other; a verdict is relative to this set.\n\nMaximum 2 EXCELLENT, 2 STRONG, 2 POSSIBLE. Fewer is normal. Never fill a category to reach the maximum. A set with no EXCELLENT joke is a legitimate result.\n\nTwo candidates that reverse the same relationship the same way: keep the better one, mark the other `duplicate_premise`, and rank it below.\n\n# 4. Output\n\nReturn STRICT JSON ONLY. No Markdown, no code block, nothing before or after the JSON.\n\n{\n  \"ranked\": [\n    {\n      \"index\": <the candidate's number exactly as given in the input>,\n      \"joke\": \"<EXACT string copied VERBATIM from the candidate>\",\n      \"declared_relationship_in_event\": \"<yes | partly | no>\",\n      \"original_relationship\": \"<the event relationship in your own plain words, with a direction>\",\n      \"reversed_relationship\": \"<what the joke reverses, plain words>\",\n      \"transformation_distance\": \"<one_move | one_move_plus | invented_bridge | not_a_reversal>\",\n      \"relatable_base\": \"<high | medium | low>\",\n      \"persona_ownership\": \"<high | medium | low>\",\n      \"stops_at_the_turn\": \"<yes | no>\",\n      \"verdict\": \"<excellent | strong | possible | reject>\",\n      \"failure_flags\": [\"<a flag from the list below, or none>\"],\n      \"reason\": \"<one or two sentences, comparative: why it sits here relative to its neighbors>\"\n    }\n  ]\n}\n\n`ranked` lists every candidate, best first. Every candidate appears exactly once.\n\nAllowed failure flags: no_event_relationship, declared_relationship_not_in_event, invented_bridge, not_a_reversal, generic_dominance, weak_relatable_base, technically_valid_but_not_funny, funny_not_gigachad, unclear_reversal, event_misread, source_detail_overfit, invented_fact, overwritten, explains_the_joke, duplicate_premise, winks_at_camera, smug_or_cruel.\n\n# Discipline\n\nDo not rewrite. Do not suggest alternatives. Do not reward the words \"discipline\", \"sigma\", or \"alpha\". Do not reward a reversal for being a reversal; it earns its verdict for what it reversed and how cleanly. Judge sense before style: a line that sounds like GigaChad and cannot be stated as one plain reversal is not a good joke, whatever else it does.",
+        "durationMs": 181234,
+        "counts": {
+          "excellent": 2,
+          "strong": 2,
+          "possible": 2,
+          "reject": 2
+        },
+        "model": "gpt-5.6-sol",
+        "reasoningEffort": "high"
+      }
+    },
+    "2": {
+      "moment": "Course registration: students checking CULPA and Rate My Professor before enrolling in a section (reaction: uncertainty). Sidechat posts: \"is Prof. Hinds' section actually that bad or is everyone just dramatic\"; \"CULPA reviews for the intro stats sections contradict each other completely\"; \"spent three hours reading professor reviews instead of just picking one\"; \"everyone in my dorm has a spreadsheet comparing sections\".",
+      "persona": "GigaChad",
+      "source": "persona",
+      "mechanism": "power_reversal",
+      "engine": "gigachad-power-reversal",
+      "generatorFile": "docs/prompts/engines/gigachad-power-reversal/generator/gigachad-power-reversal-2026-09-09.md",
+      "sentPrompt": "You write GigaChad reaction jokes using ONE comic mechanism only: POWER / STATUS REVERSAL.\n\nDo not look for mythological or literary references, double meanings, wordplay, motivational lessons, heroic trials, training reframes, gym metaphors, or reclassifications (\"X is really Y\"). Other writers handle those. Your entire job is to find an ordinary relationship already present in the event and reverse who holds the power, value, judgment, attention, choice, access, or benefit.\n\n## GigaChad\n\nGigaChad speaks like a man carved out of marble who has never once questioned his own existence, yet radiates a strange, benevolent wisdom. His superiority is an ordinary fact of the universe, never a boast. He speaks in short, absolute declarations. He never shouts, never hedges, never explains himself, never winks, never uses \"lol\", never exclaims. Superiority is never contempt: he does not call anyone weak. He is never in on the joke.\n\n## The mechanism\n\nStep 1. Find a relationship the event already contains. Reduce it to a plain clause with a direction:\n\n- A looks at B (students look at a brick wall)\n- A evaluates B (students rate professors)\n- A chooses B (students pick a section)\n- A waits for B (students wait a week for classes)\n- A searches for B (students search Vergil for classes)\n- A needs access to B\n- A competes for B\n- A pays for B\n- B constrains A\n- A depends on B\n\nStep 2. Reverse the direction, so that GigaChad (or the student position he occupies) becomes the party that is looked at, evaluated, chosen, waited for, searched for, needed, competed for, paid for, or depended on.\n\nThe event supplies the relationship. The joke supplies only the reversal.\n\nThe underlying moves look like this:\n\nstudents look at a wall → the wall gets the view of the student\nstudents check a professor's rating → the professor's rating depends on the student's enrollment\nstudents compare sections → sections compete for the student\nstudents wait for classes → classes are late to the student\nstudents search Vergil for a class → the class has to find the student\n\n## The one-move test\n\nFor every candidate, write the relationship and the reversal as two plain clauses BEFORE writing the joke. The reversal must keep the same relationship as the original and flip only its direction, power, value, judgment, or dependence. If the reversal needs a verb, motive, or situation the event never contained, it is not one move.\n\nONE MOVE: \"students look at a brick wall\" → \"the wall looks at the student\".\nONE MOVE: \"students check whether a professor is good enough to take\" → \"the professor must be good enough for my enrollment\".\nNOT ONE MOVE: \"classes start a week late\" → \"classes needed a week to prepare for my questions\". The event contains waiting. Preparation and questions are two invented things.\nNOT ONE MOVE: \"Vergil hides the classes\" → \"Vergil is giving the classes a head start against me\". The event contains searching, not a race.\n\n## Minimum invention\n\nPrefer the smallest transformation. Do not manufacture fear, preparation, courage, nervousness, auditions, applications, obedience, worship, competition, attraction, tribute, or things reporting for duty, unless the event already contains that relationship. \"The classes are gathering the courage to face me\" invents fear where the event has only a late start date. That is the most common way this mechanism goes wrong, and a string check flags those words in the reversal clause.\n\nWRONG (invented bridge): \"Fall classes received an extra week to prepare for my questions.\"\nRIGHT (one move on the same event): \"Classes start September 9. I arrived September 2. Classes are late.\"\n\nWRONG (invented bridge): \"Vergil hides the classes before I register. Every worthy opponent deserves a head start.\"\nRIGHT (one move on the same event): \"Vergil cannot find my class. The class will have to find me.\"\n\nWRONG (invented causal link): \"The brick wall moved within three feet of my window to receive detailed feedback.\"\nRIGHT (one move): \"A window facing a wall is not a flaw. The wall now has a view of you.\"\n\n## Relatable base\n\nThe unreversed side must be something a student recognizes at once: looking out a window, checking a rating, waiting for classes, searching for a course. Do not pick an obscure relationship because it happens to reverse neatly. The absurdity may be impossible; the starting relationship must feel mundane and true.\n\n## Say it as GigaChad\n\nOnce the reversal is found, say it in his voice:\n\n- Short. 7 to 16 words; two sentences at most.\n- Absolute and calm, in simple words. The claim is enormous; the sentence is plain.\n- No explanation after the turn. Stop when the reversal lands.\n- No wink, no \"lol\", no exclamation marks, no motivational filler.\n- When the joke's claim is that HE is the valuable, scarce, or judging party, say so with \"I\", \"me\", \"my\": \"the professor must be good enough for MY enrollment\". Do not add \"my\" mechanically; use it when he is the source of the value.\n\nBETTER: \"A window facing a wall is not a flaw. The wall now has a view of you.\"\nWORSE: \"My Carman window faces a brick wall. At last, masonry gets a room with a view.\" Ornate, and the reversal is buried.\n\n## The event, not one post\n\nThe event-level description is the target. The quoted posts are evidence, not material. Do not build on one professor's name, one exact number, one dorm, or one poster's anecdote unless it is central to the shared event. Do not narrow the event: keep \"classes\" or \"course search\", not \"sections\". Do not invent facts, motives, causes, or consequences.\n\n## Anchor\n\nA cold reader scrolling past must know which campus thing the joke is about. Name the thing AND its state inside the joke: \"Vergil cannot find my class\", \"classes start September 9\", \"a window facing a wall\". Bare \"it\", \"they\", \"the system\", \"the pool\" are not anchors. The anchor is a fact the reversal uses, never a summary bolted on before an unrelated punchline.\n\n## Distinct premises\n\nEach joke reverses a different relationship, or the same relationship in a genuinely different direction. Two jokes that reverse the same relationship the same way in different words are one premise. Write a different one instead.\n\n## Before you output, check every joke\n\n1. Relationship: is it in the event, in plain words, with a direction?\n2. One move: does the reversal keep the relationship and flip only its direction, power, value, or dependence?\n3. Invention: does the reversal contain fear, preparation, courage, audition, application, worship, obedience, competition, or tribute that the event did not contain? If so, cut the joke.\n4. Base: would a student recognize the unreversed side instantly?\n5. Ownership: if he is the value, are \"I\", \"me\", \"my\" doing that work?\n6. Anchor: does the joke name the thing and its state?\n7. Stop: does the sentence end where the reversal lands?\n\nA joke that fails any line is not finished. Replace it; do not pad it.\n\n## Moment\n\nCourse registration: students checking CULPA and Rate My Professor before enrolling in a section (reaction: uncertainty). Sidechat posts: \"is Prof. Hinds' section actually that bad or is everyone just dramatic\"; \"CULPA reviews for the intro stats sections contradict each other completely\"; \"spent three hours reading professor reviews instead of just picking one\"; \"everyone in my dorm has a spreadsheet comparing sections\".\n\n## Output\n\nWrite 8 jokes. Return STRICT JSON only: no Markdown, no code fence, nothing before or after the JSON. An array of 8 objects in exactly this shape:\n\n[\n  {\n    \"relationship\": \"<the ordinary relationship as it exists in the event, plain words, with a direction: A does X to B>\",\n    \"reversal\": \"<the same relationship with its direction, power, value, or dependence flipped, plain words>\",\n    \"joke\": \"<the joke, in GigaChad's voice>\"\n  }\n]\n\nThe relationship and reversal fields state the premise plainly; a checker reads them, no student does. The joke field is the only line a student sees.",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "status": "done",
+      "jokes": [
+        "Rate My Professor tells professors whether they deserve my enrollment.",
+        "I do not choose among professor sections. Professor sections choose me.",
+        "I do not search CULPA for professors. Professors search CULPA for me.",
+        "I do not read professor reviews before enrollment. They read me.",
+        "Conflicting professor reviews do not leave me uncertain. Professors await my enrollment.",
+        "I do not compare professor sections. Professor sections compare me.",
+        "I do not enroll in professor sections. Professor sections enroll in me.",
+        "My enrollment does not depend on CULPA reviews. They depend on my verdict."
+      ],
+      "premises": [
+        {
+          "relationship": "Rate My Professor tells students whether professors are good enough for enrollment",
+          "reversal": "Rate My Professor tells professors whether they are good enough for the student's enrollment"
+        },
+        {
+          "relationship": "Students choose among professor sections",
+          "reversal": "Professor sections choose among students"
+        },
+        {
+          "relationship": "Students search CULPA for professors",
+          "reversal": "Professors search CULPA for the student"
+        },
+        {
+          "relationship": "Students read professor reviews before enrollment",
+          "reversal": "Professor reviews read students before enrollment"
+        },
+        {
+          "relationship": "Conflicting professor reviews make students uncertain about enrolling",
+          "reversal": "Students make professors uncertain about whether the student will enroll"
+        },
+        {
+          "relationship": "Students compare professor sections",
+          "reversal": "Professor sections compare students"
+        },
+        {
+          "relationship": "Students enroll in professor sections",
+          "reversal": "Professor sections enroll in students"
+        },
+        {
+          "relationship": "Students depend on CULPA reviews to make an enrollment decision",
+          "reversal": "CULPA reviews depend on the student's enrollment decision"
+        }
+      ],
+      "backstop": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "raw": "[\n  {\n    \"relationship\": \"Rate My Professor tells students whether professors are good enough for enrollment\",\n    \"reversal\": \"Rate My Professor tells professors whether they are good enough for the student's enrollment\",\n    \"joke\": \"Rate My Professor tells professors whether they deserve my enrollment.\"\n  },\n  {\n    \"relationship\": \"Students choose among professor sections\",\n    \"reversal\": \"Professor sections choose among students\",\n    \"joke\": \"I do not choose among professor sections. Professor sections choose me.\"\n  },\n  {\n    \"relationship\": \"Students search CULPA for professors\",\n    \"reversal\": \"Professors search CULPA for the student\",\n    \"joke\": \"I do not search CULPA for professors. Professors search CULPA for me.\"\n  },\n  {\n    \"relationship\": \"Students read professor reviews before enrollment\",\n    \"reversal\": \"Professor reviews read students before enrollment\",\n    \"joke\": \"I do not read professor reviews before enrollment. They read me.\"\n  },\n  {\n    \"relationship\": \"Conflicting professor reviews make students uncertain about enrolling\",\n    \"reversal\": \"Students make professors uncertain about whether the student will enroll\",\n    \"joke\": \"Conflicting professor reviews do not leave me uncertain. Professors await my enrollment.\"\n  },\n  {\n    \"relationship\": \"Students compare professor sections\",\n    \"reversal\": \"Professor sections compare students\",\n    \"joke\": \"I do not compare professor sections. Professor sections compare me.\"\n  },\n  {\n    \"relationship\": \"Students enroll in professor sections\",\n    \"reversal\": \"Professor sections enroll in students\",\n    \"joke\": \"I do not enroll in professor sections. Professor sections enroll in me.\"\n  },\n  {\n    \"relationship\": \"Students depend on CULPA reviews to make an enrollment decision\",\n    \"reversal\": \"CULPA reviews depend on the student's enrollment decision\",\n    \"joke\": \"My enrollment does not depend on CULPA reviews. They depend on my verdict.\"\n  }\n]",
+      "durationMs": 208157,
+      "finishedAt": "2026-09-09T10:25:03.499Z",
+      "evals": {
+        "0": {
+          "status": "done",
+          "data": {
+            "joke": "Rate My Professor tells professors whether they deserve my enrollment.",
+            "analysis": {
+              "rank": "1",
+              "evaluator_verdict": "excellent",
+              "declared_relationship": "Rate My Professor tells students whether professors are good enough for enrollment",
+              "declared_reversal": "Rate My Professor tells professors whether they are good enough for the student's enrollment",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Rate My Professor helps students judge whether a professor is worth enrolling with.",
+              "reversed_relationship": "Rate My Professor gives professors the judgment of whether they deserve the speaker's enrollment.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "high",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 96,
+            "rating": "excellent",
+            "reason": "This uses the set's most concrete review-and-enrollment relationship and turns the student's enrollment into the prize in one compressed move. It is more event-specific and more distinctly GigaChad than #2.",
+            "failure_flags": []
+          },
+          "durationMs": 132289,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "1": {
+          "status": "done",
+          "data": {
+            "joke": "I do not choose among professor sections. Professor sections choose me.",
+            "analysis": {
+              "rank": "2",
+              "evaluator_verdict": "strong",
+              "declared_relationship": "Students choose among professor sections",
+              "declared_reversal": "Professor sections choose among students",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students choose among available professor sections before enrolling.",
+              "reversed_relationship": "The professor sections choose the speaker instead of the speaker choosing among them.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "high",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 86,
+            "rating": "strong",
+            "reason": "The choice direction flips immediately and makes the speaker impossibly desirable. It ranks below #1 because the construction is more familiar and less specific to the review behavior.",
+            "failure_flags": []
+          },
+          "durationMs": 132289,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "2": {
+          "status": "done",
+          "data": {
+            "joke": "I do not search CULPA for professors. Professors search CULPA for me.",
+            "analysis": {
+              "rank": "4",
+              "evaluator_verdict": "possible",
+              "declared_relationship": "Students search CULPA for professors",
+              "declared_reversal": "Professors search CULPA for the student",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students search CULPA for information about professors before choosing a section.",
+              "reversed_relationship": "Professors search CULPA for information about the speaker.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "medium",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 76,
+            "rating": "possible",
+            "reason": "It exactly swaps the searcher and target, but CULPA has no familiar student-review scene, so the social picture is thinner than #8. The search also suggests importance without clearly establishing exceptional value.",
+            "failure_flags": []
+          },
+          "durationMs": 132289,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "3": {
+          "status": "done",
+          "data": {
+            "joke": "I do not read professor reviews before enrollment. They read me.",
+            "analysis": {
+              "rank": "6",
+              "evaluator_verdict": "reject",
+              "declared_relationship": "Students read professor reviews before enrollment",
+              "declared_reversal": "Professor reviews read students before enrollment",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students read reviews of professors before enrolling in a section.",
+              "reversed_relationship": "Professor reviews read the speaker instead of being read by him.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "low",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 50,
+            "rating": "reject",
+            "reason": "The subject-object swap is technically exact, but sentient reviews create a bare grammatical inversion rather than a GigaChad power relationship. Unlike #6, it supplies no intelligible status or judgment.",
+            "failure_flags": [
+              "technically_valid_but_not_funny"
+            ]
+          },
+          "durationMs": 132289,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "4": {
+          "status": "done",
+          "data": {
+            "joke": "Conflicting professor reviews do not leave me uncertain. Professors await my enrollment.",
+            "analysis": {
+              "rank": "8",
+              "evaluator_verdict": "reject",
+              "declared_relationship": "Conflicting professor reviews make students uncertain about enrolling",
+              "declared_reversal": "Students make professors uncertain about whether the student will enroll",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Conflicting professor reviews make students uncertain about which section to enroll in.",
+              "reversed_relationship": "The speaker remains certain while professors wait for his enrollment decision.",
+              "transformation_distance": "invented_bridge",
+              "relatable_base": "high",
+              "persona_ownership": "high",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 48,
+            "rating": "reject",
+            "reason": "The joke does not transfer the event's uncertainty to professors; it introduces professors waiting for the speaker as a new status scene. That invented bridge makes it a weaker premise reversal than even the mechanical inversions above it.",
+            "failure_flags": [
+              "invented_bridge",
+              "generic_dominance"
+            ]
+          },
+          "durationMs": 132289,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "5": {
+          "status": "done",
+          "data": {
+            "joke": "I do not compare professor sections. Professor sections compare me.",
+            "analysis": {
+              "rank": "5",
+              "evaluator_verdict": "possible",
+              "declared_relationship": "Students compare professor sections",
+              "declared_reversal": "Professor sections compare students",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students compare professor sections to decide which one to take.",
+              "reversed_relationship": "Professor sections compare the speaker rather than being compared by him.",
+              "transformation_distance": "one_move_plus",
+              "relatable_base": "high",
+              "persona_ownership": "medium",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 75,
+            "rating": "possible",
+            "reason": "The comparison direction is recognizable, but comparing one person requires an implicit field of other students and does not itself show that he wins. It is less vivid and less status-bearing than #3.",
+            "failure_flags": []
+          },
+          "durationMs": 132289,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "6": {
+          "status": "done",
+          "data": {
+            "joke": "I do not enroll in professor sections. Professor sections enroll in me.",
+            "analysis": {
+              "rank": "7",
+              "evaluator_verdict": "reject",
+              "declared_relationship": "Students enroll in professor sections",
+              "declared_reversal": "Professor sections enroll in students",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students enroll in professor sections during course registration.",
+              "reversed_relationship": "Professor sections enroll in the speaker instead of the speaker enrolling in them.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "low",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 49,
+            "rating": "reject",
+            "reason": "It mechanically reverses the enrollment grammar, but the result has no coherent choice, value, or status relationship. It is even less interpretable as a power fantasy than #4.",
+            "failure_flags": [
+              "technically_valid_but_not_funny"
+            ]
+          },
+          "durationMs": 132289,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "7": {
+          "status": "done",
+          "data": {
+            "joke": "My enrollment does not depend on CULPA reviews. They depend on my verdict.",
+            "analysis": {
+              "rank": "3",
+              "evaluator_verdict": "strong",
+              "declared_relationship": "Students depend on CULPA reviews to make an enrollment decision",
+              "declared_reversal": "CULPA reviews depend on the student's enrollment decision",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students rely on CULPA reviews to guide their enrollment decisions.",
+              "reversed_relationship": "CULPA reviews depend on the speaker's enrollment verdict rather than his enrollment depending on them.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "high",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 85,
+            "rating": "strong",
+            "reason": "The dependence reversal is clean, event-bound, and strongly owned through the speaker's authority. It sits below #2 because what the static reviews depend on is more abstract than sections choosing him.",
+            "failure_flags": []
+          },
+          "durationMs": 132289,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        }
+      },
+      "evaluatorFile": "docs/prompts/engines/gigachad-power-reversal/evaluator/gigachad-power-reversal-evaluator-2026-09-09.md",
+      "survivors": [
+        0,
+        1
+      ],
+      "setEval": {
+        "status": "done",
+        "raw": "{\n  \"ranked\": [\n    {\n      \"index\": 1,\n      \"joke\": \"Rate My Professor tells professors whether they deserve my enrollment.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"Rate My Professor helps students judge whether a professor is worth enrolling with.\",\n      \"reversed_relationship\": \"Rate My Professor gives professors the judgment of whether they deserve the speaker's enrollment.\",\n      \"transformation_distance\": \"one_move\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"high\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"excellent\",\n      \"failure_flags\": [\n        \"none\"\n      ],\n      \"reason\": \"This uses the set's most concrete review-and-enrollment relationship and turns the student's enrollment into the prize in one compressed move. It is more event-specific and more distinctly GigaChad than #2.\"\n    },\n    {\n      \"index\": 2,\n      \"joke\": \"I do not choose among professor sections. Professor sections choose me.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"Students choose among available professor sections before enrolling.\",\n      \"reversed_relationship\": \"The professor sections choose the speaker instead of the speaker choosing among them.\",\n      \"transformation_distance\": \"one_move\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"high\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"strong\",\n      \"failure_flags\": [\n        \"none\"\n      ],\n      \"reason\": \"The choice direction flips immediately and makes the speaker impossibly desirable. It ranks below #1 because the construction is more familiar and less specific to the review behavior.\"\n    },\n    {\n      \"index\": 8,\n      \"joke\": \"My enrollment does not depend on CULPA reviews. They depend on my verdict.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"Students rely on CULPA reviews to guide their enrollment decisions.\",\n      \"reversed_relationship\": \"CULPA reviews depend on the speaker's enrollment verdict rather than his enrollment depending on them.\",\n      \"transformation_distance\": \"one_move\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"high\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"strong\",\n      \"failure_flags\": [\n        \"none\"\n      ],\n      \"reason\": \"The dependence reversal is clean, event-bound, and strongly owned through the speaker's authority. It sits below #2 because what the static reviews depend on is more abstract than sections choosing him.\"\n    },\n    {\n      \"index\": 3,\n      \"joke\": \"I do not search CULPA for professors. Professors search CULPA for me.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"Students search CULPA for information about professors before choosing a section.\",\n      \"reversed_relationship\": \"Professors search CULPA for information about the speaker.\",\n      \"transformation_distance\": \"one_move\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"medium\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"possible\",\n      \"failure_flags\": [\n        \"none\"\n      ],\n      \"reason\": \"It exactly swaps the searcher and target, but CULPA has no familiar student-review scene, so the social picture is thinner than #8. The search also suggests importance without clearly establishing exceptional value.\"\n    },\n    {\n      \"index\": 6,\n      \"joke\": \"I do not compare professor sections. Professor sections compare me.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"Students compare professor sections to decide which one to take.\",\n      \"reversed_relationship\": \"Professor sections compare the speaker rather than being compared by him.\",\n      \"transformation_distance\": \"one_move_plus\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"medium\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"possible\",\n      \"failure_flags\": [\n        \"none\"\n      ],\n      \"reason\": \"The comparison direction is recognizable, but comparing one person requires an implicit field of other students and does not itself show that he wins. It is less vivid and less status-bearing than #3.\"\n    },\n    {\n      \"index\": 4,\n      \"joke\": \"I do not read professor reviews before enrollment. They read me.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"Students read reviews of professors before enrolling in a section.\",\n      \"reversed_relationship\": \"Professor reviews read the speaker instead of being read by him.\",\n      \"transformation_distance\": \"one_move\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"low\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"reject\",\n      \"failure_flags\": [\n        \"technically_valid_but_not_funny\"\n      ],\n      \"reason\": \"The subject-object swap is technically exact, but sentient reviews create a bare grammatical inversion rather than a GigaChad power relationship. Unlike #6, it supplies no intelligible status or judgment.\"\n    },\n    {\n      \"index\": 7,\n      \"joke\": \"I do not enroll in professor sections. Professor sections enroll in me.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"Students enroll in professor sections during course registration.\",\n      \"reversed_relationship\": \"Professor sections enroll in the speaker instead of the speaker enrolling in them.\",\n      \"transformation_distance\": \"one_move\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"low\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"reject\",\n      \"failure_flags\": [\n        \"technically_valid_but_not_funny\"\n      ],\n      \"reason\": \"It mechanically reverses the enrollment grammar, but the result has no coherent choice, value, or status relationship. It is even less interpretable as a power fantasy than #4.\"\n    },\n    {\n      \"index\": 5,\n      \"joke\": \"Conflicting professor reviews do not leave me uncertain. Professors await my enrollment.\",\n      \"declared_relationship_in_event\": \"yes\",\n      \"original_relationship\": \"Conflicting professor reviews make students uncertain about which section to enroll in.\",\n      \"reversed_relationship\": \"The speaker remains certain while professors wait for his enrollment decision.\",\n      \"transformation_distance\": \"invented_bridge\",\n      \"relatable_base\": \"high\",\n      \"persona_ownership\": \"high\",\n      \"stops_at_the_turn\": \"yes\",\n      \"verdict\": \"reject\",\n      \"failure_flags\": [\n        \"invented_bridge\",\n        \"generic_dominance\"\n      ],\n      \"reason\": \"The joke does not transfer the event's uncertainty to professors; it introduces professors waiting for the speaker as a new status scene. That invented bridge makes it a weaker premise reversal than even the mechanical inversions above it.\"\n    }\n  ]\n}",
+        "sentPrompt": "You evaluate a SET of GigaChad POWER-REVERSAL jokes reacting to one event. Each candidate arrives with the premise its writer declared: the ordinary relationship it claims the event contains, and the reversal it claims to make.\n\nYou do not write or improve jokes. You diagnose, rank, and reject.\n\nYour primary job is premise selection. A joke is not excellent merely because it is concise, coherent, event-specific, confident, clearly GigaChad, or a recognizable power fantasy. The central question is:\n\nDID THE EVENT SUPPLY A REAL RELATIONSHIP THAT THE JOKE REVERSED IN ONE MOVE?\n\nINPUT\n\nEvent:\nCourse registration: students checking CULPA and Rate My Professor before enrolling in a section (reaction: uncertainty). Sidechat posts: \"is Prof. Hinds' section actually that bad or is everyone just dramatic\"; \"CULPA reviews for the intro stats sections contradict each other completely\"; \"spent three hours reading professor reviews instead of just picking one\"; \"everyone in my dorm has a spreadsheet comparing sections\".\n\nCandidates, numbered, each with its declared relationship and reversal:\n1.\nrelationship: Rate My Professor tells students whether professors are good enough for enrollment\nreversal: Rate My Professor tells professors whether they are good enough for the student's enrollment\njoke: Rate My Professor tells professors whether they deserve my enrollment.\n\n2.\nrelationship: Students choose among professor sections\nreversal: Professor sections choose among students\njoke: I do not choose among professor sections. Professor sections choose me.\n\n3.\nrelationship: Students search CULPA for professors\nreversal: Professors search CULPA for the student\njoke: I do not search CULPA for professors. Professors search CULPA for me.\n\n4.\nrelationship: Students read professor reviews before enrollment\nreversal: Professor reviews read students before enrollment\njoke: I do not read professor reviews before enrollment. They read me.\n\n5.\nrelationship: Conflicting professor reviews make students uncertain about enrolling\nreversal: Students make professors uncertain about whether the student will enroll\njoke: Conflicting professor reviews do not leave me uncertain. Professors await my enrollment.\n\n6.\nrelationship: Students compare professor sections\nreversal: Professor sections compare students\njoke: I do not compare professor sections. Professor sections compare me.\n\n7.\nrelationship: Students enroll in professor sections\nreversal: Professor sections enroll in students\njoke: I do not enroll in professor sections. Professor sections enroll in me.\n\n8.\nrelationship: Students depend on CULPA reviews to make an enrollment decision\nreversal: CULPA reviews depend on the student's enrollment decision\njoke: My enrollment does not depend on CULPA reviews. They depend on my verdict.\n\n---\n\n# 1. For every candidate, establish\n\n## declared_relationship_in_event\n\nIs the writer's declared relationship actually present in the event, as an ordinary student behavior? Answer yes, partly, or no. Check the event, not the joke. \"Students search Vergil for classes\" is in the Vergil event. \"Classes prepare for students\" is in no event.\n\n## original_relationship\n\nYour own statement of the mundane relationship the event supports, in plain words with a direction. If the declared one is wrong, say what is really there.\n\n## reversed_relationship\n\nExactly what the JOKE changes. Judge the joke, not the declaration; a declaration can flatter a joke.\n\n## transformation_distance\n\n- `one_move`: same relationship; only its direction, power, value, judgment, choice, access, attention, or dependence is flipped; nothing added.\n- `one_move_plus`: the reversal is recognizable but needs one small extra assumption.\n- `invented_bridge`: the joke adds a causal or social relationship the event did not supply: fear, preparation, courage, an audition, a competition, tribute, obedience, a head start.\n- `not_a_reversal`: nothing is reversed. The joke reclassifies, puns, elevates, or literalizes instead.\n\n## relatable_base\n\nhigh, medium, or low. Would a student recognize the unreversed side instantly? Do not reward an obscure social script because it supports a clever inversion.\n\n## persona_ownership\n\nhigh, medium, or low. Does the reversal work specifically through GigaChad's impossible value, certainty, status, or composure? Generic clever campus satire in his diction is low.\n\n## stops_at_the_turn\n\nyes or no. Does the line end when the reversal lands, or keep going?\n\n# 2. Calibration\n\nIllustrations only; never copy their wording into a reason.\n\nEXCELLENT: \"A window facing a wall is not a flaw. The wall now has a view of you.\"\nStudents look at a wall → the wall looks at the student. one_move, base high, ownership high, stops at the turn.\n\nEXCELLENT or STRONG: \"Rate My Professor asks whether professors deserve my enrollment. Finally, an honest admissions process.\"\nStudents judge whether a professor is worth taking → the professor must be worth my enrollment. one_move; the second sentence is a small tax on compression.\n\nPOSSIBLE: \"Before I choose a section, the professor checks my reviews.\"\nTechnically reverses evaluation, but the social picture is thin (professors reading student reviews is not a scene anyone holds) and the delivery is flat. Rank it below a cleaner reversal.\n\nREJECT, invented_bridge: \"Fall classes received an extra week to prepare for my questions.\"\nThe event has waiting. Preparation and his questions are invented machinery for dominance.\n\nREJECT, invented_bridge: \"Vergil hides the classes before I register. Every worthy opponent deserves a head start.\"\nSearching became a race the event never held.\n\nREJECT, not_a_reversal: \"A brick-wall dorm view is the skyline at maximum zoom.\"\nA good joke, and a reclassification, not a reversal. It belongs to another engine and cannot win here.\n\nREJECT, no_event_relationship: \"Columbia starts classes September 9. Until then, boredom has tenure.\"\nNothing is reversed, and boredom holds no relationship in the event.\n\n# 3. Verdicts\n\nEXCELLENT: real relationship, one_move, base high, reversal legible at a glance, distinctly GigaChad, funny, compressed.\n\nSTRONG: real relationship and a clean reversal, with one small weakness in surprise, wording, base, or ownership.\n\nPOSSIBLE: technically works but obvious, generic, over-written, only mildly funny, or one_move_plus.\n\nREJECT: invented_bridge; not_a_reversal; no identifiable original relationship; declared relationship not in the event; GigaChad merely made dominant without reversing the event; unclear logic; event misread or narrowed to one post; generic satire plus his diction; needs explanation; not funny enough to compete with this set.\n\nA technically valid reversal is not automatically good. Compare the candidates against each other; a verdict is relative to this set.\n\nMaximum 2 EXCELLENT, 2 STRONG, 2 POSSIBLE. Fewer is normal. Never fill a category to reach the maximum. A set with no EXCELLENT joke is a legitimate result.\n\nTwo candidates that reverse the same relationship the same way: keep the better one, mark the other `duplicate_premise`, and rank it below.\n\n# 4. Output\n\nReturn STRICT JSON ONLY. No Markdown, no code block, nothing before or after the JSON.\n\n{\n  \"ranked\": [\n    {\n      \"index\": <the candidate's number exactly as given in the input>,\n      \"joke\": \"<EXACT string copied VERBATIM from the candidate>\",\n      \"declared_relationship_in_event\": \"<yes | partly | no>\",\n      \"original_relationship\": \"<the event relationship in your own plain words, with a direction>\",\n      \"reversed_relationship\": \"<what the joke reverses, plain words>\",\n      \"transformation_distance\": \"<one_move | one_move_plus | invented_bridge | not_a_reversal>\",\n      \"relatable_base\": \"<high | medium | low>\",\n      \"persona_ownership\": \"<high | medium | low>\",\n      \"stops_at_the_turn\": \"<yes | no>\",\n      \"verdict\": \"<excellent | strong | possible | reject>\",\n      \"failure_flags\": [\"<a flag from the list below, or none>\"],\n      \"reason\": \"<one or two sentences, comparative: why it sits here relative to its neighbors>\"\n    }\n  ]\n}\n\n`ranked` lists every candidate, best first. Every candidate appears exactly once.\n\nAllowed failure flags: no_event_relationship, declared_relationship_not_in_event, invented_bridge, not_a_reversal, generic_dominance, weak_relatable_base, technically_valid_but_not_funny, funny_not_gigachad, unclear_reversal, event_misread, source_detail_overfit, invented_fact, overwritten, explains_the_joke, duplicate_premise, winks_at_camera, smug_or_cruel.\n\n# Discipline\n\nDo not rewrite. Do not suggest alternatives. Do not reward the words \"discipline\", \"sigma\", or \"alpha\". Do not reward a reversal for being a reversal; it earns its verdict for what it reversed and how cleanly. Judge sense before style: a line that sounds like GigaChad and cannot be stated as one plain reversal is not a good joke, whatever else it does.",
+        "durationMs": 132289,
+        "counts": {
+          "excellent": 1,
+          "strong": 2,
+          "possible": 2,
+          "reject": 3
+        },
+        "model": "gpt-5.6-sol",
+        "reasoningEffort": "high"
+      }
+    },
+    "3": {
+      "moment": "Vergil's course search is broken during registration: it returns nothing unless the exact course name is typed, so students cannot find the classes they want (reaction: frustration). Sidechat posts: \"Vergil demands the exact course name like it's a password\"; \"Vergil is hiding the classes I actually want\"; \"searched 'stats' and got 0 results, searched 'Introduction to Statistics' and got 40\"; \"how is the course search worse than it was last year\".",
+      "persona": "GigaChad",
+      "source": "persona",
+      "mechanism": "power_reversal",
+      "engine": "gigachad-power-reversal",
+      "generatorFile": "docs/prompts/engines/gigachad-power-reversal/generator/gigachad-power-reversal-2026-09-09.md",
+      "sentPrompt": "You write GigaChad reaction jokes using ONE comic mechanism only: POWER / STATUS REVERSAL.\n\nDo not look for mythological or literary references, double meanings, wordplay, motivational lessons, heroic trials, training reframes, gym metaphors, or reclassifications (\"X is really Y\"). Other writers handle those. Your entire job is to find an ordinary relationship already present in the event and reverse who holds the power, value, judgment, attention, choice, access, or benefit.\n\n## GigaChad\n\nGigaChad speaks like a man carved out of marble who has never once questioned his own existence, yet radiates a strange, benevolent wisdom. His superiority is an ordinary fact of the universe, never a boast. He speaks in short, absolute declarations. He never shouts, never hedges, never explains himself, never winks, never uses \"lol\", never exclaims. Superiority is never contempt: he does not call anyone weak. He is never in on the joke.\n\n## The mechanism\n\nStep 1. Find a relationship the event already contains. Reduce it to a plain clause with a direction:\n\n- A looks at B (students look at a brick wall)\n- A evaluates B (students rate professors)\n- A chooses B (students pick a section)\n- A waits for B (students wait a week for classes)\n- A searches for B (students search Vergil for classes)\n- A needs access to B\n- A competes for B\n- A pays for B\n- B constrains A\n- A depends on B\n\nStep 2. Reverse the direction, so that GigaChad (or the student position he occupies) becomes the party that is looked at, evaluated, chosen, waited for, searched for, needed, competed for, paid for, or depended on.\n\nThe event supplies the relationship. The joke supplies only the reversal.\n\nThe underlying moves look like this:\n\nstudents look at a wall → the wall gets the view of the student\nstudents check a professor's rating → the professor's rating depends on the student's enrollment\nstudents compare sections → sections compete for the student\nstudents wait for classes → classes are late to the student\nstudents search Vergil for a class → the class has to find the student\n\n## The one-move test\n\nFor every candidate, write the relationship and the reversal as two plain clauses BEFORE writing the joke. The reversal must keep the same relationship as the original and flip only its direction, power, value, judgment, or dependence. If the reversal needs a verb, motive, or situation the event never contained, it is not one move.\n\nONE MOVE: \"students look at a brick wall\" → \"the wall looks at the student\".\nONE MOVE: \"students check whether a professor is good enough to take\" → \"the professor must be good enough for my enrollment\".\nNOT ONE MOVE: \"classes start a week late\" → \"classes needed a week to prepare for my questions\". The event contains waiting. Preparation and questions are two invented things.\nNOT ONE MOVE: \"Vergil hides the classes\" → \"Vergil is giving the classes a head start against me\". The event contains searching, not a race.\n\n## Minimum invention\n\nPrefer the smallest transformation. Do not manufacture fear, preparation, courage, nervousness, auditions, applications, obedience, worship, competition, attraction, tribute, or things reporting for duty, unless the event already contains that relationship. \"The classes are gathering the courage to face me\" invents fear where the event has only a late start date. That is the most common way this mechanism goes wrong, and a string check flags those words in the reversal clause.\n\nWRONG (invented bridge): \"Fall classes received an extra week to prepare for my questions.\"\nRIGHT (one move on the same event): \"Classes start September 9. I arrived September 2. Classes are late.\"\n\nWRONG (invented bridge): \"Vergil hides the classes before I register. Every worthy opponent deserves a head start.\"\nRIGHT (one move on the same event): \"Vergil cannot find my class. The class will have to find me.\"\n\nWRONG (invented causal link): \"The brick wall moved within three feet of my window to receive detailed feedback.\"\nRIGHT (one move): \"A window facing a wall is not a flaw. The wall now has a view of you.\"\n\n## Relatable base\n\nThe unreversed side must be something a student recognizes at once: looking out a window, checking a rating, waiting for classes, searching for a course. Do not pick an obscure relationship because it happens to reverse neatly. The absurdity may be impossible; the starting relationship must feel mundane and true.\n\n## Say it as GigaChad\n\nOnce the reversal is found, say it in his voice:\n\n- Short. 7 to 16 words; two sentences at most.\n- Absolute and calm, in simple words. The claim is enormous; the sentence is plain.\n- No explanation after the turn. Stop when the reversal lands.\n- No wink, no \"lol\", no exclamation marks, no motivational filler.\n- When the joke's claim is that HE is the valuable, scarce, or judging party, say so with \"I\", \"me\", \"my\": \"the professor must be good enough for MY enrollment\". Do not add \"my\" mechanically; use it when he is the source of the value.\n\nBETTER: \"A window facing a wall is not a flaw. The wall now has a view of you.\"\nWORSE: \"My Carman window faces a brick wall. At last, masonry gets a room with a view.\" Ornate, and the reversal is buried.\n\n## The event, not one post\n\nThe event-level description is the target. The quoted posts are evidence, not material. Do not build on one professor's name, one exact number, one dorm, or one poster's anecdote unless it is central to the shared event. Do not narrow the event: keep \"classes\" or \"course search\", not \"sections\". Do not invent facts, motives, causes, or consequences.\n\n## Anchor\n\nA cold reader scrolling past must know which campus thing the joke is about. Name the thing AND its state inside the joke: \"Vergil cannot find my class\", \"classes start September 9\", \"a window facing a wall\". Bare \"it\", \"they\", \"the system\", \"the pool\" are not anchors. The anchor is a fact the reversal uses, never a summary bolted on before an unrelated punchline.\n\n## Distinct premises\n\nEach joke reverses a different relationship, or the same relationship in a genuinely different direction. Two jokes that reverse the same relationship the same way in different words are one premise. Write a different one instead.\n\n## Before you output, check every joke\n\n1. Relationship: is it in the event, in plain words, with a direction?\n2. One move: does the reversal keep the relationship and flip only its direction, power, value, or dependence?\n3. Invention: does the reversal contain fear, preparation, courage, audition, application, worship, obedience, competition, or tribute that the event did not contain? If so, cut the joke.\n4. Base: would a student recognize the unreversed side instantly?\n5. Ownership: if he is the value, are \"I\", \"me\", \"my\" doing that work?\n6. Anchor: does the joke name the thing and its state?\n7. Stop: does the sentence end where the reversal lands?\n\nA joke that fails any line is not finished. Replace it; do not pad it.\n\n## Moment\n\nVergil's course search is broken during registration: it returns nothing unless the exact course name is typed, so students cannot find the classes they want (reaction: frustration). Sidechat posts: \"Vergil demands the exact course name like it's a password\"; \"Vergil is hiding the classes I actually want\"; \"searched 'stats' and got 0 results, searched 'Introduction to Statistics' and got 40\"; \"how is the course search worse than it was last year\".\n\n## Output\n\nWrite 8 jokes. Return STRICT JSON only: no Markdown, no code fence, nothing before or after the JSON. An array of 8 objects in exactly this shape:\n\n[\n  {\n    \"relationship\": \"<the ordinary relationship as it exists in the event, plain words, with a direction: A does X to B>\",\n    \"reversal\": \"<the same relationship with its direction, power, value, or dependence flipped, plain words>\",\n    \"joke\": \"<the joke, in GigaChad's voice>\"\n  }\n]\n\nThe relationship and reversal fields state the premise plainly; a checker reads them, no student does. The joke field is the only line a student sees.",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "status": "done",
+      "jokes": [
+        "Vergil returns nothing when I search for classes. The classes search for me.",
+        "I do not register for classes Vergil cannot find. Those classes register for me.",
+        "Without exact names, Vergil gives me no classes to choose. The classes choose me.",
+        "Vergil cannot show me the classes I want. Those classes want me.",
+        "Vergil requires every course's exact name from me. Every course must know mine.",
+        "Vergil judges my course name for exactness. I judge Vergil's search for usefulness.",
+        "I do not depend on Vergil's broken course search. It depends on me.",
+        "Vergil's exact-name search does not shape my query. My query shapes Vergil's search."
+      ],
+      "premises": [
+        {
+          "relationship": "Students search Vergil for classes.",
+          "reversal": "Classes search Vergil for the student."
+        },
+        {
+          "relationship": "Students register for classes through Vergil.",
+          "reversal": "Classes register for the student through Vergil."
+        },
+        {
+          "relationship": "Students choose classes during registration.",
+          "reversal": "Classes choose the student during registration."
+        },
+        {
+          "relationship": "Students want classes they cannot find in Vergil.",
+          "reversal": "Classes want the student they cannot find in Vergil."
+        },
+        {
+          "relationship": "Students must know each course's exact name before finding it.",
+          "reversal": "Each course must know the student's exact name before finding him."
+        },
+        {
+          "relationship": "Vergil evaluates the student's course query for exactness.",
+          "reversal": "The student evaluates Vergil's course search for usefulness."
+        },
+        {
+          "relationship": "Students depend on Vergil's course search to find classes.",
+          "reversal": "Vergil's course search depends on the student."
+        },
+        {
+          "relationship": "Students shape their queries around Vergil's exact-name requirement.",
+          "reversal": "Vergil shapes its course search around the student's query."
+        }
+      ],
+      "backstop": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "raw": "[\n  {\n    \"relationship\": \"Students search Vergil for classes.\",\n    \"reversal\": \"Classes search Vergil for the student.\",\n    \"joke\": \"Vergil returns nothing when I search for classes. The classes search for me.\"\n  },\n  {\n    \"relationship\": \"Students register for classes through Vergil.\",\n    \"reversal\": \"Classes register for the student through Vergil.\",\n    \"joke\": \"I do not register for classes Vergil cannot find. Those classes register for me.\"\n  },\n  {\n    \"relationship\": \"Students choose classes during registration.\",\n    \"reversal\": \"Classes choose the student during registration.\",\n    \"joke\": \"Without exact names, Vergil gives me no classes to choose. The classes choose me.\"\n  },\n  {\n    \"relationship\": \"Students want classes they cannot find in Vergil.\",\n    \"reversal\": \"Classes want the student they cannot find in Vergil.\",\n    \"joke\": \"Vergil cannot show me the classes I want. Those classes want me.\"\n  },\n  {\n    \"relationship\": \"Students must know each course's exact name before finding it.\",\n    \"reversal\": \"Each course must know the student's exact name before finding him.\",\n    \"joke\": \"Vergil requires every course's exact name from me. Every course must know mine.\"\n  },\n  {\n    \"relationship\": \"Vergil evaluates the student's course query for exactness.\",\n    \"reversal\": \"The student evaluates Vergil's course search for usefulness.\",\n    \"joke\": \"Vergil judges my course name for exactness. I judge Vergil's search for usefulness.\"\n  },\n  {\n    \"relationship\": \"Students depend on Vergil's course search to find classes.\",\n    \"reversal\": \"Vergil's course search depends on the student.\",\n    \"joke\": \"I do not depend on Vergil's broken course search. It depends on me.\"\n  },\n  {\n    \"relationship\": \"Students shape their queries around Vergil's exact-name requirement.\",\n    \"reversal\": \"Vergil shapes its course search around the student's query.\",\n    \"joke\": \"Vergil's exact-name search does not shape my query. My query shapes Vergil's search.\"\n  }\n]",
+      "durationMs": 186658,
+      "finishedAt": "2026-09-09T10:24:42.001Z",
+      "evals": {
+        "0": {
+          "status": "done",
+          "data": {
+            "joke": "Vergil returns nothing when I search for classes. The classes search for me.",
+            "analysis": {
+              "rank": "1",
+              "evaluator_verdict": "excellent",
+              "declared_relationship": "Students search Vergil for classes.",
+              "declared_reversal": "Classes search Vergil for the student.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students search Vergil for classes.",
+              "reversed_relationship": "The classes search for the student instead.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "high",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 96,
+            "rating": "excellent",
+            "reason": "This reverses the event's central action in the cleanest possible direction, and being sought by the classes gives the turn clear GigaChad ownership. It is more immediate and compressed than every neighboring candidate.",
+            "failure_flags": []
+          },
+          "durationMs": 94462,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "1": {
+          "status": "done",
+          "data": {
+            "joke": "I do not register for classes Vergil cannot find. Those classes register for me.",
+            "analysis": {
+              "rank": "5",
+              "evaluator_verdict": "possible",
+              "declared_relationship": "Students register for classes through Vergil.",
+              "declared_reversal": "Classes register for the student through Vergil.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students register for classes through Vergil.",
+              "reversed_relationship": "The classes become the registering agents and register for the student.",
+              "transformation_distance": "one_move_plus",
+              "relatable_base": "high",
+              "persona_ownership": "high",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 76,
+            "rating": "possible",
+            "reason": "The intended role reversal is recognizable and appropriately grandiose. It falls below the cleaner choices because “register for me” can mean acting on the student's behalf rather than reversing who enrolls in whom.",
+            "failure_flags": [
+              "unclear_reversal"
+            ]
+          },
+          "durationMs": 94462,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "2": {
+          "status": "done",
+          "data": {
+            "joke": "Without exact names, Vergil gives me no classes to choose. The classes choose me.",
+            "analysis": {
+              "rank": "2",
+              "evaluator_verdict": "excellent",
+              "declared_relationship": "Students choose classes during registration.",
+              "declared_reversal": "Classes choose the student during registration.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students choose classes during registration.",
+              "reversed_relationship": "The classes choose the student during registration.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "high",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 95,
+            "rating": "excellent",
+            "reason": "The ordinary act of choosing classes becomes a status reversal in one legible move. It is slightly less central than searching itself but sharper and more powerful than the weaker desire and registration variants.",
+            "failure_flags": []
+          },
+          "durationMs": 94462,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "3": {
+          "status": "done",
+          "data": {
+            "joke": "Vergil cannot show me the classes I want. Those classes want me.",
+            "analysis": {
+              "rank": "3",
+              "evaluator_verdict": "strong",
+              "declared_relationship": "Students want classes they cannot find in Vergil.",
+              "declared_reversal": "Classes want the student they cannot find in Vergil.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students want classes that Vergil's broken search does not show them.",
+              "reversed_relationship": "The classes want the student instead.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "high",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 86,
+            "rating": "strong",
+            "reason": "Wanting changes direction cleanly, and the resulting desirability boast belongs to the persona. It ranks below the top pair because being wanted is a more familiar and less surprising power fantasy than being searched for or chosen.",
+            "failure_flags": []
+          },
+          "durationMs": 94462,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "4": {
+          "status": "done",
+          "data": {
+            "joke": "Vergil requires every course's exact name from me. Every course must know mine.",
+            "analysis": {
+              "rank": "4",
+              "evaluator_verdict": "strong",
+              "declared_relationship": "Students must know each course's exact name before finding it.",
+              "declared_reversal": "Each course must know the student's exact name before finding him.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "The student must know and provide a course's exact name for Vergil to find it.",
+              "reversed_relationship": "Each course must know the student's exact name instead.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "medium",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 85,
+            "rating": "strong",
+            "reason": "This uses the event's most distinctive exact-name requirement and reverses who must possess the identifying knowledge. It is more specific than the candidates below it, though the status fantasy is less immediate than classes actively wanting or choosing him.",
+            "failure_flags": []
+          },
+          "durationMs": 94462,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "5": {
+          "status": "done",
+          "data": {
+            "joke": "Vergil judges my course name for exactness. I judge Vergil's search for usefulness.",
+            "analysis": {
+              "rank": "7",
+              "evaluator_verdict": "reject",
+              "declared_relationship": "Vergil evaluates the student's course query for exactness.",
+              "declared_reversal": "The student evaluates Vergil's course search for usefulness.",
+              "declared_relationship_in_event": "partly",
+              "original_relationship": "Vergil accepts a student's search only when the entered course name matches exactly.",
+              "reversed_relationship": "The student becomes the evaluator and judges Vergil's search instead.",
+              "transformation_distance": "one_move_plus",
+              "relatable_base": "medium",
+              "persona_ownership": "low",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 50,
+            "rating": "reject",
+            "reason": "It forms a reciprocal judgment, but treating exact-match filtering as Vergil judging the student already requires a mild personification. More importantly, the student's usefulness judgment merely restates the complaints in the event and creates no distinctive GigaChad power turn.",
+            "failure_flags": [
+              "funny_not_gigachad",
+              "technically_valid_but_not_funny"
+            ]
+          },
+          "durationMs": 94462,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "6": {
+          "status": "done",
+          "data": {
+            "joke": "I do not depend on Vergil's broken course search. It depends on me.",
+            "analysis": {
+              "rank": "6",
+              "evaluator_verdict": "possible",
+              "declared_relationship": "Students depend on Vergil's course search to find classes.",
+              "declared_reversal": "Vergil's course search depends on the student.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students depend on Vergil's course search to locate classes.",
+              "reversed_relationship": "Vergil's course search depends on the student instead.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "medium",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 75,
+            "rating": "possible",
+            "reason": "Dependence changes direction without added machinery, so the reversal technically works. Compared with the registration joke, however, the search's supposed dependence has no vivid meaning and reads as a generic dominance claim.",
+            "failure_flags": [
+              "generic_dominance",
+              "technically_valid_but_not_funny"
+            ]
+          },
+          "durationMs": 94462,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        },
+        "7": {
+          "status": "done",
+          "data": {
+            "joke": "Vergil's exact-name search does not shape my query. My query shapes Vergil's search.",
+            "analysis": {
+              "rank": "8",
+              "evaluator_verdict": "reject",
+              "declared_relationship": "Students shape their queries around Vergil's exact-name requirement.",
+              "declared_reversal": "Vergil shapes its course search around the student's query.",
+              "declared_relationship_in_event": "yes",
+              "original_relationship": "Students reshape their queries to satisfy Vergil's exact-name requirement.",
+              "reversed_relationship": "Vergil's search is made to conform to the student's query instead.",
+              "transformation_distance": "one_move",
+              "relatable_base": "high",
+              "persona_ownership": "low",
+              "stops_at_the_turn": "yes",
+              "score_note": "The verdict is the judgment. The score is derived from verdict and rank so the page can sort."
+            },
+            "score": 49,
+            "rating": "reject",
+            "reason": "The direction of accommodation is formally reversed, but queries shaping searches is already ordinary search-engine behavior rather than an impossible assertion of value or status. It is less vivid and less persona-owned than the other technically valid reversals.",
+            "failure_flags": [
+              "generic_dominance",
+              "technically_valid_but_not_funny"
+            ]
+          },
+          "durationMs": 94462,
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high"
+        }
+      },
+      "evaluatorFile": "docs/prompts/engines/gigachad-power-reversal/evaluator/gigachad-power-reversal-evaluator-2026-09-09.md",
+      "survivors": [
+        0,
+        2
+      ],
+      "setEval": {
+        "status": "done",
+        "raw": "{\"ranked\":[{\"index\":1,\"joke\":\"Vergil returns nothing when I search for classes. The classes search for me.\",\"declared_relationship_in_event\":\"yes\",\"original_relationship\":\"Students search Vergil for classes.\",\"reversed_relationship\":\"The classes search for the student instead.\",\"transformation_distance\":\"one_move\",\"relatable_base\":\"high\",\"persona_ownership\":\"high\",\"stops_at_the_turn\":\"yes\",\"verdict\":\"excellent\",\"failure_flags\":[],\"reason\":\"This reverses the event's central action in the cleanest possible direction, and being sought by the classes gives the turn clear GigaChad ownership. It is more immediate and compressed than every neighboring candidate.\"},{\"index\":3,\"joke\":\"Without exact names, Vergil gives me no classes to choose. The classes choose me.\",\"declared_relationship_in_event\":\"yes\",\"original_relationship\":\"Students choose classes during registration.\",\"reversed_relationship\":\"The classes choose the student during registration.\",\"transformation_distance\":\"one_move\",\"relatable_base\":\"high\",\"persona_ownership\":\"high\",\"stops_at_the_turn\":\"yes\",\"verdict\":\"excellent\",\"failure_flags\":[],\"reason\":\"The ordinary act of choosing classes becomes a status reversal in one legible move. It is slightly less central than searching itself but sharper and more powerful than the weaker desire and registration variants.\"},{\"index\":4,\"joke\":\"Vergil cannot show me the classes I want. Those classes want me.\",\"declared_relationship_in_event\":\"yes\",\"original_relationship\":\"Students want classes that Vergil's broken search does not show them.\",\"reversed_relationship\":\"The classes want the student instead.\",\"transformation_distance\":\"one_move\",\"relatable_base\":\"high\",\"persona_ownership\":\"high\",\"stops_at_the_turn\":\"yes\",\"verdict\":\"strong\",\"failure_flags\":[],\"reason\":\"Wanting changes direction cleanly, and the resulting desirability boast belongs to the persona. It ranks below the top pair because being wanted is a more familiar and less surprising power fantasy than being searched for or chosen.\"},{\"index\":5,\"joke\":\"Vergil requires every course's exact name from me. Every course must know mine.\",\"declared_relationship_in_event\":\"yes\",\"original_relationship\":\"The student must know and provide a course's exact name for Vergil to find it.\",\"reversed_relationship\":\"Each course must know the student's exact name instead.\",\"transformation_distance\":\"one_move\",\"relatable_base\":\"high\",\"persona_ownership\":\"medium\",\"stops_at_the_turn\":\"yes\",\"verdict\":\"strong\",\"failure_flags\":[],\"reason\":\"This uses the event's most distinctive exact-name requirement and reverses who must possess the identifying knowledge. It is more specific than the candidates below it, though the status fantasy is less immediate than classes actively wanting or choosing him.\"},{\"index\":2,\"joke\":\"I do not register for classes Vergil cannot find. Those classes register for me.\",\"declared_relationship_in_event\":\"yes\",\"original_relationship\":\"Students register for classes through Vergil.\",\"reversed_relationship\":\"The classes become the registering agents and register for the student.\",\"transformation_distance\":\"one_move_plus\",\"relatable_base\":\"high\",\"persona_ownership\":\"high\",\"stops_at_the_turn\":\"yes\",\"verdict\":\"possible\",\"failure_flags\":[\"unclear_reversal\"],\"reason\":\"The intended role reversal is recognizable and appropriately grandiose. It falls below the cleaner choices because “register for me” can mean acting on the student's behalf rather than reversing who enrolls in whom.\"},{\"index\":7,\"joke\":\"I do not depend on Vergil's broken course search. It depends on me.\",\"declared_relationship_in_event\":\"yes\",\"original_relationship\":\"Students depend on Vergil's course search to locate classes.\",\"reversed_relationship\":\"Vergil's course search depends on the student instead.\",\"transformation_distance\":\"one_move\",\"relatable_base\":\"high\",\"persona_ownership\":\"medium\",\"stops_at_the_turn\":\"yes\",\"verdict\":\"possible\",\"failure_flags\":[\"generic_dominance\",\"technically_valid_but_not_funny\"],\"reason\":\"Dependence changes direction without added machinery, so the reversal technically works. Compared with the registration joke, however, the search's supposed dependence has no vivid meaning and reads as a generic dominance claim.\"},{\"index\":6,\"joke\":\"Vergil judges my course name for exactness. I judge Vergil's search for usefulness.\",\"declared_relationship_in_event\":\"partly\",\"original_relationship\":\"Vergil accepts a student's search only when the entered course name matches exactly.\",\"reversed_relationship\":\"The student becomes the evaluator and judges Vergil's search instead.\",\"transformation_distance\":\"one_move_plus\",\"relatable_base\":\"medium\",\"persona_ownership\":\"low\",\"stops_at_the_turn\":\"yes\",\"verdict\":\"reject\",\"failure_flags\":[\"funny_not_gigachad\",\"technically_valid_but_not_funny\"],\"reason\":\"It forms a reciprocal judgment, but treating exact-match filtering as Vergil judging the student already requires a mild personification. More importantly, the student's usefulness judgment merely restates the complaints in the event and creates no distinctive GigaChad power turn.\"},{\"index\":8,\"joke\":\"Vergil's exact-name search does not shape my query. My query shapes Vergil's search.\",\"declared_relationship_in_event\":\"yes\",\"original_relationship\":\"Students reshape their queries to satisfy Vergil's exact-name requirement.\",\"reversed_relationship\":\"Vergil's search is made to conform to the student's query instead.\",\"transformation_distance\":\"one_move\",\"relatable_base\":\"high\",\"persona_ownership\":\"low\",\"stops_at_the_turn\":\"yes\",\"verdict\":\"reject\",\"failure_flags\":[\"generic_dominance\",\"technically_valid_but_not_funny\"],\"reason\":\"The direction of accommodation is formally reversed, but queries shaping searches is already ordinary search-engine behavior rather than an impossible assertion of value or status. It is less vivid and less persona-owned than the other technically valid reversals.\"}]}",
+        "sentPrompt": "You evaluate a SET of GigaChad POWER-REVERSAL jokes reacting to one event. Each candidate arrives with the premise its writer declared: the ordinary relationship it claims the event contains, and the reversal it claims to make.\n\nYou do not write or improve jokes. You diagnose, rank, and reject.\n\nYour primary job is premise selection. A joke is not excellent merely because it is concise, coherent, event-specific, confident, clearly GigaChad, or a recognizable power fantasy. The central question is:\n\nDID THE EVENT SUPPLY A REAL RELATIONSHIP THAT THE JOKE REVERSED IN ONE MOVE?\n\nINPUT\n\nEvent:\nVergil's course search is broken during registration: it returns nothing unless the exact course name is typed, so students cannot find the classes they want (reaction: frustration). Sidechat posts: \"Vergil demands the exact course name like it's a password\"; \"Vergil is hiding the classes I actually want\"; \"searched 'stats' and got 0 results, searched 'Introduction to Statistics' and got 40\"; \"how is the course search worse than it was last year\".\n\nCandidates, numbered, each with its declared relationship and reversal:\n1.\nrelationship: Students search Vergil for classes.\nreversal: Classes search Vergil for the student.\njoke: Vergil returns nothing when I search for classes. The classes search for me.\n\n2.\nrelationship: Students register for classes through Vergil.\nreversal: Classes register for the student through Vergil.\njoke: I do not register for classes Vergil cannot find. Those classes register for me.\n\n3.\nrelationship: Students choose classes during registration.\nreversal: Classes choose the student during registration.\njoke: Without exact names, Vergil gives me no classes to choose. The classes choose me.\n\n4.\nrelationship: Students want classes they cannot find in Vergil.\nreversal: Classes want the student they cannot find in Vergil.\njoke: Vergil cannot show me the classes I want. Those classes want me.\n\n5.\nrelationship: Students must know each course's exact name before finding it.\nreversal: Each course must know the student's exact name before finding him.\njoke: Vergil requires every course's exact name from me. Every course must know mine.\n\n6.\nrelationship: Vergil evaluates the student's course query for exactness.\nreversal: The student evaluates Vergil's course search for usefulness.\njoke: Vergil judges my course name for exactness. I judge Vergil's search for usefulness.\n\n7.\nrelationship: Students depend on Vergil's course search to find classes.\nreversal: Vergil's course search depends on the student.\njoke: I do not depend on Vergil's broken course search. It depends on me.\n\n8.\nrelationship: Students shape their queries around Vergil's exact-name requirement.\nreversal: Vergil shapes its course search around the student's query.\njoke: Vergil's exact-name search does not shape my query. My query shapes Vergil's search.\n\n---\n\n# 1. For every candidate, establish\n\n## declared_relationship_in_event\n\nIs the writer's declared relationship actually present in the event, as an ordinary student behavior? Answer yes, partly, or no. Check the event, not the joke. \"Students search Vergil for classes\" is in the Vergil event. \"Classes prepare for students\" is in no event.\n\n## original_relationship\n\nYour own statement of the mundane relationship the event supports, in plain words with a direction. If the declared one is wrong, say what is really there.\n\n## reversed_relationship\n\nExactly what the JOKE changes. Judge the joke, not the declaration; a declaration can flatter a joke.\n\n## transformation_distance\n\n- `one_move`: same relationship; only its direction, power, value, judgment, choice, access, attention, or dependence is flipped; nothing added.\n- `one_move_plus`: the reversal is recognizable but needs one small extra assumption.\n- `invented_bridge`: the joke adds a causal or social relationship the event did not supply: fear, preparation, courage, an audition, a competition, tribute, obedience, a head start.\n- `not_a_reversal`: nothing is reversed. The joke reclassifies, puns, elevates, or literalizes instead.\n\n## relatable_base\n\nhigh, medium, or low. Would a student recognize the unreversed side instantly? Do not reward an obscure social script because it supports a clever inversion.\n\n## persona_ownership\n\nhigh, medium, or low. Does the reversal work specifically through GigaChad's impossible value, certainty, status, or composure? Generic clever campus satire in his diction is low.\n\n## stops_at_the_turn\n\nyes or no. Does the line end when the reversal lands, or keep going?\n\n# 2. Calibration\n\nIllustrations only; never copy their wording into a reason.\n\nEXCELLENT: \"A window facing a wall is not a flaw. The wall now has a view of you.\"\nStudents look at a wall → the wall looks at the student. one_move, base high, ownership high, stops at the turn.\n\nEXCELLENT or STRONG: \"Rate My Professor asks whether professors deserve my enrollment. Finally, an honest admissions process.\"\nStudents judge whether a professor is worth taking → the professor must be worth my enrollment. one_move; the second sentence is a small tax on compression.\n\nPOSSIBLE: \"Before I choose a section, the professor checks my reviews.\"\nTechnically reverses evaluation, but the social picture is thin (professors reading student reviews is not a scene anyone holds) and the delivery is flat. Rank it below a cleaner reversal.\n\nREJECT, invented_bridge: \"Fall classes received an extra week to prepare for my questions.\"\nThe event has waiting. Preparation and his questions are invented machinery for dominance.\n\nREJECT, invented_bridge: \"Vergil hides the classes before I register. Every worthy opponent deserves a head start.\"\nSearching became a race the event never held.\n\nREJECT, not_a_reversal: \"A brick-wall dorm view is the skyline at maximum zoom.\"\nA good joke, and a reclassification, not a reversal. It belongs to another engine and cannot win here.\n\nREJECT, no_event_relationship: \"Columbia starts classes September 9. Until then, boredom has tenure.\"\nNothing is reversed, and boredom holds no relationship in the event.\n\n# 3. Verdicts\n\nEXCELLENT: real relationship, one_move, base high, reversal legible at a glance, distinctly GigaChad, funny, compressed.\n\nSTRONG: real relationship and a clean reversal, with one small weakness in surprise, wording, base, or ownership.\n\nPOSSIBLE: technically works but obvious, generic, over-written, only mildly funny, or one_move_plus.\n\nREJECT: invented_bridge; not_a_reversal; no identifiable original relationship; declared relationship not in the event; GigaChad merely made dominant without reversing the event; unclear logic; event misread or narrowed to one post; generic satire plus his diction; needs explanation; not funny enough to compete with this set.\n\nA technically valid reversal is not automatically good. Compare the candidates against each other; a verdict is relative to this set.\n\nMaximum 2 EXCELLENT, 2 STRONG, 2 POSSIBLE. Fewer is normal. Never fill a category to reach the maximum. A set with no EXCELLENT joke is a legitimate result.\n\nTwo candidates that reverse the same relationship the same way: keep the better one, mark the other `duplicate_premise`, and rank it below.\n\n# 4. Output\n\nReturn STRICT JSON ONLY. No Markdown, no code block, nothing before or after the JSON.\n\n{\n  \"ranked\": [\n    {\n      \"index\": <the candidate's number exactly as given in the input>,\n      \"joke\": \"<EXACT string copied VERBATIM from the candidate>\",\n      \"declared_relationship_in_event\": \"<yes | partly | no>\",\n      \"original_relationship\": \"<the event relationship in your own plain words, with a direction>\",\n      \"reversed_relationship\": \"<what the joke reverses, plain words>\",\n      \"transformation_distance\": \"<one_move | one_move_plus | invented_bridge | not_a_reversal>\",\n      \"relatable_base\": \"<high | medium | low>\",\n      \"persona_ownership\": \"<high | medium | low>\",\n      \"stops_at_the_turn\": \"<yes | no>\",\n      \"verdict\": \"<excellent | strong | possible | reject>\",\n      \"failure_flags\": [\"<a flag from the list below, or none>\"],\n      \"reason\": \"<one or two sentences, comparative: why it sits here relative to its neighbors>\"\n    }\n  ]\n}\n\n`ranked` lists every candidate, best first. Every candidate appears exactly once.\n\nAllowed failure flags: no_event_relationship, declared_relationship_not_in_event, invented_bridge, not_a_reversal, generic_dominance, weak_relatable_base, technically_valid_but_not_funny, funny_not_gigachad, unclear_reversal, event_misread, source_detail_overfit, invented_fact, overwritten, explains_the_joke, duplicate_premise, winks_at_camera, smug_or_cruel.\n\n# Discipline\n\nDo not rewrite. Do not suggest alternatives. Do not reward the words \"discipline\", \"sigma\", or \"alpha\". Do not reward a reversal for being a reversal; it earns its verdict for what it reversed and how cleanly. Judge sense before style: a line that sounds like GigaChad and cannot be stated as one plain reversal is not a good joke, whatever else it does.",
+        "durationMs": 94462,
+        "counts": {
+          "excellent": 2,
+          "strong": 2,
+          "possible": 2,
+          "reject": 2
+        },
+        "model": "gpt-5.6-sol",
+        "reasoningEffort": "high"
+      }
+    }
+  },
+  "readJobs": {},
+  "studentReads": {},
+  "archivedAt": "2026-09-09T10:28:04.741Z",
+  "engine": {
+    "folder": "gigachad-power-reversal",
+    "mechanism": "power_reversal",
+    "generatorFile": "docs/prompts/engines/gigachad-power-reversal/generator/gigachad-power-reversal-2026-09-09.md",
+    "evaluatorFile": "docs/prompts/engines/gigachad-power-reversal/evaluator/gigachad-power-reversal-evaluator-2026-09-09.md"
+  },
+  "note": "run from the command line (scripts/reaction-jokes-run.mjs) with the power_reversal engine, docs/prompts/engines/gigachad-power-reversal/generator/gigachad-power-reversal-2026-09-09.md and docs/prompts/engines/gigachad-power-reversal/evaluator/gigachad-power-reversal-evaluator-2026-09-09.md, on gpt-5.6-sol at high effort",
+  "jokeCount": 8,
+  "model": "gpt-5.6-sol",
+  "reasoningEffort": "high"
+}

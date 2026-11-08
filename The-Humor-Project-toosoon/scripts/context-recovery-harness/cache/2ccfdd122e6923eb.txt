@@ -1,0 +1,93 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Me pacing my room practicing the 'no, he's just like, going through a lot right now' speech for my friends after he finally responded to my story from last Tuesday with 'haha'.",
+      "register": "internal",
+      "me_side": "me",
+      "force_side": "my self respect",
+      "metaphor": "Putting on a whole song and dance for someone who's already decided they're not interested.",
+      "element_map": [
+        {
+          "element": "The one putting on the song and dance",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "She is physically pacing and mentally performing the labor of crafting an elaborate defense for him."
+        },
+        {
+          "element": "The one who's not interested",
+          "played_by": "him",
+          "score": 1.0,
+          "reason": "His one-word, week-late response to her story is a clear and powerful demonstration of his disinterest."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "Her energetic effort in practicing a speech (the jester) is met by the implied dismissive judgment of her own self-respect (the queen)."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect instantiation of the metaphor and the core dynamic, where her performative effort is judged by her better self."
+      }
+    },
+    {
+      "context": "Me at 3am unmuting his Instagram stories because he posted a blurry gym selfie, betraying the me at 9pm who told all my friends I was 'finally done for real this time'.",
+      "register": "internal",
+      "me_side": "me at 3am",
+      "force_side": "me at 9pm who told all my friends I was 'finally done for real this time'",
+      "metaphor": "Trying to be your goofy, authentic self while your own self-doubt judges your every move.",
+      "element_map": [
+        {
+          "element": "The goofy, authentic self",
+          "played_by": "me at 3am",
+          "score": 1.0,
+          "reason": "This state-stamped version of her represents the impulsive, desire-driven self acting without inhibition."
+        },
+        {
+          "element": "The judging self-doubt",
+          "played_by": "me at 9pm who told all my friends I was 'finally done for real this time'",
+          "score": 1.0,
+          "reason": "This version of her, defined by her broken declaration, perfectly embodies the critical inner voice of her own past promises."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The energetic, impulsive action of 'me at 3am' (the jester) is met by the cold, dismissive judgment of the wiser 'me at 9pm' (the queen)."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "This moment perfectly maps a me-vs-me internal conflict onto the core analog, with both sides clearly defined and the stakes established."
+      }
+    },
+    {
+      "context": "Me workshopping a witty, unbothered one-word reply to the 'my bad' text he sent after ignoring my vulnerable paragraph for two full days.",
+      "register": "internal",
+      "me_side": "me",
+      "force_side": "my self respect",
+      "metaphor": "Putting on a whole song and dance for someone who's already decided they're not interested.",
+      "element_map": [
+        {
+          "element": "The one putting on the song and dance",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "She is exerting a disproportionate amount of creative energy to perform nonchalance for him."
+        },
+        {
+          "element": "The one who's not interested",
+          "played_by": "him",
+          "score": 1.0,
+          "reason": "His low-effort 'my bad' after a two-day silence in response to vulnerability firmly establishes his lack of interest."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "Her energetic effort of workshopping the text (the jester) is met by the implied disdainful judgment of her own self-respect (the queen)."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "This is a flawless fit for the core dynamic, capturing the essence of performing for an unworthy audience, which is her own self."
+      }
+    }
+  ]
+}
+```

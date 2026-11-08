@@ -1,0 +1,168 @@
+```json
+{
+  "captions": [
+    {
+      "caption": "My situationship and his best friend after the party where he soft-launched his new girl.",
+      "context": "Telling my group chat 'omg i'm so happy for him, he deserves it' as I watch him and his best friend on the comedown after the party where he soft-launched a new girl in his photo dump, knowing he'll probably text me 'you up?' in an hour.",
+      "metaphor": "The silent, worn-out 'comedown' after an intense event, where there's nothing left to say or do.",
+      "metaphor_recovery": 0.8,
+      "metaphor_recovery_reason": "A reader can recover the 'intense event' from \"the party where he soft-launched\" and the 'silent, worn-out comedown' from the image's visuals, but the 'nothing left to say or do' element is only weakly implied.",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities sit together; one stares intently into a small object while the other is fully collapsed.",
+          "secondary": "They appear dejected or exhausted, sitting on a public staircase after a long night."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "my situationship",
+            "score": 0.9,
+            "reason": "The figure of a man staring into his glass is a perfect visual for someone ruminating after an emotionally charged night, fitting the provided 'my situationship' role."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "his best friend",
+            "score": 0.8,
+            "reason": "The figure's collapsed posture of total exhaustion strongly fits the role of 'his best friend' witnessing or participating in the main character's drama."
+          }
+        ],
+        "relation": "are sitting close together on a staircase but are not interacting"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption correctly places 'my situationship' and 'his best friend' together, and the image shows them 'sitting close together... but not interacting'.",
+      "context_recovery": 0.9,
+      "context_recovery_reason": "From the caption and image, a reader can fully reconstruct the core story: he has a new girl, revealed it at a party, and is now dealing with the aftermath with his friend.",
+      "element_allusions": [
+        {
+          "element": "an intense event",
+          "played_by": "the party where he soft-launched a new girl",
+          "allusion": 1.0,
+          "reason": "The caption explicitly names the event as \"the party where he soft-launched his new girl,\" making it fully recoverable."
+        },
+        {
+          "element": "the silent, worn-out 'comedown'",
+          "played_by": "the visible exhaustion of my situationship and his best friend",
+          "allusion": 1.0,
+          "reason": "The caption's phrase \"after the party\" sets up the image, which visually delivers the entire silent, worn-out comedown."
+        },
+        {
+          "element": "the feeling that there's nothing left to say or do",
+          "played_by": "my performative happiness vs. his inevitable late-night text",
+          "allusion": 0.6,
+          "reason": "The finality of the soft-launch combined with their silent exhaustion implies this feeling, but neither my reaction nor his next move are directly recoverable."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "Him and his friend after being 'too slammed with work' to answer my text.",
+      "context": "Liking his best friend’s photo of them looking absolutely shattered after a rager, leaving a 'looks fun lol' comment an hour after my situationship left my 'can we talk?' text on read because he was 'just so slammed with work this week.'",
+      "metaphor": "Being physically together but emotionally worlds apart, each lost in their own private struggle.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "The image shows them 'physically together,' the caption's quote reveals they are 'emotionally worlds apart' from her, and their separate, dejected postures perfectly illustrate being 'lost in their own private struggle.'",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities sit together; one stares intently into a small object while the other is fully collapsed.",
+          "secondary": "They appear dejected or exhausted, sitting on a public staircase after a long night."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "my situationship",
+            "score": 0.9,
+            "reason": "The figure of a man staring into his glass is a perfect visual for someone ruminating after an emotionally charged night, fitting the provided 'my situationship' role."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "his best friend",
+            "score": 0.8,
+            "reason": "The figure's collapsed posture of total exhaustion strongly fits the role of 'his best friend' witnessing or participating in the main character's drama."
+          }
+        ],
+        "relation": "are sitting close together on a staircase but are not interacting"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption correctly identifies the two figures as 'Him and his friend', and the image shows them 'sitting close together... but not interacting'.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "A reader can perfectly reconstruct the story: he used the 'slammed with work' excuse to ignore her text, but the image proves he was out partying instead.",
+      "element_allusions": [
+        {
+          "element": "being physically together",
+          "played_by": "my situationship and his best friend",
+          "allusion": 1.0,
+          "reason": "The caption names \"Him and his friend\" and the image shows them sitting right next to each other, making this fully recoverable."
+        },
+        {
+          "element": "being emotionally worlds apart",
+          "played_by": "the disconnect between his partying and my attempt to communicate",
+          "allusion": 1.0,
+          "reason": "The quote \"'too slammed with work' to answer my text\" starkly contrasts with the visual evidence of partying, perfectly illustrating the emotional disconnect."
+        },
+        {
+          "element": "each lost in their own private struggle",
+          "played_by": "his physical comedown vs. my emotional anxiety over being ignored",
+          "allusion": 0.9,
+          "reason": "The image clearly shows his physical comedown, and the caption's mention of her unanswered text strongly implies her separate emotional anxiety."
+        }
+      ],
+      "match_overall": 0.9
+    },
+    {
+      "caption": "My situationship and his friend after he said he 'can't give me what I need'.",
+      "context": "Refreshing his friend's story for the fifth time, watching my situationship stare into his cup while his best friend crashes out next to him after he blew up our 'perfect' week by saying he 'just can't give me what I need right now.'",
+      "metaphor": "When a shared crisis hits, one person tries to analyze the problem while the other completely shuts down.",
+      "metaphor_recovery": 1.0,
+      "metaphor_recovery_reason": "The 'shared crisis' is in the caption's quote, while the image perfectly shows one person 'analyzing' (staring at the glass) and the other 'shutting down' (collapsed).",
+      "register": "watched_scene",
+      "image_configuration": {
+        "physical_analog": {
+          "core": "Two similar-kind entities sit together; one stares intently into a small object while the other is fully collapsed.",
+          "secondary": "They appear dejected or exhausted, sitting on a public staircase after a long night."
+        },
+        "cast": [
+          {
+            "image_party": "a person slumped over looking down into a glass",
+            "played_by": "my situationship",
+            "score": 0.9,
+            "reason": "The figure of a man staring into his glass is a perfect visual for someone ruminating after an emotionally charged night, fitting the provided 'my situationship' role."
+          },
+          {
+            "image_party": "a person completely hunched over with their head buried in their arms",
+            "played_by": "his best friend",
+            "score": 0.8,
+            "reason": "The figure's collapsed posture of total exhaustion strongly fits the role of 'his best friend' witnessing or participating in the main character's drama."
+          }
+        ],
+        "relation": "are sitting close together on a staircase but are not interacting"
+      },
+      "physical_fit": 1.0,
+      "physical_fit_reason": "The caption places 'My situationship and his friend' together, which the image confirms as they 'are sitting close together... but not interacting'.",
+      "context_recovery": 1.0,
+      "context_recovery_reason": "The caption and image perfectly convey the story: he used a classic breakup line, and this is the ironic 'devastating aftermath' for him and his friend.",
+      "element_allusions": [
+        {
+          "element": "a shared crisis",
+          "played_by": "the abrupt end of our situationship's good phase",
+          "allusion": 1.0,
+          "reason": "The caption's direct quote \"after he said he 'can't give me what I need'\" explicitly names the crisis."
+        },
+        {
+          "element": "the person who tries to analyze the problem",
+          "played_by": "my situationship",
+          "allusion": 0.9,
+          "reason": "The caption names 'my situationship' and the image shows him staring into the glass, a strong visual for analyzing or ruminating."
+        },
+        {
+          "element": "the person who completely shuts down",
+          "played_by": "his best friend",
+          "allusion": 1.0,
+          "reason": "The caption names 'his friend' and the image shows him completely collapsed, a literal depiction of shutting down."
+        }
+      ],
+      "match_overall": 0.7
+    }
+  ]
+}
+```

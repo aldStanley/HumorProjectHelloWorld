@@ -1,0 +1,38 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "a person slumped over looking down into a glass",
+      "entity": "me",
+      "fit": 0.4,
+      "reason": "The figure is a photographed human who reads as male, but the posture of intense focus on the glass strongly maps to the persona's obsessive rereading of texts."
+    },
+    {
+      "figure": "a person completely hunched over with their head buried in their arms",
+      "entity": "my bestie",
+      "fit": 0.4,
+      "reason": "The figure is a photographed human who reads as male, but the collapsed, dejected posture perfectly captures a friend providing exhausted support through yet another crisis."
+    }
+  ],
+  "weakest_fit": 0.4,
+  "why": "The scene's core emotional dynamic of shared, silent misery is a perfect fit for the persona, but the score is mechanically capped because the photographed figures read as male.",
+  "secondary_nominations": [
+    {
+      "entity": "a post-event comedown",
+      "possibilities": [
+        "the 3am debrief after seeing him out",
+        "the morning after I texted him again",
+        "realizing he's not going to text back"
+      ]
+    },
+    {
+      "entity": "a gritty public staircase",
+      "possibilities": [
+        "the situationship itself",
+        "the inside of my head",
+        "waiting for the ✨bare minimum✨"
+      ]
+    }
+  ]
+}
+```

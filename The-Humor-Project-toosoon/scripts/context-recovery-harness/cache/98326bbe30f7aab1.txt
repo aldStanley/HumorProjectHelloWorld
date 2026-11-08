@@ -1,0 +1,6 @@
+```json
+{
+  "core": "One entity's energetic effort to please is met with dismissive judgment by a different-kind entity.",
+  "secondary": "The first entity is physically animated and performing, while the second is seated, stationary, and holds a pose of critical evaluation."
+}
+```

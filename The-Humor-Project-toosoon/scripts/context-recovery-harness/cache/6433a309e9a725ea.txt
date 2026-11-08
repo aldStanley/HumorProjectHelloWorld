@@ -1,0 +1,1 @@
+{"cast_match":0.9,"pose_match":0.72,"story_match":0.75,"overall_recovered":0.78,"verdict":"partly","note":"The viewer correctly identified him and the defeated friend and got the 4am desperate-text joke, but missed the situationship/recurring 'I miss you' and being stuck on the same cycle for months."}

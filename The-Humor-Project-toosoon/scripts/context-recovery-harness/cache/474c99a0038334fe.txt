@@ -1,0 +1,93 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Me at 3am and me at 3:01am hunched over his new profile picture, zooming in on the reflection in his sunglasses to see if that's the girl he said was 'just a friend' after he liked her post from two minutes ago but left my text from yesterday on read.",
+      "register": "internal",
+      "me_side": "me at 3am",
+      "force_side": "me at 3:01am",
+      "metaphor": "Two people collaboratively overthinking a problem that has no real solution.",
+      "element_map": [
+        {
+          "element": "Two people collaboratively overthinking",
+          "played_by": "me at 3am and me at 3:01am",
+          "score": 1.0,
+          "reason": "The two state-stamped selves represent a perfect, unified front of obsessive and collaborative analysis on a single, tiny detail."
+        },
+        {
+          "element": "A problem that has no real solution",
+          "played_by": "deciphering a blurry reflection in sunglasses",
+          "score": 1.0,
+          "reason": "This is a literally unsolvable problem; the data is too corrupt to yield a real answer, making any conclusion pure speculation."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The two state-stamped selves are two same-kind entities assuming an identical, focused posture to observe a shared, unseen point (the pixelated reflection)."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect instantiation of the metaphor, and its entities map flawlessly to the core analog's structure."
+      }
+    },
+    {
+      "context": "Me who told my friends I was 'finally done' and my urge to text him, both poring over his Venmo transactions with a girl whose name I don't know after he posted a story from a bar I've never been to.",
+      "register": "internal",
+      "me_side": "me who told my friends I was 'finally done'",
+      "force_side": "my urge to text him",
+      "metaphor": "Peering into the messy, hidden workings of a system that's supposed to just 'work'.",
+      "element_map": [
+        {
+          "element": "The messy, hidden workings",
+          "played_by": "his public Venmo transaction history",
+          "score": 1.0,
+          "reason": "This is a literal back-end social ledger, providing a raw, unfiltered, and often cryptic view into his private life."
+        },
+        {
+          "element": "A system that's supposed to just 'work'",
+          "played_by": "the unspoken rules of the situationship",
+          "score": 0.9,
+          "reason": "The casual nature of their dynamic is supposed to be simple, but her need to investigate its 'source code' proves it's broken."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The two entities ('me' and 'my urge') are same-kind parts of her psyche assuming an identical, focused posture to observe the transaction feed below."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The fit is excellent, limited only by the slightly abstract mapping of the 'system' to the situationship itself."
+      }
+    },
+    {
+      "context": "Me and my last shred of self-respect desperately scrolling through his Spotify 'liked songs' playlist, searching for one single sad song after he soft-launched a new girl on his story with the caption 'so happy'.",
+      "register": "internal",
+      "me_side": "me",
+      "force_side": "my last shred of self-respect",
+      "metaphor": "A desperate, last-ditch effort to find something precious that's probably gone forever.",
+      "element_map": [
+        {
+          "element": "A desperate, last-ditch effort",
+          "played_by": "me and my last shred of self-respect",
+          "score": 1.0,
+          "reason": "The two entities are locked in a frantic, unified search for a piece of evidence that contradicts the obvious truth."
+        },
+        {
+          "element": "Something precious that's probably gone forever",
+          "played_by": "any sign that he is also sad about us ending",
+          "score": 1.0,
+          "reason": "His public declaration of happiness makes the hope of finding a sign of his sadness seem entirely futile and lost."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "'Me' and 'my self-respect' are two same-kind entities (aspects of her) assuming an identical, focused posture to observe a shared point (the song list)."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "This is a direct and powerful mapping of the moment's emotional stakes and physical action onto both the metaphor and the core analog."
+      }
+    }
+  ]
+}
+```

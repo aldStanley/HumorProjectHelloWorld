@@ -1,0 +1,235 @@
+
+=== Moment 1, latent_irony engine — 1 candidates
+
+     #1 POSSIBLE (13 words)  Classes start a week after move-in. Columbia needed time to prepare for me.
+        event_role: Move-in places students on campus to begin the academic term.
+        ironic_event_behavior: Students move in a full week before classes begin.
+        latent_irony: Students arrive for school before school starts.
+        gigachad_ownership: Columbia uses the empty week to prepare for his attendance.
+        evaluator: event role valid partly, irony connection native, irony strength medium, gigachad ownership high, world mechanics preserved yes, delivery strong_two_beat, funny medium
+        evaluator event role: Move-in brings students to campus so they can settle in before the academic term becomes active.
+        evaluator ironic event behavior: The university brings students to campus but leaves a full week before classes begin.
+        evaluator latent irony: The start of campus life produces an idle campus instead of an active term.
+        evaluator reason: The unexplained gap directly supports his claim that the institution scheduled preparation around him, so the ownership is genuine. The underlying contradiction is only moderate because move-in normally precedes classes, making the week-long delay inefficient rather than deeply self-defeating.
+        flags: none
+
+=== Moment 2, latent_irony engine — 2 candidates
+
+KEEP #1 STRONG (12 words)  My Carman window gets no sunlight. I did not approve its entry.
+        event_role: A dorm window normally admits sunlight into the room.
+        ironic_event_behavior: The Carman window faces a nearby wall and admits no sunlight.
+        latent_irony: The window exists for light but keeps daylight outside.
+        gigachad_ownership: He treats the missing sunlight as something he personally denied entry.
+        evaluator: event role valid yes, irony connection native, irony strength high, gigachad ownership high, world mechanics preserved yes, delivery strong_two_beat, funny medium
+        evaluator event role: A dorm window is supposed to admit daylight into the room.
+        evaluator ironic event behavior: The nearby wall prevents the window from admitting sunlight.
+        evaluator latent irony: The window meant to admit daylight admits none.
+        evaluator reason: The blocked sunlight directly reverses the window's purpose, and the second beat makes his approval the absurd gatekeeper. It ranks above 1 because its ownership is explicit and does not depend on personifying the obstruction.
+        flags: none
+
+     #2 POSSIBLE (13 words)  My Carman window faces a brick wall. The wall received the better view.
+        event_role: A dorm window normally gives its occupant a view outside.
+        ironic_event_behavior: The Carman window faces a brick wall that blocks the outside view.
+        latent_irony: The window gives the wall a better view than the student.
+        gigachad_ownership: He considers himself the superior view the wall receives.
+        evaluator: event role valid yes, irony connection native, irony strength high, gigachad ownership high, world mechanics preserved yes, delivery strong_two_beat, funny medium
+        evaluator event role: A dorm window is supposed to give its occupant a view beyond the building.
+        evaluator ironic event behavior: The window offers only a nearby brick wall instead of an outside view.
+        evaluator latent irony: The failed viewing window makes its occupant the thing worth viewing.
+        evaluator reason: The obstructed view natively contradicts the window's role, and his superiority supplies genuine ownership. It trails 2 because the punchline relies on treating the wall as a viewer, making the turn slightly more forced.
+        flags: forced_personification
+
+=== Moment 3, latent_irony engine — 2 candidates
+
+KEEP #1 STRONG (12 words)  I check Rate My Professor before enrolling. The first evaluation is mine.
+        event_role: Professors normally evaluate students after enrollment.
+        ironic_event_behavior: Students evaluate professors before choosing whether to enroll.
+        latent_irony: The evaluator is evaluated first.
+        gigachad_ownership: His judgment determines whether the professor reaches his schedule.
+        evaluator: event role valid yes, irony connection native, irony strength high, gigachad ownership high, world mechanics preserved yes, delivery strong_two_beat, funny medium
+        evaluator event role: Professors ordinarily evaluate enrolled students through grades and assessments.
+        evaluator ironic event behavior: A prospective student evaluates whether the professor is acceptable before entering the professor's class.
+        evaluator latent irony: The future evaluator must pass the student's evaluation first.
+        evaluator reason: The event naturally reverses the professor-student evaluation hierarchy, and the second beat makes his judgment the gate. It ranks first because that ownership is more concrete than the broader claim of creating consensus in candidate 2.
+        flags: none
+
+KEEP #2 STRONG (10 words)  CULPA reviews contradict each other. Consensus begins after my verdict.
+        event_role: CULPA reviews are supposed to reduce uncertainty when choosing a section.
+        ironic_event_behavior: The reviews contradict one another and make the choice less certain.
+        latent_irony: The decision aid obstructs the decision.
+        gigachad_ownership: His verdict becomes the certainty the reviews could not provide.
+        evaluator: event role valid yes, irony connection native, irony strength high, gigachad ownership high, world mechanics preserved yes, delivery strong_two_beat, funny medium
+        evaluator event role: CULPA reviews are meant to inform section selection and reduce uncertainty about professors.
+        evaluator ironic event behavior: The conflicting reviews increase uncertainty instead of resolving it.
+        evaluator latent irony: The decision aid makes the decision harder.
+        evaluator reason: The reviews directly defeat their decision-aid purpose, and he owns the contradiction by treating his verdict as the final authority. It ranks just below candidate 1 because turning one personal decision into 'consensus' is slightly less precise and immediate.
+        flags: none
+
+=== Moment 4, latent_irony engine — 3 candidates
+
+KEEP #1 STRONG (14 words)  Vergil returns results only after I name the course exactly. Search follows my lead.
+        event_role: Vergil's course search is supposed to help students find courses they do not already know by exact name.
+        ironic_event_behavior: Vergil returns results only after students enter the exact course name.
+        latent_irony: The search tool requires the answer before it can search.
+        gigachad_ownership: GigaChad treats Vergil as a subordinate that can only follow his certainty.
+        evaluator: event role valid yes, irony connection native, irony strength high, gigachad ownership high, world mechanics preserved yes, delivery strong_two_beat, funny medium
+        evaluator event role: The course search should help students discover courses without already knowing their exact titles.
+        evaluator ironic event behavior: It produces results only when the student supplies the exact title in advance.
+        evaluator latent irony: The search requires the discovery before it can assist.
+        evaluator reason: This has the clearest concrete setup and strongest ownership: the second beat turns the broken hierarchy into GigaChad's command structure. It outranks the others through cleaner wording and a more immediate turn, though the laugh is not strong enough for excellent.
+        flags: none
+
+     #2 POSSIBLE (13 words)  Vergil works only after I find the class. I arrive before its purpose.
+        event_role: Vergil's course search is expected to reduce uncertainty during registration.
+        ironic_event_behavior: Vergil becomes useful only after the student has already identified the course.
+        latent_irony: The search works only after its purpose is no longer needed.
+        gigachad_ownership: GigaChad is already beyond the point where Vergil becomes useful.
+        evaluator: event role valid yes, irony connection native, irony strength high, gigachad ownership high, world mechanics preserved yes, delivery strong_two_beat, funny low
+        evaluator event role: The course search should reduce uncertainty by helping students locate classes.
+        evaluator ironic event behavior: It becomes useful only after the student has independently located the class.
+        evaluator latent irony: The search starts helping after its help is no longer needed.
+        evaluator reason: The purpose reversal is native and the persona owns it through temporal superiority. It ranks below 1 because "I arrive before its purpose" is abstract and less immediately legible or funny.
+        flags: unclear_irony
+
+     #3 REJECT (13 words)  Vergil cannot find classes I have not identified. My uncertainty outranks its knowledge.
+        event_role: Vergil's course search is supposed to provide students with course information.
+        ironic_event_behavior: Vergil knows less than the student unless given the exact course name.
+        latent_irony: The search tool depends on the user's greater knowledge.
+        gigachad_ownership: GigaChad treats his own uncertainty as superior to Vergil's knowledge.
+        evaluator: event role valid yes, irony connection native, irony strength medium, gigachad ownership medium, world mechanics preserved yes, delivery strong_two_beat, funny low
+        evaluator event role: The course search should use its course index to help a less-informed student identify relevant classes.
+        evaluator ironic event behavior: It cannot surface classes until the student already knows enough to identify them precisely.
+        evaluator latent irony: The information tool depends on the user having the information first.
+        evaluator reason: The underlying contradiction is real, but the claim that uncertainty outranks knowledge is difficult to parse and forces an artificial mental hierarchy onto the tool. It repeats 1's superiority move with less clarity, ownership, and comic force.
+        flags: unclear_irony, forced_personification, not_funny, duplicate_premise
+
+=== Moment 5, latent_irony engine — 3 candidates
+
+KEEP #1 EXCELLENT (15 words)  Uris Pool is closed for maintenance before my first swim. Sensible preparation for the impact.
+        event_role: Maintenance prepares Uris Pool for safe, continued use by swimmers.
+        ironic_event_behavior: Maintenance blocks the pool immediately before returning students can use it.
+        latent_irony: Preparation for swimmers requires keeping swimmers away.
+        gigachad_ownership: He accepts the timing as necessary preparation for the force of his first swim.
+        evaluator: event role valid yes, irony connection native, irony strength high, gigachad ownership high, world mechanics preserved yes, delivery strong_two_beat, funny high
+        evaluator event role: Maintenance prepares the pool to remain safe and usable for swimmers.
+        evaluator ironic event behavior: The preparation makes the pool unavailable just when returning swimmers intend to use it.
+        evaluator latent irony: Preparing the pool for swimmers requires excluding them when they return.
+        evaluator reason: The second beat makes his arrival the absurd reason advance maintenance was necessary, so he owns the event’s contradiction rather than merely noting it. It is more vivid and surprising than the other two while preserving the actual closure.
+        flags: none
+
+KEEP #2 STRONG (15 words)  Uris Pool is closed for maintenance before my first swim. It has not qualified yet.
+        event_role: Pool maintenance preserves the facility so students can swim when they return.
+        ironic_event_behavior: Uris Pool becomes unavailable for maintenance precisely when students return to use it.
+        latent_irony: Maintenance preserves swimming by preventing it when demand resumes.
+        gigachad_ownership: He treats maintenance as the pool qualifying for access to him.
+        evaluator: event role valid yes, irony connection native, irony strength high, gigachad ownership high, world mechanics preserved yes, delivery strong_two_beat, funny medium
+        evaluator event role: Pool maintenance is supposed to preserve the facility for students who want to swim.
+        evaluator ironic event behavior: Maintenance prevents students from swimming precisely when they return expecting to use the pool.
+        evaluator latent irony: Maintenance preserves access by withholding it when demand resumes.
+        evaluator reason: He turns the closure into his own admission standard, giving him clear evaluative ownership of the contradiction. The hierarchy is strong, but the qualification metaphor is less immediate and funny than candidate 3’s causal boast.
+        flags: none
+
+     #3 REJECT (15 words)  Uris Pool is closed for maintenance as students return. I arrive before infrastructure is ready.
+        event_role: Uris Pool is expected to be ready when students resume swimming.
+        ironic_event_behavior: The students return ready to swim while the pool remains under maintenance.
+        latent_irony: The swimmers are ready before the swimming facility.
+        gigachad_ownership: He interprets the closure as infrastructure failing to keep pace with his arrival.
+        evaluator: event role valid yes, irony connection native, irony strength medium, gigachad ownership medium, world mechanics preserved yes, delivery flat, funny low
+        evaluator event role: The pool is expected to be operational when students return and resume swimming.
+        evaluator ironic event behavior: Students return ready to swim while the facility intended to serve them remains unavailable.
+        evaluator latent irony: The swimmers are ready before the swimming facility.
+        evaluator reason: The readiness reversal is real, but the second sentence mostly restates the inconvenience with self-important scale. Unlike the higher-ranked jokes, it neither imposes a sharp new hierarchy nor makes him an absurd cause or standard.
+        flags: weak_gigachad_ownership, generic_gigachad_commentary, flat_delivery, not_funny
+
+=== Moment 6, latent_irony engine — 3 candidates
+
+KEEP #1 STRONG (11 words)  Campus gates now restrict students. Columbia needed a perimeter around me.
+        event_role: Campus gates are supposed to protect students inside the campus.
+        ironic_event_behavior: The restricted gates instead impede the movement of those students.
+        latent_irony: Protection has turned its protected population into the containment target.
+        gigachad_ownership: He declares that the entire security perimeter exists because of him.
+        evaluator: event role valid yes, irony connection native, irony strength high, gigachad ownership high, world mechanics preserved yes, delivery strong_two_beat, funny medium
+        evaluator event role: The campus gates are meant to secure students within the campus.
+        evaluator ironic event behavior: The restrictions burden and constrain the students they are supposed to protect.
+        evaluator latent irony: The protected population becomes the object of containment.
+        evaluator reason: This has the set's clearest protection-versus-containment contradiction, and the second beat makes him the monumental reason for the perimeter. It ranks above the others because the ownership changes the explanation of the gates rather than merely dismissing their authority.
+        flags: none
+
+     #2 POSSIBLE (13 words)  Restricted campus gates make students prove they belong. My presence is the credential.
+        event_role: Campus gates protect the students who belong on campus and verify authorized access.
+        ironic_event_behavior: Restricted gates repeatedly make those students prove they belong there.
+        latent_irony: The protected population must prove it belongs inside the protection.
+        gigachad_ownership: He treats his presence as stronger proof than the required identification.
+        evaluator: event role valid yes, irony connection native, irony strength medium, gigachad ownership high, world mechanics preserved yes, delivery strong_two_beat, funny medium
+        evaluator event role: The gates are meant to recognize authorized campus members while excluding unauthorized entrants.
+        evaluator ironic event behavior: They repeatedly require established campus members to re-prove their status.
+        evaluator latent irony: A system for securing belonging repeatedly questions that belonging.
+        evaluator reason: The persona clearly owns the turn by placing his presence above institutional identification. It falls below candidate 3 because checking credentials substantially fulfills the gate's purpose, so the contradiction depends on repetition and indignity rather than a sharp reversal.
+        flags: none
+
+     #3 POSSIBLE (14 words)  Campus gates bar my invited guests. Columbia is still learning whose room it is.
+        event_role: Residents normally decide whom they invite into their own rooms.
+        ironic_event_behavior: Campus gate restrictions override residents and exclude their invited friends.
+        latent_irony: The gate has more authority over the room than its resident.
+        gigachad_ownership: He treats Columbia as still learning that his authority governs his room.
+        evaluator: event role valid partly, irony connection stretched, irony strength low, gigachad ownership high, world mechanics preserved yes, delivery strong_two_beat, funny medium
+        evaluator event role: A resident ordinarily has some authority to invite guests into their assigned room.
+        evaluator ironic event behavior: Campus access rules prevent those invited guests from reaching the resident's room.
+        evaluator latent irony: Institutional access control overrules the resident's control of the room.
+        evaluator reason: The imposed hierarchy is confidently persona-owned, and the guest restriction is represented accurately. It ranks last because residents do not normally possess final authority over campus entry, so the supposed reversal of authority is less native to the gate's role than the contradictions in candidates 3 and 1.
+        flags: stretched_connection
+
+=== Moment 7, latent_irony engine — 1 candidates
+
+KEEP #1 STRONG (11 words)  Columbia chose me. At move-in, I decide which belongings deserve admission.
+        event_role: Columbia selects students for admission, and move-in brings their belongings into the dorm.
+        ironic_event_behavior: Limited dorm space makes the admitted student select which possessions may stay.
+        latent_irony: The admitted student becomes the admissions committee for their belongings.
+        gigachad_ownership: He treats his judgment as the final admissions authority for every possession.
+        evaluator: event role valid yes, irony connection native, irony strength high, gigachad ownership high, world mechanics preserved yes, delivery strong_two_beat, funny medium
+        evaluator event role: Columbia admits students, who then bring their belongings into limited dorm space.
+        evaluator ironic event behavior: The admitted student must decide which belongings are allowed to remain in the dorm.
+        evaluator latent irony: The admitted becomes the admissions authority.
+        evaluator reason: The move-in constraint directly reverses the admissions hierarchy, and the speaker owns the reversal by making his judgment final. It falls short of excellent because the second beat states the analogy somewhat explicitly, reducing surprise.
+        flags: none
+
+=== Moment 8, latent_irony engine — 3 candidates
+
+KEEP #1 STRONG (11 words)  NSOP gives the official version. Seniors decide when it becomes accurate.
+        event_role: NSOP provides the official account of life at Columbia.
+        ironic_event_behavior: Seniors correct that account with lessons from experience.
+        latent_irony: The official version is less complete than the unofficial one.
+        gigachad_ownership: Seniors hold final authority over whether the official account is accurate.
+        evaluator: event role valid yes, irony connection native, irony strength high, gigachad ownership high, world mechanics preserved yes, delivery strong_two_beat, funny medium
+        evaluator event role: NSOP is the institutionally authorized introduction to life at Columbia.
+        evaluator ironic event behavior: Experienced students must correct and complete NSOP's account before it reliably reflects campus life.
+        evaluator latent irony: The unofficial students determine whether the official account is accurate.
+        evaluator reason: This best converts the event's official-versus-experiential hierarchy into a confident reversal, with seniors positioned as the final evaluators. It is less surprising than an excellent joke, but it has the clearest turn and strongest ownership in the set.
+        flags: none
+
+     #2 POSSIBLE (11 words)  NSOP welcomes first-years. I deliver the terms the welcome leaves out.
+        event_role: NSOP is supposed to prepare first-years for campus life.
+        ironic_event_behavior: Seniors provide important warnings that NSOP leaves out.
+        latent_irony: The official preparation requires unofficial completion.
+        gigachad_ownership: He treats himself as the authority who completes the official welcome.
+        evaluator: event role valid yes, irony connection native, irony strength high, gigachad ownership high, world mechanics preserved yes, delivery strong_two_beat, funny low
+        evaluator event role: NSOP is supposed to welcome first-years while preparing them for campus life.
+        evaluator ironic event behavior: Its welcome omits practical conditions that an experienced student then has to supply.
+        evaluator latent irony: The official welcome depends on an unofficial student to disclose its real conditions.
+        evaluator reason: The first-person claim genuinely places GigaChad above the official welcome, so the contradiction is owned rather than merely observed. Compared with candidate 2, however, "deliver the terms" mostly restates the omission and produces a flatter, less amusing turn.
+        flags: flat_delivery
+
+     #3 REJECT (9 words)  NSOP leaders answer first-years. Seniors own the answer key.
+        event_role: NSOP leaders are expected to answer first-years' questions.
+        ironic_event_behavior: The useful answers come from lessons students learned through experience.
+        latent_irony: Orientation teaches answers that experience had to supply.
+        gigachad_ownership: Seniors possess the final authority over the answers orientation provides.
+        evaluator: event role valid yes, irony connection native, irony strength medium, gigachad ownership medium, world mechanics preserved yes, delivery strong_two_beat, funny low
+        evaluator event role: NSOP leaders are expected to give first-years informed answers about navigating Columbia.
+        evaluator ironic event behavior: The knowledge behind useful answers comes from difficulties experienced students had to learn through firsthand experience.
+        evaluator latent irony: The official answerers depend on knowledge acquired outside the official instruction.
+        evaluator reason: The answer-key hierarchy is understandable, but it is a generic metaphor and less exact than candidate 2's claim that seniors determine accuracy. It repeats the same senior-as-final-authority move with weaker event specificity and little additional comic force.
+        flags: generic_gigachad_commentary, not_funny, duplicate_premise
+
+=== latent_irony: generated 18, excellent 1, strong 8, possible 6, reject 3; survivors 9 (50% of generated)
+flags: not_funny 3, forced_personification 2, unclear_irony 2, duplicate_premise 2, generic_gigachad_commentary 2, flat_delivery 2, weak_gigachad_ownership 1, stretched_connection 1

@@ -1,0 +1,72 @@
+```json
+{
+  "matches": [
+    {
+      "context": "Rereading his single-word 'lol' text for the tenth time trying to decode the tone, completely oblivious as my bestie quietly falls apart next to me after her boyfriend of three years ended things over a text.",
+      "register": "in_scene",
+      "metaphor": "Being right next to someone who is falling apart, but being completely absorbed in your own separate world.",
+      "element_map": [
+        {
+          "element": "someone who is falling apart",
+          "played_by": "my bestie",
+          "score": 1.0,
+          "reason": "She is experiencing a major emotional event—a devastating breakup—and her body language is one of total collapse."
+        },
+        {
+          "element": "being right next to them",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "I am physically present next to her during her crisis, making my lack of engagement the central tension."
+        },
+        {
+          "element": "being completely absorbed in your own separate world",
+          "played_by": "my focus on his text",
+          "score": 1.0,
+          "reason": "My obsessive focus on decoding a low-stakes text creates a stark, self-contained world separate from her genuine crisis."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's entities perfectly fill the core slots: 'me' is in a state of focused despair over the text, and 'my bestie' is in a state of total collapse from her breakup."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "The moment is a perfect fit, with all elements and the core analog mapping directly and strongly to the provided scenario and visual."
+      }
+    },
+    {
+      "context": "Trying to scry the future from the last drops of my drink after he viewed my story in under a minute but still hasn't replied to my text from Saturday, while my bestie just gives up on me and this situation entirely.",
+      "register": "in_scene",
+      "metaphor": "Facing the same overwhelming problem, but one person distracts themselves with a tiny detail while the other collapses under the weight of it.",
+      "element_map": [
+        {
+          "element": "the same overwhelming problem",
+          "played_by": "the toxic situationship",
+          "score": 1.0,
+          "reason": "The situationship is the ongoing, central crisis that is exhausting both me and my bestie, who has to witness it."
+        },
+        {
+          "element": "the person who distracts themselves with a tiny detail",
+          "played_by": "me",
+          "score": 1.0,
+          "reason": "I am fixated on the 'tiny detail' of my drink's dregs as a form of magical thinking to avoid the larger reality that he is ignoring me."
+        },
+        {
+          "element": "the person who collapses under the weight of it",
+          "played_by": "my bestie",
+          "score": 1.0,
+          "reason": "Her collapse is a physical manifestation of her exhaustion and despair over having to provide support through the same crisis yet again."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's entities map perfectly to the core: 'me' fills the 'focused despair' slot by scrying the drink, and 'my bestie' fills the 'total collapse' slot by giving up."
+      },
+      "overall": {
+        "score": 1.0,
+        "reason": "This moment is a perfect interpretation of the metaphor and the core visual, with every element mapping at full strength."
+      }
+    }
+  ]
+}
+```

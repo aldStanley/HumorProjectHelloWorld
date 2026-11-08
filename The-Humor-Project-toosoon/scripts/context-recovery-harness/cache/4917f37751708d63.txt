@@ -1,0 +1,39 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "a person slumped over looking down into a glass",
+      "entity": "my situationship",
+      "fit": 0.9,
+      "reason": "The figure is a photographed man slumped over and staring into a glass, a literal action suggesting a quiet, unhappy comedown or rumination after a night out."
+    },
+    {
+      "figure": "a person completely hunched over with their head buried in their arms",
+      "entity": "his best friend",
+      "fit": 0.8,
+      "reason": "The figure is a photographed man collapsed with his head in his arms, a literal posture of exhaustion or dejection that a friend would exhibit after a long night."
+    }
+  ],
+  "relationship": "My situationship and his best friend are sitting together on a staircase, drained and silent after a long night out.",
+  "weakest_fit": 0.8,
+  "why": "The image of two men in a state of quiet, non-interactive misery strongly supports the lens of watching the aftermath of his actions or his life separate from her.",
+  "secondary_nominations": [
+    {
+      "entity": "a post-event comedown",
+      "possibilities": [
+        "the morning after he said he wasn't ready for a relationship",
+        "the vibe after I finally left",
+        "him and his boys after he messed up"
+      ]
+    },
+    {
+      "entity": "a gritty public staircase",
+      "possibilities": [
+        "the part of his life I don't see",
+        "the emotional limbo he keeps me in",
+        "his messy single life"
+      ]
+    }
+  ]
+}
+```

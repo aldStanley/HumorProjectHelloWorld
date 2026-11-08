@@ -1,0 +1,20 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "A jester actively dancing and gesturing"
+    },
+    {
+      "figure": "a queen, who is sitting on a throne watching"
+    }
+  ],
+  "secondary": [
+    {
+      "entity": "a performance"
+    },
+    {
+      "entity": "a pose of critical evaluation"
+    }
+  ]
+}
+```

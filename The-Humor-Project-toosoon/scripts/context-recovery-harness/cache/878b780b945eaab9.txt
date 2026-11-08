@@ -1,0 +1,27 @@
+{
+  "figures": [
+    {
+      "anchor": "left alien-like figure in a red hood, holding its face and clasping hands with the other figure",
+      "candidates": [
+        "me at 1 AM"
+      ]
+    },
+    {
+      "anchor": "right gray alien-like figure leaning toward the left figure while holding hands",
+      "candidates": [
+        "Me at 1:01 AM"
+      ]
+    }
+  ],
+  "entities_in_caption": [
+    "Me at 1:01 AM",
+    "me at 1 AM",
+    "she",
+    "his cousin",
+    "his"
+  ],
+  "entities_expected_in_image": [
+    "Me at 1:01 AM",
+    "me at 1 AM"
+  ]
+}

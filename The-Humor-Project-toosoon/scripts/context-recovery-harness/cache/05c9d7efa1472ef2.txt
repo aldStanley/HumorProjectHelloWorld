@@ -1,0 +1,38 @@
+```json
+{
+  "ensemble": [
+    {
+      "figure": "an alien with a slumped, downcast posture",
+      "entity": "me",
+      "fit": 1.0,
+      "reason": "The alien figure's slumped, downcast posture perfectly represents her being sad and in need of support after a setback in her situationship."
+    },
+    {
+      "figure": "an alien figure with a caring and supportive demeanor",
+      "entity": "my bestie",
+      "fit": 1.0,
+      "reason": "This alien figure's gentle, supportive action of cradling the other is a perfect visual for a best friend providing comfort and talking her through a crisis."
+    }
+  ],
+  "weakest_fit": 1.0,
+  "why": "This lens is a perfect fit because the dynamic of a distressed figure being gently supported by another directly maps onto the persona's core experience of relying on her friends when she's upset about her situationship.",
+  "secondary_nominations": [
+    {
+      "entity": "a gentle, intimate interaction",
+      "possibilities": [
+        "the post-cry debrief",
+        "my friend convincing me not to text him back",
+        "telling her everything he said"
+      ]
+    },
+    {
+      "entity": "a warm, natural setting",
+      "possibilities": [
+        "the delulu zone",
+        "the 5 minutes of peace after blocking him",
+        "the calm before I check his story"
+      ]
+    }
+  ]
+}
+```

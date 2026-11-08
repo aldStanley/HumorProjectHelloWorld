@@ -1,0 +1,8 @@
+```json
+[
+  "Trying to diagnose a complex problem with no real expertise.",
+  "The collective, morbid curiosity about a system's messy or dangerous foundation.",
+  "When two people get intensely focused on a problem that is technically not their business.",
+  "A desperate, shared search for something valuable that just fell out of reach."
+]
+```

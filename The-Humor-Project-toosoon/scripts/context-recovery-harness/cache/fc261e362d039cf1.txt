@@ -1,0 +1,72 @@
+```json
+{
+  "matches": [
+    {
+      "context": "My situationship trying to figure out what to text me while his best friend just gives up after they spent all night debating whether posting a story with another girl while still watching all of mine was 'that big of a deal'.",
+      "register": "watched_scene",
+      "metaphor": "When a shared crisis hits, one person tries to analyze the problem while the other completely shuts down.",
+      "element_map": [
+        {
+          "element": "a shared crisis",
+          "played_by": "the fallout from him posting another girl",
+          "score": 0.9,
+          "reason": "This act of social media betrayal is the clear, high-stakes emotional event that has directly resulted in the miserable state of both figures."
+        },
+        {
+          "element": "one person who tries to analyze the problem",
+          "played_by": "my situationship",
+          "score": 1.0,
+          "reason": "His posture of staring intently into a glass is a perfect visual match for someone deep in thought, attempting to solve the problem he created."
+        },
+        {
+          "element": "the other person who completely shuts down",
+          "played_by": "his best friend",
+          "score": 1.0,
+          "reason": "His body language of being totally collapsed with his head in his arms is a literal depiction of someone who has shut down from exhaustion or frustration."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's entities (my situationship, his best friend) are two same-kind entities, with one in a state of focused despair and the other in total collapse."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The overall fit is excellent, limited only slightly by the crisis being an external event that created their internal states, rather than the states themselves."
+      }
+    },
+    {
+      "context": "My situationship staring into the bottom of his glass while his best friend crashes out next to him after a 'legendary' night out celebrating his freedom, which he got by sending me the 'I can't give you what you want right now' text two hours earlier.",
+      "register": "watched_scene",
+      "metaphor": "The silent, worn-out 'comedown' after an intense event, where there's nothing left to say or do.",
+      "element_map": [
+        {
+          "element": "an intense event",
+          "played_by": "the breakup text followed by a forced 'celebration'",
+          "score": 0.9,
+          "reason": "The combination of a significant emotional action (the breakup) and a high-energy social one (the night out) perfectly establishes the preceding intensity."
+        },
+        {
+          "element": "The silent, worn-out 'comedown'",
+          "played_by": "the entire depicted scene of exhaustion",
+          "score": 1.0,
+          "reason": "The image perfectly captures the physical and emotional depletion of a post-event comedown, with both figures drained, silent, and withdrawn."
+        },
+        {
+          "element": "nothing left to say or do",
+          "played_by": "the non-interactive, slumped postures",
+          "score": 0.9,
+          "reason": "Their physical separation despite their proximity, and their complete lack of interaction, strongly implies a state where all energy has been spent."
+        }
+      ],
+      "core_fit": {
+        "score": 1.0,
+        "reason": "The moment's entities (my situationship, his best friend) perfectly map to the core of two same-kind entities, one in focused despair and one in total collapse."
+      },
+      "overall": {
+        "score": 0.9,
+        "reason": "The fit is extremely strong, with the 'intense event' element being an inference from the scene rather than a direct depiction, making it the weakest link."
+      }
+    }
+  ]
+}
+```

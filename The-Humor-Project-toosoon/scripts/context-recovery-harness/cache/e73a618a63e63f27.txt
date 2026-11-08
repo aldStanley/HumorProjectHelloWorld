@@ -1,0 +1,1 @@
+{"figures":[{"anchor":"left pink starfish character standing and looking unimpressed","candidates":["his boys"]},{"anchor":"right yellow sponge character standing and looking unimpressed","candidates":["his boys"]}],"entities_in_caption":["his boys","he","his ex","me","my flowers"],"entities_expected_in_image":["his boys"]}
