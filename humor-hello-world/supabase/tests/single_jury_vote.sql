@@ -9,7 +9,7 @@ do $$
 declare d date := (clock_timestamp() at time zone 'America/New_York')::date; ids uuid[]; stored jsonb;
 begin
   select array_agg(caption_id order by position) into ids from public.jury_entries where round_day=d;
-  if cardinality(ids) <> 5 then raise exception 'FAIL needs five jury entries'; end if;
+  if coalesce(cardinality(ids), 0) not in (3, 5) then raise exception 'FAIL needs three entries (or a preserved five-entry round)'; end if;
   begin
     perform public.submit_jury_ballot(d,jsonb_build_object(ids[1]::text,1,ids[2]::text,1),ids[1]);
     raise exception 'FAIL multiple votes accepted';

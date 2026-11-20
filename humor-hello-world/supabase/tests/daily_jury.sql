@@ -11,7 +11,7 @@ do $$
 declare d date := (clock_timestamp() at time zone 'America/New_York')::date; ids uuid[]; ratings jsonb;
 begin
   select array_agg(caption_id order by position) into ids from public.jury_entries where round_day = d;
-  if cardinality(ids) <> 5 then raise exception 'FAIL needs five eligible images'; end if;
+  if coalesce(cardinality(ids), 0) not in (3, 5) then raise exception 'FAIL needs three entries (or a preserved five-entry round)'; end if;
   ratings := jsonb_build_object(ids[1]::text, 1);
   begin perform public.submit_jury_ballot(d, '{}'::jsonb, ids[1]); raise exception 'FAIL incomplete ballot accepted'; exception when invalid_parameter_value then null; end;
   begin perform public.submit_jury_ballot(d, jsonb_set(ratings,array[ids[1]::text],'"1"'::jsonb),ids[1]); raise exception 'FAIL string rating accepted'; exception when invalid_parameter_value then null; end;

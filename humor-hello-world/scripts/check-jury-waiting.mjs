@@ -16,10 +16,10 @@ new Function('require', 'exports', outputText)(createRequire(import.meta.url), e
 const visitor = renderToStaticMarkup(createElement(exports.JuryWaiting, { signedIn: false }));
 assert.match(visitor, /href="\/login"/);
 assert.match(visitor, /Today’s round opens when a member signs in/);
-assert.doesNotMatch(visitor, /We need five/);
+assert.doesNotMatch(visitor, /We need three/);
 
 const member = renderToStaticMarkup(createElement(exports.JuryWaiting, { signedIn: true }));
-assert.match(member, /five published captions/);
+assert.match(member, /three published captions/);
 assert.doesNotMatch(member, /href="\/login"/);
 assert.match(visitor, /id="jury-title"/);
 assert.match(member, /id="jury-title"/);

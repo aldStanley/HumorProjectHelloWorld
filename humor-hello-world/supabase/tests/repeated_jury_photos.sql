@@ -9,7 +9,7 @@ values(current_setting('repeated_photo.image')::uuid, current_setting('repeated_
 update public.jokes set image_id = current_setting('repeated_photo.image')::uuid;
 insert into public.jokes(picture, text, image_id)
 select 'repeated-photo-test.jpg', 'Columbia test caption ' || n, current_setting('repeated_photo.image')::uuid
-from generate_series(1,5) n;
+from generate_series(1,3) n;
 delete from public.golden_laughs where round_day = (clock_timestamp() at time zone 'America/New_York')::date;
 delete from public.jury_ballots where round_day = (clock_timestamp() at time zone 'America/New_York')::date;
 update public.jury_rounds set winner_id = null where round_day = (clock_timestamp() at time zone 'America/New_York')::date;
@@ -21,13 +21,13 @@ select public.prepare_daily_jury();
 do $$
 declare today date := (clock_timestamp() at time zone 'America/New_York')::date;
 begin
-  if (select count(*) from public.jury_entries where round_day = today) <> 5 then
-    raise exception 'FAIL: repeated photos prevented a five-caption round';
+  if (select count(*) from public.jury_entries where round_day = today) <> 3 then
+    raise exception 'FAIL: repeated photos prevented a three-caption round';
   end if;
   if (select count(distinct j.image_id) from public.jury_entries e join public.jokes j on j.id = e.caption_id where e.round_day = today) <> 1 then
-    raise exception 'FAIL: expected all five captions to share a photo';
+    raise exception 'FAIL: expected all three captions to share a photo';
   end if;
 end $$;
 reset role;
 rollback;
-select 'PASS: five captions sharing one photo can open a jury round' as result;
+select 'PASS: three captions sharing one photo can open a jury round' as result;

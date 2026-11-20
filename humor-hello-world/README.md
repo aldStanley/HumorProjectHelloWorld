@@ -89,11 +89,11 @@ Apply `supabase/migrations/20261004000100_daily_comedy_jury.sql` after the capti
 
 Apply `supabase/migrations/20261006000100_jury_co_winners.sql` to enable co-winners and award missing trophies for past tied rounds.
 
-Every member receives the same five daily exhibits, favoring captions not recently shown, with repeated photos allowed. Members choose one joke and seal one immutable vote per daily round. Each vote adds one point only to that joke. Daily votes are separate from the optional caption board. Other people's ballots and daily standings stay hidden until closing.
+Every member receives the same three daily exhibits, favoring captions not recently shown, with repeated photos allowed. Members choose one joke and seal one immutable vote per daily round. Each vote adds one point only to that joke. Daily votes are separate from the optional caption board. Other people's ballots and daily standings stay hidden until closing.
 
 Rounds close at midnight in `America/New_York`. The first authenticated visit after closing finalizes results and automatically awards one Golden Laugh to each winning predictor, even if that person misses the next day. No scheduled job is required. Highest rating score wins; all entries tied for the highest score are co-winners. Picking any co-winner earns one Golden Laugh for that round. A day without ballots has no winner. The next visit shows the latest completed round, and `/jokes/trophies` preserves earned captions, photos, and dates. Deleted source photos display a fallback.
 
-Run `npm run test:jury` for request validation, or `TEST_BASE_URL=http://localhost:3000 npm run test:jury` to include signed-out/origin HTTP checks. Run `supabase/tests/daily_jury.sql` in Supabase SQL Editor for rolled-back integration tests of ballot validation, ownership, sealing, cutoffs, winner selection, ties, quiet days, reward idempotency, anonymous access, and daylight-saving boundaries. Requires five eligible captions. All test identities and fixtures are rolled back.
+Run `npm run test:jury` for request validation, or `TEST_BASE_URL=http://localhost:3000 npm run test:jury` to include signed-out/origin HTTP checks. Run `supabase/tests/daily_jury.sql` in Supabase SQL Editor for rolled-back integration tests of ballot validation, ownership, sealing, cutoffs, winner selection, ties, quiet days, reward idempotency, anonymous access, and daylight-saving boundaries. Requires three eligible captions. All test identities and fixtures are rolled back.
 
 ### Local winner-reveal demonstration
 
@@ -132,3 +132,5 @@ Apply `supabase/migrations/20261010000200_single_jury_vote.sql` before deploying
 Apply `supabase/migrations/20261010000300_caption_source.sql` before deploying this version. Published AI suggestions show **AI-generated**; the custom-writing option shows **Human-written**. The database derives `jokes.caption_source` from saved suggestions during publication, so the tag also works with existing app versions. Existing uploaded jokes are backfilled using their stored suggestions; old AI-only publications are marked AI. Imported jokes with no source record stay unlabeled rather than being assumed human-written. Tags appear in the upload choices, punchline board, My creations, daily jury, and trophies.
 
 Run `supabase/tests/caption_source.sql` in the SQL editor to check suggestion/custom provenance, legacy publication, retries, and unknown sources. Test data rolls back.
+
+Apply `supabase/migrations/20261120000100_three_joke_jury.sql` to enable three-joke rounds. Already-open rounds retain all their entries and votes until closing; the next round uses three jokes.

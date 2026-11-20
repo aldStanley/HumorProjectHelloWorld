@@ -60,7 +60,7 @@ export function DailyJury({ state, signedIn = true }: { state: JuryState; signed
   return <div className="daily-jury daily-jury-compact">
     <section className="jury-court" aria-labelledby="jury-title">
       {!state.round ? <JuryWaiting signedIn={signedIn} /> : <>
-        <div className="courtroom-scene"><header className="courtroom-topline"><div className="courtroom-sign"><h2 id="jury-title"><span aria-hidden="true">⚖</span> THE PEOPLE v. BAD JOKES</h2><p>Choose your favorite. One vote per day. Browse all five below.</p></div><div className="courtroom-meta"><span>{juryDate(state.today)} · {timeLabel}</span><Link href="/jokes/trophies">My trophies · ✹ {state.rewardCount} Golden {state.rewardCount === 1 ? "Laugh" : "Laughs"} ↗</Link></div></header><div className="jury-exhibits">{state.entries.map(entry => <article className={`jury-exhibit ${pickId === entry.caption_id ? "picked-exhibit" : ""}`} key={entry.caption_id}>
+        <div className="courtroom-scene"><header className="courtroom-topline"><div className="courtroom-sign"><h2 id="jury-title"><span aria-hidden="true">⚖</span> THE PEOPLE v. BAD JOKES</h2><p>Choose your favorite. One vote per day. Compare today’s {state.entries.length} jokes below.</p></div><div className="courtroom-meta"><span>{juryDate(state.today)} · {timeLabel}</span><Link href="/jokes/trophies">My trophies · ✹ {state.rewardCount} Golden {state.rewardCount === 1 ? "Laugh" : "Laughs"} ↗</Link></div></header><div className="jury-exhibits">{state.entries.map(entry => <article className={`jury-exhibit ${pickId === entry.caption_id ? "picked-exhibit" : ""}`} key={entry.caption_id}>
           <div className="jury-meme-photo"><JuryPhoto src={entry.picture} alt={entry.description} /></div>
           <div className="witness-testimony" id={`testimony-${entry.caption_id}`}><span>EXHIBIT {String(entry.position).padStart(2, "0")}</span><p>“{entry.caption_text}”</p></div>
           <div className="jury-exhibit-copy"><CaptionSourceTag source={entry.caption_source} />
@@ -75,7 +75,7 @@ export function DailyJury({ state, signedIn = true }: { state: JuryState; signed
         </div>
       </>}
       {state.reveal && <details className="jury-last-result"><summary>See the last verdict</summary><Reveal reveal={state.reveal} /></details>}
-      <details className="jury-rules"><summary>How does the jury work?</summary><p>Everyone gets the same five exhibits for the day. Each user can vote for one joke per daily round. Only sealed votes count, and each adds one point to the selected joke. The most votes wins. Every joke tied for the most votes is a co-winner.</p><p>Rounds close at midnight in America/New_York, including daylight saving time. Results appear on the first visit after closing. No ballots means no winner. Picking any winner or co-winner earns exactly one Golden Laugh, saved automatically even if you miss the next day.</p></details>
+      <details className="jury-rules"><summary>How does the jury work?</summary><p>Everyone gets the same daily exhibits. New rounds feature three jokes. Each user can vote for one joke per daily round. Only sealed votes count, and each adds one point to the selected joke. The most votes wins. Every joke tied for the most votes is a co-winner.</p><p>Rounds close at midnight in America/New_York, including daylight saving time. Results appear on the first visit after closing. No ballots means no winner. Picking any winner or co-winner earns exactly one Golden Laugh, saved automatically even if you miss the next day.</p></details>
     </section>
   </div>;
 }
