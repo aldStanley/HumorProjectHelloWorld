@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { juryDate, type JuryBallot, type JuryReveal, type JuryState } from "@/lib/jury/types";
 import { JuryPhoto } from "./jury-photo";
 import { CaptionSourceTag } from "./caption-source";
+import { JuryWaiting } from "./jury-waiting";
 
 export function Reveal({ reveal, trophyHref = "/jokes/trophies" }: { reveal: JuryReveal; trophyHref?: string }) {
   const { winners, pick, round, earned, support } = reveal;
@@ -58,15 +59,10 @@ export function DailyJury({ state, signedIn = true }: { state: JuryState; signed
 
   return <div className="daily-jury daily-jury-compact">
     <section className="jury-court" aria-labelledby="jury-title">
-      {!state.round ? <div className="jury-waiting"><h3 id="jury-title">The evidence is still coming in.</h3><p>We need five captions to open the first round. Add a photo above, then check back.</p></div> : <>
-        <div className="courtroom-scene"><header className="courtroom-topline"><div className="courtroom-sign"><h2 id="jury-title"><span aria-hidden="true">⚖</span> THE PEOPLE v. BAD JOKES</h2><p>Choose your favorite. One vote per day.<span className="jury-swipe-hint"> Swipe to see all five.</span></p></div><div className="courtroom-meta"><span>{juryDate(state.today)} · {timeLabel}</span><Link href="/jokes/trophies">✹ {state.rewardCount} Golden {state.rewardCount === 1 ? "Laugh" : "Laughs"} ↗</Link></div></header><div className="jury-exhibits">{state.entries.map(entry => <article className={`jury-exhibit ${pickId === entry.caption_id ? "picked-exhibit" : ""}`} key={entry.caption_id}>
-          <div className="witness-testimony" id={`testimony-${entry.caption_id}`}><span>THE WITNESS SAYS…</span><p>“{entry.caption_text}”</p></div>
-          <div className="witness-stage">
-            <div className="witness-portrait">
-              <JuryPhoto src={entry.picture} alt={entry.description} />
-            </div>
-            <div className="witness-stand" aria-hidden="true"><div className="stand-rail" /><div className="stand-spindles">{[0,1,2,3,4].map(n => <i key={n} />)}</div><div className="stand-plaque">WITNESS {String(entry.position).padStart(2, "0")}</div><div className="stand-base" /></div>
-          </div>
+      {!state.round ? <JuryWaiting signedIn={signedIn} /> : <>
+        <div className="courtroom-scene"><header className="courtroom-topline"><div className="courtroom-sign"><h2 id="jury-title"><span aria-hidden="true">⚖</span> THE PEOPLE v. BAD JOKES</h2><p>Choose your favorite. One vote per day. Browse all five below.</p></div><div className="courtroom-meta"><span>{juryDate(state.today)} · {timeLabel}</span><Link href="/jokes/trophies">My trophies · ✹ {state.rewardCount} Golden {state.rewardCount === 1 ? "Laugh" : "Laughs"} ↗</Link></div></header><div className="jury-exhibits">{state.entries.map(entry => <article className={`jury-exhibit ${pickId === entry.caption_id ? "picked-exhibit" : ""}`} key={entry.caption_id}>
+          <div className="jury-meme-photo"><JuryPhoto src={entry.picture} alt={entry.description} /></div>
+          <div className="witness-testimony" id={`testimony-${entry.caption_id}`}><span>EXHIBIT {String(entry.position).padStart(2, "0")}</span><p>“{entry.caption_text}”</p></div>
           <div className="jury-exhibit-copy"><CaptionSourceTag source={entry.caption_source} />
             <label className="jury-pick"><input type="radio" name={`winner-${state.today}`} value={entry.caption_id} checked={pickId === entry.caption_id} disabled={locked} onChange={() => signedIn ? setPickId(entry.caption_id) : router.push("/login")} /><span>{pickId === entry.caption_id ? "My vote ✦" : "Vote for this joke"}</span></label>
           </div>

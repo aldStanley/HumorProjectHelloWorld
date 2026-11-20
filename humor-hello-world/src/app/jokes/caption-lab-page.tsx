@@ -8,7 +8,10 @@ import { DailyJury } from "./daily-jury";
 
 export async function CaptionLab({ searchParams, baseHref = "/jokes" }: { searchParams: Promise<{ page?: string; filter?: string }>; baseHref?: string }) {
   await connection();
-  const [user, jury] = await Promise.all([getUser(), getJuryState().catch(() => null)]);
+  const [user, jury] = await Promise.all([getUser(), getJuryState().catch((error: unknown) => {
+    console.error("Daily jury could not be displayed", error instanceof Error ? error.message : "Unknown error");
+    return null;
+  })]);
   const params = await searchParams;
   const mineOnly = params.filter === "mine";
   const boardUrl = (number: number) => `${baseHref}?page=${number}${mineOnly ? "&filter=mine" : ""}#collection-title`;

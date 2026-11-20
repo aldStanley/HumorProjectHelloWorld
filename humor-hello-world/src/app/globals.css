@@ -190,7 +190,7 @@ body { background: #141612; }
 .caption-collection-heading h2 { font-size: clamp(28px, 3vw, 38px); letter-spacing: -.055em; margin: 0; color: var(--paper); }
 .caption-collection-heading h2 span { color: var(--acid); margin-left: 16px; }
 .board-filter { font: 9px monospace; color: var(--acid); white-space: nowrap; padding: 9px 11px; border: 1px solid #454d2c; border-radius: 3px; }
-.caption-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.caption-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
 .caption-card { min-width: 0; background: var(--paper); color: var(--ink); border-radius: 4px; overflow: hidden; display: flex; flex-direction: column; transition: transform .2s; }
 .caption-card:hover { transform: translateY(-4px); }
 .caption-photo { position: relative; aspect-ratio: 1.15; background: #262b22; overflow: hidden; }
@@ -521,64 +521,41 @@ body { background: #141612; }
 .jury-page .jury-heading h2 { font-size: 32px; margin: 12px 0; }
 .jury-page .jury-seal { display: none; }
 
-/* Keep the daily ballot and the start of the board in the same desktop view. */
-.collection:has(.daily-jury-compact) { padding-top: 16px; }
-.collection:has(.daily-jury-compact) .site-nav { margin-bottom: 8px; padding-bottom: 0; }
-.collection:has(.daily-jury-compact) .lab-heading-compact h1 { font-size: clamp(28px, 2.6vw, 34px); }
-.collection:has(.daily-jury-compact) .lab-intro { margin: 6px 0 12px; }
-.collection:has(.daily-jury-compact) .upload-studio-compact { padding: 8px 18px; gap: 18px; }
-.collection:has(.daily-jury-compact) .upload-studio-compact .drop-zone { min-height: 64px; }
-.collection:has(.daily-jury-compact) .upload-studio-compact.has-photo .drop-zone { min-height: 180px; }
-.collection:has(.daily-jury-compact) .studio-status:empty { display: none; }
-#daily-jury:has(.daily-jury-compact) { margin-top: 12px; }
+/* Give each meme room to read; secondary jury tools follow the ballot. */
 .daily-jury-compact { margin: 0; }
 .daily-jury-compact .jury-court { padding: 0; background: transparent; }
-.daily-jury-compact .courtroom-scene { margin: 0; padding: 10px 14px 0; border-radius: 6px; }
-.courtroom-topline { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.daily-jury-compact .courtroom-scene { margin: 0; padding: 24px; border-radius: 6px; }
+.courtroom-topline { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin-bottom: 24px; }
 .daily-jury-compact .courtroom-sign { text-align: left; letter-spacing: .04em; }
-.daily-jury-compact .courtroom-sign h2 { font: bold 14px/1.3 Georgia, serif; margin: 0; }
-.daily-jury-compact .courtroom-sign h2 span { font-size: 18px; margin-right: 5px; }
-.daily-jury-compact .courtroom-sign p { font: 11px/1.4 Arial, sans-serif; letter-spacing: 0; margin: 4px 0 0; }
-.jury-swipe-hint { display: none; }
-.courtroom-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 5px; font: 10px/1.4 Arial, sans-serif; color: #503725; }
-.courtroom-meta a { color: #503725; text-underline-offset: 3px; }
-.daily-jury-compact .jury-exhibits { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
-.daily-jury-compact .witness-testimony { margin: 8px 0; padding: 10px; border-radius: 6px; }
-.daily-jury-compact .witness-testimony > span { font-size: 7px; }
-.daily-jury-compact .witness-testimony p { font-size: 12px; line-height: 1.35; margin-top: 5px; }
-.daily-jury-compact .witness-stage { height: 90px; }
-.daily-jury-compact .witness-portrait { bottom: 44px; height: 44px; width: 70%; left: 15%; border-width: 3px; border-radius: 0; }
-.daily-jury-compact .witness-stand { height: 44px; }
-.daily-jury-compact .stand-rail { height: 12px; }
-.daily-jury-compact .stand-spindles { top: 10px; bottom: 8px; }
-.daily-jury-compact .stand-plaque { top: 12px; padding: 3px 7px; font-size: 8px; }
-.daily-jury-compact .stand-base { height: 10px; }
-.daily-jury-compact .jury-exhibit-copy { flex: 0 0 44px; padding: 0; justify-content: flex-end; }
-.daily-jury-compact .caption-source-tag { align-self: center; margin-bottom: 0; font-size: 9px; padding: 3px 5px; }
-.daily-jury-compact .jury-pick { padding: 5px 0; min-height: 30px; font-size: 10px; }
-.daily-jury-compact .jury-submit { flex-direction: row; align-items: center; gap: 12px; margin: 4px 0 0; padding: 6px 0; border-top: 1px solid #78553955; }
-.daily-jury-compact .jury-submit p { color: #503725; margin: 2px 0; font-size: 11px; line-height: 1.4; }
+.daily-jury-compact .courtroom-sign h2 { font: bold 22px/1.3 Georgia, serif; margin: 0; }
+.daily-jury-compact .courtroom-sign p { font: 15px/1.5 Arial, sans-serif; letter-spacing: 0; margin: 8px 0 0; }
+.courtroom-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; font: 14px/1.5 Arial, sans-serif; color: #503725; }
+.courtroom-meta a { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 12px; border: 1px solid #785539; border-radius: 4px; color: #503725; text-underline-offset: 3px; }
+.daily-jury-compact .jury-exhibits { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.daily-jury-compact .jury-exhibit { width: 100%; margin: 0; overflow: hidden; border: 1px solid #a38a6b; border-radius: 6px; background: #fffcf0; }
+.daily-jury-compact .jury-exhibit.picked-exhibit { outline: 3px solid #536926; outline-offset: 3px; }
+.jury-meme-photo { aspect-ratio: 4 / 3; background: #e5ddca; }
+.jury-meme-photo img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.daily-jury-compact .witness-testimony { margin: 0; padding: 18px 20px; border-radius: 0; box-shadow: none; }
+.daily-jury-compact .witness-testimony::after { display: none; }
+.daily-jury-compact .witness-testimony > span { font-size: 12px; }
+.daily-jury-compact .witness-testimony p { font: 600 16px/1.5 Arial, sans-serif; margin-top: 8px; }
+.daily-jury-compact .jury-exhibit-copy { flex: 0 0 auto; padding: 0 20px 12px; }
+.daily-jury-compact .caption-source-tag { font-size: 12px; }
+.daily-jury-compact .jury-pick { min-height: 48px; font-size: 15px; gap: 10px; }
+.daily-jury-compact .jury-submit { gap: 20px; margin: 24px 0 0; padding: 20px 0 0; border-top: 1px solid #78553955; }
+.daily-jury-compact .jury-submit p { color: #503725; margin: 4px 0; font-size: 14px; line-height: 1.5; }
 .daily-jury-compact .jury-submit .jury-vote-status { font-weight: 700; }
-.daily-jury-compact .jury-submit.is-sealed { background: transparent; border-radius: 0; border-right: 0; border-bottom: 0; border-left: 0; }
-.daily-jury-compact .seal-verdict-button { min-height: 40px; padding: 10px 18px; }
-.daily-jury-compact .jury-rules, .jury-last-result { display: inline-block; vertical-align: top; border: 0; padding: 6px 0 0; margin-right: 18px; color: #b6b9ab; font: 10px/1.6 Arial, sans-serif; }
-.daily-jury-compact summary { color: #b6b9ab; min-height: 24px; cursor: pointer; }
-.daily-jury-compact details[open] { display: block; margin-right: 0; }
-.daily-jury-compact .jury-reveal { margin: 8px 0; }
-.jury-page:has(.daily-jury-compact) + .caption-collection { margin-top: 14px; }
-@media (max-width: 800px) {
-  .jury-swipe-hint { display: inline; }
-  .daily-jury-compact .jury-exhibits { display: flex; overflow-x: auto; gap: 12px; scroll-snap-type: x proximity; padding: 0 3px 4px; }
-  .daily-jury-compact .jury-exhibit { flex: 0 0 176px; width: 176px; margin: 0; scroll-snap-align: start; }
-  .daily-jury-compact .courtroom-topline { align-items: flex-start; }
-  .daily-jury-compact .courtroom-meta { max-width: 130px; text-align: right; flex-shrink: 0; }
-  .daily-jury-compact .witness-testimony { flex: 1 0 auto; }
-  .daily-jury-compact .witness-testimony p { font-size: 13px; }
-}
-@media (max-width: 450px) {
-  .daily-jury-compact .courtroom-topline { flex-wrap: wrap; gap: 6px; }
-  .daily-jury-compact .courtroom-meta { flex-direction: row; justify-content: space-between; align-items: center; max-width: none; width: 100%; text-align: left; }
-  .daily-jury-compact .jury-submit { flex-wrap: wrap; }
+.daily-jury-compact .seal-verdict-button { min-height: 48px; padding: 12px 20px; }
+.daily-jury-compact .jury-rules, .jury-last-result { display: block; border: 1px solid #596247; border-radius: 4px; padding: 0 16px; margin: 12px 0 0; color: #d4d5c8; font: 14px/1.6 Arial, sans-serif; }
+.daily-jury-compact summary { color: var(--paper); padding: 12px 0; min-height: 48px; cursor: pointer; font-size: 15px; }
+.daily-jury-compact summary:focus-visible { outline: 3px solid var(--acid); outline-offset: 3px; }
+.daily-jury-compact .jury-reveal { margin: 8px 0 16px; }
+@media (max-width: 700px) {
+  .daily-jury-compact .jury-exhibits { grid-template-columns: 1fr; }
+  .daily-jury-compact .courtroom-scene { padding: 16px; }
+  .courtroom-topline, .daily-jury-compact .jury-submit { flex-direction: column; align-items: stretch; }
+  .courtroom-meta { align-items: flex-start; }
   .daily-jury-compact .seal-verdict-button { width: 100%; }
 }
 @media (max-width: 640px) {
@@ -599,4 +576,23 @@ body { background: #141612; }
   .caption-filters { gap: 12px; }
   .caption-filters a { font-size: 11px; }
   .caption-collection-heading h2 { font-size: 20px; }
+}
+
+/* Readable controls and supporting text across the creation and voting flows. */
+.caption-text { font-size: 16px; line-height: 1.55; letter-spacing: 0; }
+.caption-photo { aspect-ratio: 4 / 3; }
+.caption-filters a, .vote-buttons button span { font-size: 14px; }
+.vote-buttons button { min-height: 44px; }
+.vote-bar { flex-wrap: wrap; }
+.caption-score small, .vote-status, .caption-source-tag, .photo-label { font-size: 12px; }
+.board-intro { display: block; font-size: 14px; }
+.upload-studio-compact .studio-copy p,
+.upload-studio-compact .studio-copy .upload-access-note,
+.upload-studio-compact .drop-zone small,
+.upload-studio-compact .upload-consent { font-size: 14px; line-height: 1.5; }
+.upload-consent summary { min-height: 44px; padding: 10px 0; }
+.caption-pagination a, .caption-pagination span { font-size: 14px; }
+@media (max-width: 640px) {
+  .caption-collection-heading { flex-direction: column; align-items: flex-start; }
+  .collection .nav-links a { font-size: 14px; min-height: 44px; }
 }
